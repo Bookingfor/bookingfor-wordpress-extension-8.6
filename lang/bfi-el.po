@@ -1,0 +1,4343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 16:21+0200\n"
+"PO-Revision-Date: 2022-10-13 16:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+"Αυτό είναι ένα demo κατάστημα για δοκιμαστικούς σκοπούς &mdash;; δεν "
+"υπάρχουν παραγγελίες πρέπει να πληρούνται."
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr "anazitisi-diathesimotita"
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr "Διαθεσιμότητα αναζήτησης"
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr "politai-chartis-anazitisis"
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr "Αναζήτηση χάρτη πωλεί"
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr "anazitisi-ekdilosis"
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr "Αναζήτηση Εκδηλώσεων"
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr "katalimata-pros-polisi"
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr "Αναζήτηση ακινήτων προς πώληση"
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr "leptomeriesekdilosis"
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr "Λεπτομέρειες Εκδήλωσης"
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr "leptomeries-simion-endiaferontos"
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr "Λεπτομέρειες σημείου ενδιαφέροντος"
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr "leptomeries-emporou"
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr "Λεπτομέρειες εμπόρου"
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr "leptomeries-omadas-poron"
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr "Λεπτομέρειες ομάδας πόρων"
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr "diamoni-leptomeries"
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr "Λεπτομέρειες διαμονής"
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr "leptomeriesekdilosis"
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr "Λεπτομέρειες Εκδήλωσης"
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr "gia-leptomeries-polisis"
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr "Σχετικά με τις λεπτομέρειες πώλησης"
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr "pliromi"
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr "Λεπτομέρειες πληρωμής"
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr "leptomeries-kalathiou"
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr "Λεπτομέρειες καλαθιού"
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr "anazitisi-paketa"
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr "Αναζήτηση πακέτων"
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr "paketa"
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr "Λεπτομέρειες πακέτων"
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr "aatimaepikoinonias"
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr "Γενική αίτηση"
+
+#: includes/class-bfi-query.php:86
+msgid "Event details"
+msgstr "Στοιχεία εκδήλωσης"
+
+#: includes/class-bfi-query.php:89
+#, fuzzy
+msgid "PointsOfInterest details"
+msgstr "Λεπτομέρειες σημείου ενδιαφέροντος"
+
+#: includes/class-bfi-query.php:92
+msgid "Merchant details"
+msgstr "Λεπτομέρειες Merchant"
+
+#: includes/class-bfi-query.php:95
+msgid "Resourcegroup Details"
+msgstr "Λεπτομέρειες ομάδας πόρων"
+
+#: includes/class-bfi-query.php:98
+msgid "Accomodation details"
+msgstr "Λεπτομέρειες διαμονής"
+
+#: includes/class-bfi-query.php:101
+#, fuzzy
+#| msgid "Merchant details"
+msgid "Experience details"
+msgstr "Στοιχεία εκδήλωσης"
+
+#: includes/class-bfi-query.php:104
+msgid "Order payment"
+msgstr "Άλλες πληρωμές"
+
+#: includes/class-bfi-query.php:107
+msgid "On Sell details"
+msgstr "Σχετικά με τις λεπτομέρειες της πώλησης"
+
+#: includes/class-bfi-query.php:110
+msgid "Cart details"
+msgstr "Καλάθι λεπτομέρειες"
+
+#: includes/class-bfi-query.php:113
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "cartdetails"
+msgid "Packages details"
+msgstr "leptomeries-kalathiou"
+
+#: includes/class-bfi-query.php:116
+#, fuzzy
+#| msgid "Special Requests"
+msgid "Generic Request"
+msgstr "Ειδικά αιτήματα"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+msgid "BookingFor Permalinks"
+msgstr "BookingFor Permalinks"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+msgid "BookingFor search result page"
+msgstr "BookingFor σελίδα αποτελεσμάτων αναζήτησης"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+msgid "BookingFor Merchant details page"
+msgstr "Στη σελίδα λεπτομερειών BookingFor Merchant"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+msgid "BookingFor Accommodation details page"
+msgstr "Σελίδα λεπτομερειών BookingFor καταλύματα"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+msgid "BookingFor On Sell details page"
+msgstr "BookingFor για πώληση σελίδα λεπτομερειών"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+#, fuzzy
+#| msgid "BookingFor Merchant details page"
+msgid "BookingFor Cart Details page"
+msgstr "Στη σελίδα λεπτομερειών BookingFor Merchant"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+#, fuzzy
+#| msgid "BookingFor search result page"
+msgid "BookingFor Generic Request page"
+msgstr "BookingFor σελίδα αποτελεσμάτων αναζήτησης"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+#, fuzzy
+#| msgid "BookingFor Merchant details page"
+msgid "BookingFor Event Details page"
+msgstr "Στη σελίδα λεπτομερειών BookingFor Merchant"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+#, fuzzy
+#| msgid "BookingFor On Sell details page"
+msgid "BookingFor PointsOfInterest Details page"
+msgstr "BookingFor για πώληση σελίδα λεπτομερειών"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr "anazitisi-diathesimotita"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr "anazitisi-simvanton"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr "leptomeries-emporou"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr "leptomeries-kalathiou"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr "aatimaepikoinonias"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr "diamoni-leptomeries"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr "gia-leptomeries-polisis"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr "leptomeries-ekdilosis"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr "leptomeries-simion-endiaferontos"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr ""
+"Αυτές οι ρυθμίσεις ελέγχουν το permalinks χρησιμοποιούνται ειδικά για "
+"BookingFor."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr "anazitisi-diathesimotita"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr "Αναζήτηση βάση διαθεσιμότητας"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr "Προσαρμοσμένη βάση"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"Για να εισαγάγετε μια προσαρμοσμένη βάση να χρησιμοποιήσετε. Μια βάση "
+"<strong> πρέπει να </strong> είναι ρυθμισμένος ή WordPress θα χρησιμοποιήσει "
+"την προεπιλεγμένη αντί."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr "anazitisidiathesimotita"
+
+#: includes/admin/class-bfi-admin.php:303
+#, fuzzy
+msgid "Cache are cleaned"
+msgstr "Η μνήμη cache καθαρίζεται"
+
+#: includes/admin/class-bfi-admin.php:664
+#, fuzzy
+msgid "8h"
+msgstr "8h"
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+msgid "24h"
+msgstr "24h"
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+#, fuzzy
+msgid "2gg"
+msgstr "2gg"
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+#, fuzzy
+msgid "7gg"
+msgstr "7gg"
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+#, fuzzy
+msgid "20gg"
+msgstr "20gg"
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+#, fuzzy
+msgid "30gg"
+msgstr "30gg"
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr "Ευρώ"
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+#, fuzzy
+msgid "Kune"
+msgstr "Κουνέ"
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+#, fuzzy
+msgid "U.S. dollar"
+msgstr "Δολάριο Η.Π.Α."
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr "Japanese yen"
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr "Canadian dollar"
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr "Australian dollar"
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr "Ρωσικό ρούβλι"
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr "Czech koruna"
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr "Singapore dollar"
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+#, fuzzy
+msgid "Pound sterling "
+msgstr "Λίρα στερλίνα "
+
+#: includes/admin/class-bfi-admin.php:1167
+#, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+"Αν σας αρέσει <strong>BookingFor  </strong>παρακαλώ αφήστε μας ένα %s&#9733;"
+"&#9733;&#9733;&#9733;&#9733;%s βαθμολογίας. Ένα τεράστιο ευχαριστώ από "
+"Bookingfor εκ των προτέρων!"
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr "Ευχαριστώ"
+
+#: includes/admin/class-bfi-admin.php:1175
+msgid "Thank you for selling with BookingFor."
+msgstr "Σας ευχαριστούμε για την πώληση με BookingFor."
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+#, fuzzy
+msgid "There are untranslated pages in "
+msgstr "Υπάρχουν αμετάφραστες σελίδες στο "
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+#, fuzzy
+#| msgid "Merchant list pages"
+msgid "Create missing pages"
+msgstr "Σελίδες Merchant  λίστα"
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+#, fuzzy
+#| msgid "All province"
+msgid "All fine!"
+msgstr "Κάθε επαρχία"
+
+#: includes/admin/views/html-admin-settings.php:260
+#, fuzzy
+msgid "Delete Cached Data"
+msgstr "Διαγραφή προσωρινά αποθηκευμένων δεδομένων"
+
+#: includes/admin/views/html-admin-settings.php:261
+#, fuzzy
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr ""
+"Τα προσωρινά αποθηκευμένα δεδομένα αποθηκεύονται στο διακομιστή σας σε "
+"αρχεία. Εάν πρέπει να τα διαγράψετε, χρησιμοποιήστε το παρακάτω κουμπί."
+
+#: includes/admin/views/html-admin-settings.php:266
+#, fuzzy
+msgid "Delete Cache"
+msgstr "Διαγραφή cache"
+
+#: includes/admin/views/html-admin-settings.php:274
+#, fuzzy
+msgid "Delete Cache for Bot"
+msgstr "Διαγραφή μνήμης cache για bot"
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr "Αποθηκεύστε τις αλλαγές"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:24
+msgid "Display the user's Cart link in the sidebar."
+msgstr "Εμφάνιση του χρήστη καλάθι σύνδεση στο sidebar."
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:26
+msgid "BookingFor Cart"
+msgstr "BookingFor καλάθι"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:31
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-login.php:31
+#: includes/widgets/class-bfi-widget-booking-login.php:70
+#: includes/widgets/class-bfi-widget-booking-reviews.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-filters.php:31
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-rental.php:32
+#: includes/widgets/class-bfi-widget-search-rental.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+#: includes/widgets/class-bfi-widget-smallmap.php:31
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:24
+#, fuzzy
+#| msgid "Display the user's Cart link in the sidebar."
+msgid "Display the user's currency switcher in the sidebar."
+msgstr "Εμφάνιση του χρήστη καλάθι σύνδεση στο sidebar."
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:26
+#, fuzzy
+#| msgid "BookingFor Search Filters"
+msgid "BookingFor currency switcher"
+msgstr "Φίλτρα αναζήτησης BookingFor"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#, fuzzy
+msgid "Display the link for  login, cart and change currency."
+msgstr "Εμφανίστε το σύνδεσμο για σύνδεση, καλάθι και αλλαγή νομίσματος."
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+#, fuzzy
+#| msgid "BookingFor Permalinks"
+msgid "BookingFor Header Link"
+msgstr "BookingFor Permalinks"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+#, fuzzy
+msgid "Show currency selector"
+msgstr "Εμφάνιση επιλογέα νομισματικής μονάδας"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+#, fuzzy
+msgid "Show link to cart"
+msgstr "Εμφάνιση σύνδεσης με το καλάθι"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+#, fuzzy
+msgid "Show login as popup"
+msgstr "Εμφάνιση σύνδεσης ως αναδυόμενου παραθύρου"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+#, fuzzy
+#| msgid "Solo travellers"
+msgid "Show link to Travel planner"
+msgstr "Μεμονωμένα άτομα"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:24
+#, fuzzy
+#| msgid "Display the user's Cart link in the sidebar."
+msgid "Display the Login form in the sidebar."
+msgstr "Εμφάνιση του χρήστη καλάθι σύνδεση στο sidebar."
+
+#: includes/widgets/class-bfi-widget-booking-login.php:26
+#, fuzzy
+#| msgid "Booking online"
+msgid "BookingFor Login"
+msgstr "Κράτηση online"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:74
+#, fuzzy
+msgid "Show like a popup"
+msgstr "Εμφάνιση ως αναδυόμενο παράθυρο"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:24
+#, fuzzy
+#| msgid "Display the user's Cart link in the sidebar."
+msgid "Display the user's Review in the sidebar."
+msgstr "Εμφάνιση του χρήστη καλάθι σύνδεση στο sidebar."
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:26
+#, fuzzy
+#| msgid "BookingFor Permalinks"
+msgid "BookingFor Reviews"
+msgstr "BookingFor Permalinks"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr ""
+"Ένα πλαίσιο αναζήτησης για multimerchant, monomerchant και να πωλούν σε."
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Tab"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+#, fuzzy
+msgid "Search 1 (default:Booking)"
+msgstr "Αναζήτηση 1 (προεπιλογή:Κράτηση)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+#, fuzzy
+#| msgid "Search filters"
+msgid "Search 2 (default:Services)"
+msgstr "Φίλτρα αναζήτησης"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+#, fuzzy
+msgid "Search 3 (default:Activities)"
+msgstr "Αναζήτηση 3 (προεπιλογή:Δραστηριότητες)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+#, fuzzy
+#| msgid "Search filters"
+msgid "Search 4 (default:Others)"
+msgstr "Φίλτρα αναζήτησης"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+msgid "Real Estate"
+msgstr "Ακίνητη περιουσία"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr "Εκδηλώσεις"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+#, fuzzy
+#| msgid "Search Type"
+msgid "Search MapSells"
+msgstr "politai-chartis-anazitisis"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+msgid "Nights"
+msgstr "Νύχτες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+msgid "Days"
+msgstr "Ημέρες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-rental.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+#, fuzzy
+msgid "Unit of times"
+msgstr "Μονάδα χρόνου"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+#, fuzzy
+msgid "Time slot"
+msgstr "Χρονοθυρίδα"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-rental.php:72
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr "Πόρος"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-rental.php:73
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+msgid "Merchant"
+msgstr "Εμπορος"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-rental.php:74
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "resources"
+msgid "Resource group"
+msgstr "πόροι"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr "Εμπειρία"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+msgid "Rental"
+msgstr "Ενοικίου"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+msgid "Time slots"
+msgstr "Χρόνοι χρόνου"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "Search Map Sells"
+msgid "Maps Sell"
+msgstr "Αναζήτηση χάρτη πωλεί"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:61
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-rental.php:179
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+msgid "Displays horizontally"
+msgstr "Εμφανίζει οριζόντια"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-rental.php:182
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+#, fuzzy
+msgid "Fixed on top"
+msgstr "Σταθερό στην κορυφή"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-rental.php:185
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+#, fuzzy
+msgid "Top correction"
+msgstr "Κορυφαία διόρθωση"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-rental.php:189
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+#, fuzzy
+msgid "Fixed on bottom for small device"
+msgstr "Σταθερό στο κάτω μέρος για μικρή συσκευή"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr "Καρτέλα"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+#, fuzzy
+msgid "Use more tab"
+msgstr "Χρήση καρτέλας \"Περισσότερα\""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-rental.php:192
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+#, fuzzy
+msgid "Show advance settings"
+msgstr "Εμφάνιση ρυθμίσεων εκ των προτέρων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+msgid "Intro text"
+msgstr "Εισαγωγικό κείμενο"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+#, fuzzy
+msgid "Icon (for expert users)"
+msgstr "Εικονίδιο (για έμπειρους χρήστες)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-rental.php:199
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+msgid "Merchant category"
+msgstr "Κατηγορία εμπόρων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-rental.php:219
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr "Κατηγορία προϊόντος"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-rental.php:238
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+#, fuzzy
+#| msgctxt "Page title"
+#| msgid "Search Availability"
+msgid "Search availability for"
+msgstr "Διαθεσιμότητα αναζήτησης"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-rental.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+#, fuzzy
+#| msgid "Items per page"
+msgid "Items type"
+msgstr "Αντικείμενα ανά σελίδα"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:274
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+#, fuzzy
+msgid "Default group by "
+msgstr "Προεπιλεγμένη ομάδα κατά "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+#, fuzzy
+msgid "result Views "
+msgstr "Προβολές αποτελεσμάτων "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-rental.php:294
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+msgid "Fields Visibility"
+msgstr "Ορατότητα πεδίων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid "Search text"
+msgstr "Κείμενο"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+#, fuzzy
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr ""
+"(Έμποροι, Προϊόντα, Ετικέτες, Έμποροι και Κατηγορίες Προϊόντων, Περιφέρειες, "
+"Πολιτείες, Πόλεις, Ζώνες)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-rental.php:296
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+#, fuzzy
+#| msgid "Search filters"
+msgid "Research fields"
+msgstr "Φίλτρα αναζήτησης"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-rental.php:316
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr "ή"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-rental.php:317
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr "Προορισμός"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-rental.php:318
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+msgid "Type"
+msgstr "Τύπος"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+msgid "Map Button"
+msgstr "Κουμπί χάρτη."
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+#, fuzzy
+msgid "Select 1 day o more"
+msgstr "Επιλέξτε 1 ημέρα o περισσότερο"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr "Εύρος ημερομηνιών"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+#, fuzzy
+#| msgid "Date Range"
+msgid "Date Time Range"
+msgstr "Εύρος ημερομηνίας ώρας"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-rental.php:320
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+msgid "Block Months"
+msgstr "Μπλόκο μήνες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-rental.php:339
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+msgid "Disable Days"
+msgstr "Απενεργοποίηση ημέρες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-rental.php:364
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+#, fuzzy
+msgid "Show resource number"
+msgstr "Εμφάνιση αριθμού πόρου"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-rental.php:365
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+#, fuzzy
+msgid "Limit resource number"
+msgstr "Περιορισμός αριθμού πόρου"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-rental.php:367
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr "λεπτά"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-rental.php:385
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr "μεγ"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+#, fuzzy
+msgid "Show rooms number"
+msgstr "Εμφάνιση αριθμού δωματίων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+#, fuzzy
+msgid "Limit rooms number"
+msgstr "Περιορισμός αριθμού δωματίων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-rental.php:405
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr "Άτομα"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:407
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr "Ενήλικες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-rental.php:408
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr "Παιδικά"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-rental.php:409
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr "Ανώτερος"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-rental.php:411
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr "Μόνο Online κράτησης"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr "Coupon"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#, fuzzy
+msgid "(Regions, States, Cities, Zones)"
+msgstr "(Περιφέρειες, Κράτη, Πόλεις, Ζώνες)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+msgid "Contract"
+msgstr "Σύμβαση"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+msgid "Price"
+msgstr "Τιμή"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr "Περιοχή πατωμάτων"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr "Υπνοδωμάτια"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr "Λουτρά"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr "Μόνο νέα"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr "Λίστα υπηρεσιών"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+#, fuzzy
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr "Risultato nella stessa pagina (solo se usato con shortcode)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+#, fuzzy
+msgid "Or Select Result Page"
+msgstr "Ή επιλέξτε σελίδα αποτελεσμάτων"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Events."
+msgstr "Λίστα Merchants με εναλλασσόμενες εικόνες."
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Events"
+msgstr "BookingFor καλάθι"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr "Αντικείμενα ανά σελίδα"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr "Θέμα"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr "Max στοιχεία"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+msgid "Max description characters"
+msgstr "Χαρακτήρες περιγραφής Max"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Poi."
+msgstr "Λίστα Merchants με εναλλασσόμενες εικόνες."
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Poi"
+msgstr "BookingFor καλάθι"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Resource groups."
+msgstr "Λίστα Merchants με εναλλασσόμενες εικόνες."
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Resource groups"
+msgstr "BookingFor καλάθι"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Resources."
+msgstr "Λίστα Merchants με εναλλασσόμενες εικόνες."
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Resources"
+msgstr "BookingFor καλάθι"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:24
+msgid "A details merchant box."
+msgstr "Ένα κουτί Merchant λεπτομέρειες."
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:26
+msgid "BookingFor details merchant box"
+msgstr "BookingFor στοιχεία κουτιού merchant"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:36
+#, fuzzy
+msgid "what to show"
+msgstr "τι να δείξει"
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr "Λίστα Merchants με εναλλασσόμενες εικόνες."
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr "BookingFor Merchants"
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-filters.php:24
+msgid "A Filter box."
+msgstr "Ένα κουτί φίλτρου."
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Events"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#, fuzzy
+#| msgid "A Search box."
+msgid "A Search box for Experience."
+msgstr "Ένα πλαίσιο αναζήτησης."
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Experience"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr "1 ημέρα"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+msgid "7 days"
+msgstr "7 ημέρες"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+#, fuzzy
+msgid "Search days interval "
+msgstr "Διάστημα ημερών αναζήτησης "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-mapsells.php:71
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-rental.php:424
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+#, fuzzy
+msgid "Pagina dei risultati: "
+msgstr "Παγίνα dei risultati: "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-mapsells.php:73
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-rental.php:426
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-mapsells.php:117
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-rental.php:483
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-filters.php:26
+msgid "BookingFor Search Filters"
+msgstr "Φίλτρα αναζήτησης BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#, fuzzy
+msgid "A box for search on Maps."
+msgstr "Ένα κουτί για τον Σεράτς."
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+#, fuzzy
+#| msgid "BookingFor Search On Sell"
+msgid "BookingFor Search MapSells"
+msgstr "BookingFor αναζήτηση για πώληση"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#, fuzzy
+msgid "A Search box for Packages."
+msgstr "Ένα πλαίσιο αναζήτησης για ενοικιαζόμενα αυτοκίνητα, ποδήλατα."
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Packages"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+msgid "1 year"
+msgstr "1 έτος"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:24
+#, fuzzy
+msgid "A Search box for Rental cars, bikes."
+msgstr "Ένα πλαίσιο αναζήτησης για ενοικιαζόμενα αυτοκίνητα, ποδήλατα."
+
+#: includes/widgets/class-bfi-widget-search-rental.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Rental"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:79
+msgid "Package"
+msgstr "Πακέτο"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#, fuzzy
+#| msgid "A Search on Sell box."
+msgid "A Search box ."
+msgstr "Μια αναζήτηση στο πλαίσιο πώλησης."
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+msgid "BookingFor Search"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+#, fuzzy
+#| msgid "A Search box."
+msgid "A Search box for time slots."
+msgstr "Ένα πλαίσιο αναζήτησης."
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search slot"
+msgstr "Αναζήτηση BookingFor"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:24
+#, fuzzy
+#| msgid "A details merchant box."
+msgid "A small map box."
+msgstr "Ένα κουτί Merchant λεπτομέρειες."
+
+#: includes/widgets/class-bfi-widget-smallmap.php:26
+#, fuzzy
+#| msgid "BookingFor details merchant box"
+msgid "BookingFor small map box"
+msgstr "BookingFor στοιχεία κουτιού merchant"
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr ""
+"OPS, παρουσιάστηκαν μερικά σφάλματα! Παρακαλούμε δοκιμάστε ξανά αργότερα."
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr "Αυτή τη στιγμή δεν μπορείτε να κάνετε πληρωμές."
+
+#: templates/merchantdetailswidgets.php:60
+#: templates/merchantdetailswidgets.php:61
+#: templates/merchantdetailswidgets.php:62
+#: templates/merchantdetailswidgets.php:63
+msgctxt "Page slug"
+msgid "resources"
+msgstr "pori"
+
+#: templates/merchantdetailswidgets.php:66
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "events"
+msgstr "εκδηλώσεις"
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:73
+#: templates/merchantdetailswidgets.php:74
+#: templates/merchantdetailswidgets.php:75
+msgctxt "Page slug"
+msgid "offers"
+msgstr "prosfores"
+
+#: templates/merchantdetailswidgets.php:78
+#: templates/merchantdetailswidgets.php:79
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:81
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr "se-monades-polisis"
+
+#: templates/merchantdetailswidgets.php:84
+msgctxt "Page slug"
+msgid "offer"
+msgstr "prosfora"
+
+#: templates/merchantdetailswidgets.php:86
+msgctxt "Page slug"
+msgid "thanks"
+msgstr "eucharisto"
+
+#: templates/merchantdetailswidgets.php:89
+msgctxt "Page slug"
+msgid "errors"
+msgstr "sfalmata"
+
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+#: templates/merchantdetailswidgets.php:94
+#: templates/merchantdetailswidgets.php:95
+msgctxt "Page slug"
+msgid "reviews"
+msgstr "scholia"
+
+#: templates/merchantdetailswidgets.php:97
+msgctxt "Page slug"
+msgid "review"
+msgstr "anaskopisi"
+
+#: templates/merchantdetailswidgets.php:99
+msgctxt "Page slug"
+msgid "redirect"
+msgstr "dieuthino-palin"
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr "Σας ευχαριστούμε για την επιλογή μας."
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr "Ανακαλύψτε"
+
+#~ msgid "From"
+#~ msgstr "Από"
+
+#~ msgid "Children"
+#~ msgstr "Τα παιδιά"
+
+#~ msgid "Guest"
+#~ msgstr "Επισκέπτης"
+
+#~ msgid "hours"
+#~ msgstr "ώρες"
+
+#~ msgid "Duration"
+#~ msgstr "Διάρκεια"
+
+#~ msgid "the"
+#~ msgstr "Teh"
+
+#~ msgid "No result available"
+#~ msgstr "Κανένα αποτέλεσμα διαθέσιμο"
+
+#~ msgid "Login success"
+#~ msgstr "Επιτυχία σύνδεσης"
+
+#~ msgid "Login failed"
+#~ msgstr "Η σύνδεση απέτυχε"
+
+#~ msgid "Code not valid"
+#~ msgstr "Ο κωδικός δεν είναι έγκυρος"
+
+#~ msgid "Select a check-out date"
+#~ msgstr "Επιλογή ημερομηνίας ανάληψης ελέγχου"
+
+#~ msgid "Done"
+#~ msgstr "Ολοκληρώθηκε"
+
+#~ msgid "Sun"
+#~ msgstr "Κυρ"
+
+#~ msgid "Mon"
+#~ msgstr "Δευ"
+
+#~ msgid "Tue"
+#~ msgstr "Τρι"
+
+#~ msgid "Wed"
+#~ msgstr "Τετ"
+
+#~ msgid "Thu"
+#~ msgstr "Πεμ"
+
+#~ msgid "Fri"
+#~ msgstr "Παρ"
+
+#~ msgid "Sat"
+#~ msgstr "Σαβ"
+
+#~ msgid "January"
+#~ msgstr "Ιανουάριος"
+
+#~ msgid "February"
+#~ msgstr "Φεβρουάριος"
+
+#~ msgid "March"
+#~ msgstr "Μάρτιος"
+
+#~ msgid "April"
+#~ msgstr "Απρίλιος"
+
+#~ msgid "May"
+#~ msgstr "Μάιος"
+
+#~ msgid "June"
+#~ msgstr "Ιούνιος"
+
+#~ msgid "July"
+#~ msgstr "Ιούλιος"
+
+#~ msgid "August"
+#~ msgstr "Αύγουστος"
+
+#~ msgid "September"
+#~ msgstr "Σεπτέμβριος"
+
+#~ msgid "October"
+#~ msgstr "Οκτώβριος"
+
+#~ msgid "November"
+#~ msgstr "Νοέμβριος"
+
+#~ msgid "December"
+#~ msgstr "Δεκέμβριος"
+
+#~ msgid "Access not valid. Access will be denied until {0}."
+#~ msgstr ""
+#~ "Η πρόσβαση δεν είναι έγκυρη. Δεν θα επιτρέπεται η πρόσβαση μέχρι {0}."
+
+#~ msgid "Link has been sent to registered email"
+#~ msgstr ""
+#~ "Η σύνδεση έχει σταλεί σε καταχωρημένο μήνυμα ηλεκτρονικού ταχυδρομείου"
+
+#~ msgid "Please enter valid registered email"
+#~ msgstr "Παρακαλώ εισάγετε ένα ακέραιο αριθμό"
+
+#~ msgid "Look nearby"
+#~ msgstr "Κοιτάξτε κοντά"
+
+#~ msgid "Read more"
+#~ msgstr "Διαβάστε περισσότερα"
+
+#~ msgid "Read less"
+#~ msgstr "Διαβάστε λιγότερα"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "Πρόσθήκη στην λίστα επιθυμιών"
+
+#~ msgid "My next trip"
+#~ msgstr "Το επόμενο ταξίδι μου"
+
+#~ msgid "Create a new list"
+#~ msgstr "Δημιουργία νέας λίστας"
+
+#~ msgid "Search area or point of interest"
+#~ msgstr "Περιοχή αναζήτησης ή σημείο ενδιαφέροντος"
+
+#~ msgid "Please select one or more option you want to request"
+#~ msgstr "Επιλέξτε μία ή περισσότερες επιλογές που θέλετε να ζητήσετε"
+
+#~ msgid "Change your details"
+#~ msgstr "Αλλαγή των πληροφοριών μου"
+
+#~ msgid "Select dates"
+#~ msgstr "επιλεγμένα στοιχεία"
+
+#, php-format
+#~ msgid " %d second/s"
+#~ msgstr " %d δευτερόλεπτο"
+
+#~ msgid "(Approx.)"
+#~ msgstr "(Περ.)"
+
+#, php-format
+#~ msgid " %d minutes"
+#~ msgstr " %d λεπτά"
+
+#, php-format
+#~ msgid " %d minute"
+#~ msgstr " %d λεπτό"
+
+#, php-format
+#~ msgid " %d hours"
+#~ msgstr " %d ώρες"
+
+#, php-format
+#~ msgid " %d hour"
+#~ msgstr " %d ώρα"
+
+#, php-format
+#~ msgid " %d days"
+#~ msgstr " %d ημέρες"
+
+#, php-format
+#~ msgid " %d day"
+#~ msgid_plural " %d days"
+#~ msgstr[0] " %d ημέρα"
+#~ msgstr[1] " %d ημέρες"
+
+#, php-format
+#~ msgid " %d month/s"
+#~ msgstr " %d μήνες/s"
+
+#, php-format
+#~ msgid " %d year/s"
+#~ msgstr " %d έτος/ες"
+
+#~ msgid "Mandatory"
+#~ msgstr "Υποχρεωτική"
+
+#, php-format
+#~ msgid "Search Results: &ldquo;%s&rdquo;"
+#~ msgstr "Αποτελέσματα αναζήτησης:&ldquo;%s&rdquo;"
+
+#, php-format
+#~ msgid "&nbsp;&ndash; Page %s"
+#~ msgstr "&nbsp;&ndash; Σελίδα %s"
+
+#~ msgid "bfisidebar"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Rental"
+#~ msgstr "bfisidebar Rental"
+
+#~ msgid "bfisidebar MapSell"
+#~ msgstr "bfisidebar MapSell"
+
+#~ msgid "bfisidebar Time Slots"
+#~ msgstr "bfisidebar Time Slots"
+
+#~ msgid "bfisidebarExperience"
+#~ msgstr "bfisidebarExperience"
+
+#, fuzzy
+#~| msgid "bfisidebar"
+#~ msgid "bfisidebarPackages"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Hidden"
+#~ msgstr "bfisidebar Hidden"
+
+#~ msgid ""
+#~ "Add widgets here to appear in Bookingfor pages. (<b><u>NOT delete or "
+#~ "rename</u></b>)"
+#~ msgstr ""
+#~ "Προσθέστε γραφικά στοιχεία εδώ για να εμφανίζονται στις κρατήσεις για "
+#~ "σελίδες. (<b><u>ΔΕΝ διαγράφει ή μετονομάζει</u></b>)"
+
+#~ msgctxt "Page slug"
+#~ msgid "contact"
+#~ msgstr "επικοινωνία"
+
+#~ msgid "Recently seen"
+#~ msgstr "Πρόσφατα δει"
+
+#~ msgctxt "Page slug"
+#~ msgid "inforequestpopup"
+#~ msgstr "inforequestpopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "mapspopup"
+#~ msgstr "mapspopup"
+
+#~ msgid "nights"
+#~ msgstr "διανυκτερεύσεις"
+
+#~ msgid "Seniores"
+#~ msgstr "Seniores"
+
+#~ msgid "Order by"
+#~ msgstr "Παραγγελία από"
+
+#~ msgid "Lowest price first"
+#~ msgstr "Αύξουσα τιμή"
+
+#~ msgid "Review score"
+#~ msgstr "Βαθμολογία σχολίων"
+
+#~ msgid "Best offers"
+#~ msgstr "Καλύτερες προσφορές"
+
+#~ msgid "Distance from center"
+#~ msgstr "Απόσταση από το κέντρο"
+
+#~ msgid "Distance from point of interest"
+#~ msgstr "Απόσταση από το σημείο ενδιαφέροντος"
+
+#~ msgid "Filter"
+#~ msgstr "Φίλτρο"
+
+#~ msgid "Map"
+#~ msgstr "Χάρτης"
+
+#~ msgid "Filters"
+#~ msgstr "Φίλτρα"
+
+#, php-format
+#~ msgid "Show %s results"
+#~ msgstr "Εμφάνιση λιγότερων"
+
+#~ msgid "BookingFor Merchant List page"
+#~ msgstr "BookingFor Merchant λίστα σελίδα"
+
+#~ msgctxt "slug"
+#~ msgid "eventlist"
+#~ msgstr "lista-ekdiloseon"
+
+#~ msgctxt "slug"
+#~ msgid "merchantlist"
+#~ msgstr "lista-emporon"
+
+#~ msgid "&resourceId="
+#~ msgstr "& resourceId ="
+
+#~ msgid "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+#~ msgstr ""
+#~ "index.php?Option=com_bookingforconnector&View=onsellunit&resourceId="
+
+#~ msgid "Hours"
+#~ msgstr "Ώρες"
+
+#~ msgid "single bed"
+#~ msgstr "μονό κρεβάτι"
+
+#~ msgid "double bed"
+#~ msgstr "διπλό κρεβάτι"
+
+#~ msgid "large double bed"
+#~ msgstr "μεγάλο διπλό κρεβάτι"
+
+#~ msgid "extra-large double bed"
+#~ msgstr "πολύ μεγάλο διπλό κρεβάτι"
+
+#~ msgid "bunk bed"
+#~ msgstr "Κουκέτα"
+
+#~ msgid "sofa bed"
+#~ msgstr "καναπές-κρεβάτι"
+
+#~ msgid "futon"
+#~ msgstr "Futon"
+
+#~ msgid "single beds"
+#~ msgstr "μονά κρεβάτια"
+
+#~ msgid "double beds"
+#~ msgstr "διπλά κρεβάτια"
+
+#~ msgid "large double beds"
+#~ msgstr "μεγάλα διπλά κρεβάτια"
+
+#~ msgid "extra-large double beds"
+#~ msgstr "πολύ μεγάλα διπλά κρεβάτια"
+
+#~ msgid "bunk beds"
+#~ msgstr "Κουκέτες"
+
+#~ msgid "sofa beds"
+#~ msgstr "καναπέδες-κρεβάτια"
+
+#~ msgid "futons"
+#~ msgstr "Αυτόνομη"
+
+#~ msgid "Youth"
+#~ msgstr "Νεολαία"
+
+#~ msgid "Infant"
+#~ msgstr "Βρέφος"
+
+#~ msgid "Your Cart is empty! "
+#~ msgstr "Το καλάθι σας είναι άδειο! "
+
+#~ msgid "Secure booking. We protect your information"
+#~ msgstr "Ασφαλής κράτηση. Προστατεύουμε τις πληροφορίες σας"
+
+#~ msgid "Your reservation includes"
+#~ msgstr "Αριθμός κράτησης"
+
+#~ msgid "Information"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "For"
+#~ msgstr "Για"
+
+#~ msgid "Options"
+#~ msgstr "Επιλογές"
+
+#~ msgid "Qt."
+#~ msgstr "QT."
+
+#~ msgid "Total price"
+#~ msgstr "Συνολική τιμή"
+
+#~ msgid "from"
+#~ msgstr "από"
+
+#~ msgid "to"
+#~ msgstr "για να"
+
+#~ msgid "seat"
+#~ msgstr "Κάθισμα"
+
+#~ msgid "People"
+#~ msgstr "Άτομα"
+
+#~ msgid "Years"
+#~ msgstr "Χρόνια"
+
+#, php-format
+#~ msgid "Over %s"
+#~ msgstr "Πάνω από %s"
+
+#, php-format
+#~ msgid " %d day/s"
+#~ msgstr " %d ημέρα/ες"
+
+#~ msgid "Check-in"
+#~ msgstr "Check in"
+
+#~ msgid "Check-out"
+#~ msgstr "Check out"
+
+#~ msgid "until"
+#~ msgstr "μέχρι"
+
+#~ msgid "Total"
+#~ msgstr "Σύνολο"
+
+#~ msgid "minuti"
+#~ msgstr "λεπτά"
+
+#~ msgid "Time Table"
+#~ msgstr "Πίνακας ώρας"
+
+#~ msgid "Room"
+#~ msgstr "Δωμάτιο"
+
+#~ msgid "Included"
+#~ msgstr "Περιλαμβάνεται"
+
+#~ msgid "VAT"
+#~ msgstr "ΦΠΑ"
+
+#~ msgid "Not included"
+#~ msgstr "Δεν περιλαμβάνονται"
+
+#~ msgid "City tax per person per night"
+#~ msgstr "Δημοτικός φόρος ανά άτομο ανά διανυκτέρευση."
+
+#~ msgid "Extra bed"
+#~ msgstr "Επιπλέον"
+
+#~ msgid "Cot"
+#~ msgstr "Άνεση"
+
+#~ msgid "Exempt"
+#~ msgstr "Απαλλάσσονται"
+
+#~ msgid "City tax"
+#~ msgstr "Πόλη"
+
+#~ msgid "days"
+#~ msgstr "ημέρες"
+
+#~ msgid "weeks"
+#~ msgstr "εβδομάδες"
+
+#~ msgid "months"
+#~ msgstr "μήνες"
+
+#~ msgid "Cancellation FREE"
+#~ msgstr "ΑΚΥΡΩΣΗ ΔΩΡΕΑΝ"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel free of charge until %1$s before arrival. You will be "
+#~ "charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Μπορείτε να ακυρώσετε δωρεάν μέχρι %1$s πριν από την άφιξη. Θα χρεωθείτε "
+#~ "%2$s εάν ακυρώσετε στο %1$s πριν από την άφιξη."
+
+#~ msgid "You may cancel free of charge until arrival."
+#~ msgstr "Μπορείτε να ακυρώσετε δωρεάν μέχρι την άφιξη."
+
+#~ msgid "Special conditions"
+#~ msgstr "(CPC 821)"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel with a charge of %3$s  until %1$s before arrival. You will "
+#~ "be charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Μπορείτε να ακυρώσετε με χρέωση %3$s μέχρι %1$s πριν από την άφιξη. Θα "
+#~ "χρεωθείτε %2$s εάν ακυρώσετε στο %1$s πριν από την άφιξη."
+
+#, php-format
+#~ msgid "You will be charged %1$s if you cancel before arrival."
+#~ msgstr "Θα χρεωθείτε %1$s εάν ακυρώσετε πριν από την άφιξη."
+
+#~ msgid "Non refundable"
+#~ msgstr "Μη επιστρεπτέα"
+
+#~ msgid "You will be charged all if you cancel before arrival."
+#~ msgstr "Θα χρεωθείτε όλα αν ακυρώσετε πριν από την άφιξη."
+
+#~ msgid "There is no meal option with this room."
+#~ msgstr "Αυτό το δωμάτιο δεν έχει επιλογή γεύματος."
+
+#~ msgid "Breakfast"
+#~ msgstr "Πρωινό"
+
+#~ msgid "Lunch"
+#~ msgstr "Μεσημεριανό γεύμα"
+
+#~ msgid "Dinner"
+#~ msgstr "Δείπνο"
+
+#~ msgid "All Inclusive"
+#~ msgstr "Όλα συμπεριλαμβανομένων"
+
+#~ msgid "included"
+#~ msgstr "περιλαμβάνονται"
+
+#~ msgid "Meals"
+#~ msgstr "Γεύματα"
+
+#~ msgid "Cancellation"
+#~ msgstr "Ακύρωση"
+
+#~ msgid "Prepayment"
+#~ msgstr "Προπληρωμή"
+
+#~ msgid "Non-binding booking request"
+#~ msgstr "Μη δεσμευτικό αίτημα κράτησης"
+
+#~ msgid "Instant Book"
+#~ msgstr "Στιγμιαίο βιβλίο"
+
+#~ msgid "Payment in installments"
+#~ msgstr "Πληρωμή σε δόσεις"
+
+#, php-format
+#~ msgid " %d night/s"
+#~ msgstr " %d νύχτα/ες"
+
+#~ msgid "The code is not valid"
+#~ msgstr "Ο κωδικός δεν είναι έγκυρος"
+
+#~ msgid "Apply"
+#~ msgstr "Εφαρμογή"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "Gift cards or Promotional codes"
+#~ msgstr "Δωροκάρτες ή κωδικοί προσφοράς"
+
+#~ msgid "Enter code"
+#~ msgstr "Εισάγετε τον κωδικό"
+
+#~ msgid "Discount"
+#~ msgstr "Έκπτωση"
+
+#~ msgid "Deposit"
+#~ msgstr "Κατάθεση"
+
+#~ msgid "Customers who bought this product also viewed"
+#~ msgstr "Οι πελάτες που αγόρασαν αυτό το προϊόν είδαν επίσης"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s."
+#~ msgstr ""
+#~ "Η επιλογή <b>αποστολής</b> σημαίνει ότι συμφωνείτε με <a href=\"%3$s\" "
+#~ "target=\"_blank\">τους Όρους χρήσης</a> του %1$s ."
+
+#~ msgid "Log in to book faster"
+#~ msgstr "Συνδεθείτε για να κάνετε κράτηση πιο γρήγορα"
+
+#~ msgid "Enter your details"
+#~ msgstr "Εισάγετε τα στοιχεία σας"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "This field is required."
+#~ msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+
+#~ msgid "Surname"
+#~ msgstr "Επώνυμο"
+
+#~ msgid "Man"
+#~ msgstr "Δευ"
+
+#~ msgid "Woman"
+#~ msgstr "Γυναίκα"
+
+#~ msgid "Email"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#~ msgid "Reenter email"
+#~ msgstr "Εισάγετε ξανά το email"
+
+#~ msgid "Phone"
+#~ msgstr "Τηλέφωνο"
+
+#~ msgid "Fiscal code"
+#~ msgstr "Οικονομικός κωδικός"
+
+#~ msgid "Organization"
+#~ msgstr "Οργανισμός"
+
+#~ msgid "Password"
+#~ msgstr "Κωδικό πρόσβασης"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "Postal Code"
+#~ msgstr "Ταχυδρομικός κώδικας"
+
+#~ msgid "City"
+#~ msgstr "Πόλη"
+
+#~ msgid "Province"
+#~ msgstr "Επαρχία"
+
+#~ msgid "Personal data"
+#~ msgstr "Προσωπικά στοιχεία"
+
+#~ msgid "Birth date"
+#~ msgstr "Ημερομηνία γέννησης"
+
+#~ msgid "Birth location"
+#~ msgstr "Τοποθεσία παραλαβής"
+
+#~ msgid "Passport ID"
+#~ msgstr "Κωδικό πρόσβασης"
+
+#~ msgid "Passport expiration"
+#~ msgstr "Σημαντικές πληροφορίες"
+
+#~ msgid "Document ID"
+#~ msgstr "Αναγνωριστικό εγγράφου"
+
+#~ msgid "Document release place"
+#~ msgstr "Θέση έκδοσης εγγράφου"
+
+#~ msgid "Document release date"
+#~ msgstr "Ημερομηνία κυκλοφορίας εγγράφου"
+
+#~ msgid "Document expiration"
+#~ msgstr "Προορισμός"
+
+#~ msgid "Special Requests"
+#~ msgstr "Ειδικά αιτήματα"
+
+#~ msgid "Notes"
+#~ msgstr "Σημειώσεις"
+
+#~ msgid "Note"
+#~ msgstr "Σημείωση"
+
+#~ msgid "No URLs allowed!"
+#~ msgstr "Δεν επιτρέπονται διευθύνσεις URL!"
+
+#~ msgid "Your estimated time of arrival"
+#~ msgstr "Αναμενόμενη ώρα άφιξης σας"
+
+#~ msgid "I don't know"
+#~ msgstr "Δεν ξέρω"
+
+#~ msgid "no"
+#~ msgstr "όχι"
+
+#~ msgid "yes"
+#~ msgstr "ναι"
+
+#~ msgid "Other information"
+#~ msgstr "Περισσότερες πληροφορίες"
+
+#~ msgid "We can pick up you at the desired address"
+#~ msgstr "Μπορούμε να σας παραλάβουμε από την επιθυμητή διεύθυνση"
+
+#~ msgid "At experience end, we can take you at the desired address"
+#~ msgstr ""
+#~ "Στο τέλος της εμπειρίας, μπορούμε να σας μεταφέρουμε στην επιθυμητή "
+#~ "διεύθυνση"
+
+#~ msgid "Crew"
+#~ msgstr "Πλήρωμα"
+
+#, php-format
+#~ msgid "Component %s of %s"
+#~ msgstr "Από %s έως %s"
+
+#~ msgid "Payment method"
+#~ msgstr "Μέθοδος πληρωμής"
+
+#~ msgid "Please choose a payment method"
+#~ msgstr "Παρακαλώ επιλέξτε μια μέθοδο πληρωμής"
+
+#~ msgid "Credit card details"
+#~ msgstr "Στοιχεία πιστωτικής κάρτας"
+
+#~ msgid "Warranty Request for"
+#~ msgstr "Αίτηση για πληροφορίες"
+
+#~ msgid "Holder"
+#~ msgstr "Κάτοχος"
+
+#~ msgid "Number"
+#~ msgstr "Αριθμός"
+
+#~ msgid "Valid until"
+#~ msgstr "Ισχύει μέχρι"
+
+#~ msgid "Month (MM)"
+#~ msgstr "Μήνα (MM)"
+
+#~ msgid "Year (YY)"
+#~ msgstr "Έτος (ΥΥ)"
+
+#~ msgid "I agree to the conditions"
+#~ msgstr "Συμφωνώ με τους όρους"
+
+#~ msgid "I have read the information on the processing of personal data"
+#~ msgstr ""
+#~ "Διάβασα τις πληροφορίες σχετικά με την επεξεργασία δεδομένων προσωπικού "
+#~ "χαρακτήρα"
+
+#~ msgid "More information"
+#~ msgstr "Περισσότερες πληροφορίες"
+
+#~ msgid "I give my consent to send the newsletter"
+#~ msgstr "Δίνω τη συγκατάθεσή μου για την αποστολή του ενημερωτικού δελτίου"
+
+#~ msgid "I give my consent for marketing purposes"
+#~ msgstr "Δίνω τη συγκατάθεσή μου για σκοπούς μάρκετινγκ"
+
+#~ msgid "I give my consent for profiling purposes"
+#~ msgstr "Δίνω τη συγκατάθεσή μου για σκοπούς δημιουργίας προφίλ"
+
+#~ msgid "Send"
+#~ msgstr "Αποστολή"
+
+#~ msgid "Code already used"
+#~ msgstr "Κωδικός που χρησιμοποιείται ήδη"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Είσαι σίγουρος?"
+
+#~ msgid "Please enter a valid code"
+#~ msgstr "Καταχωρίστε έναν έγκυρο κωδικό"
+
+#~ msgid "Edit"
+#~ msgstr "Επεξεργασία"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Page"
+#~ msgstr "Σελίδα"
+
+#~ msgctxt "Page slug"
+#~ msgid "cartredirect"
+#~ msgstr "cartredirect"
+
+#~ msgctxt "Page slug"
+#~ msgid "thankspopup"
+#~ msgstr "thankspopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "errorspopup"
+#~ msgstr "anadiomeno-sfalma"
+
+#~ msgid "Your search"
+#~ msgstr "Η αναζήτηση σας"
+
+#~ msgid "Extra services"
+#~ msgstr "Επιπλέον υπηρεσίες"
+
+#~ msgid "Insert your data"
+#~ msgstr "Εισάγετε τα στοιχεία σας"
+
+#~ msgid "Confirm booking"
+#~ msgstr "Επιβεβαίωση E-mail"
+
+#~ msgctxt "Page slug"
+#~ msgid "contactspopup"
+#~ msgstr "contactspopup"
+
+#~ msgid "List"
+#~ msgstr "Λίστα"
+
+#~ msgid "Grid"
+#~ msgstr "Πλέγμα"
+
+#~ msgid "View"
+#~ msgstr "Προβολή"
+
+#~ msgid "Vetrina"
+#~ msgstr "Κοινωνικά"
+
+#~ msgid "Top"
+#~ msgstr "Κορυφή"
+
+#~ msgid "New!"
+#~ msgstr "Νέα!"
+
+#~ msgid "Rooms"
+#~ msgstr "Δωμάτια"
+
+#~ msgid "m&sup2;"
+#~ msgstr "m²"
+
+#~ msgid "Contact Agent"
+#~ msgstr "Επικοινωνήστε με το πρακτορείο"
+
+#~ msgid "New ad"
+#~ msgstr "Νέα αγγελία"
+
+#~ msgid "Would you like to leave your review?"
+#~ msgstr "Θα θέλατε να αφήσετε την κριτική σας;"
+
+#, php-format
+#~ msgid "Score from %s reviews"
+#~ msgstr "Βαθμολογία από %s κριτικές"
+
+#~ msgid "Guest Rating"
+#~ msgstr "Βαθμολογία επισκεπτών"
+
+#~ msgid "No results available"
+#~ msgstr "Δεν υπάρχουν διαθέσιμα αποτελέσματα"
+
+#~ msgid "Choice"
+#~ msgstr "Επιλογή"
+
+#~ msgid "Cart"
+#~ msgstr "Καλάθι"
+
+#~ msgid "Share"
+#~ msgstr "Κοινοποίηση"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show results"
+#~ msgstr "Εμφάνιση λιγότερων"
+
+#~ msgid "Select the type of package to get started!"
+#~ msgstr "Επιλέξτε τον τύπο του πακέτου για να ξεκινήσετε!"
+
+#~ msgid "Payment"
+#~ msgstr "Πληρωμή"
+
+#~ msgid ""
+#~ "If you are not redirected to the payment page within a few seconds, click "
+#~ "the following button"
+#~ msgstr ""
+#~ "Εάν δεν ανακατευθυνθείτε στη σελίδα πληρωμής μέσα σε λίγα δευτερόλεπτα, "
+#~ "κάντε κλικ στο παρακάτω κουμπί"
+
+#, php-format
+#~ msgid "%s available accommodations"
+#~ msgstr "%s διαθέσιμα καταλύματα"
+
+#~ msgid "Map view"
+#~ msgstr "Χάρτης"
+
+#~ msgctxt "Page slug"
+#~ msgid "rating"
+#~ msgstr "ektimisi"
+
+#~ msgid "Request"
+#~ msgstr "Αίτηση"
+
+#~ msgid "Book Now"
+#~ msgstr "Κάντε κράτηση τώρα"
+
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s κριτικές"
+
+#, php-format
+#~ msgid "Only %d available"
+#~ msgstr "Μόνο %d διαθέσιμο"
+
+#~ msgid "Breakfast included"
+#~ msgstr "Πρωινό"
+
+#~ msgid "Half board"
+#~ msgstr "Ημιδιατροφή"
+
+#~ msgid "Full board"
+#~ msgstr "Πλήρης διατροφή"
+
+#, php-format
+#~ msgid "Price for %s person"
+#~ msgstr "Τιμή για το %d νύχτες"
+
+#~ msgid "Total for"
+#~ msgstr "Σύνολο"
+
+#, php-format
+#~ msgid " %d hour/s"
+#~ msgstr " %d ώρα/ες"
+
+#, php-format
+#~ msgid " %d minute/s"
+#~ msgstr " %d λεπτά/ες"
+
+#, php-format
+#~ msgid "Offer %d%%"
+#~ msgstr "Προσφέρουν %d%%"
+
+#~ msgid "from hours"
+#~ msgstr "από ώρες"
+
+#~ msgid "to hours"
+#~ msgstr "έως ώρες"
+
+#~ msgid ""
+#~ "This is the straight-line distance on the map. Actual travel distance may "
+#~ "vary."
+#~ msgstr ""
+#~ "Αυτή είναι η ευθεία απόσταση στο χάρτη. Η πραγματική απόσταση ταξιδιού "
+#~ "μπορεί να διαφέρει."
+
+#~ msgid "from centre"
+#~ msgstr "από το κέντρο"
+
+#~ msgid "Dates"
+#~ msgstr "Ημερομηνίες"
+
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid "All dates and places"
+#~ msgstr "Όλες οι ημερομηνίες και οι τόποι"
+
+#~ msgid "Show dates and places"
+#~ msgstr "Εμφάνιση ημερομηνιών και τοποθεσιών"
+
+#~ msgid "Book Resource"
+#~ msgstr "πόροι"
+
+#, fuzzy
+#~| msgctxt "Page slug"
+#~| msgid "packages"
+#~ msgid "Show package"
+#~ msgstr "paketa"
+
+#~ msgid "Tickets"
+#~ msgstr "Αιτήματα Υποστήριξης"
+
+#~ msgid "Buy tickets"
+#~ msgstr "Αγορά Εισιτηρίων"
+
+#, fuzzy
+#~| msgid "Show prices"
+#~ msgid "Show experiences"
+#~ msgstr "Εμφάνιση περισσοτέρων"
+
+#~ msgid "in evidence"
+#~ msgstr "αποδεικτικά στοιχεία"
+
+#~ msgid "excluding"
+#~ msgstr "Εξαιρουμένου του φόρου"
+
+#~ msgid "Free!"
+#~ msgstr "Δωρεάν!"
+
+#~ msgid "additional charge"
+#~ msgstr "Επιπρόσθετους σκοπούς"
+
+#~ msgid "Download"
+#~ msgstr "Λήψη"
+
+#~ msgid "In short"
+#~ msgstr "Εν ολίγοις"
+
+#~ msgid "Travel planner"
+#~ msgstr "Οργάνωση ταξιδιών"
+
+#~ msgid "Buy resource"
+#~ msgstr "πόροι"
+
+#~ msgid "Organizer"
+#~ msgstr "Διοργανωτής"
+
+#~ msgid "All reviewers"
+#~ msgstr "Όλοι"
+
+#~ msgid "Solo travellers"
+#~ msgstr "Μεμονωμένα άτομα"
+
+#~ msgid "Groups"
+#~ msgstr "Ομάδες"
+
+#~ msgid "Young couplet"
+#~ msgstr "Νέοι δίστιχο"
+
+#~ msgid "Mature couples"
+#~ msgstr "Ώριμα ζευγάρια"
+
+#~ msgid "Families with young children"
+#~ msgstr "Οικογένειες με μικρά παιδιά"
+
+#~ msgid "Family with older children"
+#~ msgstr "Οικογένεια με μεγάλα παιδιά"
+
+#, php-format
+#~ msgid "Based on %1$s Reviews."
+#~ msgstr "Βάσει %1$s κριτικές."
+
+#~ msgid "Staff"
+#~ msgstr "Το προσωπικό του ξενοδοχείου"
+
+#~ msgid "Clean"
+#~ msgstr "Καθαρίστε"
+
+#~ msgid "Comfort"
+#~ msgstr "Άνεση"
+
+#~ msgid "Value for Money"
+#~ msgstr "Αξία για τα χρήματα"
+
+#~ msgid "Show reviews from"
+#~ msgstr "Εμφάνιση σχολίων από"
+
+#~ msgid "Write a Review"
+#~ msgstr "Γράψτε μια κριτική"
+
+#~ msgid "Reviewed"
+#~ msgstr "Η κριτική έγινε"
+
+#~ msgid "Stayed"
+#~ msgstr "Μείνει"
+
+#, php-format
+#~ msgid "Replied on %1s"
+#~ msgstr "Απάντησε στις %1s"
+
+#~ msgid "Reference"
+#~ msgstr "Αναφορά"
+
+#, php-format
+#~ msgid "Review certified by %1$s"
+#~ msgstr "Αναθεώρηση πιστοποιημένο από %1$s"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#, php-format
+#~ msgid "%s has responded to this review"
+#~ msgstr "%s έχει απαντήσει σε αυτή την κριτική"
+
+#~ msgid "No Reviews Found."
+#~ msgstr "Δεν βρέθηκαν αξιολογήσεις."
+
+#~ msgid "Would you like to be the first to write a review?"
+#~ msgstr "Θα θέλατε να είναι ο πρώτος που θα γράψει μια κριτική;"
+
+#~ msgid "Very poor"
+#~ msgstr "Πολύ φτωχό"
+
+#~ msgid "Poor"
+#~ msgstr "Κακή"
+
+#~ msgid "Disappointing"
+#~ msgstr "Απογοητευτικό"
+
+#~ msgid "Fair"
+#~ msgstr "Δίκαιη"
+
+#~ msgid "Okay"
+#~ msgstr "Εντάξει"
+
+#~ msgid "Pleasant"
+#~ msgstr "Ευχάριστο"
+
+#~ msgid "Good"
+#~ msgstr "Καλό"
+
+#~ msgid "Very good"
+#~ msgstr "Πολύ καλά"
+
+#~ msgid "Fabulous"
+#~ msgstr "Θαυμάσιο"
+
+#~ msgid "Exceptional"
+#~ msgstr "Άριστο"
+
+#~ msgid "Very easy"
+#~ msgstr "Πολύ εύκολο"
+
+#~ msgid "Easy"
+#~ msgstr "Εύκολο"
+
+#~ msgid "Moderate"
+#~ msgstr "Μέτριο"
+
+#~ msgid "Stimulating"
+#~ msgstr "Βαθμολογία με αστέρια"
+
+#~ msgid "Demanding"
+#~ msgstr "Αποστολή"
+
+#~ msgid "Extreme"
+#~ msgstr "Επιπλέον"
+
+#~ msgid "Info & prices"
+#~ msgstr "Πληροφορίες και τιμές"
+
+#~ msgid "Facilities"
+#~ msgstr "Παροχές"
+
+#~ msgid "House rules"
+#~ msgstr "Κανόνες κατοικίας"
+
+#~ msgid "Reviews"
+#~ msgstr "Σχόλια"
+
+#~ msgid "Book now"
+#~ msgstr "Κάντε κράτηση τώρα"
+
+#~ msgid "or similar"
+#~ msgstr "ή παρόμοια"
+
+#~ msgid "show map"
+#~ msgstr "Εμφάνιση χάρτη"
+
+#~ msgid "Pick Up & Drop Off"
+#~ msgstr "Παραλαβή και παράδοση"
+
+#~ msgid "Media"
+#~ msgstr "Μέσα μαζικής ενημέρωσης"
+
+#~ msgid "Host"
+#~ msgstr "Διακομιστής"
+
+#~ msgid "Floor area"
+#~ msgstr "Περιοχή πατωμάτων"
+
+#~ msgid "Participants"
+#~ msgstr "Συμμετέχοντες"
+
+#~ msgid "Minimum age"
+#~ msgstr "Ελάχιστη ηλικία"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Επίπεδο δυσκολίας"
+
+#~ msgid "Languages"
+#~ msgstr "Γλώσσες"
+
+#, php-format
+#~ msgid " and %s more "
+#~ msgstr " και %s περισσότερο "
+
+#~ msgid "Offered in"
+#~ msgstr "Προσφορά"
+
+#~ msgid "Important information"
+#~ msgstr "Σημαντικές πληροφορίες"
+
+#~ msgid "What is Included"
+#~ msgstr "Δεν περιλαμβάνεται"
+
+#~ msgid "Live Guide "
+#~ msgstr "Οδηγός ζωντανής χρήσης "
+
+#~ msgid "Audio Guide "
+#~ msgstr "Οδηγός ήχου "
+
+#~ msgid "Paper Guide "
+#~ msgstr "Αμοιβών ανά χρήση "
+
+#~ msgid "What is not Included"
+#~ msgstr "Δεν περιλαμβάνεται"
+
+#~ msgid "Departure & Return"
+#~ msgstr "Αναχώρηση & Επιστροφή"
+
+#~ msgid "Departure Point"
+#~ msgstr "Σημείο αναχώρησης"
+
+#~ msgid "Meeting Time"
+#~ msgstr "Ώρα σύσκεψης"
+
+#, php-format
+#~ msgid "show up %s minutes before the start time "
+#~ msgstr "εμφανίζονται %s λεπτά πριν από την ώρα έναρξης "
+
+#~ msgid "Pick-up Point"
+#~ msgstr "Σημείο παραλαβής"
+
+#~ msgid "Pick-up Time"
+#~ msgstr "Χρόνος παραλαβής"
+
+#~ msgid "Return Details"
+#~ msgstr "Λεπτομέρειες Εκδήλωσης"
+
+#~ msgid "Returns to original departure pickup"
+#~ msgstr "Επιστροφές στην αρχική παραλαβή αναχώρησης"
+
+#~ msgid "Returns to original pick-up point"
+#~ msgstr "Επιστρέφει στο αρχικό σημείο παραλαβής"
+
+#~ msgid "Returns to original departure point"
+#~ msgstr "Επιστρέφει στο αρχικό σημείο αναχώρησης"
+
+#~ msgid "What To Expect"
+#~ msgstr "Τι να περιμένετε"
+
+#~ msgid "Itinerary"
+#~ msgstr "Διαδρομή"
+
+#~ msgid "Day"
+#~ msgstr "Ημέρα"
+
+#~ msgid "Stops"
+#~ msgstr "Σταματά"
+
+#~ msgid "Stop"
+#~ msgstr "Διακοπή"
+
+#~ msgid "Additional Info"
+#~ msgstr "Επιπρόσθετες Πληροφορίες"
+
+#~ msgid "What to bring"
+#~ msgstr "Τι να φέρετε"
+
+#~ msgid "Cancellation Policy"
+#~ msgstr "Ακύρωση"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Συχνές Ερωτήσεις"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s and <a href=\"%2$s\" target=\"_blank"
+#~ "\">privacy and cookies statement.</a>."
+#~ msgstr ""
+#~ "Η επιλογή <b>αποστολής</b> σημαίνει ότι συμφωνείτε με <a href=\"%3$s\" "
+#~ "target=\"_blank\">τους Όρους χρήσης</a> και τη δήλωση προστασίας %1$s <a "
+#~ "href=\"%2$s\" target=\"_blank\">προσωπικών δεδομένων και cookies.</a>."
+
+#~ msgid "Type of traveller"
+#~ msgstr "Τύπος ταξιδιώτη"
+
+#~ msgid "Country"
+#~ msgstr "Χώρα"
+
+#~ msgid "E-mail"
+#~ msgstr "Ηλεκτρονικού ταχυδρομείου"
+
+#~ msgid "Confirm E-mail"
+#~ msgstr "Επιβεβαίωση E-mail"
+
+#~ msgid "When did you travel?"
+#~ msgstr "Πότε ταξιδέψατε;"
+
+#~ msgid "Value for money"
+#~ msgstr "Αξία για τα χρήματα"
+
+#~ msgid "Valuation"
+#~ msgstr "Αποτίμηση"
+
+#~ msgid "List of the facility's positive points"
+#~ msgstr "Λίστα με τα θετικά σημεία της διευκόλυνσης"
+
+#~ msgid "List of the facility's negative points"
+#~ msgstr "Λίστα με τα αρνητικά σημεία της διευκόλυνσης"
+
+#, php-format
+#~ msgid "Send me promotional emails from %1$s"
+#~ msgstr ""
+#~ "Στείλτε μου διαφημιστικά μηνύματα ηλεκτρονικού ταχυδρομείου από %1$s"
+
+#, php-format
+#~ msgid ""
+#~ "I certify that this review is based on my own experience and is my "
+#~ "genuine opinion of this accommodation, and that I have no personal or "
+#~ "business relationship with this establishment, and have not been offered "
+#~ "any incentive or payment originating from the establishment to write this "
+#~ "review. I understand that %s has a zero-tolerance policy on fake reviews."
+#~ msgstr ""
+#~ "Βεβαιώνω ότι αυτή η αναθεώρηση είναι με βάση τη δική μου εμπειρία είναι "
+#~ "γνήσιο γνώμη μου για αυτό το κατάλυμα, και ότι δεν έχουν καμία προσωπική "
+#~ "ή επαγγελματική σχέση με αυτή την εγκατάσταση, και δεν έχουν προσφερθεί "
+#~ "κάθε κίνητρο ή πληρωμών που προέρχονται από τη σύσταση να γράψω αυτό το "
+#~ "επανεξετάσει. Καταλαβαίνω ότι Bibione.com έχει μια πολιτική μηδενικής "
+#~ "ανοχής όσον αφορά τις πλαστές κριτικές."
+
+#~ msgid "Attention!"
+#~ msgstr "Προσοχή!"
+
+#~ msgid "It 's not possible to insert your own review"
+#~ msgstr "Δεν είναι δυνατό να εισαγάγετε τη δική σας κριτική"
+
+#~ msgid "nonexistent order"
+#~ msgstr "ανύπαρκτη παραγγελία"
+
+#~ msgid "Order with already a Review"
+#~ msgstr "Παραγγείλετε με ήδη μια αναθεώρηση"
+
+#~ msgid ""
+#~ "nonexistent order or to which it is not possible to associate a review"
+#~ msgstr ""
+#~ "ανύπαρκτη παραγγελία ή για την οποία δεν είναι δυνατόν να συσχετίσετε μια "
+#~ "αναθεώρηση"
+
+#~ msgid "Order not related at this resource"
+#~ msgstr "Παραγγελία δεν συνδέονται σε αυτόν τον πόρο"
+
+#~ msgid "Order make before the date to make a review"
+#~ msgstr "Τάξη κάνει πριν από την ημερομηνία για να κάνει μια ανασκόπηση"
+
+#~ msgid "Most popular facilities for longer stays"
+#~ msgstr "Οι πιο δημοφιλείς εγκαταστάσεις για διαμονές μεγαλύτερης διάρκειας"
+
+#~ msgid "Booking"
+#~ msgstr "Κράτηση"
+
+#~ msgid "No Results Found"
+#~ msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#, php-format
+#~ msgid "%s available offers"
+#~ msgstr "%s διαθέσιμες προσφορές"
+
+#~ msgid "please wait..."
+#~ msgstr "Παρακαλώ περίμενε..."
+
+#~ msgid "I consent to the publication of the review"
+#~ msgstr "Συναινώ στη δημοσίευση της επανεξέτασης"
+
+#~ msgid "A-Z"
+#~ msgstr "Α-Ω"
+
+#~ msgid "Z-A"
+#~ msgstr "Ω-Α"
+
+#~ msgid "To rent"
+#~ msgstr "Προς ενοικίαση"
+
+#~ msgid "On sale"
+#~ msgstr "Για την πώληση"
+
+#~ msgid "Min paxes"
+#~ msgstr "Min paxes"
+
+#~ msgid "Max paxes"
+#~ msgstr "Max στοιχεία"
+
+#~ msgid "Area"
+#~ msgstr "Περιοχή"
+
+#~ msgid "Last update"
+#~ msgstr "Τελευταία ενημέρωση"
+
+#~ msgid "Floor"
+#~ msgstr "Πάτωμα"
+
+#~ msgid "Ground floor"
+#~ msgstr "Ισόγειο"
+
+#~ msgid "Top floor"
+#~ msgstr "Επάνω όροφος"
+
+#~ msgid "Attic"
+#~ msgstr "Σοφίτα"
+
+#~ msgid "Multiple levels"
+#~ msgstr "Πολλαπλά επίπεδα"
+
+#~ msgid "ND"
+#~ msgstr "ND"
+
+#~ msgid "Condition"
+#~ msgstr "Κατάσταση"
+
+#~ msgid "New"
+#~ msgstr "Νέα"
+
+#~ msgid "To be refurbished"
+#~ msgstr "Για ανακαίνιση"
+
+#~ msgid "Excellent"
+#~ msgstr "Θαυμάσιο"
+
+#~ msgid "Refurbished"
+#~ msgstr "Ανακαινισμένο"
+
+#~ msgid "Habitable"
+#~ msgstr "Διαθέσιμο"
+
+#~ msgid "Bathrooms"
+#~ msgstr "Μπάνια"
+
+#~ msgid "Heating"
+#~ msgstr "Θέρμανση"
+
+#~ msgid "Autonomous"
+#~ msgstr "Αυτόνομη"
+
+#~ msgid "Communal"
+#~ msgstr "Κοινόχρηστη"
+
+#~ msgid "Pay per use"
+#~ msgstr "Αμοιβών ανά χρήση"
+
+#~ msgid "Box Auto"
+#~ msgstr "Αυτόματο κιβώτιο"
+
+#~ msgid "Parking space"
+#~ msgstr "Χώρος στάθμευσης"
+
+#~ msgid "Energy efficiency class"
+#~ msgstr "Κλάση ενεργειακής απόδοσης"
+
+#~ msgid "not set"
+#~ msgstr "δεν έχει οριστεί"
+
+#~ msgid "Nondescript"
+#~ msgstr "Αλλόκοτος"
+
+#~ msgid "Free property"
+#~ msgstr "Δωρεάν το κατάλυμα"
+
+#~ msgid "Under evaluation"
+#~ msgstr "Υπό αξιολόγηση"
+
+#~ msgid "IPE"
+#~ msgstr "IPE"
+
+#~ msgid "Yes"
+#~ msgstr "Ναι"
+
+#~ msgid "Real estate agency collaboration"
+#~ msgstr "Μεσιτικό γραφείο συνεργασία"
+
+#, php-format
+#~ msgid "Found %s results on %s"
+#~ msgstr "Βρέθηκαν %s αποτελέσματα σε %s"
+
+#, php-format
+#~ msgid "Found %s results"
+#~ msgstr "Αποτελέσματα %s αναζήτησης"
+
+#~ msgid ""
+#~ "Certainly it is our Preferred Merchant! They provide a great value and an "
+#~ "excellent service."
+#~ msgstr ""
+#~ "Σίγουρα είναι ο προτιμώμενος έμπορος μας! Παρέχουν μια μεγάλη αξία και "
+#~ "μια εξαιρετική εξυπηρέτηση."
+
+#~ msgid "from center"
+#~ msgstr "από το κέντρο"
+
+#~ msgid "from point of interest"
+#~ msgstr "από το σημείο ενδιαφέροντος"
+
+#~ msgid "This structure is suitable for children"
+#~ msgstr "Αυτή η δομή είναι κατάλληλη για παιδιά"
+
+#~ msgid "Living room"
+#~ msgstr "Σαλόνι"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show more results"
+#~ msgstr "Εμφάνιση λιγότερων"
+
+#~ msgid "FREE Cancellation"
+#~ msgstr "ΔΩΡΕΑΝ Ακύρωση"
+
+#, php-format
+#~ msgid ""
+#~ "Unfortunately we have no availability at this merchant for your dates: %s "
+#~ "- %s"
+#~ msgstr ""
+#~ "Δυστυχώς δεν έχουμε διαθεσιμότητα σε αυτόν τον έμπορο για τις ημερομηνίες "
+#~ "σας: %s - %s"
+
+#~ msgid "Limited availability, but may sell out:"
+#~ msgstr "Περιορισμένη διαθεσιμότητα, αλλά μπορεί να ξεπουληθεί:"
+
+#~ msgid ""
+#~ "For a short time you missed it. Our last resource sold out a few days ago"
+#~ msgstr ""
+#~ "Για λίγο το έχασες. Ο τελευταίος μας πόρος ξεπουλήθηκε πριν λίγες μέρες."
+
+#~ msgid "We're sorry! we do not have any availability for this resource."
+#~ msgstr ""
+#~ "Συγγνώμη, δεν μπορώ να το κάνω αυτό. Δεν έχουμε καμία διαθεσιμότητα για "
+#~ "αυτόν τον πόρο."
+
+#~ msgid "Supplier rating"
+#~ msgstr "Αξιολόγηση προμηθευτή"
+
+#~ msgid "minutes"
+#~ msgstr "λεπτά"
+
+#~ msgid "We're sorry! we do not have any availability."
+#~ msgstr ""
+#~ "Συγγνώμη, δεν μπορώ να το κάνω αυτό. δεν έχουμε καμία διαθεσιμότητα."
+
+#~ msgid "Program"
+#~ msgstr "Πρόγραμμα"
+
+#~ msgid "Next events near "
+#~ msgstr "Επόμενες εκδηλώσεις κοντά "
+
+#~ msgid "IDENTIFICATION CODE - TOURIST LEASE"
+#~ msgstr "ΚΩΔΙΚΟΣ ΤΑΥΤΟΤΉΤΩΝ - ΤΟΥΡΙΣΤΙΚΗ ΜΙΣΘΩΣΗ"
+
+#~ msgctxt "Page slug"
+#~ msgid "rapidview"
+#~ msgstr "grigori-episkopisi"
+
+#~ msgid "Energy Class"
+#~ msgstr "Ενεργειακή κλάση"
+
+#~ msgid "nondescript"
+#~ msgstr "Αλλόκοτος"
+
+#~ msgid "free property"
+#~ msgstr "δωρεάν το κατάλυμα"
+
+#~ msgid "A+"
+#~ msgstr "A +"
+
+#~ msgid "A"
+#~ msgstr "Α"
+
+#~ msgid "B"
+#~ msgstr "Β"
+
+#~ msgid "C"
+#~ msgstr "C"
+
+#~ msgid "D"
+#~ msgstr "Δ"
+
+#~ msgid "E"
+#~ msgstr "Ε"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "EPI Value"
+#~ msgstr "EPI αξία"
+
+#~ msgid "Request info"
+#~ msgstr "Αίτηση για πληροφορίες"
+
+#, php-format
+#~ msgid "From %s to %s"
+#~ msgstr "Από %s έως %s"
+
+#, php-format
+#~ msgid "%s people are watching right now"
+#~ msgstr "%s άνθρωποι παρακολουθούν αυτή τη στιγμή"
+
+#~ msgid "Recommended for"
+#~ msgstr "Συνιστάται για"
+
+#~ msgid "Adult"
+#~ msgstr "Ενήλικας"
+
+#~ msgid "and"
+#~ msgstr "και"
+
+#~ msgid "Child"
+#~ msgstr "Παιδί"
+
+#~ msgid "Pay at the property – NO PREPAYMENT NEEDED"
+#~ msgstr "Πληρωμή στο ακίνητο – ΔΕΝ ΑΠΑΙΤΕΊΤΑΙ ΠΡΟΠΛΗΡΩΜΉ"
+
+#, php-format
+#~ msgid "View other %d solutions"
+#~ msgstr "Προβολή άλλων λύσεων %d"
+
+#~ msgid "Hurry up"
+#~ msgstr "Βιάσου"
+
+#~ msgid "This resource is in great demand"
+#~ msgstr "Αυτός ο πόρος είναι σε μεγάλη ζήτηση"
+
+#, php-format
+#~ msgid "%s request in the last 24 hours"
+#~ msgstr "%s αίτημα τις τελευταίες 24 ώρες"
+
+#, php-format
+#~ msgid ""
+#~ "This structure has met or exceeded the expectations of more than 90% of "
+#~ "guests"
+#~ msgstr ""
+#~ "Αυτή η δομή έχει εκπληρώσει ή υπερβεί τις προσδοκίες περισσότερων από "
+#~ "90% of επισκεπτών"
+
+#~ msgid "Choose place"
+#~ msgstr "Επιλογή θέσης"
+
+#~ msgid "Price for"
+#~ msgstr "Τιμή"
+
+#~ msgid "Rental terms"
+#~ msgstr "Όροι ενοικίασης"
+
+#~ msgid "Latest ads"
+#~ msgstr "Leatest αγγελίες"
+
+#~ msgid "added to cart"
+#~ msgstr "προστέθηκε στο καλάθι"
+
+#, php-format
+#~ msgid "Subtotal of the cart (%s items)"
+#~ msgstr "Μεροτάλλου του καλαθιού (%s είδη)"
+
+#~ msgid "For an optimal experience"
+#~ msgstr "Για μια βέλτιστη εμπειρία"
+
+#~ msgid "log in to your account"
+#~ msgstr "συνδεθείτε στο λογαριασμό σας"
+
+#~ msgid "We have other proposals in case of unavailability."
+#~ msgstr "Έχουμε άλλες προτάσεις σε περίπτωση μη διαθεσιμότητας."
+
+#~ msgid "Contact us and we will find the best solution for you!"
+#~ msgstr "Επικοινωνήστε μαζί μας και θα βρούμε την καλύτερη λύση για εσάς!"
+
+#~ msgid "Contact us"
+#~ msgstr "Επικοινωνία"
+
+#~ msgid "Call us"
+#~ msgstr "Καλέστε μας"
+
+#~ msgid "Talk to us"
+#~ msgstr "Μιλήστε μας"
+
+#~ msgid "Also consider other proposals:"
+#~ msgstr "Εξετάστε επίσης άλλες προτάσεις:"
+
+#~ msgid "Add to favorites"
+#~ msgstr "Προσθήκη στα αγαπημένα"
+
+#~ msgid "Free cancellation"
+#~ msgstr "Δωρεάν ακύρωση"
+
+#~ msgid "No prepayment"
+#~ msgstr "Νέα πληρωμή"
+
+#~ msgid "Book without credit card"
+#~ msgstr "Κράτηση χωρίς πιστωτική κάρτα"
+
+#~ msgid "All inclusive"
+#~ msgstr "Κάθε επαρχία"
+
+#~ msgid "Unrated"
+#~ msgstr "Χωρίς χαρακτηρισμό"
+
+#~ msgid "1 star"
+#~ msgstr "1 αστέρι"
+
+#~ msgid "2 stars"
+#~ msgstr "2 αστέρια"
+
+#~ msgid "3 stars"
+#~ msgstr "3 αστέρια"
+
+#~ msgid "4 stars"
+#~ msgstr "4 αστέρια"
+
+#~ msgid "5 stars"
+#~ msgstr "5 αστέρια"
+
+#~ msgid "6 stars"
+#~ msgstr "6 αστέρια"
+
+#~ msgid "7 stars"
+#~ msgstr "7 αστέρια"
+
+#~ msgid "8 stars"
+#~ msgstr "8 αστέρια"
+
+#~ msgid "9 stars"
+#~ msgstr "9 αστέρια"
+
+#~ msgid "10 stars"
+#~ msgstr "10 αστέρια"
+
+#~ msgid "Filter by"
+#~ msgstr "Φιλτραρισμα Κατα"
+
+#~ msgid "Star rating"
+#~ msgstr "Βαθμολογία με αστέρια"
+
+#~ msgid "Budget"
+#~ msgstr "Προϋπολογισμός"
+
+#~ msgid "Tipology"
+#~ msgstr "Τύπος"
+
+#~ msgid "Property type"
+#~ msgstr "Τύπος ακινήτου"
+
+#~ msgid "Book with ease "
+#~ msgstr "Κάντε κράτηση με ευκολία "
+
+#~ msgid "Offer"
+#~ msgstr "Προσφορά"
+
+#~ msgid "Availability"
+#~ msgstr "Διαθεσιμότητα"
+
+#~ msgid "Booking type"
+#~ msgstr "Τύπος κράτησης"
+
+#~ msgid "Nearby points of interest"
+#~ msgstr "Κοντινά σημεία ενδιαφέροντος"
+
+#~ msgid "Unspecified"
+#~ msgstr "Απροσδιόριστο"
+
+#~ msgid "Smart offer"
+#~ msgstr "Έξυπνη Προσφορά"
+
+#~ msgid "Show only available resources"
+#~ msgstr "Εμφάνιση μόνο διαθέσιμων πόρων"
+
+#~ msgid "Show only online booking"
+#~ msgstr "Εμφάνιση μόνο online κράτησης"
+
+#~ msgid "Up to"
+#~ msgstr "Μέχρι"
+
+#~ msgid "Show All"
+#~ msgstr "Εμφάνιση όλων"
+
+#, php-format
+#~ msgid "+ %s photos"
+#~ msgstr "+ φωτογραφίες %s"
+
+#~ msgid "Got a question?"
+#~ msgstr "Υποβάλετε μια ερώτηση"
+
+#~ msgid ""
+#~ "Send your own question to the property. The property usually replies "
+#~ "within a few days"
+#~ msgstr ""
+#~ "Στείλτε τη δική σας ερώτηση στο κατάλυμα. Το κατάλυμα συνήθως απαντά μέσα "
+#~ "σε λίγες ημέρες"
+
+#~ msgid "Send us your request, you will be contacted as soon as possible"
+#~ msgstr ""
+#~ "Στείλτε μας το αίτημά σας, θα επικοινωνήσουμε μαζί σας το συντομότερο "
+#~ "δυνατό"
+
+#~ msgid "Fields marked with * (asterisk) are required"
+#~ msgstr "Τα πεδία που σημειώνονται με * (αστερίσκος) είναι υποχρεωτικά"
+
+#~ msgid "Cap"
+#~ msgstr "Τκ"
+
+#~ msgid "I consent to the management of the request"
+#~ msgstr "Συναινώ στη διαχείριση του αιτήματος"
+
+#~ msgid "Send your request"
+#~ msgstr " Επεξεργαζόμαστε το αίτημα σας"
+
+#~ msgid "Ask a question"
+#~ msgstr "Ρωτήστε μας"
+
+#~ msgid "Sign in"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "Welcome to"
+#~ msgstr "Καλωσήρθατε στο"
+
+#~ msgid ""
+#~ "The holiday of your dreams will start as soon as you start thinking about "
+#~ "it! Log in and put together the ideal blend of accommodation, events and "
+#~ "experiences for your holiday."
+#~ msgstr ""
+#~ "Οι διακοπές των ονείρων σας θα ξεκινήσουν μόλις αρχίσετε να το σκέφτεστε! "
+#~ "Συνδεθείτε και φτιάξτε το ιδανικό μείγμα καταλυμάτων, εκδηλώσεων και "
+#~ "εμπειριών για τις διακοπές σας."
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email"
+
+#~ msgid ""
+#~ "An email was sent to {0}. Please check your email box and type the "
+#~ "authentication code you have received."
+#~ msgstr ""
+#~ "Ένα μήνυμα ηλεκτρονικού ταχυδρομείου στάλθηκε σε {0}. Επιλέξτε το πλαίσιο "
+#~ "ηλεκτρονικού ταχυδρομείου και πληκτρολογήστε τον κωδικό ελέγχου "
+#~ "ταυτότητας που έχετε λάβει."
+
+#~ msgid "Two-factor secure authentication"
+#~ msgstr "Ασφαλής έλεγχος ταυτότητας δύο παραγόντων"
+
+#~ msgid "Lost password"
+#~ msgstr "Χαμένος κωδικός"
+
+#~ msgid "Login"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "Confirm"
+#~ msgstr "Επιβεβαίωση"
+
+#~ msgid "Register"
+#~ msgstr "Εγγραφή"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Ξεχάσατε τον κωδικό"
+
+#~ msgid ""
+#~ "If you are having difficulty logging in, you can reset your password by "
+#~ "typing the Email Address that you used while registration. You will "
+#~ "receive an email with a new password."
+#~ msgstr ""
+#~ "Εάν δυσκολεύεστε να συνδεθείτε, μπορείτε να επαναφέρετε τον κωδικό "
+#~ "πρόσβασής σας πληκτρολογώντας τη διεύθυνση ηλεκτρονικού ταχυδρομείου που "
+#~ "χρησιμοποιήσατε κατά την εγγραφή. Θα λάβετε ένα μήνυμα ηλεκτρονικού "
+#~ "ταχυδρομείου με νέο κωδικό πρόσβασης."
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Your account"
+#~ msgstr "Ο λογαριασμός σας"
+
+#~ msgid "Welcome"
+#~ msgstr "Καλώς ήρθατε"
+
+#~ msgid "Your home page"
+#~ msgstr "Οι διακοπές σας"
+
+#~ msgid "Your details"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "Your lists"
+#~ msgstr "Τη διεύθυνσή σας"
+
+#~ msgid "Your bookings"
+#~ msgstr "Κράτηση"
+
+#~ msgid "Your payments"
+#~ msgstr "Άλλες πληρωμές"
+
+#~ msgid "Your reviews"
+#~ msgstr "Οι κριτικές σας"
+
+#~ msgid "Logout"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Open"
+#~ msgstr "Ανοιχτό"
+
+#~ msgid "Other Details"
+#~ msgstr "Αλλες Λεπτομέρειες"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to the dates and the "
+#~ "number of people."
+#~ msgstr ""
+#~ "Οι πολιτικές ακύρωσης και προπληρωμής διαφέρουν ανάλογα με τις "
+#~ "ημερομηνίες και τον αριθμό των ατόμων."
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">conditions</a> may apply to each option when making your selection."
+#~ msgstr ""
+#~ "Οι πολιτικές ακύρωσης και προπληρωμής διαφέρουν ανάλογα με τον τύπο του "
+#~ "καταλύματος. Ελέγξτε <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">ποιες προϋποθέσεις</a> μπορεί να ισχύουν για κάθε επιλογή κατά την "
+#~ "πραγματοποίηση της επιλογής σας."
+
+#~ msgid "Show phone"
+#~ msgstr "Εμφάνιση τηλεφώνου"
+
+#~ msgid "Web site"
+#~ msgstr "Τοποθεσία Web"
+
+#~ msgid "Proposals"
+#~ msgstr "Προσφορές"
+
+#~ msgid "Offers"
+#~ msgstr "Προσφορές"
+
+#~ msgid "Bed room"
+#~ msgstr "Υπνοδωμάτια"
+
+#~ msgid "Change the search details"
+#~ msgstr "Στοιχεία πιστωτικής κάρτας"
+
+#~ msgid "Check-out "
+#~ msgstr "Check out "
+
+#~ msgid "Age of children"
+#~ msgstr "Ηλικία των παιδιών"
+
+#~ msgid "on"
+#~ msgstr "ανοιχτό"
+
+#~ msgid "Check availability"
+#~ msgstr "Έλεγχος διαθεσιμότητας"
+
+#, php-format
+#~ msgid "Group price for %s nights:"
+#~ msgstr "Τιμή για το %d νύχτες"
+
+#~ msgid "No results available for the submitted data"
+#~ msgstr ""
+#~ "Δεν υπάρχουν αποτελέσματα που είναι διαθέσιμες για τα υποβληθέντα δεδομένα"
+
+#~ msgid "City tax per person per night."
+#~ msgstr "Δημοτικός φόρος ανά άτομο ανά διανυκτέρευση."
+
+#~ msgid "Fits"
+#~ msgstr "Ταιριάζει"
+
+#, php-format
+#~ msgid "Max %s person"
+#~ msgstr "Μέγιστο %s άτομο"
+
+#, php-format
+#~ msgid " %d week/s"
+#~ msgstr " %d εβδομάδα/s"
+
+#~ msgid "No prepayment is needed."
+#~ msgstr "Δεν απαιτείται προπληρωμή."
+
+#~ msgid "You will be charged a prepayment of the total price at any time."
+#~ msgstr "Θα χρεωθείτε με προκαταβολή της συνολικής τιμής ανά πάσα στιγμή."
+
+#, php-format
+#~ msgid ""
+#~ "You will be charged a prepayment of %1$s of the total price at any time."
+#~ msgstr ""
+#~ "Θα χρεωθείτε με προκαταβολή %1$s της συνολικής τιμής ανά πάσα στιγμή."
+
+#, php-format
+#~ msgid "You will be charged a prepayment of %1$s at any time."
+#~ msgstr "Θα χρεωθείτε με προκαταβολή %1$s ανά πάσα στιγμή."
+
+#~ msgid "Confirm your reservation"
+#~ msgstr "Επιβεβαιώστε την κράτησή σας"
+
+#~ msgid "selected items"
+#~ msgstr "επιλεγμένα στοιχεία"
+
+#~ msgid "Request Now"
+#~ msgstr "Αίτηση για πληροφορίες"
+
+#~ msgid "Choose your bed (if available)"
+#~ msgstr "Επιλέξτε το κρεβάτι σας (εάν υπάρχει)"
+
+#~ msgid "View other proposals"
+#~ msgstr "Προβολή άλλων προτάσεων"
+
+#~ msgid "Do you want add more?"
+#~ msgstr "Θέλετε να προσθέσετε περισσότερα;"
+
+#~ msgid "selected services"
+#~ msgstr "επιλεγμένες υπηρεσίες"
+
+#~ msgid "Please, select a day"
+#~ msgstr "Παρακαλούμε, επιλέξτε μια μέρα"
+
+#~ msgid "Add to cart"
+#~ msgstr "Προσθήκη στο καλάθι"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Συνεχίστε τις αγορές"
+
+#~ msgid "Checkout"
+#~ msgstr "Ταμείο"
+
+#~ msgid "Change search"
+#~ msgstr "Αλλαγή δεδομένων"
+
+#~ msgid "Adults "
+#~ msgstr "Ενήλικες "
+
+#~ msgid "Seniors "
+#~ msgstr "Seniors "
+
+#~ msgid "Ages of children"
+#~ msgstr "Ηλικίες των παιδιών"
+
+#, php-format
+#~ msgid ""
+#~ "We preset your children's ages to %s years old - but if you enter their "
+#~ "actual ages, you might be able to find a better price."
+#~ msgstr ""
+#~ "Προκαθορίουμε τις ηλικίες των παιδιών σας σε %s ετών - αλλά αν εισάγετε "
+#~ "τις πραγματικές ηλικίες τους, ίσως μπορέσετε να βρείτε μια καλύτερη τιμή."
+
+#~ msgid "Check availability at other merchants"
+#~ msgstr "Ελέγξτε τη διαθεσιμότητα σε άλλους εμπόρους"
+
+#~ msgid "We found availability at other merchants"
+#~ msgstr "Βρήκαμε διαθεσιμότητα σε άλλους εμπόρους"
+
+#, php-format
+#~ msgid "Persons min:%1$d max:%2$d"
+#~ msgstr "Πρόσωπα min: %1$d max: %2$d"
+
+#, php-format
+#~ msgid "Other %1$d choice"
+#~ msgstr "Άλλη επιλογή %1$d"
+
+#~ msgid "Find other great offers!"
+#~ msgstr "Βρείτε άλλες μεγάλες προσφορές!"
+
+#~ msgid "In case of no-show, you will be charged all."
+#~ msgstr "Σε περίπτωση μη εμφάνισης, θα χρεωθείτε όλοι."
+
+#~ msgid "person"
+#~ msgstr "άτομο"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "next step"
+#~ msgstr "επόμενο βήμα"
+
+#~ msgid "Pick-up"
+#~ msgstr "Pick-up"
+
+#~ msgid "Drop-off"
+#~ msgstr "Drop-off"
+
+#~ msgid ""
+#~ "To see availablility and prices please enter your check-in and check-out "
+#~ "dates."
+#~ msgstr ""
+#~ "Για να δείτε την διαθεσιμότητα και τις τιμές, παρακαλείστε να εισαγάγετε "
+#~ "τις ημερομηνίες check-in και check-out."
+
+#~ msgid "Show prices"
+#~ msgstr "Εμφάνιση περισσοτέρων"
+
+#, php-format
+#~ msgid "You may also be interested in the following proposals of \"%s\""
+#~ msgstr "Μπορεί επίσης να σας ενδιαφέρουν οι ακόλουθες προτάσεις του \"%s\""
+
+#~ msgid "We found availability for other dates"
+#~ msgstr "Βρήκαμε διαθεσιμότητα για άλλες ημερομηνίες"
+
+#~ msgid "The price varies according to the dates and the number of people"
+#~ msgstr ""
+#~ "Η τιμή ποικίλλει ανάλογα με τις ημερομηνίες και τον αριθμό των ατόμων"
+
+#~ msgid "Person"
+#~ msgstr "Άτομο"
+
+#~ msgid "Select a period"
+#~ msgstr "Επιλογή τελείας"
+
+#~ msgid "One day"
+#~ msgstr "Μια μέρα"
+
+#~ msgid "More day"
+#~ msgstr "Περισσότερα ημέρα"
+
+#~ msgid "Pay at the property  NO PREPAYMENT NEEDED"
+#~ msgstr "Πληρωμή στο ακίνητο ΔΕΝ ΑΠΑΙΤΕΊΤΑΙ προπληρωμή"
+
+#~ msgid "night"
+#~ msgstr "νύχτα"
+
+#~ msgid "Change"
+#~ msgstr "Αλλαγή"
+
+#~ msgid "Vacation summary"
+#~ msgstr "Σύνοψη διακοπών"
+
+#~ msgid "Confirm choice"
+#~ msgstr "Επιβεβαίωση επιλογής"
+
+#~ msgid "Base Price"
+#~ msgstr "Τιμή βάσης"
+
+#, fuzzy
+#~| msgid "Change search"
+#~ msgid "Update search"
+#~ msgstr "Αλλαγή δεδομένων"
+
+#~ msgid "{0} nights"
+#~ msgstr "{0} νύχτες"
+
+#~ msgid "{0} night"
+#~ msgstr "{0} νύχτα"
+
+#~ msgid "Seniors"
+#~ msgstr "Ηλικιωμένους"
+
+#~ msgid "Extra"
+#~ msgstr "Επιπλέον"
+
+#~ msgid "resources"
+#~ msgstr "pori"
+
+#~ msgid "Distance umbrellas"
+#~ msgstr "Ομπρέλες απόστασης"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "All"
+#~ msgstr "Όλα "
+
+#~ msgid "Search experiences and areas..."
+#~ msgstr "Αναζήτηση εμπειριών και περιοχών..."
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "You have a coupon/discount code"
+#~ msgstr "Έχετε κωδικό κουπονιού/έκπτωσης"
+
+#~ msgid "Coupon/discount code"
+#~ msgstr "Κωδικός κουπονιού/έκπτωσης"
+
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgid "Search packagess and areas..."
+#~ msgstr "Αναζήτηση πακέτων και περιοχών..."
+
+#~ msgid "Return to the same location"
+#~ msgstr "Επιστροφή στην ίδια τοποθεσία"
+
+#~ msgid "Drop off in another location"
+#~ msgstr "Θέση παράδοσης"
+
+#~ msgid "Pick-up location"
+#~ msgstr "Τοποθεσία παραλαβής"
+
+#~ msgid "Drop-off location"
+#~ msgstr "Θέση παράδοσης"
+
+#~ msgid "Draw area"
+#~ msgstr "Επιστήσω την περιοχή"
+
+#~ msgid "Circle"
+#~ msgstr "Κύκλος"
+
+#~ msgid "Reset"
+#~ msgstr "Επαναφορά"
+
+#~ msgid "Click on map and choose your area."
+#~ msgstr "Κάντε κλικ στο χάρτη και επιλέξτε την περιοχή σας."
+
+#~ msgid "Find availability"
+#~ msgstr "Διαθεσιμότητα"
+
+#~ msgid "Search for accommodation or area"
+#~ msgstr "Δείτε όλα τα καταλύματα"
+
+#~ msgid "Check-in - Check-out"
+#~ msgstr "Check-In %1s Check Out %2s"
+
+#~ msgid "To"
+#~ msgstr "Προς"
+
+#~ msgid "Activities"
+#~ msgstr "Δραστηριότητες"
+
+#~ msgid "Others"
+#~ msgstr "Άλλα"
+
+#~ msgid "Any"
+#~ msgstr "Οποιαδήποτε"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ">3"
+#~ msgstr "> 3"
+
+#~ msgid "More days"
+#~ msgstr "Περισσότερα ημέρα"
+
+#~ msgid "Today"
+#~ msgstr "Σήμερα"
+
+#~ msgid "This Week"
+#~ msgstr "Αυτή την εβδομάδα"
+
+#~ msgid "This Month"
+#~ msgstr "Αυτόν το Μήνα"
+
+#~ msgid "Next Week"
+#~ msgstr "Επόμενη Εβδομάδα"
+
+#~ msgid "Next Month"
+#~ msgstr "Επόμενος Μήνας"
+
+#~ msgid "Search events"
+#~ msgstr "Συμβάντα αναζήτησης"
+
+#~ msgid "Please enter a integer number"
+#~ msgstr "Παρακαλώ εισάγετε ένα ακέραιο αριθμό"
+
+#~ msgid "Floor area m&sup2;"
+#~ msgstr "Ορόφου περιοχή m²"
+
+#~ msgid "Bedrooms"
+#~ msgstr "Υπνοδωμάτια"
+
+#~ msgid "Only new building"
+#~ msgstr "Μόνο νέο κτίριο"
+
+#~ msgid "Pound sterling"
+#~ msgstr "Λίρα στερλίνα"
+
+#~ msgid "Your private area"
+#~ msgstr "Το προφίλ σας"
+
+#~ msgctxt "Page slug"
+#~ msgid "packages"
+#~ msgstr "paketa"
+
+#~ msgid "all review"
+#~ msgstr "όλες οι κριτικές"
+
+#~ msgid "Zones"
+#~ msgstr "Ζώνες"
+
+#~ msgid "Category"
+#~ msgstr "Κατηγορία"
+
+#~ msgid "Points of interest"
+#~ msgstr "Σημεία ενδιαφέροντος"
+
+#~ msgid "Haven't found what you were looking for yet?"
+#~ msgstr "Δεν βρήκες ακόμα αυτό που έψαχνες;"
+
+#, fuzzy
+#~| msgid "Travel planner"
+#~ msgid "Travelers"
+#~ msgstr "Οργάνωση ταξιδιών"
+
+#~ msgid "Departure Time"
+#~ msgstr "Εύρος ημερομηνίας ώρας"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">conditions</a> may apply to each option when making your "
+#~ "selection."
+#~ msgstr ""
+#~ "Οι πολιτικές ακύρωσης και προπληρωμής διαφέρουν ανάλογα με τον τύπο του "
+#~ "καταλύματος. Ελέγξτε <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">ποιες προϋποθέσεις</a> μπορεί να ισχύουν για κάθε επιλογή κατά "
+#~ "την πραγματοποίηση της επιλογής σας."
+
+#~ msgid "Min age"
+#~ msgstr "Min paxes"
+
+#, fuzzy
+#~| msgid "comment"
+#~ msgid "We recommend"
+#~ msgstr "Συνιστούμε"
+
+#~ msgid "Request for Information"
+#~ msgstr "Αίτημα για πληροφορίες"
+
+#~ msgid "Good to know"
+#~ msgstr "Καλό είναι να γνωρίζετε"
+
+#, fuzzy
+#~ msgid "Riconsegna nella stessa località"
+#~ msgstr "Rionsegna nella stessa località"
+
+#, fuzzy
+#~ msgid "Riconsegna in un'altra località"
+#~ msgstr "Riconsegna in un'altra località"
+
+#, fuzzy
+#~ msgid "Un giorno"
+#~ msgstr "Un giorno"
+
+#, fuzzy
+#~ msgid "Più giorni"
+#~ msgstr "Πιού Γκιόρνι"
+
+#~ msgid "Error, please try again"
+#~ msgstr "Λάθος, παρακαλώ προσπαθήστε ξανά"
+
+#~ msgctxt "Page slug"
+#~ msgid "form"
+#~ msgstr "φόρμα"
+
+#~ msgctxt "Page title"
+#~ msgid "My Account"
+#~ msgstr "Ο λογαριασμός μου"
+
+#~ msgid "Multimerchant"
+#~ msgstr "Multimerchant"
+
+#~ msgid "Group by condominium"
+#~ msgstr "Ομάδα από συγκυριαρχία"
+
+#~ msgid "A Search box. (DISMISSED)"
+#~ msgstr "Ένα πλαίσιο αναζήτησης. (ΑΠΟΡΡΊΦΘΗΚΕ)"
+
+#~ msgid "BookingFor Search (DISMISSED)"
+#~ msgstr "BookingFor Αναζήτηση (ΑΠΟΡΡΊΦΘΗΚΕ)"
+
+#~ msgid "A Search on Sell box. (DISMISSED)"
+#~ msgstr "Μια αναζήτηση στο πλαίσιο πώλησης. (ΑΠΟΡΡΊΦΘΗΚΕ)"
+
+#~ msgid "BookingFor Search On Sell (DISMISSED)"
+#~ msgstr "BookingFor αναζήτηση για πώληση (ΑΠΟΡΡΊΦΘΗΚΕ)"
+
+#~ msgid "Subtotal"
+#~ msgstr "Μερικό σύνολο"
+
+#~ msgid "I accept personal data treatment"
+#~ msgstr "Δέχομαι την επεξεργασία δεδομένων προσωπικού χαρακτήρα"
+
+#~ msgid "I accept additional purposes"
+#~ msgstr "Δέχομαι επιπρόσθετους σκοπούς"
+
+#~ msgid "Cart Not enabled! "
+#~ msgstr "Το καλάθι δεν ενεργοποιηθεί! "
+
+#~ msgid "You need to be loggedin in order to access this page."
+#~ msgstr ""
+#~ "Θα πρέπει να είναι loggedin προκειμένου να αποκτήσετε πρόσβαση σε αυτήν "
+#~ "τη σελίδα."
+
+#~ msgid "Reservations"
+#~ msgstr "Κρατήσεις"
+
+#~ msgid "Social Network"
+#~ msgstr "Κοινωνικό δίκτυο"
+
+#~ msgid "Personal Informations"
+#~ msgstr "ΠΡΟΣΩΠΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ"
+
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "Give your social profiles"
+#~ msgstr "Δώστε προφίλ σας"
+
+#~ msgid ""
+#~ "Connect with your account via your social networks , one less password to "
+#~ "remember!"
+#~ msgstr ""
+#~ "Συνδεθείτε με το λογαριασμό σας μέσω των κοινωνικών δικτύων σας, να "
+#~ "θυμηθείτε έναν κωδικό πρόσβασης λιγότερο!"
+
+#~ msgid ""
+#~ "This information is used to automatically fill in your details and book "
+#~ "more quickly. We do not share it publicly."
+#~ msgstr ""
+#~ "Αυτές οι πληροφορίες χρησιμοποιούνται για να αυτόματα να συμπληρώσετε τα "
+#~ "στοιχεία σας και κάντε κράτηση πιο γρήγορα. Δεν συμμεριζόμαστε το δημόσια."
+
+#~ msgid "Date of birth"
+#~ msgstr "Ημερομηνία γέννησης"
+
+#~ msgid "Gender"
+#~ msgstr "Των δύο φύλων"
+
+#~ msgid "Male"
+#~ msgstr "Αρσενικό"
+
+#~ msgid "Female"
+#~ msgstr "Θηλυκό"
+
+#~ msgid "Zip Code"
+#~ msgstr "Ταχυδρομικός κώδικας"
+
+#~ msgid "State/Province"
+#~ msgstr "Πολιτεία/Επαρχία"
+
+#~ msgid "Cancel Booking"
+#~ msgstr "Ακύρωση κράτησης"
+
+#~ msgid "Booking Detail"
+#~ msgstr "Λεπτομέρειες κράτησης"
+
+#~ msgid ""
+#~ "You want to change your password? Click on the button below and we'll "
+#~ "send you an email with a link to reset it."
+#~ msgstr ""
+#~ "Θέλετε να αλλάξετε τον κωδικό πρόσβασής σας; Κάντε κλικ στο κουμπί "
+#~ "παρακάτω και θα σας στείλουμε ένα email με ένα σύνδεσμο για να τον "
+#~ "επαναφέρετε."
+
+#~ msgid "Change your password"
+#~ msgstr "Αλλαγή κωδικού πρόσβασης"
+
+#~ msgid ""
+#~ "Choose how often you want to receive offers and suggestions, do not miss "
+#~ "the best offers!"
+#~ msgstr ""
+#~ "Επιλέξτε πόσο συχνά θέλετε να λάβετε τις προσφορές και προτάσεις, μην "
+#~ "χάσετε τις καλύτερες προσφορές!"
+
+#~ msgid "Receive newsletter"
+#~ msgstr "Λάβετε το ενημερωτικό δελτίο"
+
+#~ msgid "I do not care"
+#~ msgstr "Δεν με νοιάζει"
+
+#~ msgid "Fetching Reservation Details"
+#~ msgstr "Θελκτικός στοιχεία κράτησης"
+
+#~ msgid " Years"
+#~ msgstr " Χρόνια"
+
+#~ msgid "adults"
+#~ msgstr "ενήλικες"
+
+#~ msgid "children"
+#~ msgstr "τα παιδιά"
+
+#~ msgid "You can't acquire resources from another merchant."
+#~ msgstr "Δεν μπορείτε να αποκτήσετε πόρους από άλλον έμπορο."
+
+#~ msgid "BFI Custom Merchants Links"
+#~ msgstr "BFI προσαρμοσμένη Merchants συνδέσεις"
+
+#~ msgctxt "Page slug"
+#~ msgid "orders"
+#~ msgstr "παραγγελίες"
+
+#~ msgid "Merchant list page"
+#~ msgstr "Σελίδα λίστα εμπόρων"
+
+#~ msgctxt "Admin menu name"
+#~ msgid "Merchant list"
+#~ msgstr "Λίστα Merchant"
+
+#~ msgid "Add Merchant list page"
+#~ msgstr "Προσθέστε σελίδα λίστα Merchant"
+
+#~ msgid "Add New Merchant list page"
+#~ msgstr "Προσθέστε νέο Merchant σελίδα λιστας"
+
+#~ msgid "Edit Merchant list page"
+#~ msgstr "Επεξεργαστείτε τη σελίδα λίστα Merchant"
+
+#~ msgid "New Merchant list page"
+#~ msgstr "Νέα σελίδα λίστα Merchant"
+
+#~ msgid "View Merchant list page"
+#~ msgstr "Προβολή Merchant σελίδα λιστας"
+
+#~ msgid "Search Merchant list page"
+#~ msgstr "Αναζήτηση Merchant σελίδα λιστας"
+
+#~ msgid "No Merchant list page found"
+#~ msgstr "Δεν βρέθηκε καμία σελίδα λίστα Merchant "
+
+#~ msgid "No Merchant list page found in trash"
+#~ msgstr "Καμία σελίδα λίστα Merchant βρέθηκε στα σκουπίδια"
+
+#~ msgid "Parent Merchant list page"
+#~ msgstr "Γονική Merchant λίστα σελίδας"
+
+#~ msgid "Insert into Merchant list page"
+#~ msgstr "Εισαγάγετε στη λίστα της σελίδας Merchant"
+
+#~ msgid "Uploaded to this Merchant list page"
+#~ msgstr "Ανέβηκε σε αυτή τη σελίδα λίστα Merchant"
+
+#~ msgid "Filter Merchant list pages"
+#~ msgstr "Φίλτρο Merchant σε σελίδα λίστας "
+
+#~ msgid "Merchant list pages navigation"
+#~ msgstr "Πλοήγηση σελίδων λίστας Merchant"
+
+#~ msgid "This is where you can add new Merchant list page."
+#~ msgstr "Αυτό είναι όπου μπορείτε να προσθέσετε νέα σελίδα λίστας Merchant."
+
+#~ msgid "behavior.calendar"
+#~ msgstr "Behavior.Calendar"
+
+#~ msgid "behavior.tooltip"
+#~ msgstr "Behavior.tooltip"
+
+#~ msgid "date"
+#~ msgstr "ημερομηνία"
+
+#~ msgid "JLIB_HTML_CALENDAR"
+#~ msgstr "JLIB_HTML_CALENDAR"
+
+#~ msgid "image"
+#~ msgstr "εικόνα"
+
+#~ msgid "Autentication Mode"
+#~ msgstr " Autentication Mode"
+
+#~ msgid "Merchant category filter"
+#~ msgstr "Φίλτρο κατηγορίας Merchant"
+
+#~ msgid "Merchant Rating filter"
+#~ msgstr "Merchant φίλτρο χαρακτηρισμού"
+
+#~ msgid "Cities"
+#~ msgstr "Πόλεις"
+
+#~ msgid "There was some issue posting your review. Please try back later."
+#~ msgstr ""
+#~ "Υπήρχε κάποιο θέμα απόσπαση κριτική σας. Παρακαλούμε δοκιμάστε ξανά "
+#~ "αργότερα."
+
+#~ msgid "Your review was succesfully posted."
+#~ msgstr "Κριτική σας ήταν καταχωρήθηκε επιτυχώς."
+
+#~ msgid "index.php?view=payment&actionmode=activa&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=Activa&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=setefi&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=setefi&payedOrderId="
+
+#~ msgid "Provincia"
+#~ msgstr "Επαρχία "
+
+#~ msgid "Personal data's treatment policy"
+#~ msgstr "Πολιτική προσωπικών δεδομένων της θεραπείας"
+
+#~ msgid "I agree to the personal data's treatment policy"
+#~ msgstr "Συμφωνώ για τα προσωπικά δεδομένα του πολιτική αγωγή"
+
+#~ msgid "Order"
+#~ msgstr "Παραγγελία"
+
+#~ msgid "Sort By:"
+#~ msgstr "Ταξινόμηση κατά:"
+
+#~ msgid "Treatment"
+#~ msgstr "Θεραπεία"
+
+#~ msgid "%s Results  found from %s for %s nigth(s)"
+#~ msgstr "%s αποτελέσματα βρέθηκαν από %s για %s nigth(s)"
+
+#~ msgid "SHOW ALL"
+#~ msgstr "ΕΜΦΆΝΙΣΗ ΌΛΩΝ"
+
+#~ msgid "Facility contacts data"
+#~ msgstr "Εγκατάσταση δεδομένων Επαφών"
+
+#~ msgid "Average"
+#~ msgstr "Κατά μέσο όρο"
+
+#~ msgid "Score filter"
+#~ msgstr "Βαθμολογία φίλτρο"
+
+#~ msgid "Review"
+#~ msgstr "Αναθεώρηση"
+
+#~ msgid "Period Stay"
+#~ msgstr "Περίοδος διαμονής"
+
+#~ msgid "+ Details"
+#~ msgstr "+ Καταχώρηση"
+
+#~ msgid "- Details"
+#~ msgstr "-Λεπτομέρειες"
+
+#~ msgid "View Services"
+#~ msgstr "Προβολή υπηρεσιών"
+
+#~ msgid "Read More"
+#~ msgstr "Διαβάστε περισσότερα"
+
+#~ msgid "Read Less"
+#~ msgstr "Διαβάστε λιγότερα"
+
+#~ msgid "%s available holiday packages"
+#~ msgstr "%s διαθέσιμα: Πακέτα διακοπών"
+
+#~ msgid "I agree to the personal datas treatment policy:"
+#~ msgstr "Συμφωνώ με την πολιτική αγωγή προσωπική datas:"
+
+#~ msgid "Privacy policy"
+#~ msgstr "Πολιτική προστασίας προσωπικών δεδομένων"
+
+#~ msgid "I accept"
+#~ msgstr "Αποδέχομαι"
+
+#~ msgid "send"
+#~ msgstr "Αποστολή"
+
+#~ msgid "Calculate"
+#~ msgstr "Υπολογισμός"
+
+#~ msgid "Children Ages"
+#~ msgstr "Ηλικίες παιδιών"
+
+#~ msgid "Accommodation"
+#~ msgstr "Διαμονή"
+
+#~ msgid "Reservation"
+#~ msgstr "Κράτηση"
+
+#~ msgid "We are processing your request"
+#~ msgstr "Επεξεργαζόμαστε το αίτημά σας"
+
+#~ msgid "Please be patient"
+#~ msgstr "Παρακαλώ να είστε υπομονετικοί"
+
+#~ msgid "External order ID"
+#~ msgstr "Εξωτερικές Παραγγελίες ID"
+
+#~ msgid "Correct format: dd/mm/yyyy"
+#~ msgstr "Σωστή μορφή: dd/mm/yyyy"
+
+#~ msgid "Booking reference"
+#~ msgstr "Κωδικός κράτησης"
+
+#~ msgid "Check-in must be great than Check-out"
+#~ msgstr "Check-in θα πρέπει να είναι μεγάλη από το Check-out"
+
+#~ msgid "Rejected order"
+#~ msgstr "Απορριφθείσα διαταγή"
+
+#~ msgid "Period"
+#~ msgstr "Περίοδος"
+
+#~ msgid "Web Check-in"
+#~ msgstr "Web Check-in"
+
+#~ msgid "&euro; %d"
+#~ msgstr "&euro; %d"
+
+#~ msgid "Deposit total"
+#~ msgstr "Σύνολο καταθέσεων"
+
+#~ msgid "Order sent to bank"
+#~ msgstr "Παραγγελία αποσταλεί στην Τράπεζα"
+
+#~ msgid "Pay"
+#~ msgstr "Πληρώσει"
+
+#~ msgid "Waiting to confirm"
+#~ msgstr "Αναμονή για επιβεβαίωση"
+
+#~ msgid "Payment attempt was not successful. Try again"
+#~ msgstr "Πληρωμή απόπειρα δεν ήταν επιτυχής. Δοκίμασε ξανά"
+
+#~ msgid "Payed order"
+#~ msgstr "Πλήρωσα παραγγελίας"
+
+#~ msgid "Order by credit card guarantee"
+#~ msgstr "Παραγγείλετε από πιστωτική κάρτα ως εγγύηση"
+
+#~ msgid ""
+#~ "%1s will not charge anything to your credit card. Your credit card "
+#~ "details are only requested in order to guarantee your booking."
+#~ msgstr ""
+#~ "%1s δεν θα χρεώσουμε τίποτα στην πιστωτική σας κάρτα. Τα στοιχεία της "
+#~ "πιστωτικής κάρτας σας ζητείται μόνο για εγγύηση της κράτησής σας."
+
+#~ msgid "Amount"
+#~ msgstr "Ποσό"
+
+#~ msgid "Payment refused"
+#~ msgstr "Άρνηση πληρωμής"
+
+#~ msgid "It 'requires a further amount for payments"
+#~ msgstr "Το «απαιτεί ένα περαιτέρω ποσό για πληρωμές"
+
+#~ msgid ""
+#~ "Please insert a correct amount, it should be this format: xxx.xx (please "
+#~ "use dot for deciaml prices)"
+#~ msgstr ""
+#~ "Παρακαλώ εισάγετε μια σωστή ποσότητα, θα πρέπει να είναι σε αυτήν τη "
+#~ "μορφή: xxx.xx (παρακαλούμε χρησιμοποιήστε τελεία για τις deciaml τιμές)"
+
+#~ msgid "Thank you: payment process successfully completed"
+#~ msgstr "Σας ευχαριστώ: ολοκληρώθηκε με επιτυχία η διαδικασία πληρωμής"
+
+#~ msgid "Print"
+#~ msgstr "Εκτύπωση"
+
+#~ msgid "Payment process not successfully completed"
+#~ msgstr "Διαδικασία πληρωμής δεν με επιτυχία ολοκληρώθηκε"
+
+#~ msgid "Payment process not successfully completed and has been deleted"
+#~ msgstr "Διαδικασία πληρωμής δεν με επιτυχία ολοκληρώθηκε και έχει διαγραφεί"
+
+#~ msgid ""
+#~ "Some problems occured durint payment process, please contact merchant if "
+#~ "you are sure that your payment process completed"
+#~ msgstr ""
+#~ "Παρουσιάστηκαν κάποια προβλήματα διαδικασία πληρωμής κατά το χρονικό, "
+#~ "παρακαλούμε επικοινωνήστε με έμπορο, εάν είστε βέβαιοι ότι ολοκληρώθηκε η "
+#~ "διαδικασία της πληρωμής σας"
+
+#~ msgid "Error inserting data"
+#~ msgstr "Σφάλμα κατά την εισαγωγή δεδομένων"
+
+#~ msgid "Order doesn't exist"
+#~ msgstr "Δεν υπάρχει σειρά"
+
+#~ msgid "Deposit does not exist"
+#~ msgstr "Κατάθεση δεν υπάρχει"
+
+#~ msgid "index.php?view=payment&actionmode=error&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=Error&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=activaServer&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=activaServer&payedOrderId="
+
+#~ msgid "index.php?view=orders"
+#~ msgstr "index.php?View=Orders"
+
+#~ msgid "index.php?view=payment&actionmode=bnlpositivity&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=bnlpositivity&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=keyclient&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=keyclient&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=keyclient2014&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=keyclient2014&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=pagoonline&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=pagoonline&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=pagoonline&payedOrderId=donation"
+#~ msgstr "index.php?View=Payment&actionmode=pagoonline&payedOrderId=donation"
+
+#~ msgid "index.php?view=payment&actionmode=errordonation"
+#~ msgstr "index.php?View=Payment&actionmode=errordonation"
+
+#~ msgid "index.php?view=payment&actionmode=errordonation&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=errordonation&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=setefiServer&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=setefiServer&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=virtualpay&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=virtualpay&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=virtualpay&payedOrderId=donation"
+#~ msgstr "index.php?View=Payment&actionmode=virtualpay&payedOrderId=donation"
+
+#~ msgid "index.php?view=payment&actionmode=wspayform&payedOrderId="
+#~ msgstr "index.php?View=Payment&actionmode=wspayform&payedOrderId="
+
+#~ msgid "Total deposit : €"
+#~ msgstr "Σύνολο καταθέσεων: €"
+
+#~ msgid "I agree to conditions"
+#~ msgstr "Συμφωνώ με προϋποθέσεις"
+
+#~ msgid "I agree"
+#~ msgstr "Συμφωνώ"
+
+#~ msgid "Almost done"
+#~ msgstr "Σχεδόν τελείωσε "
+
+#~ msgid "Alternative accommodations"
+#~ msgstr "Εναλλακτικών καταλύματα"
+
+#~ msgid "Accomodation"
+#~ msgstr "Διαμονή"
+
+#~ msgid "On Sell Houses"
+#~ msgstr "Για πώληση σπίτια"
+
+#~ msgid "Holiday Packages"
+#~ msgstr "Πακέτα διακοπών"
+
+#~ msgid "Destination, property name or address"
+#~ msgstr "Προορισμού, όνομα ιδιότητας ή διεύθυνση"
+
+#~ msgid "Enter a destination"
+#~ msgstr "Εισάγετε έναν προορισμό"
+
+#~ msgid "Ratings"
+#~ msgstr "Αξιολογήσεις"
+
+#~ msgid "Quality"
+#~ msgstr "Ποιότητα"
+
+#~ msgid "or more bedrooms"
+#~ msgstr "ή περισσότερα υπνοδωμάτια"
+
+#~ msgid "Club Hotel"
+#~ msgstr "Club Hotel"
+
+#~ msgid "Merchant's facility"
+#~ msgstr "Εγκατάσταση εμπόρου"
+
+#~ msgid "Find your property"
+#~ msgstr "Βρείτε την ιδιοκτησία σας"
+
+#~ msgid "Please select"
+#~ msgstr "Παρακαλώ επιλέξτε"
+
+#~ msgid "Submit"
+#~ msgstr "Υποβάλουν"

@@ -1,0 +1,3824 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 16:21+0200\n"
+"PO-Revision-Date: 2022-10-13 16:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+"Dies ist ein Demo-Shop für Testzwecke. &mdash; Es werden keine Aufträge "
+"ausgeführt."
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr "verfugbarkeitssuche"
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr "Verfügbarkeit suchen"
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr "kartensuche"
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr "Kartensuche"
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr "ereignissuche"
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr "Events suchen"
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr "verkaufliche-immobilien"
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr "Verkäufliche Immobilien suchen"
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr "veranstaltungsdetails"
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr "Veranstaltungsdetails"
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr "sonderziele-details"
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr "Sonderziele Details"
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr "handlerdaten"
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr "Händlerdaten"
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr "ressourcengruppendetails"
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr "Ressourcengruppendetails"
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr "details-der-unterkunft"
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr "Details zur Unterkunft"
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr "details-erleben"
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr "Details erleben"
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr "verkaufsdetails"
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr "Verkaufsdetails"
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr "zahlung"
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr "Zahlungsdetails"
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr "warenkorbdaten"
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr "Warenkorbdaten"
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr "suchpakete"
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr "Pakete suchen"
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr "pakete-details"
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr "Details zu den Paketen"
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr "kontaktanfrage"
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr "Kontaktanfrage"
+
+#: includes/class-bfi-query.php:86
+msgid "Event details"
+msgstr "Veranstaltungsdetails"
+
+#: includes/class-bfi-query.php:89
+msgid "PointsOfInterest details"
+msgstr "Sonderziele Details"
+
+#: includes/class-bfi-query.php:92
+msgid "Merchant details"
+msgstr "Haendler details"
+
+#: includes/class-bfi-query.php:95
+msgid "Resourcegroup Details"
+msgstr "Ressourcengruppendetails"
+
+#: includes/class-bfi-query.php:98
+msgid "Accomodation details"
+msgstr "Unterkunft details"
+
+#: includes/class-bfi-query.php:101
+msgid "Experience details"
+msgstr "Details erleben"
+
+#: includes/class-bfi-query.php:104
+msgid "Order payment"
+msgstr "Auftragszahlung"
+
+#: includes/class-bfi-query.php:107
+msgid "On Sell details"
+msgstr "Immobilie details"
+
+#: includes/class-bfi-query.php:110
+msgid "Cart details"
+msgstr "Warenkorbdetails"
+
+#: includes/class-bfi-query.php:113
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "cartdetails"
+msgid "Packages details"
+msgstr "warenkorbdaten"
+
+#: includes/class-bfi-query.php:116
+msgid "Generic Request"
+msgstr "Kontaktanfrage"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+msgid "BookingFor Permalinks"
+msgstr "BookingFor-Permalinks"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+msgid "BookingFor search result page"
+msgstr "BookingFor-Suchergebnisseite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+msgid "BookingFor Merchant details page"
+msgstr "BookingFor-Händlerdatenseite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+msgid "BookingFor Accommodation details page"
+msgstr "BookingFor-Detailseite der Unterkunft"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+msgid "BookingFor On Sell details page"
+msgstr "BookingFor Verkaufsdetailseite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+msgid "BookingFor Cart Details page"
+msgstr "BookingFor-Warenkorbseite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+#, fuzzy
+#| msgid "BookingFor search result page"
+msgid "BookingFor Generic Request page"
+msgstr "BookingFor-Suchergebnisseite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+msgid "BookingFor Event Details page"
+msgstr "BookingFor Event Details Seite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+msgid "BookingFor PointsOfInterest Details page"
+msgstr "BookingFor Points of Interest Details Seite"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr "suche-verfugbarkeit"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr "ereignissuche"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr "handlerdaten"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr "warenkorbdaten"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr "kontaktanfrage"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr "unterkunftdetails"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr "verkaufsdetails"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr "veranstaltungsdetails"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr "details-zu-sonderzielen"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr ""
+"Diese Einstellungen steuern die Permalinks, die speziell für BookingFor "
+"verwendet werden."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr "verfugbarkeitssuche"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr "Standard"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr "Verfügbarkeitsbasis suchen"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr "Benutzerdefinierte Basis"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"Geben Sie eine zu verwendende benutzerdefinierte Basis ein. Eine Basis "
+"<strong> muss </strong> festgelegt werden oder WordPress wird stattdessen "
+"den Standard verwenden."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr "verfugbarkeitssuche"
+
+#: includes/admin/class-bfi-admin.php:303
+msgid "Cache are cleaned"
+msgstr "Cache werden gereinigt"
+
+#: includes/admin/class-bfi-admin.php:664
+msgid "8h"
+msgstr "8 Std."
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+msgid "24h"
+msgstr "24H"
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+#, fuzzy
+msgid "2gg"
+msgstr "2gg"
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+#, fuzzy
+msgid "7gg"
+msgstr "7gg"
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+#, fuzzy
+msgid "20gg"
+msgstr "20gg"
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+#, fuzzy
+msgid "30gg"
+msgstr "30gg"
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr "Euro"
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+msgid "Kune"
+msgstr "Kune"
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+msgid "U.S. dollar"
+msgstr "US-Dollar"
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr "Japanischer Yen"
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr "Kanadischer Dollar"
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr "Australischer Dollar"
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr "Russischer Rubel"
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr "Tschechische Krone"
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr "Singapur-Dollar"
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+msgid "Pound sterling "
+msgstr "Pfund Sterling "
+
+#: includes/admin/class-bfi-admin.php:1167
+#, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+"Wenn Sie möchten <strong> BookingFor </strong> hinterlassen Sie uns bitte "
+"eine %s&#9733;&#9733;&#9733;&#9733;&#9733;%s Rating. Ein riesiges Dankeschön "
+"von Bookingfor im Voraus!"
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr "Danke"
+
+#: includes/admin/class-bfi-admin.php:1175
+msgid "Thank you for selling with BookingFor."
+msgstr "Vielen Dank, dass Sie mit BookingFor verkaufen."
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+msgid "There are untranslated pages in "
+msgstr "Es gibt nicht übersetzte Seiten in"
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+msgid "Create missing pages"
+msgstr "Erstellen Sie fehlende Seiten"
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+msgid "All fine!"
+msgstr "Alles gut!"
+
+#: includes/admin/views/html-admin-settings.php:260
+msgid "Delete Cached Data"
+msgstr "Löschen Sie zwischengespeicherte Daten"
+
+#: includes/admin/views/html-admin-settings.php:261
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr ""
+"Die zwischengespeicherten Daten werden in Dateien auf Ihrem Server "
+"gespeichert. Wenn Sie sie löschen müssen, verwenden Sie die Schaltfläche "
+"unten."
+
+#: includes/admin/views/html-admin-settings.php:266
+msgid "Delete Cache"
+msgstr "Cache löschen"
+
+#: includes/admin/views/html-admin-settings.php:274
+#, fuzzy
+#| msgid "Delete Cache"
+msgid "Delete Cache for Bot"
+msgstr "Cache löschen"
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:24
+msgid "Display the user's Cart link in the sidebar."
+msgstr "Warenkorb-Link des Benutzers in der Seitenleiste angezeigen."
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:26
+msgid "BookingFor Cart"
+msgstr "BookingFor-Warenkorb"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:31
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-login.php:31
+#: includes/widgets/class-bfi-widget-booking-login.php:70
+#: includes/widgets/class-bfi-widget-booking-reviews.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-filters.php:31
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-rental.php:32
+#: includes/widgets/class-bfi-widget-search-rental.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+#: includes/widgets/class-bfi-widget-smallmap.php:31
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:24
+msgid "Display the user's currency switcher in the sidebar."
+msgstr "Währungswechsler des Benutzers in der Seitenleiste anzeigen."
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:26
+msgid "BookingFor currency switcher"
+msgstr "BookingFor Währungswechsler"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#, fuzzy
+msgid "Display the link for  login, cart and change currency."
+msgstr "Zeigen Sie den Link für Login, Warenkorb und Währung ändern."
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+#, fuzzy
+msgid "BookingFor Header Link"
+msgstr "BookingFor Header Link"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+msgid "Show currency selector"
+msgstr "Währungsauswahl anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+#, fuzzy
+msgid "Show link to cart"
+msgstr "Link zum Warenkorb anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+#, fuzzy
+msgid "Show login as popup"
+msgstr "Login als Popup anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+#, fuzzy
+msgid "Show link to Travel planner"
+msgstr "Link zum Reiseplaner anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:24
+#, fuzzy
+msgid "Display the Login form in the sidebar."
+msgstr "Zeigen Sie das Anmeldeformular in der Seitenleiste an."
+
+#: includes/widgets/class-bfi-widget-booking-login.php:26
+#, fuzzy
+msgid "BookingFor Login"
+msgstr "BookingFor Login"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:74
+#, fuzzy
+msgid "Show like a popup"
+msgstr "Show wie ein Popup"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:24
+#, fuzzy
+msgid "Display the user's Review in the sidebar."
+msgstr "Zeigen Sie die Bewertung des Benutzers in der Seitenleiste an."
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:26
+#, fuzzy
+msgid "BookingFor Reviews"
+msgstr "BookingFor Bewertungen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr "Ein Suchfeld für Mehrfachhändler, Monohändler und Weiterverkauf."
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Tab"
+msgstr "BookingFor Suche"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+#, fuzzy
+msgid "Search 1 (default:Booking)"
+msgstr "Suche 1 (Standard:Buchung)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+#, fuzzy
+msgid "Search 2 (default:Services)"
+msgstr "Suche 2 (Standard:Dienste)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+#, fuzzy
+msgid "Search 3 (default:Activities)"
+msgstr "Suche 3 (Standard:Aktivitäten)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+#, fuzzy
+msgid "Search 4 (default:Others)"
+msgstr "Suche 4 (Standard:Andere)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+msgid "Real Estate"
+msgstr "Immobilien Verkauf"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr "Veranstaltungen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "Search Map Sells"
+msgid "Search MapSells"
+msgstr "kartensuche"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+msgid "Nights"
+msgstr "Nächte"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+msgid "Days"
+msgstr "Tage"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-rental.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+msgid "Unit of times"
+msgstr "Zeiteinheiten"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+msgid "Time slot"
+msgstr "Zeitfenster"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-rental.php:72
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr "Ressource"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-rental.php:73
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+msgid "Merchant"
+msgstr "Händler"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-rental.php:74
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+#, fuzzy
+#| msgid "Resource"
+msgid "Resource group"
+msgstr "Ressource"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr "Service"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr "Details erleben"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+#, fuzzy
+#| msgid "Rental terms"
+msgid "Rental"
+msgstr "Mietbedingungen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+#, fuzzy
+#| msgid "Time slot"
+msgid "Time slots"
+msgstr "Zeitfenster"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "Search Map Sells"
+msgid "Maps Sell"
+msgstr "Kartensuche"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:61
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-rental.php:179
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+msgid "Displays horizontally"
+msgstr "Wird horizontal angezeigt"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-rental.php:182
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+#, fuzzy
+msgid "Fixed on top"
+msgstr "Oben fixiert"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-rental.php:185
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+#, fuzzy
+msgid "Top correction"
+msgstr "Top-Korrektur"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-rental.php:189
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+#, fuzzy
+msgid "Fixed on bottom for small device"
+msgstr "Fest am Boden für kleines Gerät"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr "Registerkarte"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+#, fuzzy
+msgid "Use more tab"
+msgstr "Verwenden Sie mehr Registerkarte"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-rental.php:192
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+#, fuzzy
+msgid "Show advance settings"
+msgstr "Vorabeinstellungen anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+msgid "Intro text"
+msgstr "Einführungstext"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+#, fuzzy
+msgid "Icon (for expert users)"
+msgstr "Icon (für erfahrene Benutzer)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-rental.php:199
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+msgid "Merchant category"
+msgstr "Händlerkategorie"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-rental.php:219
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr "Produktkategorie"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-rental.php:238
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+msgid "Search availability for"
+msgstr "Suche Verfügbarkeit für"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-rental.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+msgid "Items type"
+msgstr "Positionstyp"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:274
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+msgid "Default group by "
+msgstr "Standardgruppierung nach "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+msgid "result Views "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-rental.php:294
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+msgid "Fields Visibility"
+msgstr "Feldersichtbarkeit"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid "Search text"
+msgstr "Suchtext"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr ""
+"(Händler, Produkte, Tags, Händler und Produkte Kategorien, Regionen, "
+"Staaten, Städte, Zonen)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-rental.php:296
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+#, fuzzy
+msgid "Research fields"
+msgstr "Forschungsgebiete"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-rental.php:316
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr "oder"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-rental.php:317
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr "Zone"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-rental.php:318
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+msgid "Type"
+msgstr "Typ"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+msgid "Map Button"
+msgstr "Schaltfläche „Karte“"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+#, fuzzy
+msgid "Select 1 day o more"
+msgstr "Wählen Sie 1 Tag o mehr"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr "Datumsbereich"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+msgid "Date Time Range"
+msgstr "Datum-Zeitspanne"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-rental.php:320
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+msgid "Block Months"
+msgstr "Monate sperren"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-rental.php:339
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+msgid "Disable Days"
+msgstr "Tage deaktivieren"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-rental.php:364
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+#, fuzzy
+msgid "Show resource number"
+msgstr "Ressourcennummer anzeigen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-rental.php:365
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+#, fuzzy
+msgid "Limit resource number"
+msgstr "Ressourcennummer begrenzen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-rental.php:367
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr "min"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-rental.php:385
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr "max"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+#, fuzzy
+msgid "Show rooms number"
+msgstr "Ausstellungszimmernummer"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+#, fuzzy
+msgid "Limit rooms number"
+msgstr "Limit-Zimmer-Nummer"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-rental.php:405
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr "Personen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:407
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr "Erwachsene"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-rental.php:408
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr "Kinder"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-rental.php:409
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr "Senior"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-rental.php:411
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr "Nur Online-Buchung"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr "Coupon"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+msgid "(Regions, States, Cities, Zones)"
+msgstr "(Regionen, Staaten, Städte, Zonen)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+msgid "Contract"
+msgstr "Vertrag"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+msgid "Price"
+msgstr "Preis"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr "Grundfläche"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr "Schlafzimmer"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr "Bäder"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr "Nur neue"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr "Dienstleistungsliste"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+#, fuzzy
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr "Risultato nella stessa pagina (solo se usato con shortcode)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+#, fuzzy
+msgid "Or Select Result Page"
+msgstr "Oder wählen Sie Ergebnisseite"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+#, fuzzy
+msgid "A Carousel list of Events."
+msgstr "Eine Karussellliste der Ereignisse."
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+#, fuzzy
+msgid "BookingFor Carousel Events"
+msgstr "BuchungFür Karussell-Events"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr "Positionen pro Seite"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr "Theme"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr "Maximale Positionen"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+msgid "Max description characters"
+msgstr "Maximale Zeichen der Beschreibung"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Poi."
+msgstr "Eine Karussell-Liste der Händler."
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Poi"
+msgstr "BookingFor-Warenkorb"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+#, fuzzy
+msgid "A Carousel list of Resource groups."
+msgstr "Eine Karussellliste mit Ressourcen."
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resource groups"
+msgstr "Buchung für Karussell-Ressourcen"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+#, fuzzy
+msgid "A Carousel list of Resources."
+msgstr "Eine Karussellliste mit Ressourcen."
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resources"
+msgstr "Buchung für Karussell-Ressourcen"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:24
+msgid "A details merchant box."
+msgstr "Ein Detail-Händlerfeld."
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:26
+msgid "BookingFor details merchant box"
+msgstr "BookingFor Detail-Händlerfeld"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:36
+#, fuzzy
+msgid "what to show"
+msgstr "was zu zeigen ist"
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr "Eine Karussell-Liste der Händler."
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr "BookingFor-Händler"
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-filters.php:24
+msgid "A Filter box."
+msgstr "Eine Filterfeld"
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+#, fuzzy
+msgid "BookingFor Search Events"
+msgstr "Buchung für Suchereignisse"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for Experience."
+msgstr "Ein Suchfeld für Mehrfachhändler, Monohändler und Weiterverkauf."
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+#, fuzzy
+msgid "BookingFor Search Experience"
+msgstr "Buchung für Suchereignisse"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr "1 Tag"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+#, fuzzy
+#| msgid "days"
+msgid "7 days"
+msgstr "Tage"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+msgid "Search days interval "
+msgstr "Intervall für Suchtage "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-mapsells.php:71
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-rental.php:424
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+#, fuzzy
+msgid "Pagina dei risultati: "
+msgstr "Pagina dei risultati: "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-mapsells.php:73
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-rental.php:426
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr "Wählen"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-mapsells.php:117
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-rental.php:483
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-filters.php:26
+msgid "BookingFor Search Filters"
+msgstr "BookingFor-Suchfilter"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#, fuzzy
+msgid "A box for search on Maps."
+msgstr "Eine Box für Serach."
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+#, fuzzy
+msgid "BookingFor Search MapSells"
+msgstr "BookingFor Search MapSells"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#, fuzzy
+msgid "A Search box for Packages."
+msgstr "Ein Suchfeld für Mietwagen, Fahrräder."
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Packages"
+msgstr "BookingFor Suche"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+#, fuzzy
+#| msgid " %d year/s"
+msgid "1 year"
+msgstr " %d Jahr/s"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:24
+#, fuzzy
+msgid "A Search box for Rental cars, bikes."
+msgstr "Ein Suchfeld für Mietwagen, Fahrräder."
+
+#: includes/widgets/class-bfi-widget-search-rental.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Rental"
+msgstr "BookingFor Suche"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:79
+msgid "Package"
+msgstr "Paket"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box ."
+msgstr "Ein Suchfeld für Mehrfachhändler, Monohändler und Weiterverkauf."
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+msgid "BookingFor Search"
+msgstr "BookingFor Suche"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for time slots."
+msgstr "Ein Suchfeld für Mehrfachhändler, Monohändler und Weiterverkauf."
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search slot"
+msgstr "BookingFor Suche"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:24
+#, fuzzy
+msgid "A small map box."
+msgstr "Ein kleines Kartenfeld."
+
+#: includes/widgets/class-bfi-widget-smallmap.php:26
+#, fuzzy
+msgid "BookingFor small map box"
+msgstr "BuchungFür kleine Kartenbox"
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr "Ups, einige Fehler sind aufgetreten! Bitte später erneut versuchen."
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr "Derzeit können Sie keine Zahlungen vornehmen."
+
+#: templates/merchantdetailswidgets.php:60
+#: templates/merchantdetailswidgets.php:61
+#: templates/merchantdetailswidgets.php:62
+#: templates/merchantdetailswidgets.php:63
+msgctxt "Page slug"
+msgid "resources"
+msgstr "ressourcen"
+
+#: templates/merchantdetailswidgets.php:66
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "events"
+msgstr "veranstaltungen"
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:73
+#: templates/merchantdetailswidgets.php:74
+#: templates/merchantdetailswidgets.php:75
+msgctxt "Page slug"
+msgid "offers"
+msgstr "angebote"
+
+#: templates/merchantdetailswidgets.php:78
+#: templates/merchantdetailswidgets.php:79
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:81
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr "onsell-einheiten"
+
+#: templates/merchantdetailswidgets.php:84
+msgctxt "Page slug"
+msgid "offer"
+msgstr "angebot"
+
+#: templates/merchantdetailswidgets.php:86
+msgctxt "Page slug"
+msgid "thanks"
+msgstr "dank"
+
+#: templates/merchantdetailswidgets.php:89
+msgctxt "Page slug"
+msgid "errors"
+msgstr "fehler"
+
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+#: templates/merchantdetailswidgets.php:94
+#: templates/merchantdetailswidgets.php:95
+msgctxt "Page slug"
+msgid "reviews"
+msgstr "bewertungen"
+
+#: templates/merchantdetailswidgets.php:97
+msgctxt "Page slug"
+msgid "review"
+msgstr "bewertung"
+
+#: templates/merchantdetailswidgets.php:99
+msgctxt "Page slug"
+msgid "redirect"
+msgstr "umleitung"
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr "Formular wurde erfolgreich abgegeben. Vielen Dank."
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr "Details"
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr "Discover"
+
+#~ msgid "From"
+#~ msgstr "Von"
+
+#~ msgid "Children"
+#~ msgstr "Kinder"
+
+#~ msgid "Guest"
+#~ msgstr "Gast"
+
+#~ msgid "hours"
+#~ msgstr "Stunden"
+
+#~ msgid "Duration"
+#~ msgstr "Dauer"
+
+#~ msgid "the"
+#~ msgstr "das"
+
+#~ msgid "No result available"
+#~ msgstr "Kein Ergebnis verfügbar"
+
+#~ msgid "Login success"
+#~ msgstr "Einloggen erfolgreich"
+
+#~ msgid "Login failed"
+#~ msgstr "Login fehlgeschlagen"
+
+#~ msgid "Code not valid"
+#~ msgstr "Code nicht gültig"
+
+#~ msgid "Select a check-out date"
+#~ msgstr "Wählen Sie ein Check-out-Datum aus"
+
+#~ msgid "Done"
+#~ msgstr "Fertig"
+
+#~ msgid "Sun"
+#~ msgstr "So"
+
+#~ msgid "Mon"
+#~ msgstr "Mo"
+
+#~ msgid "Tue"
+#~ msgstr "Di"
+
+#~ msgid "Wed"
+#~ msgstr "Mi"
+
+#~ msgid "Thu"
+#~ msgstr "Do"
+
+#~ msgid "Fri"
+#~ msgstr "Fr"
+
+#~ msgid "Sat"
+#~ msgstr "Sa"
+
+#~ msgid "January"
+#~ msgstr "Januar"
+
+#~ msgid "February"
+#~ msgstr "Februar"
+
+#~ msgid "March"
+#~ msgstr "März"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Juni"
+
+#~ msgid "July"
+#~ msgstr "Juli"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "Oktober"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "Dezember"
+
+#~ msgid "Access not valid. Access will be denied until {0}."
+#~ msgstr "Zugang nicht gültig. Der Zugriff wird bis {0} verweigert."
+
+#~ msgid "Link has been sent to registered email"
+#~ msgstr "Der Link wurde an eine registrierte E-Mail gesendet"
+
+#~ msgid "Please enter valid registered email"
+#~ msgstr "Bitte geben Sie eine gültige registrierte E-Mail-Adresse ein"
+
+#~ msgid "Look nearby"
+#~ msgstr "In der Nähe suchen"
+
+#~ msgid "Read more"
+#~ msgstr "Mehr lesen"
+
+#~ msgid "Read less"
+#~ msgstr "Weniger lesen"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "Zur Wunschliste hinzufügen"
+
+#~ msgid "My next trip"
+#~ msgstr "Meine nächste Reise"
+
+#~ msgid "Create a new list"
+#~ msgstr "Neue Liste erstellen"
+
+#~ msgid "Search area or point of interest"
+#~ msgstr "Suchbereich oder Sehenswürdigkeit"
+
+#~ msgid "Please select one or more option you want to request"
+#~ msgstr ""
+#~ "Bitte wählen Sie eine oder mehrere Optionen aus, die Sie anfordern "
+#~ "möchten."
+
+#~ msgid "Change your details"
+#~ msgstr "Ihre Details ändern"
+
+#~ msgid "Select dates"
+#~ msgstr "Verleihdatum"
+
+#, php-format
+#~ msgid " %d second/s"
+#~ msgstr " %d Sekunde/s"
+
+#~ msgid "(Approx.)"
+#~ msgstr "(Ca.)"
+
+#, php-format
+#~ msgid " %d minutes"
+#~ msgstr " %d Minuten"
+
+#, php-format
+#~ msgid " %d minute"
+#~ msgstr " %d Minute"
+
+#, php-format
+#~ msgid " %d hours"
+#~ msgstr " %d Stunden"
+
+#, php-format
+#~ msgid " %d hour"
+#~ msgstr " %d Stunde"
+
+#, php-format
+#~ msgid " %d days"
+#~ msgstr "%d Tage"
+
+#, php-format
+#~ msgid " %d day"
+#~ msgid_plural " %d days"
+#~ msgstr[0] "%d Tag"
+#~ msgstr[1] "%d Tage"
+
+#, php-format
+#~ msgid " %d month/s"
+#~ msgstr " %d Monat(e)"
+
+#, php-format
+#~ msgid " %d year/s"
+#~ msgstr " %d Jahr/s"
+
+#~ msgid "Mandatory"
+#~ msgstr "Es ist erforderlich"
+
+#, php-format
+#~ msgid "Search Results: &ldquo;%s&rdquo;"
+#~ msgstr "Suchergebnisse: &ldquo;%s&rdquo;"
+
+#, php-format
+#~ msgid "&nbsp;&ndash; Page %s"
+#~ msgstr "&nbsp;&ndash; Seite %s"
+
+#~ msgid "bfisidebar"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Rental"
+#~ msgstr "bfisidebar Rental"
+
+#~ msgid "bfisidebar MapSell"
+#~ msgstr "bfisidebar MapSell"
+
+#~ msgid "bfisidebar Time Slots"
+#~ msgstr "bfisidebar Time Slots"
+
+#~ msgid "bfisidebarExperience"
+#~ msgstr "bfisidebarExperience"
+
+#, fuzzy
+#~| msgid "bfisidebar"
+#~ msgid "bfisidebarPackages"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Hidden"
+#~ msgstr "bfisidebar Hidden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add widgets here to appear in Bookingfor pages. (<b><u>NOT delete or "
+#~ "rename</u></b>)"
+#~ msgstr ""
+#~ "Fügen Sie hier Widgets hinzu, um sie in Bookingfor-Seiten anzuzeigen. "
+#~ "(<b><u>NICHT löschen oder umbenennen</u></b>)"
+
+#~ msgctxt "Page slug"
+#~ msgid "contact"
+#~ msgstr "kontakt"
+
+#~ msgid "Recently seen"
+#~ msgstr "Kürzlich gesehen"
+
+#~ msgctxt "Page slug"
+#~ msgid "inforequestpopup"
+#~ msgstr "inforequestpopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "mapspopup"
+#~ msgstr "mapspopup"
+
+#~ msgid "nights"
+#~ msgstr "Nächte"
+
+#~ msgid "Seniores"
+#~ msgstr "Senioren"
+
+#~ msgid "Order by"
+#~ msgstr "Sortieren nach"
+
+#~ msgid "Lowest price first"
+#~ msgstr "Niedrigster Preis"
+
+#~ msgid "Review score"
+#~ msgstr "Gästebewertung"
+
+#~ msgid "Best offers"
+#~ msgstr "Top Angebot"
+
+#~ msgid "Distance from center"
+#~ msgstr "Entfernung vom Zentrum"
+
+#~ msgid "Distance from point of interest"
+#~ msgstr "Entfernung vom interessierenden Punkt"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Map"
+#~ msgstr "Karte"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#, php-format
+#~ msgid "Show %s results"
+#~ msgstr "%s Ergebnisse anzeigen"
+
+#~ msgid "BookingFor Merchant List page"
+#~ msgstr "BookingFor-Händlerlistenseite"
+
+#~ msgctxt "slug"
+#~ msgid "eventlist"
+#~ msgstr "veranstaltungsliste"
+
+#~ msgctxt "slug"
+#~ msgid "merchantlist"
+#~ msgstr "handlerliste"
+
+#~ msgid "&resourceId="
+#~ msgstr "&resourceId="
+
+#~ msgid "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+#~ msgstr ""
+#~ "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+
+#, fuzzy
+#~| msgid "hours"
+#~ msgid "Hours"
+#~ msgstr "Stunden"
+
+#~ msgid "single bed"
+#~ msgstr "einzelbett"
+
+#~ msgid "double bed"
+#~ msgstr "doppelbett"
+
+#~ msgid "large double bed"
+#~ msgstr "großes doppelbett"
+
+#~ msgid "extra-large double bed"
+#~ msgstr "extra großes doppelbett"
+
+#~ msgid "bunk bed"
+#~ msgstr "etagenbett"
+
+#~ msgid "sofa bed"
+#~ msgstr "schlafsofa"
+
+#~ msgid "futon"
+#~ msgstr "futon"
+
+#~ msgid "single beds"
+#~ msgstr "einzelbetten"
+
+#~ msgid "double beds"
+#~ msgstr "doppelbett"
+
+#~ msgid "large double beds"
+#~ msgstr "große doppelbetten"
+
+#~ msgid "extra-large double beds"
+#~ msgstr "extra große doppelbetten"
+
+#~ msgid "bunk beds"
+#~ msgstr "etagenbett"
+
+#~ msgid "sofa beds"
+#~ msgstr "schlafsofas"
+
+#~ msgid "futons"
+#~ msgstr "futons"
+
+#~ msgid "Youth"
+#~ msgstr "Jugendliche"
+
+#~ msgid "Infant"
+#~ msgstr "Kleinkind"
+
+#~ msgid "Your Cart is empty! "
+#~ msgstr "Ihr Warenkorb ist leer! "
+
+#~ msgid "Secure booking. We protect your information"
+#~ msgstr "Sichere Buchung. Wir beschützen Ihre Daten."
+
+#~ msgid "Your reservation includes"
+#~ msgstr "Ihre Reservierung enthält"
+
+#~ msgid "Information"
+#~ msgstr "Informationen"
+
+#~ msgid "For"
+#~ msgstr "Zum"
+
+#~ msgid "Options"
+#~ msgstr "Optionen"
+
+#~ msgid "Qt."
+#~ msgstr "Qt."
+
+#~ msgid "Total price"
+#~ msgstr "Gesamtpreis"
+
+#~ msgid "from"
+#~ msgstr "von"
+
+#~ msgid "to"
+#~ msgstr "bis"
+
+#~ msgid "seat"
+#~ msgstr "Platz"
+
+#~ msgid "People"
+#~ msgstr "Personen"
+
+#~ msgid "Years"
+#~ msgstr "Alter"
+
+#, php-format
+#~ msgid "Over %s"
+#~ msgstr "Über %s"
+
+#, php-format
+#~ msgid " %d day/s"
+#~ msgstr " %d Tag(e)"
+
+#~ msgid "Check-in"
+#~ msgstr "Check-in"
+
+#~ msgid "Check-out"
+#~ msgstr "Check-out"
+
+#~ msgid "until"
+#~ msgstr "bis"
+
+#~ msgid "Total"
+#~ msgstr "Gesamtbuchung"
+
+#~ msgid "minuti"
+#~ msgstr " minuten"
+
+#~ msgid "Time Table"
+#~ msgstr "Stundenplan"
+
+#~ msgid "Room"
+#~ msgstr "Zimmer"
+
+#~ msgid "Included"
+#~ msgstr "Enthalten"
+
+#~ msgid "VAT"
+#~ msgstr "MwSt"
+
+#~ msgid "Not included"
+#~ msgstr "Nicht enthalten"
+
+#~ msgid "City tax per person per night"
+#~ msgstr "Kurtaxe pro Person und Nacht"
+
+#~ msgid "Extra bed"
+#~ msgstr "Extra bed"
+
+#~ msgid "Cot"
+#~ msgstr "Kinderbett"
+
+#~ msgid "Exempt"
+#~ msgstr "Befreit"
+
+#~ msgid "City tax"
+#~ msgstr "Kurtaxe"
+
+#~ msgid "days"
+#~ msgstr "Tage"
+
+#~ msgid "weeks"
+#~ msgstr "Wochen"
+
+#~ msgid "months"
+#~ msgstr "Monate"
+
+#~ msgid "Cancellation FREE"
+#~ msgstr "Stornierung KOSTENFREI"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel free of charge until %1$s before arrival. You will be "
+#~ "charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Sie können bis %1$s vor Ankunft kostenlos stornieren. Ihnen werden %2$s "
+#~ "berechnet, wenn Sie %1$s vor Ankunft stornieren."
+
+#~ msgid "You may cancel free of charge until arrival."
+#~ msgstr "Sie können bis zur Ankunft kostenfrei stornieren."
+
+#~ msgid "Special conditions"
+#~ msgstr "Besondere Bedingungen"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel with a charge of %3$s  until %1$s before arrival. You will "
+#~ "be charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Sie können mit einer Gebühr von %3$s bis %1$s vor der Ankunft stornieren. "
+#~ "Ihnen werden %2$s berechnet, wenn Sie in den %1$s vor der Ankunft "
+#~ "stornieren."
+
+#, php-format
+#~ msgid "You will be charged %1$s if you cancel before arrival."
+#~ msgstr "Ihnen werden %1$s berechnet, wenn Sie vor der Ankunft stornieren."
+
+#~ msgid "Non refundable"
+#~ msgstr "Nicht erstattbar"
+
+#~ msgid "You will be charged all if you cancel before arrival."
+#~ msgstr "Ihnen wird alles berechnet, wenn Sie vor der Ankunft stornieren."
+
+#~ msgid "There is no meal option with this room."
+#~ msgstr "Für dieses Zimmer gibt es keine Mahlzeiten-Option."
+
+#~ msgid "Breakfast"
+#~ msgstr "Frühstück"
+
+#~ msgid "Lunch"
+#~ msgstr "Mittagessen"
+
+#~ msgid "Dinner"
+#~ msgstr "Abendessen"
+
+#~ msgid "All Inclusive"
+#~ msgstr "All-Inclusive"
+
+#~ msgid "included"
+#~ msgstr "enthalten"
+
+#~ msgid "Meals"
+#~ msgstr "Behandlung"
+
+#~ msgid "Cancellation"
+#~ msgstr "Stornierung"
+
+#~ msgid "Prepayment"
+#~ msgstr "Vorauszahlung"
+
+#~ msgid "Non-binding booking request"
+#~ msgstr "Unverbindliche Buchungsanfrage"
+
+#~ msgid "Instant Book"
+#~ msgstr "Sofortbuchung"
+
+#~ msgid "Payment in installments"
+#~ msgstr "Ratenzahlung"
+
+#, php-format
+#~ msgid " %d night/s"
+#~ msgstr " %d Nacht/Nächte"
+
+#~ msgid "The code is not valid"
+#~ msgstr "Der Code ist ungültig"
+
+#~ msgid "Apply"
+#~ msgstr "Einlösen"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Gift cards or Promotional codes"
+#~ msgstr "Gutschein- und Aktionscodes"
+
+#~ msgid "Enter code"
+#~ msgstr "Code eingeben"
+
+#~ msgid "Discount"
+#~ msgstr "Rabatt"
+
+#~ msgid "Deposit"
+#~ msgstr "Anzahlung"
+
+#~ msgid "Customers who bought this product also viewed"
+#~ msgstr "Kunden, die dieses Produkt gekauft haben, haben auch"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s."
+#~ msgstr ""
+#~ "Die Wahl <b>Send</b> bedeutet, dass Sie den <a href=\"%3$s\" target="
+#~ "\"_blank\">Nutzungsbedingungen von</a> %1$s zustimmen."
+
+#~ msgid "Log in to book faster"
+#~ msgstr "Einloggen, um schneller zu buchen"
+
+#~ msgid "Enter your details"
+#~ msgstr "Geben Sie Ihre Details ein."
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "This field is required."
+#~ msgstr "Dieses Feld ist erforderlich."
+
+#~ msgid "Surname"
+#~ msgstr "Nachname"
+
+#~ msgid "Man"
+#~ msgstr "Mann"
+
+#~ msgid "Woman"
+#~ msgstr "Frau"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Reenter email"
+#~ msgstr "Bestätigen Sie Ihre E-Mail"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Fiscal code"
+#~ msgstr "Steuercode"
+
+#~ msgid "Organization"
+#~ msgstr "Organisation"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Postal Code"
+#~ msgstr "Postleitzahl"
+
+#~ msgid "City"
+#~ msgstr "Stadt"
+
+#~ msgid "Province"
+#~ msgstr "Land"
+
+#~ msgid "Personal data"
+#~ msgstr "Persönliche Daten"
+
+#~ msgid "Birth date"
+#~ msgstr "Geburtsdatum"
+
+#~ msgid "Birth location"
+#~ msgstr "Geburtsort"
+
+#~ msgid "Passport ID"
+#~ msgstr "Passport-ID"
+
+#~ msgid "Passport expiration"
+#~ msgstr "Ablauf des Reisepasses"
+
+#~ msgid "Document ID"
+#~ msgstr "Dokument ID"
+
+#~ msgid "Document release place"
+#~ msgstr "Dokumentfreigabeort"
+
+#~ msgid "Document release date"
+#~ msgstr "Datum der Dokumentfreigabe"
+
+#~ msgid "Document expiration"
+#~ msgstr "Ablauf des Dokuments"
+
+#~ msgid "Special Requests"
+#~ msgstr "Anfrage"
+
+#~ msgid "Notes"
+#~ msgstr "Notizen"
+
+#~ msgid "Note"
+#~ msgstr "Anfrage"
+
+#~ msgid "No URLs allowed!"
+#~ msgstr "Keine URLs erlaubt!"
+
+#~ msgid "Your estimated time of arrival"
+#~ msgstr "Geschätzte Ankunftszeit"
+
+#~ msgid "I don't know"
+#~ msgstr "Unklar"
+
+#~ msgid "no"
+#~ msgstr "nein"
+
+#~ msgid "yes"
+#~ msgstr "ja"
+
+#~ msgid "Other information"
+#~ msgstr "Weitere Informationen"
+
+#~ msgid "We can pick up you at the desired address"
+#~ msgstr "Wir holen Sie an der gewünschten Adresse ab"
+
+#~ msgid "At experience end, we can take you at the desired address"
+#~ msgstr ""
+#~ "Am Ende der Erfahrung können wir Sie an die gewünschte Adresse bringen"
+
+#~ msgid "Crew"
+#~ msgstr "Crew"
+
+#, php-format
+#~ msgid "Component %s of %s"
+#~ msgstr "Komponente %s von %s"
+
+#~ msgid "Payment method"
+#~ msgstr "Zahlungsmethode"
+
+#~ msgid "Please choose a payment method"
+#~ msgstr "Bitte wählen sie eine Zahlungsmethode"
+
+#~ msgid "Credit card details"
+#~ msgstr "Kreditkartendetails"
+
+#~ msgid "Warranty Request for"
+#~ msgstr "Garantieanforderung für"
+
+#~ msgid "Holder"
+#~ msgstr "Kartenbesitzer"
+
+#~ msgid "Number"
+#~ msgstr "Kartennummer"
+
+#~ msgid "Valid until"
+#~ msgstr "Gültigkeitsdatum"
+
+#~ msgid "Month (MM)"
+#~ msgstr "Monat (MM)"
+
+#~ msgid "Year (YY)"
+#~ msgstr "Jahr (JJ)"
+
+#~ msgid "I agree to the conditions"
+#~ msgstr "Ich stimme den Bedingungen zu."
+
+#~ msgid "I have read the information on the processing of personal data"
+#~ msgstr ""
+#~ "Ich habe die Informationen zur Verarbeitung personenbezogener Daten "
+#~ "gelesen"
+
+#~ msgid "More information"
+#~ msgstr "Mehr Informationen"
+
+#~ msgid "I give my consent to send the newsletter"
+#~ msgstr "Ich erkläre mich damit einverstanden, den Newsletter zu versenden"
+
+#~ msgid "I give my consent for marketing purposes"
+#~ msgstr "Ich gebe meine Zustimmung zu Marketingzwecken"
+
+#~ msgid "I give my consent for profiling purposes"
+#~ msgstr "Ich gebe meine Zustimmung zu Profilierungszwecken"
+
+#~ msgid "Send"
+#~ msgstr "Senden"
+
+#~ msgid "Code already used"
+#~ msgstr "Code bereits verwendet"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Sind Sie sicher?"
+
+#~ msgid "Please enter a valid code"
+#~ msgstr "Bitte trage einen korrekten Code ein"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Page"
+#~ msgstr "Seite"
+
+#~ msgctxt "Page slug"
+#~ msgid "cartredirect"
+#~ msgstr "cartredirect"
+
+#~ msgctxt "Page slug"
+#~ msgid "thankspopup"
+#~ msgstr "thankspopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "errorspopup"
+#~ msgstr "errorspopup"
+
+#~ msgid "Your search"
+#~ msgstr "Ihre Suche"
+
+#~ msgid "Extra services"
+#~ msgstr "Zusätzliche Leistungen"
+
+#~ msgid "Insert your data"
+#~ msgstr "Geben Sie Ihre Daten ein."
+
+#~ msgid "Confirm booking"
+#~ msgstr "Buchung bestätigen"
+
+#~ msgctxt "Page slug"
+#~ msgid "contactspopup"
+#~ msgstr "contactspopup"
+
+#~ msgid "List"
+#~ msgstr "Liste"
+
+#~ msgid "Grid"
+#~ msgstr "Raster"
+
+#~ msgid "View"
+#~ msgstr "Anzeigen"
+
+#~ msgid "Vetrina"
+#~ msgstr "Vitrine"
+
+#~ msgid "Top"
+#~ msgstr "Beste"
+
+#~ msgid "New!"
+#~ msgstr "Neu!"
+
+#~ msgid "Rooms"
+#~ msgstr "Zimmer"
+
+#~ msgid "m&sup2;"
+#~ msgstr "m&sup2;"
+
+#~ msgid "Contact Agent"
+#~ msgstr "Vermittler kontaktieren"
+
+#~ msgid "New ad"
+#~ msgstr "Neue Anzeige"
+
+#~ msgid "Would you like to leave your review?"
+#~ msgstr "Haben Sie einen Kommentar?"
+
+#, php-format
+#~ msgid "Score from %s reviews"
+#~ msgstr "auf der Grundlage von %s Bewertungen"
+
+#~ msgid "Guest Rating"
+#~ msgstr "Kundenbeurteilung"
+
+#~ msgid "No results available"
+#~ msgstr "Keine Unterkunft ist zu Ihren Reisedaten verfügbar"
+
+#~ msgid "Choice"
+#~ msgstr "Auswahl"
+
+#~ msgid "Cart"
+#~ msgstr "Warenkorb"
+
+#~ msgid "Share"
+#~ msgstr "Freigeben"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show results"
+#~ msgstr "%s Ergebnisse anzeigen"
+
+#~ msgid "Select the type of package to get started!"
+#~ msgstr "Wählen Sie die Art des Pakets, um loszulegen!"
+
+#~ msgid "Payment"
+#~ msgstr "Bezahlung"
+
+#~ msgid ""
+#~ "If you are not redirected to the payment page within a few seconds, click "
+#~ "the following button"
+#~ msgstr ""
+#~ "Wenn Sie nicht innerhalb weniger Sekunden zur Zahlungsseite "
+#~ "weitergeleitet werden, klicken Sie auf die folgende Schaltfläche"
+
+#, php-format
+#~ msgid "%s available accommodations"
+#~ msgstr "%s gültige Unterkünfte"
+
+#~ msgid "Map view"
+#~ msgstr "Kartenansicht"
+
+#~ msgctxt "Page slug"
+#~ msgid "rating"
+#~ msgstr "bewertung"
+
+#~ msgid "Request"
+#~ msgstr "Anfrage"
+
+#~ msgid "Book Now"
+#~ msgstr "Buchen Sie"
+
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s Rezensionen"
+
+#, php-format
+#~ msgid "Only %d available"
+#~ msgstr "Nur noch %d verfügbar"
+
+#~ msgid "Breakfast included"
+#~ msgstr "Frühstück inbegriffen"
+
+#~ msgid "Half board"
+#~ msgstr "Halbpension"
+
+#~ msgid "Full board"
+#~ msgstr "Vollpension"
+
+#, php-format
+#~ msgid "Price for %s person"
+#~ msgstr "Preis für %s Person"
+
+#~ msgid "Total for"
+#~ msgstr "Summe für"
+
+#, php-format
+#~ msgid " %d hour/s"
+#~ msgstr " %d Stunde(n)"
+
+#, php-format
+#~ msgid " %d minute/s"
+#~ msgstr " %d Minute(n)"
+
+#, php-format
+#~ msgid "Offer %d%%"
+#~ msgstr "Angebot %d%%"
+
+#~ msgid "from hours"
+#~ msgstr "von Stunden"
+
+#~ msgid "to hours"
+#~ msgstr "zu Stunden"
+
+#~ msgid ""
+#~ "This is the straight-line distance on the map. Actual travel distance may "
+#~ "vary."
+#~ msgstr ""
+#~ "Dies ist die geradlinige Entfernung auf der Karte. Die tatsächliche "
+#~ "Reisestrecke kann variieren."
+
+#~ msgid "from centre"
+#~ msgstr "vom Zentrum"
+
+#~ msgid "Dates"
+#~ msgstr "Daten"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "All dates and places"
+#~ msgstr "Alle Daten und Orte"
+
+#~ msgid "Show dates and places"
+#~ msgstr "Daten und Orte anzeigen"
+
+#~ msgid "Book Resource"
+#~ msgstr "Buchressource"
+
+#~ msgid "Show package"
+#~ msgstr "Paket anzeigen"
+
+#~ msgid "Tickets"
+#~ msgstr "Tickets"
+
+#~ msgid "Buy tickets"
+#~ msgstr "Tickets kaufen"
+
+#~ msgid "Show experiences"
+#~ msgstr "Erlebnisse anzeigen"
+
+#~ msgid "in evidence"
+#~ msgstr "im Beweis"
+
+#~ msgid "excluding"
+#~ msgstr "zuzüglich"
+
+#~ msgid "Free!"
+#~ msgstr "Frei!"
+
+#~ msgid "additional charge"
+#~ msgstr "Zuschlag"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "In short"
+#~ msgstr "Kurz gesagt"
+
+#~ msgid "Travel planner"
+#~ msgstr "Travel planner"
+
+#~ msgid "Buy resource"
+#~ msgstr "Ressource kaufen"
+
+#~ msgid "Organizer"
+#~ msgstr "Veranstalter"
+
+#~ msgid "All reviewers"
+#~ msgstr "Alle Bewertungen"
+
+#~ msgid "Solo travellers"
+#~ msgstr "Einzelreisende"
+
+#~ msgid "Groups"
+#~ msgstr "Gruppen"
+
+#~ msgid "Young couplet"
+#~ msgstr "Junge Paare"
+
+#~ msgid "Mature couples"
+#~ msgstr "Ältere Ehepaare"
+
+#~ msgid "Families with young children"
+#~ msgstr "Familien mit kleinen Kindern"
+
+#~ msgid "Family with older children"
+#~ msgstr "Familie mit älteren Kindern"
+
+#, php-format
+#~ msgid "Based on %1$s Reviews."
+#~ msgstr "Auf Grundlage von %1$s Bewertungen."
+
+#~ msgid "Staff"
+#~ msgstr "Hotelpersonal"
+
+#~ msgid "Clean"
+#~ msgstr "Sauberkeit"
+
+#~ msgid "Comfort"
+#~ msgstr "Komfort"
+
+#~ msgid "Value for Money"
+#~ msgstr "Gutes Preis-Leistungs-Verhältnis"
+
+#~ msgid "Show reviews from"
+#~ msgstr "Bewertungen anzeigen"
+
+#~ msgid "Write a Review"
+#~ msgstr "Bewertung schreiben"
+
+#~ msgid "Reviewed"
+#~ msgstr "Bewertet am"
+
+#~ msgid "Stayed"
+#~ msgstr "Aufenthalt"
+
+#, php-format
+#~ msgid "Replied on %1s"
+#~ msgstr "Antwortete am %1s"
+
+#~ msgid "Reference"
+#~ msgstr "Referenz"
+
+#, php-format
+#~ msgid "Review certified by %1$s"
+#~ msgstr "Bewertung von %1$s zertifiziert"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#, php-format
+#~ msgid "%s has responded to this review"
+#~ msgstr "%s hat auf diese Bewertung geantwortet"
+
+#~ msgid "No Reviews Found."
+#~ msgstr "Keine Bewertungen gefunden."
+
+#~ msgid "Would you like to be the first to write a review?"
+#~ msgstr "Möchten Sie als erster eine Bewertung schreiben?"
+
+#~ msgid "Very poor"
+#~ msgstr "Sehr schlecht"
+
+#~ msgid "Poor"
+#~ msgstr "Schlecht"
+
+#~ msgid "Disappointing"
+#~ msgstr "Enttäuschend"
+
+#~ msgid "Fair"
+#~ msgstr "Passabel"
+
+#~ msgid "Okay"
+#~ msgstr "Okay"
+
+#~ msgid "Pleasant"
+#~ msgstr "Angenehm"
+
+#~ msgid "Good"
+#~ msgstr "Gut"
+
+#~ msgid "Very good"
+#~ msgstr "Sehr gut"
+
+#~ msgid "Fabulous"
+#~ msgstr "Fabelhaft"
+
+#~ msgid "Exceptional"
+#~ msgstr "Außergewöhnlich"
+
+#~ msgid "Very easy"
+#~ msgstr "Sehr leicht"
+
+#~ msgid "Easy"
+#~ msgstr "Einfach"
+
+#~ msgid "Moderate"
+#~ msgstr "Mittel"
+
+#~ msgid "Stimulating"
+#~ msgstr "Anregende"
+
+#~ msgid "Demanding"
+#~ msgstr "Anspruchsvolle"
+
+#~ msgid "Extreme"
+#~ msgstr "Extrem"
+
+#~ msgid "Info & prices"
+#~ msgstr "Infos & Preise"
+
+#~ msgid "Facilities"
+#~ msgstr "Ausstattung"
+
+#~ msgid "House rules"
+#~ msgstr "Hausordnung"
+
+#~ msgid "Reviews"
+#~ msgstr "Bewertungen"
+
+#~ msgid "Book now"
+#~ msgstr "Buchen Sie"
+
+#~ msgid "or similar"
+#~ msgstr "oder ähnlich"
+
+#~ msgid "show map"
+#~ msgstr "Karte anzeigen"
+
+#~ msgid "Pick Up & Drop Off"
+#~ msgstr "Pick Up & Drop Off"
+
+#~ msgid "Media"
+#~ msgstr "Medien"
+
+#~ msgid "Host"
+#~ msgstr "Gastgeber"
+
+#~ msgid "Floor area"
+#~ msgstr "Fläche"
+
+#~ msgid "Participants"
+#~ msgstr "Teilnehmer"
+
+#~ msgid "Minimum age"
+#~ msgstr "Mindestalter"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Schwierigkeit Level"
+
+#~ msgid "Languages"
+#~ msgstr "Sprachen"
+
+#, php-format
+#~ msgid " and %s more "
+#~ msgstr " und %s mehr "
+
+#~ msgid "Offered in"
+#~ msgstr "Angeboten in"
+
+#~ msgid "Important information"
+#~ msgstr "Wichtige Information"
+
+#~ msgid "What is Included"
+#~ msgstr "Was ist enthalten"
+
+#~ msgid "Live Guide "
+#~ msgstr "Live Guide "
+
+#~ msgid "Audio Guide "
+#~ msgstr "Audio Guide "
+
+#~ msgid "Paper Guide "
+#~ msgstr "Papierleitfaden "
+
+#~ msgid "What is not Included"
+#~ msgstr "Was nicht enthalten ist"
+
+#~ msgid "Departure & Return"
+#~ msgstr "Abreise & Rückkehr"
+
+#~ msgid "Departure Point"
+#~ msgstr "Abfahrtspunkt"
+
+#~ msgid "Meeting Time"
+#~ msgstr "Besprechungszeit"
+
+#, php-format
+#~ msgid "show up %s minutes before the start time "
+#~ msgstr "%s Minuten vor der Startzeit anzeigen "
+
+#~ msgid "Pick-up Point"
+#~ msgstr "Abholpunkt"
+
+#~ msgid "Pick-up Time"
+#~ msgstr "Abholzeit"
+
+#~ msgid "Return Details"
+#~ msgstr "Rückgabedetails"
+
+#~ msgid "Returns to original departure pickup"
+#~ msgstr "Rückkehr zur ursprünglichen Abholung"
+
+#~ msgid "Returns to original pick-up point"
+#~ msgstr "Kehrt zum ursprünglichen Abholpunkt zurück"
+
+#~ msgid "Returns to original departure point"
+#~ msgstr "Rückkehr zum ursprünglichen Ausgangspunkt"
+
+#~ msgid "What To Expect"
+#~ msgstr "Was zu erwarten ist"
+
+#~ msgid "Itinerary"
+#~ msgstr "Route"
+
+#~ msgid "Day"
+#~ msgstr "Tag"
+
+#~ msgid "Stops"
+#~ msgstr "Stoppt"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid "Additional Info"
+#~ msgstr "Zusätzliche Informationen"
+
+#~ msgid "What to bring"
+#~ msgstr "Was zu bringen ist"
+
+#~ msgid "Cancellation Policy"
+#~ msgstr "Widerrufsbelehrung"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Häufig gestellte Fragen"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s and <a href=\"%2$s\" target=\"_blank"
+#~ "\">privacy and cookies statement.</a>."
+#~ msgstr ""
+#~ "Wenn Sie <b> Senden </b> auswählen, stimmen Sie den <a href=\"%3$s\" "
+#~ "target=\"_blank\"> Nutzungsbedingungen </a> von %1$s und <a href=\"%2$s\" "
+#~ "target=\"_blank\"> Datenschutz- und Cookie-Erklärung. </a>"
+
+#~ msgid "Type of traveller"
+#~ msgstr "Reisetyp"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Confirm E-mail"
+#~ msgstr "E-Mail bestätigen"
+
+#~ msgid "When did you travel?"
+#~ msgstr "Wann haben Sie hier übernachtet"
+
+#~ msgid "Value for money"
+#~ msgstr "Gutes Preis-Leistungs-Verhältnis"
+
+#~ msgid "Valuation"
+#~ msgstr "Schätzwert"
+
+#~ msgid "List of the facility's positive points"
+#~ msgstr "Liste der Vorteile des Objekts"
+
+#~ msgid "List of the facility's negative points"
+#~ msgstr "Liste der Nachteile des Objekts"
+
+#, php-format
+#~ msgid "Send me promotional emails from %1$s"
+#~ msgstr "Senden Sie mir Werbe-E-Mails von %1$s"
+
+#, php-format
+#~ msgid ""
+#~ "I certify that this review is based on my own experience and is my "
+#~ "genuine opinion of this accommodation, and that I have no personal or "
+#~ "business relationship with this establishment, and have not been offered "
+#~ "any incentive or payment originating from the establishment to write this "
+#~ "review. I understand that %s has a zero-tolerance policy on fake reviews."
+#~ msgstr ""
+#~ "Ich bestätige, dass dieser Beitrag auf meiner eigenen Erfahrung basiert "
+#~ "und meine wirkliche Meinung über diese Unterkunft ist und ich keine "
+#~ "persönliche oder geschäftliche Beziehung mit dieser Einrichtung habe und "
+#~ "mir kein Anreiz oder eine Zahlung von der Einrichtung angebote wurde, um "
+#~ "diese Bewertung zu schreiben. Ich verstehe, dass %s eine Null-Toleranz-"
+#~ "Politik für gefälschte Rezensionen hat."
+
+#~ msgid "Attention!"
+#~ msgstr "Achtung!"
+
+#~ msgid "It 's not possible to insert your own review"
+#~ msgstr "Es ist nicht möglich, Ihre eigene Rezension hinzuzufügen."
+
+#~ msgid "nonexistent order"
+#~ msgstr "nicht vorhandene Bestellung"
+
+#~ msgid "Order with already a Review"
+#~ msgstr "Bestellung mit bereits einer Rezension"
+
+#~ msgid ""
+#~ "nonexistent order or to which it is not possible to associate a review"
+#~ msgstr ""
+#~ "nicht vorhandene Bestellung oder bei der es nicht möglich ist, eine "
+#~ "Rezension zuzuordnen"
+
+#~ msgid "Order not related at this resource"
+#~ msgstr "Die Bestellung ist nicht mit dieser Ressource verbunden."
+
+#~ msgid "Order make before the date to make a review"
+#~ msgstr ""
+#~ "Sie können keine Rezension hinterlassen, wenn Ihr Bestelldatum in der "
+#~ "Zukunft liegt."
+
+#~ msgid "Most popular facilities for longer stays"
+#~ msgstr "Die beliebtesten Einrichtungen für längere Aufenthalte"
+
+#~ msgid "Booking"
+#~ msgstr "Buchen Sie"
+
+#~ msgid "No Results Found"
+#~ msgstr "Keine Ergebnisse gefunden"
+
+#, php-format
+#~ msgid "%s available offers"
+#~ msgstr "%s gültige Angebote"
+
+#~ msgid "please wait..."
+#~ msgstr "Bitte warten ..."
+
+#~ msgid "I consent to the publication of the review"
+#~ msgstr "Ich stimme der Veröffentlichung der Bewertung zu"
+
+#~ msgid "A-Z"
+#~ msgstr "A-Z"
+
+#~ msgid "Z-A"
+#~ msgstr "Z-A"
+
+#~ msgid "To rent"
+#~ msgstr "Vermietung"
+
+#~ msgid "On sale"
+#~ msgstr "Verkauf"
+
+#~ msgid "Min paxes"
+#~ msgstr "Min. paxes"
+
+#~ msgid "Max paxes"
+#~ msgstr "Max paxes"
+
+#~ msgid "Area"
+#~ msgstr "Fläche"
+
+#~ msgid "Last update"
+#~ msgstr "Letzte Änderung"
+
+#~ msgid "Floor"
+#~ msgstr "Etage"
+
+#~ msgid "Ground floor"
+#~ msgstr "Erdgeschoss"
+
+#~ msgid "Top floor"
+#~ msgstr "Dachgeschoss"
+
+#~ msgid "Attic"
+#~ msgstr "Dachboden"
+
+#~ msgid "Multiple levels"
+#~ msgstr "Mehrere Ebenen"
+
+#~ msgid "ND"
+#~ msgstr "k. A."
+
+#~ msgid "Condition"
+#~ msgstr "Zustand"
+
+#~ msgid "New"
+#~ msgstr "Neu"
+
+#~ msgid "To be refurbished"
+#~ msgstr "Renovierungsbedürftig"
+
+#~ msgid "Excellent"
+#~ msgstr "Ausgezeichnet"
+
+#~ msgid "Refurbished"
+#~ msgstr "Renoviert"
+
+#~ msgid "Habitable"
+#~ msgstr "Bewohnbar"
+
+#~ msgid "Bathrooms"
+#~ msgstr "Badezimmer"
+
+#~ msgid "Heating"
+#~ msgstr "Heizung"
+
+#~ msgid "Autonomous"
+#~ msgstr "Autonome"
+
+#~ msgid "Communal"
+#~ msgstr "Gemeinschaftlich"
+
+#~ msgid "Pay per use"
+#~ msgstr "Pay-per-use"
+
+#~ msgid "Box Auto"
+#~ msgstr "Garage"
+
+#~ msgid "Parking space"
+#~ msgstr "Parkplätze"
+
+#~ msgid "Energy efficiency class"
+#~ msgstr "Energie Klasse"
+
+#~ msgid "not set"
+#~ msgstr "nicht festgelegt"
+
+#~ msgid "Nondescript"
+#~ msgstr "unscheinbar"
+
+#~ msgid "Free property"
+#~ msgstr "Freies Objekt"
+
+#~ msgid "Under evaluation"
+#~ msgstr "Unter Begutachtung"
+
+#~ msgid "IPE"
+#~ msgstr "EEI"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Real estate agency collaboration"
+#~ msgstr "Zusammenarbeit von Immobilienagenturen"
+
+#, php-format
+#~ msgid "Found %s results on %s"
+#~ msgstr "%s Ergebnisse für %s gefunden"
+
+#, php-format
+#~ msgid "Found %s results"
+#~ msgstr "%s Ergebnisse gefunden"
+
+#~ msgid ""
+#~ "Certainly it is our Preferred Merchant! They provide a great value and an "
+#~ "excellent service."
+#~ msgstr ""
+#~ "Sicher ist es unser bevorzugter Händler! Sie bieten ein gutes Preis-"
+#~ "Leistungs-Verhältnis und einen exzellenten Service."
+
+#~ msgid "from center"
+#~ msgstr "von der Mitte"
+
+#~ msgid "from point of interest"
+#~ msgstr "vom Punkt des Interesses"
+
+#~ msgid "This structure is suitable for children"
+#~ msgstr "Diese Struktur ist für Kinder geeignet"
+
+#~ msgid "Living room"
+#~ msgstr "Wohnzimmer"
+
+#~ msgid "Show more results"
+#~ msgstr "Weitere Ergebnisse anzeigen"
+
+#~ msgid "FREE Cancellation"
+#~ msgstr "Kostenlose Stornierung"
+
+#, php-format
+#~ msgid ""
+#~ "Unfortunately we have no availability at this merchant for your dates: %s "
+#~ "- %s"
+#~ msgstr ""
+#~ "Leider haben wir für Ihre Daten keine Verfügbarkeit bei diesem Händler: "
+#~ "%s - %s"
+
+#~ msgid "Limited availability, but may sell out:"
+#~ msgstr "Begrenzte Verfügbarkeit, aber möglicherweise ausverkauft:"
+
+#~ msgid ""
+#~ "For a short time you missed it. Our last resource sold out a few days ago"
+#~ msgstr ""
+#~ "Für kurze Zeit hast du es verpasst. Unsere letzte Ressource war vor ein "
+#~ "paar Tagen ausverkauft"
+
+#~ msgid "We're sorry! we do not have any availability for this resource."
+#~ msgstr "Es tut uns leid! Wir haben keine Verfügbarkeit für diese Ressource."
+
+#~ msgid "Supplier rating"
+#~ msgstr "Lieferantenbewertung"
+
+#~ msgid "minutes"
+#~ msgstr "minuten"
+
+#~ msgid "We're sorry! we do not have any availability."
+#~ msgstr "Es tut uns leid! wir haben keine Verfügbarkeit."
+
+#~ msgid "Program"
+#~ msgstr "Programm"
+
+#~ msgid "Next events near "
+#~ msgstr "Nächste Veranstaltungen in der Nähe "
+
+#~ msgid "IDENTIFICATION CODE - TOURIST LEASE"
+#~ msgstr "IDENTIFIKATIONSCODE - TOURISTISCHE VERMIETUNG"
+
+#~ msgctxt "Page slug"
+#~ msgid "rapidview"
+#~ msgstr "schnellansicht"
+
+#~ msgid "Energy Class"
+#~ msgstr "Energieklasse"
+
+#~ msgid "nondescript"
+#~ msgstr "Unauffällig"
+
+#~ msgid "free property"
+#~ msgstr "Freies Anwesen"
+
+#~ msgid "A+"
+#~ msgstr "A+"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "C"
+#~ msgstr "C"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "EPI Value"
+#~ msgstr "EPI-Wert"
+
+#~ msgid "Request info"
+#~ msgstr "Info anfordern"
+
+#, php-format
+#~ msgid "From %s to %s"
+#~ msgstr "Von %s bis %s"
+
+#, php-format
+#~ msgid "%s people are watching right now"
+#~ msgstr "%s Leute beobachten gerade"
+
+#~ msgid "Recommended for"
+#~ msgstr "Empfohlen für"
+
+#~ msgid "Adult"
+#~ msgstr "Erwachsene"
+
+#~ msgid "and"
+#~ msgstr "und"
+
+#~ msgid "Child"
+#~ msgstr "Kind"
+
+#~ msgid "Pay at the property – NO PREPAYMENT NEEDED"
+#~ msgstr "Zahlen Sie in der Unterkunft. – KEINE VORAUSZAHLUNG ERFORDERLICH"
+
+#, php-format
+#~ msgid "View other %d solutions"
+#~ msgstr "Sehen Sie sich andere %d Lösungen an"
+
+#~ msgid "Hurry up"
+#~ msgstr "Beeil dich"
+
+#~ msgid "This resource is in great demand"
+#~ msgstr "Diese Ressource ist sehr gefragt"
+
+#, php-format
+#~ msgid "%s request in the last 24 hours"
+#~ msgstr "%s Anfrage in den letzten 24 Stunden"
+
+#, php-format
+#~ msgid ""
+#~ "This structure has met or exceeded the expectations of more than 90% of "
+#~ "guests"
+#~ msgstr ""
+#~ "Diese Struktur hat die Erwartungen von mehr als 90% der Gäste erfüllt "
+#~ "oder übertroffen"
+
+#~ msgid "Choose place"
+#~ msgstr "Wählen Sie den Ort"
+
+#~ msgid "Price for"
+#~ msgstr "Preis für"
+
+#~ msgid "Rental terms"
+#~ msgstr "Mietbedingungen"
+
+#~ msgid "Latest ads"
+#~ msgstr "Neueste Anzeigen"
+
+#~ msgid "added to cart"
+#~ msgstr "zum Warenkorb hinzugefügt"
+
+#, php-format
+#~ msgid "Subtotal of the cart (%s items)"
+#~ msgstr "Zwischensumme des Warenkorbs (%s Artikel)"
+
+#~ msgid "For an optimal experience"
+#~ msgstr "Für ein optimales Erlebnis"
+
+#~ msgid "log in to your account"
+#~ msgstr "Ins Konto einloggen"
+
+#~ msgid "We have other proposals in case of unavailability."
+#~ msgstr "Wir haben andere Vorschläge im Falle der Nichtverfügbarkeit."
+
+#~ msgid "Contact us and we will find the best solution for you!"
+#~ msgstr "Kontaktieren Sie uns und wir finden die beste Lösung für Sie!"
+
+#~ msgid "Contact us"
+#~ msgstr "Kontaktiere uns"
+
+#~ msgid "Call us"
+#~ msgstr "Ruf uns an"
+
+#~ msgid "Talk to us"
+#~ msgstr "Sprechen Sie mit uns"
+
+#~ msgid "Also consider other proposals:"
+#~ msgstr "Andere Vorschläge anzeigen:"
+
+#~ msgid "Add to favorites"
+#~ msgstr "Zu den Favoriten hinzufügen"
+
+#~ msgid "Free cancellation"
+#~ msgstr "Kostenfreie Stornierung"
+
+#~ msgid "No prepayment"
+#~ msgstr "Keine Vorauszahlung"
+
+#~ msgid "Book without credit card"
+#~ msgstr "Buchen ohne Kreditkarte"
+
+#~ msgid "All inclusive"
+#~ msgstr "All-inclusive"
+
+#~ msgid "Unrated"
+#~ msgstr "Unbewertet"
+
+#~ msgid "1 star"
+#~ msgstr "1 Stern"
+
+#~ msgid "2 stars"
+#~ msgstr "2 Sterne"
+
+#~ msgid "3 stars"
+#~ msgstr "3 Sterne"
+
+#~ msgid "4 stars"
+#~ msgstr "4 Sterne"
+
+#~ msgid "5 stars"
+#~ msgstr "5 Sterne"
+
+#~ msgid "6 stars"
+#~ msgstr "6 Sterne"
+
+#~ msgid "7 stars"
+#~ msgstr "7 Sterne"
+
+#~ msgid "8 stars"
+#~ msgstr "8 Sterne"
+
+#~ msgid "9 stars"
+#~ msgstr "9 Sterne"
+
+#~ msgid "10 stars"
+#~ msgstr "10 Sterne"
+
+#~ msgid "Filter by"
+#~ msgstr "Filter nach"
+
+#~ msgid "Star rating"
+#~ msgstr "Sternebewertung"
+
+#~ msgid "Budget"
+#~ msgstr "Budget"
+
+#~ msgid "Tipology"
+#~ msgstr "Typ"
+
+#~ msgid "Property type"
+#~ msgstr "Art der Immobilie"
+
+#~ msgid "Book with ease "
+#~ msgstr "Bequem buchen "
+
+#~ msgid "Offer"
+#~ msgstr "Angebot"
+
+#~ msgid "Availability"
+#~ msgstr "Reisedaten ändern"
+
+#~ msgid "Booking type"
+#~ msgstr "Booking typ"
+
+#~ msgid "Nearby points of interest"
+#~ msgstr "In der Nähe von Sehenswürdigkeiten"
+
+#~ msgid "Unspecified"
+#~ msgstr "Nicht spezifiziert"
+
+#~ msgid "Smart offer"
+#~ msgstr "Smart Angebot"
+
+#~ msgid "Show only available resources"
+#~ msgstr "Nur verfügbare Ressourcen anzeigen"
+
+#~ msgid "Show only online booking"
+#~ msgstr "Nur Online-Buchung anzeigen"
+
+#~ msgid "Up to"
+#~ msgstr "Bis zu"
+
+#~ msgid "Show All"
+#~ msgstr "Mehr"
+
+#, php-format
+#~ msgid "+ %s photos"
+#~ msgstr "+ %s Fotos"
+
+#~ msgid "Got a question?"
+#~ msgstr "Fragen?"
+
+#~ msgid ""
+#~ "Send your own question to the property. The property usually replies "
+#~ "within a few days"
+#~ msgstr ""
+#~ "Senden Sie Ihre eigene Frage an die Unterkunft. Die Unterkunft antwortet "
+#~ "in der Regel innerhalb weniger Tage"
+
+#~ msgid "Send us your request, you will be contacted as soon as possible"
+#~ msgstr ""
+#~ "Senden Sie uns Ihre Anfrage, Sie werden so schnell wie möglich kontaktiert"
+
+#~ msgid "Fields marked with * (asterisk) are required"
+#~ msgstr "Mit * (Sternchen) gekennzeichnete Felder sind erforderlich"
+
+#~ msgid "Cap"
+#~ msgstr "Obergrenze"
+
+#~ msgid "I consent to the management of the request"
+#~ msgstr "Ich bin mit der Bearbeitung der Anfrage einverstanden"
+
+#~ msgid "Send your request"
+#~ msgstr "Senden Sie Ihre Anfrage"
+
+#~ msgid "Ask a question"
+#~ msgstr "Besondere Anfragen"
+
+#~ msgid "Sign in"
+#~ msgstr "Anmelden"
+
+#~ msgid "Welcome to"
+#~ msgstr "Herzlich willkommen in"
+
+#~ msgid ""
+#~ "The holiday of your dreams will start as soon as you start thinking about "
+#~ "it! Log in and put together the ideal blend of accommodation, events and "
+#~ "experiences for your holiday."
+#~ msgstr ""
+#~ "Ihr Traumurlaub beginnt bei der Planung ... wenn Sie ihn sich vorstellen! "
+#~ "Besuchen Sie die Website, koordinieren Sie Unterkünfte, Events und "
+#~ "Erfahrungen, damit Ihr Urlaub Gestalt annimmt. Ihr Traumurlaub beginnt "
+#~ "bei der Planung ... wenn Sie ihn sich vorstellen! Besuchen Sie die "
+#~ "Website, koordinieren Sie Unterkünfte, Events und Erfahrungen, damit Ihr "
+#~ "Urlaub Gestalt annimmt. "
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+
+#~ msgid ""
+#~ "An email was sent to {0}. Please check your email box and type the "
+#~ "authentication code you have received."
+#~ msgstr ""
+#~ "Eine E-Mail wurde an {0} gesendet. Bitte überprüfen Sie Ihr E-Mail-Feld "
+#~ "und geben Sie den Authentifizierungscode ein, den Sie erhalten haben."
+
+#~ msgid "Two-factor secure authentication"
+#~ msgstr "Sichere Zwei-Faktor-Authentifizierung"
+
+#~ msgid "Lost password"
+#~ msgstr "Passwort verloren"
+
+#~ msgid "Login"
+#~ msgstr "Einloggen"
+
+#~ msgid "Confirm"
+#~ msgstr "Bestätigen"
+
+#~ msgid "Register"
+#~ msgstr "Registrieren"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Passwort vergessen"
+
+#~ msgid ""
+#~ "If you are having difficulty logging in, you can reset your password by "
+#~ "typing the Email Address that you used while registration. You will "
+#~ "receive an email with a new password."
+#~ msgstr ""
+#~ "Wenn Sie Probleme beim Anmelden haben, können Sie Ihr Passwort "
+#~ "zurücksetzen, indem Sie die E-Mail-Adresse eingeben, die Sie bei der "
+#~ "Registrierung verwendet haben. Sie erhalten eine E-Mail mit einem neuen "
+#~ "Passwort."
+
+#~ msgid "Back"
+#~ msgstr "Zurück"
+
+#~ msgid "Your account"
+#~ msgstr "Ihr Konto"
+
+#~ msgid "Welcome"
+#~ msgstr "Willkommen"
+
+#~ msgid "Your home page"
+#~ msgstr "Ihre Homepage"
+
+#~ msgid "Your details"
+#~ msgstr "Ihre Daten"
+
+#~ msgid "Your lists"
+#~ msgstr "Ihre Listen"
+
+#~ msgid "Your bookings"
+#~ msgstr "Ihre Buchungen"
+
+#~ msgid "Your payments"
+#~ msgstr "IIhre Zahlungen"
+
+#~ msgid "Your reviews"
+#~ msgstr "Ihre Bewertungen"
+
+#~ msgid "Logout"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Open"
+#~ msgstr "Offen"
+
+#~ msgid "Other Details"
+#~ msgstr "Andere Details"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to the dates and the "
+#~ "number of people."
+#~ msgstr ""
+#~ "Stornierungs- und Vorauszahlungsrichtlinien variieren je nach Datum und "
+#~ "Anzahl der Personen."
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">conditions</a> may apply to each option when making your selection."
+#~ msgstr ""
+#~ "Die Stornierungs- und Vorauszahlungsbedingungen variieren je nach "
+#~ "Unterkunftstyp. Bitte überprüfen Sie bei der Auswahl, welche <a rel="
+#~ "\"#divcalculator\" class=\"bfi-btn-calc\">Bedingungen</a> für jede Option "
+#~ "gelten."
+
+#~ msgid "Show phone"
+#~ msgstr "Telefon anzeigen"
+
+#~ msgid "Web site"
+#~ msgstr "Webseite"
+
+#~ msgid "Proposals"
+#~ msgstr "Vorschläge"
+
+#~ msgid "Offers"
+#~ msgstr "Angebote"
+
+#~ msgid "Bed room"
+#~ msgstr "Schlafzimmer"
+
+#~ msgid "Change the search details"
+#~ msgstr "Ändern Sie die Suchdetails"
+
+#~ msgid "Check-out "
+#~ msgstr "Check-out "
+
+#~ msgid "Age of children"
+#~ msgstr "Alter von Kindern"
+
+#~ msgid "on"
+#~ msgstr "auf"
+
+#~ msgid "Check availability"
+#~ msgstr "Verfügbarkeit prüfen"
+
+#, php-format
+#~ msgid "Group price for %s nights:"
+#~ msgstr "Gruppenpreis für %s Nächte:"
+
+#~ msgid "No results available for the submitted data"
+#~ msgstr "Diese Unterkunft ist zu Ihren Reisedaten leider nicht verfügbar"
+
+#~ msgid "City tax per person per night."
+#~ msgstr "Kurtaxe pro Person pro Nacht."
+
+#~ msgid "Fits"
+#~ msgstr "Passt"
+
+#, php-format
+#~ msgid "Max %s person"
+#~ msgstr "Max %s Personen"
+
+#, php-format
+#~ msgid " %d week/s"
+#~ msgstr " %d Woche(n)"
+
+#~ msgid "No prepayment is needed."
+#~ msgstr "Keine Vorauszahlung erforderlich."
+
+#~ msgid "You will be charged a prepayment of the total price at any time."
+#~ msgstr ""
+#~ "Ihnen wird jederzeit eine Vorauszahlung des Gesamtpreises berechnet."
+
+#, php-format
+#~ msgid ""
+#~ "You will be charged a prepayment of %1$s of the total price at any time."
+#~ msgstr "Ihnen wird jederzeit eine Vorauszahlung von %1$s des Gesamtpreises."
+
+#, php-format
+#~ msgid "You will be charged a prepayment of %1$s at any time."
+#~ msgstr "Ihnen wird jederzeit eine Vorauszahlung von %1$s berechnet."
+
+#~ msgid "Confirm your reservation"
+#~ msgstr "Bestätigen Sie Ihre Reservierung"
+
+#~ msgid "selected items"
+#~ msgstr "ausgewählte Positionen"
+
+#~ msgid "Request Now"
+#~ msgstr "Jetzt anfordern"
+
+#~ msgid "Choose your bed (if available)"
+#~ msgstr "Wählen Sie Ihr Bett (falls verfügbar)"
+
+#~ msgid "View other proposals"
+#~ msgstr "Andere Vorschläge anzeigen"
+
+#~ msgid "Do you want add more?"
+#~ msgstr "Möchten Sie noch mehr hinzufügen?"
+
+#~ msgid "selected services"
+#~ msgstr "ausgewählte Dienstleistungen"
+
+#~ msgid "Please, select a day"
+#~ msgstr "Bitte wählen Sie einen Tag."
+
+#~ msgid "Add to cart"
+#~ msgstr "In Warenkorb legen"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Weiter einkaufen"
+
+#~ msgid "Checkout"
+#~ msgstr "Auschecken"
+
+#~ msgid "Change search"
+#~ msgstr "Suche ändern"
+
+#~ msgid "Adults "
+#~ msgstr "Erwachsene"
+
+#~ msgid "Seniors "
+#~ msgstr "Senioren"
+
+#~ msgid "Ages of children"
+#~ msgstr "Alter von Kindern"
+
+#, php-format
+#~ msgid ""
+#~ "We preset your children's ages to %s years old - but if you enter their "
+#~ "actual ages, you might be able to find a better price."
+#~ msgstr ""
+#~ "Wir haben das Alter Ihres Kindes auf %s Jahre voreingestellt. Wenn Sie "
+#~ "jedoch das tatsächliche Alter eingeben, finden Sie möglicherweise bessere "
+#~ "Angebote."
+
+#~ msgid "Check availability at other merchants"
+#~ msgstr "Überprüfen Sie die Verfügbarkeit bei anderen Händlern"
+
+#~ msgid "We found availability at other merchants"
+#~ msgstr "Wir fanden Verfügbarkeit bei anderen Händlern"
+
+#, php-format
+#~ msgid "Persons min:%1$d max:%2$d"
+#~ msgstr "Personen min: %1$d max: %2$d"
+
+#, php-format
+#~ msgid "Other %1$d choice"
+#~ msgstr "Andere %1$d Auswahl"
+
+#~ msgid "Find other great offers!"
+#~ msgstr "Finden Sie weitere tolle Angebote!"
+
+#~ msgid "In case of no-show, you will be charged all."
+#~ msgstr "Bei Nichterscheinen werden Ihnen alle Kosten in Rechnung gestellt."
+
+#~ msgid "person"
+#~ msgstr "Person"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "next step"
+#~ msgstr "Nächster Schritt"
+
+#~ msgid "Pick-up"
+#~ msgstr "Abholung"
+
+#~ msgid "Drop-off"
+#~ msgstr "Drop-off"
+
+#~ msgid ""
+#~ "To see availablility and prices please enter your check-in and check-out "
+#~ "dates."
+#~ msgstr ""
+#~ "Um Verfügbarkeit und Preise zu sehen, geben Sie bitte Ihre Check-in- und "
+#~ "Check-out-Termine ein."
+
+#~ msgid "Show prices"
+#~ msgstr "Preise anzeigen"
+
+#, php-format
+#~ msgid "You may also be interested in the following proposals of \"%s\""
+#~ msgstr ""
+#~ "Sie können auch an den folgenden Vorschlägen von \"%s\" interessiert sein:"
+
+#~ msgid "We found availability for other dates"
+#~ msgstr "Wir haben Verfügbarkeit für andere Termine gefunden"
+
+#~ msgid "The price varies according to the dates and the number of people"
+#~ msgstr "Der Preis variiert je nach Datum und Anzahl der Personen"
+
+#~ msgid "Person"
+#~ msgstr "Person"
+
+#~ msgid "Select a period"
+#~ msgstr "Wählen Sie einen Zeitraum"
+
+#~ msgid "One day"
+#~ msgstr "Eines Tages"
+
+#~ msgid "More day"
+#~ msgstr "Mehr Tag"
+
+#~ msgid "Pay at the property  NO PREPAYMENT NEEDED"
+#~ msgstr "Zahlen Sie in der Unterkunft. – KEINE VORAUSZAHLUNG ERFORDERLICH"
+
+#~ msgid "Summary"
+#~ msgstr "Zusammenfassung"
+
+#~ msgid "night"
+#~ msgstr "Nacht"
+
+#~ msgid "Change"
+#~ msgstr "Ändern"
+
+#~ msgid "Vacation summary"
+#~ msgstr "Zusammenfassung der Ferien"
+
+#~ msgid "Confirm choice"
+#~ msgstr "Auswahl bestätigen"
+
+#~ msgid "Base Price"
+#~ msgstr "Basispreis"
+
+#~ msgid "Update search"
+#~ msgstr "Suche aktualisieren"
+
+#~ msgid "{0} nights"
+#~ msgstr "{0} Nächte"
+
+#~ msgid "{0} night"
+#~ msgstr "{0} Nacht"
+
+#~ msgid "Seniors"
+#~ msgstr "Senioren"
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "resources"
+#~ msgstr "Ressourcen"
+
+#~ msgid "Distance umbrellas"
+#~ msgstr "Abstand zwischen den Sitzplätzen"
+
+#~ msgid "remove"
+#~ msgstr "entfernen"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "Search experiences and areas..."
+#~ msgstr "Erlebnisse und Bereiche suchen..."
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "You have a coupon/discount code"
+#~ msgstr "Sie haben einen Gutschein/Rabattcode"
+
+#~ msgid "Coupon/discount code"
+#~ msgstr "Gutschein/Rabattcode"
+
+#~ msgid "Search"
+#~ msgstr "Suche"
+
+#~ msgid "Search packagess and areas..."
+#~ msgstr "Pakete und Bereiche suchen..."
+
+#~ msgid "Return to the same location"
+#~ msgstr "Rückkehr an den gleichen Ort"
+
+#~ msgid "Drop off in another location"
+#~ msgstr "Ablegen an einem anderen Ort"
+
+#~ msgid "Pick-up location"
+#~ msgstr "Abholort"
+
+#~ msgid "Drop-off location"
+#~ msgstr "Rückgabe-Ort"
+
+#~ msgid "Draw area"
+#~ msgstr "Zeichnen Sie"
+
+#~ msgid "Circle"
+#~ msgstr "Kreis"
+
+#~ msgid "Reset"
+#~ msgstr "Zurücksetzen"
+
+#~ msgid "Click on map and choose your area."
+#~ msgstr "Auf Karte karte und Ihren Bereich auswählen."
+
+#~ msgid "Find availability"
+#~ msgstr "Verfügbarkeit finden"
+
+#~ msgid "Search for accommodation or area"
+#~ msgstr "Suchen Sie nach Unterkunft oder Stadtteil"
+
+#~ msgid "Check-in - Check-out"
+#~ msgstr "Check-in - Check-out"
+
+#~ msgid "To"
+#~ msgstr "Bis"
+
+#~ msgid "Activities"
+#~ msgstr "Aktivitäten"
+
+#~ msgid "Others"
+#~ msgstr "Andere"
+
+#~ msgid "Any"
+#~ msgstr "Alle"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ">3"
+#~ msgstr ">3"
+
+#~ msgid "More days"
+#~ msgstr "Mehr Tage"
+
+#~ msgid "Today"
+#~ msgstr "Heute"
+
+#~ msgid "This Week"
+#~ msgstr "Diese Woche"
+
+#~ msgid "This Month"
+#~ msgstr "Diesen Monat"
+
+#~ msgid "Next Week"
+#~ msgstr "Nächste Woche"
+
+#~ msgid "Next Month"
+#~ msgstr "Nächsten Monat"
+
+#~ msgid "Search events"
+#~ msgstr "Events suchen"
+
+#~ msgid "Please enter a integer number"
+#~ msgstr "Bitte eine ganze Zahl eingeben."
+
+#~ msgid "Floor area m&sup2;"
+#~ msgstr "Fläche m&sup2;"
+
+#~ msgid "Bedrooms"
+#~ msgstr "Schlafzimmer"
+
+#~ msgid "Only new building"
+#~ msgstr "Nur Neubau"
+
+#~ msgid "Pound sterling"
+#~ msgstr "Britisches Pfund"
+
+#~ msgid "Your private area"
+#~ msgstr "Ihr privater Bereich"
+
+#~ msgctxt "Page slug"
+#~ msgid "packages"
+#~ msgstr "pakete"
+
+#~ msgid "all review"
+#~ msgstr "alle Überprüfung"
+
+#~ msgid "Zones"
+#~ msgstr "Zonen"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Points of interest"
+#~ msgstr "Sehenswürdigkeiten"
+
+#~ msgid "Experiences"
+#~ msgstr "Erlebnisse"
+
+#~ msgid "Haven't found what you were looking for yet?"
+#~ msgstr "Haben Sie noch nicht gefunden, was Sie gesucht haben?"
+
+#~ msgid "Travelers"
+#~ msgstr "Reisende"
+
+#~ msgid "Departure Time"
+#~ msgstr "Abreisezeit"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">conditions</a> may apply to each option when making your "
+#~ "selection."
+#~ msgstr ""
+#~ "Die Stornierungs- und Vorauszahlungsbedingungen variieren je nach "
+#~ "Unterkunftstyp. Bitte überprüfen Sie bei der Auswahl, welche <a rel=\"."
+#~ "bficontainerexperiencebox\" class=\"bfi-btn-calc\">Bedingungen</a> für "
+#~ "jede Option gelten."
+
+#~ msgid "Min age"
+#~ msgstr "Min Alter"
+
+#~ msgid "We recommend"
+#~ msgstr "Wir empfehlen"
+
+#~ msgid "Good to know"
+#~ msgstr "Nützliche Informationen"
+
+#~ msgid "Request for Information"
+#~ msgstr "Unverbindliche Anfrage"
+
+#~ msgid "Personal data treatment"
+#~ msgstr "Verarbeitung personenbezogener Daten"
+
+#~ msgid "Riconsegna nella stessa località"
+#~ msgstr "Kehren Sie zum selben Ort zurück"
+
+#~ msgid "Riconsegna in un'altra località"
+#~ msgstr "Bringen Sie an einem anderen Ort ab"
+
+#~ msgid "Un giorno"
+#~ msgstr "Eines Tages"
+
+#~ msgid "Più giorni"
+#~ msgstr "Mehr Tage"
+
+#~ msgctxt "Page slug"
+#~ msgid "condominiumdetails"
+#~ msgstr "eigentumswohnungdetails"
+
+#~ msgctxt "Page slug"
+#~ msgid "Condominium Details"
+#~ msgstr "Eigentumswohnung Details"
+
+#~ msgid "Condominium details"
+#~ msgstr "Eigentumswohnung details"
+
+#~ msgid "Order"
+#~ msgstr "Auftrag"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "Autentication Mode"
+#~ msgstr "Authentifizierungsmodus"
+
+#~ msgid "Event category filter"
+#~ msgstr "Filter für Ereigniskategorien"
+
+#~ msgid "Cities"
+#~ msgstr "Städte"
+
+#~ msgid "Merchant category filter"
+#~ msgstr "Händlerkategorienfilter"
+
+#~ msgid "Merchant Rating filter"
+#~ msgstr "Händlerbewertungsfilter"
+
+#~ msgid "Condominium"
+#~ msgstr "Eigentumswohnung"
+
+#~ msgid "External order ID"
+#~ msgstr "Externe Bestellnummer"
+
+#~ msgid "Correct format: dd/mm/yyyy"
+#~ msgstr "Richtiges Format: TT/MM/JJJJ"
+
+#~ msgid "Booking reference"
+#~ msgstr "Buchungsreferenz"
+
+#~ msgid "Client code"
+#~ msgstr "Client-Code"
+
+#~ msgid "Booking Enquiry"
+#~ msgstr "Buchungsanfrage"
+
+#~ msgid "Property facility"
+#~ msgstr "Unterkunftsmöglichkeit"

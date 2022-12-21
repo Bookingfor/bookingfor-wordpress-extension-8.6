@@ -1,0 +1,1469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-18 17:17+0200\n"
+"PO-Revision-Date: 2022-10-18 17:17+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+
+#: includes/bfi-widget-functions.php:68 includes/bfi-widget-functions.php:98
+msgid "bfisidebar"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:73
+msgid "bfisidebar Rental"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:78
+msgid "bfisidebar MapSell"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:83
+msgid "bfisidebar Time Slots"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:88
+msgid "bfisidebarExperience"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:93
+msgid "bfisidebarPackages"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:103
+msgid "bfisidebar Hidden"
+msgstr ""
+
+#: includes/bfi-widget-functions.php:113
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+msgid ""
+"These features have been deprecated. This means they are no longer supported "
+"and will be removed in the next version"
+msgstr ""
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr ""
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr ""
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr ""
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr ""
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr ""
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr ""
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr ""
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr ""
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr ""
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr ""
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr ""
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr ""
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr ""
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr ""
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr ""
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr ""
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr ""
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr ""
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr ""
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr ""
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr ""
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr ""
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr ""
+
+#: includes/class-bfi-query.php:86
+msgid "Event details"
+msgstr ""
+
+#: includes/class-bfi-query.php:89
+msgid "PointsOfInterest details"
+msgstr ""
+
+#: includes/class-bfi-query.php:92
+msgid "Merchant details"
+msgstr ""
+
+#: includes/class-bfi-query.php:95
+msgid "Resourcegroup Details"
+msgstr ""
+
+#: includes/class-bfi-query.php:98
+msgid "Accomodation details"
+msgstr ""
+
+#: includes/class-bfi-query.php:101
+msgid "Experience details"
+msgstr ""
+
+#: includes/class-bfi-query.php:104
+msgid "Order payment"
+msgstr ""
+
+#: includes/class-bfi-query.php:107
+msgid "On Sell details"
+msgstr ""
+
+#: includes/class-bfi-query.php:110
+msgid "Cart details"
+msgstr ""
+
+#: includes/class-bfi-query.php:113
+msgid "Packages details"
+msgstr ""
+
+#: includes/class-bfi-query.php:116
+msgid "Generic Request"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+msgid "BookingFor Permalinks"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+msgid "BookingFor search result page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+msgid "BookingFor Merchant details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+msgid "BookingFor Accommodation details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+msgid "BookingFor On Sell details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+msgid "BookingFor Cart Details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+msgid "BookingFor Generic Request page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+msgid "BookingFor Event Details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+msgid "BookingFor PointsOfInterest Details page"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:303
+msgid "Cache are cleaned"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:664
+msgid "8h"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+msgid "24h"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+msgid "2gg"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+msgid "7gg"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+msgid "20gg"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+msgid "30gg"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+msgid "Kune"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+msgid "U.S. dollar"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+msgid "Pound sterling "
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:1167
+#, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr ""
+
+#: includes/admin/class-bfi-admin.php:1175
+msgid "Thank you for selling with BookingFor."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+msgid "There are untranslated pages in "
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+msgid "Create missing pages"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+msgid "All fine!"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:260
+msgid "Delete Cached Data"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:261
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:266
+msgid "Delete Cache"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:274
+msgid "Delete Cache for Bot"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+msgid "Display the link for  login, cart and change currency."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+msgid "BookingFor Header Link"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+msgid "Show currency selector"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+msgid "Show link to cart"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+msgid "Show login as popup"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+msgid "Show link to Travel planner"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+msgid "BookingFor Search Tab"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+msgid "Search 1 (default:Booking)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+msgid "Search 2 (default:Services)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+msgid "Search 3 (default:Activities)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+msgid "Search 4 (default:Others)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+#: templates/widgets/booking-search.php:476
+msgid "Real Estate"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+msgid "Search MapSells"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+#: templates/widgets/booking-search-resources.php:234
+#: templates/widgets/booking-search.php:344
+msgid "Nights"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+#: templates/widgets/booking-search-resources.php:235
+#: templates/widgets/booking-search.php:345
+msgid "Days"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+msgid "Unit of times"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+msgid "Time slot"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+msgid "Merchant"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+msgid "Resource group"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+msgid "Rental"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+msgid "Time slots"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+msgid "Maps Sell"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:57
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+msgid "Displays horizontally"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+msgid "Fixed on top"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+msgid "Top correction"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+msgid "Fixed on bottom for small device"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+msgid "Use more tab"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+msgid "Show advance settings"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+msgid "Intro text"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+msgid "Icon (for expert users)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+msgid "Merchant category"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+msgid "Search availability for"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+msgid "Items type"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+msgid "Default group by "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+msgid "result Views "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+msgid "Fields Visibility"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+#: templates/widgets/booking-search.php:622
+#: templates/widgets/booking-search.php:623
+#: templates/widgets/booking-search.php:680
+#: templates/widgets/booking-search.php:681
+#: templates/widgets/booking-search.php:754
+#: templates/widgets/booking-search.php:755
+msgid "Search text"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+msgid "Research fields"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+#: templates/widgets/booking-search.php:774
+msgid "Type"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+msgid "Map Button"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+msgid "Select 1 day o more"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+msgid "Date Time Range"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+msgid "Block Months"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+msgid "Disable Days"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+msgid "Show resource number"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+msgid "Limit resource number"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+msgid "Show rooms number"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+msgid "Limit rooms number"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+#: templates/widgets/booking-search.php:323
+msgid "Services"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+msgid "(Regions, States, Cities, Zones)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+#: templates/widgets/booking-search.php:744
+msgid "Contract"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+#: templates/widgets/booking-search.php:784
+msgid "Price"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+msgid "Or Select Result Page"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+msgid "A Carousel list of Events."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+msgid "BookingFor Carousel Events"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+msgid "Max description characters"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+msgid "A Carousel list of Poi."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+msgid "BookingFor Carousel Poi"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+msgid "A Carousel list of Resource groups."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+msgid "BookingFor Carousel Resource groups"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+msgid "A Carousel list of Resources."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+msgid "BookingFor Carousel Resources"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+msgid "A Search box for Events."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+msgid "BookingFor Search Events"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+msgid "A Search box for Experience."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+msgid "BookingFor Search Experience"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+msgid "7 days"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+msgid "Search days interval "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+msgid "Pagina dei risultati: "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+msgid "A box for search on Maps."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+msgid "BookingFor Search MapSells"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+msgid "A Search box for Packages."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+msgid "BookingFor Search Packages"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+msgid "1 year"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+msgid "A Search box ."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+msgid "BookingFor Search"
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+msgid "A Search box for time slots."
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+msgid "BookingFor Search slot"
+msgstr ""
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr ""
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:64
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "resources"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:75
+#: templates/merchantdetailswidgets.php:76
+#: templates/merchantdetailswidgets.php:77
+msgctxt "Page slug"
+msgid "events"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:83
+#: templates/merchantdetailswidgets.php:84
+#: templates/merchantdetailswidgets.php:85
+msgctxt "Page slug"
+msgid "offers"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:88
+#: templates/merchantdetailswidgets.php:91
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:96
+msgctxt "Page slug"
+msgid "offer"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:98
+msgctxt "Page slug"
+msgid "thanks"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:101
+msgctxt "Page slug"
+msgid "errors"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:104
+#: templates/merchantdetailswidgets.php:107
+#: templates/merchantdetailswidgets.php:108
+#: templates/merchantdetailswidgets.php:109
+msgctxt "Page slug"
+msgid "reviews"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:111
+msgctxt "Page slug"
+msgid "review"
+msgstr ""
+
+#: templates/merchantdetailswidgets.php:113
+msgctxt "Page slug"
+msgid "redirect"
+msgstr ""
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr ""
+
+#: templates/widgets/booking-search-resources.php:83
+msgid "Find availability"
+msgstr ""
+
+#: templates/widgets/booking-search.php:322
+msgid "Booking"
+msgstr ""
+
+#: templates/widgets/booking-search.php:324
+msgid "Activities"
+msgstr ""
+
+#: templates/widgets/booking-search.php:325
+msgid "Others"
+msgstr ""
+
+#: templates/widgets/booking-search.php:601
+msgid "Select a period"
+msgstr ""
+
+#: templates/widgets/booking-search.php:602
+msgid "Today"
+msgstr ""
+
+#: templates/widgets/booking-search.php:603
+msgid "This Week"
+msgstr ""
+
+#: templates/widgets/booking-search.php:604
+msgid "This Month"
+msgstr ""
+
+#: templates/widgets/booking-search.php:605
+msgid "Next Week"
+msgstr ""
+
+#: templates/widgets/booking-search.php:606
+msgid "Next Month"
+msgstr ""
+
+#: templates/widgets/booking-search.php:610
+#: templates/widgets/booking-search.php:696
+msgid "From"
+msgstr ""
+
+#: templates/widgets/booking-search.php:616
+#: templates/widgets/booking-search.php:702
+msgid "To"
+msgstr ""
+
+#: templates/widgets/booking-search.php:626
+#: templates/widgets/booking-search.php:708
+#: templates/widgets/booking-search.php:726
+#: templates/widgets/booking-search.php:896
+#: templates/widgets/booking-search.php:941
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/booking-search.php:649
+msgid "Search events"
+msgstr ""
+
+#: templates/widgets/booking-search.php:690
+msgid "One day"
+msgstr ""
+
+#: templates/widgets/booking-search.php:691
+msgid "More days"
+msgstr ""
+
+#: templates/widgets/booking-search.php:787
+#: templates/widgets/booking-search.php:802
+#: templates/widgets/booking-search.php:817
+#: templates/widgets/booking-search.php:832
+#: templates/widgets/booking-search.php:850
+msgid "from"
+msgstr ""
+
+#: templates/widgets/booking-search.php:787
+#: templates/widgets/booking-search.php:790
+#: templates/widgets/booking-search.php:802
+#: templates/widgets/booking-search.php:805
+#: templates/widgets/booking-search.php:817
+#: templates/widgets/booking-search.php:820
+#: templates/widgets/booking-search.php:832
+#: templates/widgets/booking-search.php:835
+msgid "Please enter a integer number"
+msgstr ""
+
+#: templates/widgets/booking-search.php:790
+#: templates/widgets/booking-search.php:805
+#: templates/widgets/booking-search.php:820
+#: templates/widgets/booking-search.php:835
+#: templates/widgets/booking-search.php:851
+msgid "to"
+msgstr ""
+
+#: templates/widgets/booking-search.php:799
+msgid "Floor area m&sup2;"
+msgstr ""
+
+#: templates/widgets/booking-search.php:814
+msgid "Bedrooms"
+msgstr ""
+
+#: templates/widgets/booking-search.php:829
+msgid "Rooms"
+msgstr ""
+
+#: templates/widgets/booking-search.php:844
+msgid "Bathrooms"
+msgstr ""
+
+#: templates/widgets/booking-search.php:884
+msgid "Only new building"
+msgstr ""
+
+#: templates/widgets/booking-search.php:935
+msgid "Draw area"
+msgstr ""
+
+#: templates/widgets/booking-search.php:936
+msgid "Area"
+msgstr ""
+
+#: templates/widgets/booking-search.php:937
+msgid "Circle"
+msgstr ""
+
+#: templates/widgets/booking-search.php:943
+msgid "Reset"
+msgstr ""
+
+#: templates/widgets/booking-search.php:944
+msgid "Confirm"
+msgstr ""
+
+#: templates/widgets/booking-search.php:953
+msgid "Click on map and choose your area."
+msgstr ""
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr ""
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr ""

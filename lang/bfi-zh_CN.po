@@ -1,0 +1,3698 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 16:21+0200\n"
+"PO-Revision-Date: 2022-10-13 16:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr "这是一个用于测试目的的演示存储-没有任何订单将被满足。"
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr "可用性搜索"
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr "可用性搜索"
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr "搜索地图销售"
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr "搜索地图销售"
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr "事件搜索"
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr "事件搜索"
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr "待售物业"
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr "搜索待售物业"
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr "活动详情"
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr "活动详情"
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr "兴趣点详情"
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr "兴趣点详情"
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr "商家详细信息"
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr "商家详细信息"
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr "资源组详情"
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr "资源组详情"
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr "住宿详情"
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr "住宿详情"
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr "经验细节"
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr "经验细节  "
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr "销售卡"
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr "出售详情"
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr "支付"
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr "付款详情"
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr "购物车详情"
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr "购物车详情"
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr "搜索包"
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr "搜索包"
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr "套餐"
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr "套餐"
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr "通用请求"
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr "通用请求 "
+
+#: includes/class-bfi-query.php:86
+msgid "Event details"
+msgstr "活动详情"
+
+#: includes/class-bfi-query.php:89
+#, fuzzy
+msgid "PointsOfInterest details"
+msgstr "兴趣点详情"
+
+#: includes/class-bfi-query.php:92
+#, fuzzy
+msgid "Merchant details"
+msgstr "商家详细信息"
+
+#: includes/class-bfi-query.php:95
+#, fuzzy
+msgid "Resourcegroup Details"
+msgstr "资源组详细信息"
+
+#: includes/class-bfi-query.php:98
+#, fuzzy
+msgid "Accomodation details"
+msgstr "住宿详情"
+
+#: includes/class-bfi-query.php:101
+#, fuzzy
+msgid "Experience details"
+msgstr "体验详情"
+
+#: includes/class-bfi-query.php:104
+#, fuzzy
+msgid "Order payment"
+msgstr "订单付款"
+
+#: includes/class-bfi-query.php:107
+#, fuzzy
+msgid "On Sell details"
+msgstr "出售详情"
+
+#: includes/class-bfi-query.php:110
+#, fuzzy
+msgid "Cart details"
+msgstr "购物车详情"
+
+#: includes/class-bfi-query.php:113
+msgid "Packages details"
+msgstr "套餐"
+
+#: includes/class-bfi-query.php:116
+#, fuzzy
+msgid "Generic Request"
+msgstr "通用请求"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+#, fuzzy
+msgid "BookingFor Permalinks"
+msgstr "预订永久链接"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+#, fuzzy
+msgid "BookingFor search result page"
+msgstr "预订搜索结果页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+#, fuzzy
+msgid "BookingFor Merchant details page"
+msgstr "预订商家详细信息页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+#, fuzzy
+msgid "BookingFor Accommodation details page"
+msgstr "预订住宿详情页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+#, fuzzy
+msgid "BookingFor On Sell details page"
+msgstr "预订在售详情页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+#, fuzzy
+msgid "BookingFor Cart Details page"
+msgstr "预订购物车详情页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+#, fuzzy
+msgid "BookingFor Generic Request page"
+msgstr "预订通用请求页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+#, fuzzy
+msgid "BookingFor Event Details page"
+msgstr "预订活动详情页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+#, fuzzy
+msgid "BookingFor PointsOfInterest Details page"
+msgstr "预订兴趣点详情页面"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr "可用性搜索"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr "搜索事件"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr "商家详细信息"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr "购物车详情"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr "通用请求"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr "住宿详情"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr "销售卡"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr "活动详情"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr "兴趣点详情"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+#, fuzzy
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr "这些设置控制专门用于预订的永久链接。"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr "可用性搜索"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr "默认"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr "搜索可用性库"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr "自定义库"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"输入使用自定义库。基于<strong>必须</strong>被设置或WordPress会使用默认的相"
+"反。"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr "可用性搜索"
+
+#: includes/admin/class-bfi-admin.php:303
+#, fuzzy
+msgid "Cache are cleaned"
+msgstr "清理缓存"
+
+#: includes/admin/class-bfi-admin.php:664
+msgid "8h"
+msgstr "8小时"
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+msgid "24h"
+msgstr "24小时"
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+#, fuzzy
+msgid "2gg"
+msgstr "2克"
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+#, fuzzy
+msgid "7gg"
+msgstr "7克"
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+#, fuzzy
+msgid "20gg"
+msgstr "20克"
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+#, fuzzy
+msgid "30gg"
+msgstr "30克"
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr "欧元"
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+#, fuzzy
+msgid "Kune"
+msgstr "库内"
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+#, fuzzy
+msgid "U.S. dollar"
+msgstr "美元"
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr "日元"
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr "加拿大元"
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr "澳大利亚元"
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr "俄罗斯卢布"
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr "捷克克朗"
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr "新加坡元"
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+#, fuzzy
+msgid "Pound sterling "
+msgstr "英镑"
+
+#: includes/admin/class-bfi-admin.php:1167
+#, fuzzy, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+"如果您喜欢 <strong>BookingFor，</strong> 请给我们评分 %s★★★★★%s 。提前从"
+"Booking上非常感谢！"
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr "谢谢"
+
+#: includes/admin/class-bfi-admin.php:1175
+#, fuzzy
+msgid "Thank you for selling with BookingFor."
+msgstr "感谢您通过BookingFor进行销售。"
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+#, fuzzy
+msgid "There are untranslated pages in "
+msgstr "有未翻译的页面"
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+msgid "Create missing pages"
+msgstr "创建缺失的页面"
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+#, fuzzy
+msgid "All fine!"
+msgstr "都很好！"
+
+#: includes/admin/views/html-admin-settings.php:260
+#, fuzzy
+msgid "Delete Cached Data"
+msgstr "删除缓存数据"
+
+#: includes/admin/views/html-admin-settings.php:261
+#, fuzzy
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr "缓存数据存储在服务器上的文件中。如果您需要删除它们，请使用下面的按钮。"
+
+#: includes/admin/views/html-admin-settings.php:266
+msgid "Delete Cache"
+msgstr "删除缓存"
+
+#: includes/admin/views/html-admin-settings.php:274
+#, fuzzy
+msgid "Delete Cache for Bot"
+msgstr "删除机器人的缓存"
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr "保存更改"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:24
+#, fuzzy
+msgid "Display the user's Cart link in the sidebar."
+msgstr "在边栏中显示用户的购物车链接。"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:26
+#, fuzzy
+msgid "BookingFor Cart"
+msgstr "预订购物车"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:31
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-login.php:31
+#: includes/widgets/class-bfi-widget-booking-login.php:70
+#: includes/widgets/class-bfi-widget-booking-reviews.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-filters.php:31
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-rental.php:32
+#: includes/widgets/class-bfi-widget-search-rental.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+#: includes/widgets/class-bfi-widget-smallmap.php:31
+msgid "Title"
+msgstr "标题"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:24
+#, fuzzy
+msgid "Display the user's currency switcher in the sidebar."
+msgstr "在边栏中显示用户的货币切换器。"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:26
+#, fuzzy
+msgid "BookingFor currency switcher"
+msgstr "预订货币切换器"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#, fuzzy
+msgid "Display the link for  login, cart and change currency."
+msgstr "显示登录，购物车和更改货币的链接。"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+#, fuzzy
+msgid "BookingFor Header Link"
+msgstr "预订标题链接"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+msgid "Show currency selector"
+msgstr "显示货币选择器"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+#, fuzzy
+msgid "Show link to cart"
+msgstr "显示购物车链接"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+#, fuzzy
+msgid "Show login as popup"
+msgstr "将登录显示为弹出窗口"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+#, fuzzy
+msgid "Show link to Travel planner"
+msgstr "显示指向旅行规划器的链接"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:24
+#, fuzzy
+msgid "Display the Login form in the sidebar."
+msgstr "在边栏中显示\"登录\"窗体。"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:26
+#, fuzzy
+msgid "BookingFor Login"
+msgstr "预订登录"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:74
+#, fuzzy
+msgid "Show like a popup"
+msgstr "像弹出窗口一样显示"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:24
+#, fuzzy
+msgid "Display the user's Review in the sidebar."
+msgstr "在边栏中显示用户的\"评论\"。"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:26
+#, fuzzy
+msgid "BookingFor Reviews"
+msgstr "预订供参考"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+#, fuzzy
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr "多聚体、单聚体和卖出的搜索框。"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+#, fuzzy
+msgid "BookingFor Search Tab"
+msgstr "预订搜索选项卡"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+msgid "Search 1 (default:Booking)"
+msgstr "搜索 1（默认：预订）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+msgid "Search 2 (default:Services)"
+msgstr "搜索 2（默认：服务）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+msgid "Search 3 (default:Activities)"
+msgstr "搜索 3（默认：活动）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+msgid "Search 4 (default:Others)"
+msgstr "搜索 4（默认：其他）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+msgid "Real Estate"
+msgstr "房地产"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr "活动"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+msgid "Search MapSells"
+msgstr "搜索地图"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+msgid "Nights"
+msgstr "晚"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+msgid "Days"
+msgstr "天"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-rental.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+#, fuzzy
+msgid "Unit of times"
+msgstr "时间单位"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+msgid "Time slot"
+msgstr "时间段"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-rental.php:72
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr "资源"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-rental.php:73
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+msgid "Merchant"
+msgstr "商家"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-rental.php:74
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+#, fuzzy
+msgid "Resource group"
+msgstr "资源组"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr "服务"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr "经验"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+msgid "Rental"
+msgstr "租赁"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+msgid "Time slots"
+msgstr "时间段"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+#, fuzzy
+msgid "Maps Sell"
+msgstr "地图 出售"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:61
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-rental.php:179
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+#, fuzzy
+msgid "Displays horizontally"
+msgstr "水平显示"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-rental.php:182
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+#, fuzzy
+msgid "Fixed on top"
+msgstr "固定在顶部"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-rental.php:185
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+#, fuzzy
+msgid "Top correction"
+msgstr "顶部校正"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-rental.php:189
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+#, fuzzy
+msgid "Fixed on bottom for small device"
+msgstr "固定在底部，用于小型设备"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr "卡片"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+#, fuzzy
+msgid "Use more tab"
+msgstr "使用\"更多\"选项卡"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-rental.php:192
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+#, fuzzy
+msgid "Show advance settings"
+msgstr "显示高级设置"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+msgid "Intro text"
+msgstr "引入文本"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+#, fuzzy
+msgid "Icon (for expert users)"
+msgstr "图标（适用于专家用户）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-rental.php:199
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+#, fuzzy
+msgid "Merchant category"
+msgstr "商户类别"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-rental.php:219
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr "产品分类"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-rental.php:238
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+msgid "Search availability for"
+msgstr "可用性搜索"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-rental.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+msgid "Items type"
+msgstr "产品种类"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:274
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+#, fuzzy
+msgid "Default group by "
+msgstr "默认分组依据"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+#, fuzzy
+msgid "result Views "
+msgstr "结果视图"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-rental.php:294
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+#, fuzzy
+msgid "Fields Visibility"
+msgstr "字段可见性"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid "Search text"
+msgstr "搜索文字"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr "（商家，产品，标签，商家和产品类别，地区，州，城市，区域）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-rental.php:296
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+msgid "Research fields"
+msgstr "搜索项"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-rental.php:316
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr "或"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-rental.php:317
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr "目的地"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-rental.php:318
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+msgid "Type"
+msgstr "类型"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+#, fuzzy
+msgid "Map Button"
+msgstr "地图按钮"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+msgid "Select 1 day o more"
+msgstr "选择 1 天或更多"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr "日期范围"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+msgid "Date Time Range"
+msgstr "时间范围"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-rental.php:320
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+#, fuzzy
+msgid "Block Months"
+msgstr "区块月份"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-rental.php:339
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+#, fuzzy
+msgid "Disable Days"
+msgstr "禁用天数"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-rental.php:364
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+#, fuzzy
+msgid "Show resource number"
+msgstr "显示资源编号"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-rental.php:365
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+#, fuzzy
+msgid "Limit resource number"
+msgstr "限制资源数量"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-rental.php:367
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr "最小"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-rental.php:385
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr "最大"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+#, fuzzy
+msgid "Show rooms number"
+msgstr "显示房间数"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+#, fuzzy
+msgid "Limit rooms number"
+msgstr "限制房间数量"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-rental.php:405
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr "人数"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:407
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr "成人"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-rental.php:408
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr "儿童"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-rental.php:409
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr "高级"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+msgid "Services"
+msgstr "服务"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-rental.php:411
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr "仅限在线预订"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr "优惠券"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+msgid "(Regions, States, Cities, Zones)"
+msgstr "（地区、州、城市、区域）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+msgid "Contract"
+msgstr "合同"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+msgid "Price"
+msgstr "价格"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr "面积"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr "卧室"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr "浴室"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr "仅新增"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr "服务列表"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+#, fuzzy
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr "Risultato nella stessa pagina （solo se usato con shortcode）"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+msgid "Or Select Result Page"
+msgstr "或选择结果页面"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+#, fuzzy
+msgid "A Carousel list of Events."
+msgstr "事件轮播列表。"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+#, fuzzy
+msgid "BookingFor Carousel Events"
+msgstr "预订轮播活动"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr "标签"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr "每页项目"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr "主题"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr "限制最大"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+#, fuzzy
+msgid "Max description characters"
+msgstr "最大描述字符数"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+#, fuzzy
+msgid "A Carousel list of Poi."
+msgstr "Poi 的轮播列表。"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+#, fuzzy
+msgid "BookingFor Carousel Poi"
+msgstr "预订旋转木马波伊"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+#, fuzzy
+msgid "A Carousel list of Resource groups."
+msgstr "资源轮播列表。"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resource groups"
+msgstr "预订轮播资源"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+#, fuzzy
+msgid "A Carousel list of Resources."
+msgstr "资源轮播列表。"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resources"
+msgstr "预订轮播资源"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:24
+#, fuzzy
+msgid "A details merchant box."
+msgstr "详细的商家框。"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:26
+#, fuzzy
+msgid "BookingFor details merchant box"
+msgstr "预订详情商家信箱"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:36
+#, fuzzy
+msgid "what to show"
+msgstr "要显示的内容"
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr "商家轮播列表表格。"
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr "商家横栏"
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-filters.php:24
+#, fuzzy
+msgid "A Filter box."
+msgstr "\"筛选器\"框。"
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+#, fuzzy
+msgid "BookingFor Search Events"
+msgstr "预订搜索活动"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#, fuzzy
+msgid "A Search box for Experience."
+msgstr "\"体验\"的搜索框。"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+#, fuzzy
+msgid "BookingFor Search Experience"
+msgstr "预订搜索体验"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr "1天"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+msgid "7 days"
+msgstr "7 天"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+msgid "Search days interval "
+msgstr "搜索间隔天数"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-mapsells.php:71
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-rental.php:424
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+#, fuzzy
+msgid "Pagina dei risultati: "
+msgstr "Pagina dei risultati："
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-mapsells.php:73
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-rental.php:426
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr "选择"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-mapsells.php:117
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-rental.php:483
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+#, fuzzy
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr "Visualizza il seguente widget nella sidebar"
+
+#: includes/widgets/class-bfi-widget-search-filters.php:26
+#, fuzzy
+msgid "BookingFor Search Filters"
+msgstr "预订搜索过滤器"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#, fuzzy
+msgid "A box for search on Maps."
+msgstr "用于在地图上搜索的框。"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+#, fuzzy
+msgid "BookingFor Search MapSells"
+msgstr "预订搜索地图销售"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#, fuzzy
+msgid "A Search box for Packages."
+msgstr "\"租车\"、\"自行车\"的搜索框。"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+#, fuzzy
+msgid "BookingFor Search Packages"
+msgstr "预订搜索选项卡"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+msgid "1 year"
+msgstr "1年"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:24
+#, fuzzy
+msgid "A Search box for Rental cars, bikes."
+msgstr "\"租车\"、\"自行车\"的搜索框。"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:26
+#, fuzzy
+msgid "BookingFor Search Rental"
+msgstr "预订搜索租赁"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:79
+msgid "Package"
+msgstr "套餐"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#, fuzzy
+msgid "A Search box ."
+msgstr "搜索框 。"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+#, fuzzy
+msgid "BookingFor Search"
+msgstr "预订搜索"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+#, fuzzy
+msgid "A Search box for time slots."
+msgstr "时间段的搜索框。"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+#, fuzzy
+msgid "BookingFor Search slot"
+msgstr "预订搜索时段"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:24
+#, fuzzy
+msgid "A small map box."
+msgstr "一个小地图框。"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:26
+#, fuzzy
+msgid "BookingFor small map box"
+msgstr "预订小地图框"
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr "OPS，发生了一些错误！请稍后再试。"
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr "目前您无法付款。"
+
+#: templates/merchantdetailswidgets.php:60
+#: templates/merchantdetailswidgets.php:61
+#: templates/merchantdetailswidgets.php:62
+#: templates/merchantdetailswidgets.php:63
+msgctxt "Page slug"
+msgid "resources"
+msgstr "资源"
+
+#: templates/merchantdetailswidgets.php:66
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "events"
+msgstr "活动"
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:73
+#: templates/merchantdetailswidgets.php:74
+#: templates/merchantdetailswidgets.php:75
+msgctxt "Page slug"
+msgid "offers"
+msgstr "报价"
+
+#: templates/merchantdetailswidgets.php:78
+#: templates/merchantdetailswidgets.php:79
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:81
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr "销售单位"
+
+#: templates/merchantdetailswidgets.php:84
+msgctxt "Page slug"
+msgid "offer"
+msgstr "优惠"
+
+#: templates/merchantdetailswidgets.php:86
+msgctxt "Page slug"
+msgid "thanks"
+msgstr "谢谢"
+
+#: templates/merchantdetailswidgets.php:89
+msgctxt "Page slug"
+msgid "errors"
+msgstr "错误"
+
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+#: templates/merchantdetailswidgets.php:94
+#: templates/merchantdetailswidgets.php:95
+msgctxt "Page slug"
+msgid "reviews"
+msgstr "评论"
+
+#: templates/merchantdetailswidgets.php:97
+msgctxt "Page slug"
+msgid "review"
+msgstr "审查"
+
+#: templates/merchantdetailswidgets.php:99
+msgctxt "Page slug"
+msgid "redirect"
+msgstr "登录重定向URL"
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr "感谢您选择我们。"
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr "详情"
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr "发现"
+
+#~ msgid "From"
+#~ msgstr "从"
+
+#~ msgid "Children"
+#~ msgstr "儿童"
+
+#~ msgid "Guest"
+#~ msgstr "访客"
+
+#~ msgid "hours"
+#~ msgstr "小时"
+
+#~ msgid "Duration"
+#~ msgstr "持续时间"
+
+#~ msgid "the"
+#~ msgstr "该"
+
+#~ msgid "No result available"
+#~ msgstr "无可用结果"
+
+#~ msgid "Login success"
+#~ msgstr "登录成功"
+
+#~ msgid "Login failed"
+#~ msgstr "登录失败"
+
+#~ msgid "Code not valid"
+#~ msgstr "代码无效"
+
+#~ msgid "Select a check-out date"
+#~ msgstr "选择离开日期"
+
+#~ msgid "Done"
+#~ msgstr "完成"
+
+#~ msgid "Sun"
+#~ msgstr "星期日"
+
+#~ msgid "Mon"
+#~ msgstr "星期一"
+
+#~ msgid "Tue"
+#~ msgstr "星期二"
+
+#~ msgid "Wed"
+#~ msgstr "星期三"
+
+#~ msgid "Thu"
+#~ msgstr "星期四"
+
+#~ msgid "Fri"
+#~ msgstr "星期五"
+
+#~ msgid "Sat"
+#~ msgstr "星期六"
+
+#~ msgid "January"
+#~ msgstr "一月"
+
+#~ msgid "February"
+#~ msgstr "二月"
+
+#~ msgid "March"
+#~ msgstr "三月"
+
+#~ msgid "April"
+#~ msgstr "四月"
+
+#~ msgid "May"
+#~ msgstr "五月"
+
+#~ msgid "June"
+#~ msgstr "六月"
+
+#~ msgid "July"
+#~ msgstr "七月"
+
+#~ msgid "August"
+#~ msgstr "八月"
+
+#~ msgid "September"
+#~ msgstr "九月"
+
+#~ msgid "October"
+#~ msgstr "十月"
+
+#~ msgid "November"
+#~ msgstr "十一月"
+
+#~ msgid "December"
+#~ msgstr "十二月"
+
+#~ msgid "Access not valid. Access will be denied until {0}."
+#~ msgstr "访问无效。访问将被拒绝，直到{0}。"
+
+#~ msgid "Link has been sent to registered email"
+#~ msgstr "链接已发送到已注册的电子邮件"
+
+#~ msgid "Please enter valid registered email"
+#~ msgstr "请输入有效的注册电子邮件"
+
+#~ msgid "Look nearby"
+#~ msgstr "查看附近"
+
+#~ msgid "Read more"
+#~ msgstr "阅读更多"
+
+#~ msgid "Read less"
+#~ msgstr "收起"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "添加至清单"
+
+#~ msgid "My next trip"
+#~ msgstr "我的下一次旅行"
+
+#~ msgid "Create a new list"
+#~ msgstr "创建一个新清单"
+
+#~ msgid "Search area or point of interest"
+#~ msgstr "搜索区域或兴趣点"
+
+#~ msgid "Please select one or more option you want to request"
+#~ msgstr "请选择您要申请的一个或多个选项"
+
+#~ msgid "Change your details"
+#~ msgstr "更改您的详细信息"
+
+#~ msgid "Select dates"
+#~ msgstr "选择日期"
+
+#, php-format
+#~ msgid " %d second/s"
+#~ msgstr "%d 秒"
+
+#~ msgid "(Approx.)"
+#~ msgstr "（大约）"
+
+#, php-format
+#~ msgid " %d minutes"
+#~ msgstr " %d 分钟"
+
+#, php-format
+#~ msgid " %d minute"
+#~ msgstr " %d 分钟"
+
+#, php-format
+#~ msgid " %d hours"
+#~ msgstr "%d 小时"
+
+#, php-format
+#~ msgid " %d hour"
+#~ msgstr "%d小时"
+
+#, php-format
+#~ msgid " %d days"
+#~ msgstr "%d天"
+
+#, php-format
+#~ msgid " %d day"
+#~ msgid_plural " %d days"
+#~ msgstr[0] "%d天"
+
+#, php-format
+#~ msgid " %d month/s"
+#~ msgstr "%d个月"
+
+#, php-format
+#~ msgid " %d year/s"
+#~ msgstr "%d 年"
+
+#~ msgid "Mandatory"
+#~ msgstr "必填"
+
+#, php-format
+#~ msgid "Search Results: &ldquo;%s&rdquo;"
+#~ msgstr "搜索结果: &ldquo;%s&rdquo;"
+
+#, php-format
+#~ msgid "&nbsp;&ndash; Page %s"
+#~ msgstr "&nbsp;&ndash; 页面 %s"
+
+#, fuzzy
+#~ msgid "bfisidebar"
+#~ msgstr "b挡板"
+
+#, fuzzy
+#~ msgid "bfisidebar Rental"
+#~ msgstr "b边栏租赁"
+
+#, fuzzy
+#~ msgid "bfisidebar MapSell"
+#~ msgstr "bfisidebar MapSell"
+
+#, fuzzy
+#~ msgid "bfisidebar Time Slots"
+#~ msgstr "b边栏时间段"
+
+#, fuzzy
+#~ msgid "bfisidebarExperience"
+#~ msgstr "bfisidebarExperience"
+
+#, fuzzy
+#~ msgid "bfisidebarPackages"
+#~ msgstr "b挡板"
+
+#, fuzzy
+#~ msgid "bfisidebar Hidden"
+#~ msgstr "隐藏式酒吧"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add widgets here to appear in Bookingfor pages. (<b><u>NOT delete or "
+#~ "rename</u></b>)"
+#~ msgstr ""
+#~ "在此处添加小部件以显示在预订页面中。（<b><u>不删除或重命名</u></b>）"
+
+#~ msgctxt "Page slug"
+#~ msgid "contact"
+#~ msgstr "联系"
+
+#~ msgid "Recently seen"
+#~ msgstr "最近看过"
+
+#~ msgctxt "Page slug"
+#~ msgid "inforequestpopup"
+#~ msgstr "信息请求弹出窗口 "
+
+#~ msgctxt "Page slug"
+#~ msgid "mapspopup"
+#~ msgstr "地图弹出窗口"
+
+#~ msgid "nights"
+#~ msgstr "晚"
+
+#~ msgid "Seniores"
+#~ msgstr "老年人"
+
+#~ msgid "Order by"
+#~ msgstr "排序方式"
+
+#, fuzzy
+#~ msgid "Lowest price first"
+#~ msgstr "最低价格优先"
+
+#~ msgid "Review score"
+#~ msgstr "客人评分"
+
+#~ msgid "Best offers"
+#~ msgstr "最好的优惠"
+
+#, fuzzy
+#~ msgid "Distance from center"
+#~ msgstr "离中心地区"
+
+#, fuzzy
+#~ msgid "Distance from point of interest"
+#~ msgstr "与兴趣点的距离"
+
+#~ msgid "Filter"
+#~ msgstr "筛选"
+
+#~ msgid "Map"
+#~ msgstr "地图"
+
+#~ msgid "Filters"
+#~ msgstr "过滤器"
+
+#, php-format
+#~ msgid "Show %s results"
+#~ msgstr "显示 %s 个结果"
+
+#, fuzzy
+#~ msgid "BookingFor Merchant List page"
+#~ msgstr "预订商家列表页面"
+
+#~ msgctxt "slug"
+#~ msgid "eventlist"
+#~ msgstr "活动"
+
+#~ msgctxt "slug"
+#~ msgid "merchantlist"
+#~ msgstr "商家名单"
+
+#, fuzzy
+#~ msgid "&resourceId="
+#~ msgstr "&resourceId="
+
+#, fuzzy
+#~ msgid "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+#~ msgstr ""
+#~ "index.php？option=com_bookingforconnector&view=onsellunit&resourceId="
+
+#~ msgid "Hours"
+#~ msgstr "小时"
+
+#~ msgid "single bed"
+#~ msgstr "单人床"
+
+#~ msgid "double bed"
+#~ msgstr "双人床"
+
+#~ msgid "large double bed"
+#~ msgstr "大双人床"
+
+#~ msgid "extra-large double bed"
+#~ msgstr "超大号双人床"
+
+#~ msgid "bunk bed"
+#~ msgstr "双层床"
+
+#~ msgid "sofa bed"
+#~ msgstr "沙发床"
+
+#~ msgid "futon"
+#~ msgstr "被褥"
+
+#~ msgid "single beds"
+#~ msgstr "单人床"
+
+#~ msgid "double beds"
+#~ msgstr "双人床"
+
+#~ msgid "large double beds"
+#~ msgstr "大双人床"
+
+#~ msgid "extra-large double beds"
+#~ msgstr "超大号双人床"
+
+#~ msgid "bunk beds"
+#~ msgstr "双层床"
+
+#~ msgid "sofa beds"
+#~ msgstr "沙发床"
+
+#~ msgid "futons"
+#~ msgstr "被褥"
+
+#~ msgid "Youth"
+#~ msgstr "青年"
+
+#~ msgid "Infant"
+#~ msgstr "婴儿"
+
+#~ msgid "Your Cart is empty! "
+#~ msgstr "您的购物车是空的！ "
+
+#~ msgid "Secure booking. We protect your information"
+#~ msgstr "安全预订。我们保护您的信息"
+
+#~ msgid "Your reservation includes"
+#~ msgstr "您的预订包括"
+
+#~ msgid "Information"
+#~ msgstr "信息"
+
+#~ msgid "For"
+#~ msgstr "对于"
+
+#~ msgid "Options"
+#~ msgstr "选项"
+
+#~ msgid "Qt."
+#~ msgstr "数量"
+
+#~ msgid "Total price"
+#~ msgstr "总价格"
+
+#~ msgid "from"
+#~ msgstr "从"
+
+#~ msgid "to"
+#~ msgstr "到"
+
+#~ msgid "seat"
+#~ msgstr "座位"
+
+#~ msgid "People"
+#~ msgstr "人"
+
+#~ msgid "Years"
+#~ msgstr "年"
+
+#, php-format
+#~ msgid "Over %s"
+#~ msgstr "超越 %s"
+
+#, php-format
+#~ msgid " %d day/s"
+#~ msgstr "%d天"
+
+#~ msgid "Check-in"
+#~ msgstr "入住"
+
+#~ msgid "Check-out"
+#~ msgstr "退房"
+
+#~ msgid "until"
+#~ msgstr "直到"
+
+#~ msgid "Total"
+#~ msgstr "总计"
+
+#~ msgid "minuti"
+#~ msgstr "分钟"
+
+#~ msgid "Time Table"
+#~ msgstr "时间表"
+
+#~ msgid "Room"
+#~ msgstr "房间"
+
+#~ msgid "Included"
+#~ msgstr "包括"
+
+#~ msgid "VAT"
+#~ msgstr "增值税"
+
+#~ msgid "Not included"
+#~ msgstr "不包含"
+
+#~ msgid "City tax per person per night"
+#~ msgstr "每人每晚城市税"
+
+#~ msgid "Extra bed"
+#~ msgstr "加床"
+
+#~ msgid "Cot"
+#~ msgstr "婴儿 床"
+
+#~ msgid "Exempt"
+#~ msgstr "豁免"
+
+#~ msgid "City tax"
+#~ msgstr "城市税"
+
+#~ msgid "days"
+#~ msgstr "天"
+
+#~ msgid "weeks"
+#~ msgstr "周"
+
+#~ msgid "months"
+#~ msgstr "月"
+
+#~ msgid "Cancellation FREE"
+#~ msgstr "免费取消"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel free of charge until %1$s before arrival. You will be "
+#~ "charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "您可以在抵达前直到 %1$s 免费取消。 如果您在抵达前 %1$s 内取消，您将需要支"
+#~ "付 %2$s。"
+
+#~ msgid "You may cancel free of charge until arrival."
+#~ msgstr "您可以在到达前免费取消。"
+
+#~ msgid "Special conditions"
+#~ msgstr "特殊条款"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel with a charge of %3$s  until %1$s before arrival. You will "
+#~ "be charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "您可以在抵达前直到%1$s 并支付 %3$s 取消。 如果您在抵达前 %1$s 内取消，您将"
+#~ "需要支付 %2$s。"
+
+#, php-format
+#~ msgid "You will be charged %1$s if you cancel before arrival."
+#~ msgstr "如果您在抵达前取消，您将被收取 %1$s。"
+
+#~ msgid "Non refundable"
+#~ msgstr "不可退款"
+
+#~ msgid "You will be charged all if you cancel before arrival."
+#~ msgstr "如果您在抵达前取消预订，酒店将收取所有费用。"
+
+#~ msgid "There is no meal option with this room."
+#~ msgstr "这间客房的价格不提供餐点。"
+
+#~ msgid "Breakfast"
+#~ msgstr "早餐"
+
+#~ msgid "Lunch"
+#~ msgstr "午餐"
+
+#~ msgid "Dinner"
+#~ msgstr "晚餐"
+
+#~ msgid "All Inclusive"
+#~ msgstr "全包"
+
+#~ msgid "included"
+#~ msgstr "包括"
+
+#~ msgid "Meals"
+#~ msgstr "餐饮"
+
+#~ msgid "Cancellation"
+#~ msgstr "取消"
+
+#~ msgid "Prepayment"
+#~ msgstr "预付"
+
+#~ msgid "Non-binding booking request"
+#~ msgstr "不具约束力的预订请求"
+
+#~ msgid "Instant Book"
+#~ msgstr "即时预订"
+
+#~ msgid "Payment in installments"
+#~ msgstr "分期付款"
+
+#, php-format
+#~ msgid " %d night/s"
+#~ msgstr "%d 晚"
+
+#~ msgid "The code is not valid"
+#~ msgstr "代码无效"
+
+#~ msgid "Apply"
+#~ msgstr "申请"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Gift cards or Promotional codes"
+#~ msgstr "礼品卡或促销代码"
+
+#~ msgid "Enter code"
+#~ msgstr "输入代码"
+
+#~ msgid "Discount"
+#~ msgstr "折扣代码"
+
+#~ msgid "Deposit"
+#~ msgstr "押金"
+
+#~ msgid "Customers who bought this product also viewed"
+#~ msgstr "购买此产品的客户还查看了"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s."
+#~ msgstr ""
+#~ "点击<b>提交</b>即表示您同意接受%1$s的<a href=\"%3$s\" target=\"_blank\">使"
+#~ "用条款</a>。"
+
+#~ msgid "Log in to book faster"
+#~ msgstr "登录以更快地预订"
+
+#~ msgid "Enter your details"
+#~ msgstr "輸入您的詳細資料"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "This field is required."
+#~ msgstr "这是必填栏。"
+
+#~ msgid "Surname"
+#~ msgstr "姓"
+
+#~ msgid "Man"
+#~ msgstr "男性"
+
+#~ msgid "Woman"
+#~ msgstr "女性"
+
+#~ msgid "Email"
+#~ msgstr "电子邮件"
+
+#~ msgid "Reenter email"
+#~ msgstr "确认电子邮件"
+
+#~ msgid "Phone"
+#~ msgstr "电话"
+
+#~ msgid "Fiscal code"
+#~ msgstr "税号"
+
+#~ msgid "Organization"
+#~ msgstr "组织"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "Postal Code"
+#~ msgstr "邮政编码"
+
+#~ msgid "City"
+#~ msgstr "城市"
+
+#~ msgid "Province"
+#~ msgstr "省"
+
+#~ msgid "Personal data"
+#~ msgstr "个人信息"
+
+#~ msgid "Birth date"
+#~ msgstr "生日"
+
+#~ msgid "Birth location"
+#~ msgstr "出生地点"
+
+#~ msgid "Passport ID"
+#~ msgstr "护照ID"
+
+#~ msgid "Passport expiration"
+#~ msgstr "护照到期"
+
+#~ msgid "Document ID"
+#~ msgstr "证件ID"
+
+#~ msgid "Document release place"
+#~ msgstr "证件签发地点"
+
+#~ msgid "Document release date"
+#~ msgstr "证件签发日期"
+
+#~ msgid "Document expiration"
+#~ msgstr "证件到期"
+
+#~ msgid "Special Requests"
+#~ msgstr "特殊要求"
+
+#~ msgid "Notes"
+#~ msgstr "备注"
+
+#~ msgid "Note"
+#~ msgstr "注意"
+
+#~ msgid "No URLs allowed!"
+#~ msgstr "不允许使用网址！"
+
+#~ msgid "Your estimated time of arrival"
+#~ msgstr "您的预计抵达时间"
+
+#~ msgid "I don't know"
+#~ msgstr "我不知道"
+
+#~ msgid "no"
+#~ msgstr "否"
+
+#~ msgid "yes"
+#~ msgstr "是"
+
+#~ msgid "Other information"
+#~ msgstr "其他信息"
+
+#~ msgid "We can pick up you at the desired address"
+#~ msgstr "我们可以在您要求的地址接您"
+
+#~ msgid "At experience end, we can take you at the desired address"
+#~ msgstr "在体验结束时，我们可以带您到您要求的地址"
+
+#~ msgid "Crew"
+#~ msgstr "工作人员"
+
+#, php-format
+#~ msgid "Component %s of %s"
+#~ msgstr "%s  的成员  %s"
+
+#~ msgid "Payment method"
+#~ msgstr "支付方式"
+
+#~ msgid "Please choose a payment method"
+#~ msgstr "请选择付款方式"
+
+#~ msgid "Credit card details"
+#~ msgstr "信用卡详细信息"
+
+#~ msgid "Warranty Request for"
+#~ msgstr "保修申请"
+
+#~ msgid "Holder"
+#~ msgstr "持卡人"
+
+#~ msgid "Number"
+#~ msgstr "数字"
+
+#~ msgid "Valid until"
+#~ msgstr "有效期至"
+
+#~ msgid "Month (MM)"
+#~ msgstr "月 （MM）"
+
+#~ msgid "Year (YY)"
+#~ msgstr "年份 （YY）"
+
+#~ msgid "I agree to the conditions"
+#~ msgstr "我同意这些条件"
+
+#~ msgid "I have read the information on the processing of personal data"
+#~ msgstr "我已阅读有关个人数据处理的信息"
+
+#~ msgid "More information"
+#~ msgstr "更多信息"
+
+#~ msgid "I give my consent to send the newsletter"
+#~ msgstr "我同意发送时事通讯"
+
+#~ msgid "I give my consent for marketing purposes"
+#~ msgstr "我同意出于营销目的"
+
+#~ msgid "I give my consent for profiling purposes"
+#~ msgstr "我同意用于分析目的"
+
+#~ msgid "Send"
+#~ msgstr "发送"
+
+#~ msgid "Code already used"
+#~ msgstr "已使用的代码"
+
+#~ msgid "Are you sure?"
+#~ msgstr "您确定？"
+
+#~ msgid "Please enter a valid code"
+#~ msgstr "请输入有效代码"
+
+#~ msgid "Edit"
+#~ msgstr "更改"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Page"
+#~ msgstr "页面"
+
+#~ msgctxt "Page slug"
+#~ msgid "cartredirect"
+#~ msgstr "cartredirect"
+
+#~ msgctxt "Page slug"
+#~ msgid "thankspopup"
+#~ msgstr "感谢弹出窗口"
+
+#~ msgctxt "Page slug"
+#~ msgid "errorspopup"
+#~ msgstr "错误弹出窗口"
+
+#~ msgid "Your search"
+#~ msgstr "您的搜索"
+
+#~ msgid "Extra services"
+#~ msgstr "额外的服务"
+
+#~ msgid "Insert your data"
+#~ msgstr "输入您的信息"
+
+#~ msgid "Confirm booking"
+#~ msgstr "确认预定"
+
+#~ msgctxt "Page slug"
+#~ msgid "contactspopup"
+#~ msgstr "联系人弹出窗口"
+
+#~ msgid "List"
+#~ msgstr "列表"
+
+#~ msgid "Grid"
+#~ msgstr "网格"
+
+#~ msgid "View"
+#~ msgstr "查看"
+
+#~ msgid "Vetrina"
+#~ msgstr "橱窗"
+
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#~ msgid "New!"
+#~ msgstr "新！"
+
+#~ msgid "Rooms"
+#~ msgstr "房间数"
+
+#~ msgid "m&sup2;"
+#~ msgstr "平方米"
+
+#~ msgid "Contact Agent"
+#~ msgstr "联系代理"
+
+#~ msgid "New ad"
+#~ msgstr "新广告"
+
+#~ msgid "Would you like to leave your review?"
+#~ msgstr "您想第一个留下您的评论吗？"
+
+#, php-format
+#~ msgid "Score from %s reviews"
+#~ msgstr "基于 %s 条评论"
+
+#~ msgid "Guest Rating"
+#~ msgstr "客户评分"
+
+#~ msgid "No results available"
+#~ msgstr "沒有結果"
+
+#~ msgid "Choice"
+#~ msgstr "选择"
+
+#~ msgid "Cart"
+#~ msgstr "购物车"
+
+#~ msgid "Share"
+#~ msgstr "分享"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show results"
+#~ msgstr "显示 %s 个结果"
+
+#~ msgid "Select the type of package to get started!"
+#~ msgstr "选择套餐种类开始！"
+
+#~ msgid "Payment"
+#~ msgstr "支付"
+
+#~ msgid ""
+#~ "If you are not redirected to the payment page within a few seconds, click "
+#~ "the following button"
+#~ msgstr "如果您在几秒钟内没有被重定向到付款页面，请单击以下按钮"
+
+#, php-format
+#~ msgid "%s available accommodations"
+#~ msgstr "%s 个可用资源"
+
+#~ msgid "Map view"
+#~ msgstr "地图视图"
+
+#~ msgctxt "Page slug"
+#~ msgid "rating"
+#~ msgstr "评分"
+
+#~ msgid "Request"
+#~ msgstr "请求"
+
+#~ msgid "Book Now"
+#~ msgstr "预订"
+
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s 个评价"
+
+#, php-format
+#~ msgid "Only %d available"
+#~ msgstr "只有%d可用"
+
+#~ msgid "Breakfast included"
+#~ msgstr "含早餐"
+
+#~ msgid "Half board"
+#~ msgstr "半食宿"
+
+#~ msgid "Full board"
+#~ msgstr "全食宿"
+
+#, php-format
+#~ msgid "Price for %s person"
+#~ msgstr "%s人的价格"
+
+#~ msgid "Total for"
+#~ msgstr "总计"
+
+#, php-format
+#~ msgid " %d hour/s"
+#~ msgstr "%d 小时"
+
+#, php-format
+#~ msgid " %d minute/s"
+#~ msgstr "%d 分钟"
+
+#, php-format
+#~ msgid "Offer %d%%"
+#~ msgstr "优惠 %d%%"
+
+#~ msgid "from hours"
+#~ msgstr "从小时"
+
+#~ msgid "to hours"
+#~ msgstr "到小时"
+
+#~ msgid ""
+#~ "This is the straight-line distance on the map. Actual travel distance may "
+#~ "vary."
+#~ msgstr "这是地图上的直线距离。实际行驶距离可能有所不同。"
+
+#~ msgid "from centre"
+#~ msgstr "从市中心"
+
+#~ msgid "Dates"
+#~ msgstr "日期"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "All dates and places"
+#~ msgstr "显示日期和地点"
+
+#~ msgid "Show dates and places"
+#~ msgstr "显示日期和地点"
+
+#~ msgid "Book Resource"
+#~ msgstr "预订住宿"
+
+#, fuzzy
+#~| msgctxt "Page slug"
+#~| msgid "packages"
+#~ msgid "Show package"
+#~ msgstr "安装包"
+
+#~ msgid "Tickets"
+#~ msgstr "票"
+
+#~ msgid "Buy tickets"
+#~ msgstr "买票"
+
+#, fuzzy
+#~| msgid "Show prices"
+#~ msgid "Show experiences"
+#~ msgstr "显示价格"
+
+#~ msgid "in evidence"
+#~ msgstr "明显"
+
+#~ msgid "excluding"
+#~ msgstr "排除"
+
+#~ msgid "Free!"
+#~ msgstr "免费！"
+
+#~ msgid "additional charge"
+#~ msgstr "额外付费"
+
+#~ msgid "Download"
+#~ msgstr "下载"
+
+#~ msgid "In short"
+#~ msgstr "总之"
+
+#~ msgid "Travel planner"
+#~ msgstr "旅行规划师"
+
+#~ msgid "Buy resource"
+#~ msgstr "预订资源"
+
+#~ msgid "Organizer"
+#~ msgstr "组织者"
+
+#~ msgid "All reviewers"
+#~ msgstr "全部客人"
+
+#~ msgid "Solo travellers"
+#~ msgstr "独行旅客"
+
+#~ msgid "Groups"
+#~ msgstr "群组"
+
+#~ msgid "Young couplet"
+#~ msgstr "年轻情侣"
+
+#~ msgid "Mature couples"
+#~ msgstr "中年夫妻"
+
+#~ msgid "Families with young children"
+#~ msgstr "带幼年小孩的家庭"
+
+#~ msgid "Family with older children"
+#~ msgstr "带少年小孩的家庭"
+
+#, php-format
+#~ msgid "Based on %1$s Reviews."
+#~ msgstr "基于 %1$s 评论。"
+
+#~ msgid "Staff"
+#~ msgstr "员工"
+
+#~ msgid "Clean"
+#~ msgstr "清理"
+
+#~ msgid "Comfort"
+#~ msgstr "舒适度"
+
+#~ msgid "Value for Money"
+#~ msgstr "性价比"
+
+#~ msgid "Show reviews from"
+#~ msgstr "看写下的点评"
+
+#~ msgid "Write a Review"
+#~ msgstr "写评论"
+
+#~ msgid "Reviewed"
+#~ msgstr "已评价于"
+
+#~ msgid "Stayed"
+#~ msgstr "逗留期间"
+
+#, php-format
+#~ msgid "Replied on %1s"
+#~ msgstr "已于 %1s 答复"
+
+#~ msgid "Reference"
+#~ msgstr "参考"
+
+#, php-format
+#~ msgid "Review certified by %1$s"
+#~ msgstr "由 %1$s 认证的评论"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#, php-format
+#~ msgid "%s has responded to this review"
+#~ msgstr "%s 回复了评论"
+
+#~ msgid "No Reviews Found."
+#~ msgstr "未找到评论。"
+
+#~ msgid "Would you like to be the first to write a review?"
+#~ msgstr "你想成为第一个写评论的人吗？"
+
+#~ msgid "Very poor"
+#~ msgstr "很差"
+
+#~ msgid "Poor"
+#~ msgstr "非常差的"
+
+#~ msgid "Disappointing"
+#~ msgstr "令人 失望"
+
+#~ msgid "Fair"
+#~ msgstr "一般级别"
+
+#~ msgid "Okay"
+#~ msgstr "好的"
+
+#~ msgid "Pleasant"
+#~ msgstr "愉快"
+
+#~ msgid "Good"
+#~ msgstr "好"
+
+#~ msgid "Very good"
+#~ msgstr "很好"
+
+#~ msgid "Fabulous"
+#~ msgstr "极好"
+
+#~ msgid "Exceptional"
+#~ msgstr "超级好"
+
+#~ msgid "Very easy"
+#~ msgstr "非常简单"
+
+#~ msgid "Easy"
+#~ msgstr "简单"
+
+#~ msgid "Moderate"
+#~ msgstr "中等"
+
+#~ msgid "Stimulating"
+#~ msgstr "刺激"
+
+#~ msgid "Demanding"
+#~ msgstr "正在发送"
+
+#~ msgid "Extreme"
+#~ msgstr "极度"
+
+#~ msgid "Info & prices"
+#~ msgstr "信息和价格"
+
+#~ msgid "Facilities"
+#~ msgstr "设施"
+
+#~ msgid "House rules"
+#~ msgstr "预定前阅读"
+
+#~ msgid "Reviews"
+#~ msgstr "评论"
+
+#~ msgid "Book now"
+#~ msgstr "预订"
+
+#~ msgid "or similar"
+#~ msgstr "或类似"
+
+#~ msgid "show map"
+#~ msgstr "显示地图"
+
+#~ msgid "Pick Up & Drop Off"
+#~ msgstr "接送"
+
+#~ msgid "Media"
+#~ msgstr "媒体"
+
+#~ msgid "Host"
+#~ msgstr "主机"
+
+#~ msgid "Floor area"
+#~ msgstr "面积"
+
+#~ msgid "Participants"
+#~ msgstr "参与者"
+
+#~ msgid "Minimum age"
+#~ msgstr "最低年龄"
+
+#~ msgid "Difficulty level"
+#~ msgstr "选择难度级别。"
+
+#~ msgid "Languages"
+#~ msgstr "语言"
+
+#, php-format
+#~ msgid " and %s more "
+#~ msgstr " 以及更多%s "
+
+#~ msgid "Offered in"
+#~ msgstr "提供于"
+
+#~ msgid "Important information"
+#~ msgstr "重要信息"
+
+#~ msgid "What is Included"
+#~ msgstr "包含的内容"
+
+#~ msgid "Live Guide "
+#~ msgstr "现场导览 "
+
+#~ msgid "Audio Guide "
+#~ msgstr "语音导览 "
+
+#~ msgid "Paper Guide "
+#~ msgstr "纸张导览 "
+
+#~ msgid "What is not Included"
+#~ msgstr "不包括的内容"
+
+#~ msgid "Departure & Return"
+#~ msgstr "出发和返回"
+
+#~ msgid "Departure Point"
+#~ msgstr "出发地点"
+
+#~ msgid "Meeting Time"
+#~ msgstr "会议时间"
+
+#, php-format
+#~ msgid "show up %s minutes before the start time "
+#~ msgstr "在开始时间前 %s 分钟到达"
+
+#~ msgid "Pick-up Point"
+#~ msgstr "接客人点"
+
+#~ msgid "Pick-up Time"
+#~ msgstr "接客人时间"
+
+#~ msgid "Return Details"
+#~ msgstr "返回详情"
+
+#~ msgid "Returns to original departure pickup"
+#~ msgstr "返回接客人点"
+
+#~ msgid "Returns to original pick-up point"
+#~ msgstr "返回原始接客人点"
+
+#~ msgid "Returns to original departure point"
+#~ msgstr "返回出发点"
+
+#~ msgid "What To Expect"
+#~ msgstr "您期待什么"
+
+#~ msgid "Itinerary"
+#~ msgstr "行程"
+
+#~ msgid "Day"
+#~ msgstr "日"
+
+#~ msgid "Stops"
+#~ msgstr "停止"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Additional Info"
+#~ msgstr "附加信息"
+
+#~ msgid "What to bring"
+#~ msgstr "携带什么"
+
+#~ msgid "Cancellation Policy"
+#~ msgstr "取消预订条款"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "常见问题"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s and <a href=\"%2$s\" target=\"_blank"
+#~ "\">privacy and cookies statement.</a>."
+#~ msgstr ""
+#~ "点击<b>提交</b>即表示您声明您接受%1$s的<a href=\"%3$s\" target=\"_blank\">"
+#~ "使用条款</a>和<a href =\"%2$s\"target =\"_blank\"> 隐私和 cookie 信息</"
+#~ "a>。"
+
+#~ msgid "Type of traveller"
+#~ msgstr "旅行者类型"
+
+#~ msgid "Country"
+#~ msgstr "国家"
+
+#~ msgid "E-mail"
+#~ msgstr "电子邮件"
+
+#~ msgid "Confirm E-mail"
+#~ msgstr "确认邮件"
+
+#~ msgid "When did you travel?"
+#~ msgstr "你什么时候旅行的？"
+
+#~ msgid "Value for money"
+#~ msgstr "性价比"
+
+#~ msgid "Valuation"
+#~ msgstr "评价"
+
+#~ msgid "List of the facility's positive points"
+#~ msgstr "正面设施点列表"
+
+#~ msgid "List of the facility's negative points"
+#~ msgstr "父母设施点列表"
+
+#, php-format
+#~ msgid "Send me promotional emails from %1$s"
+#~ msgstr "从 %1$s 发送促销信息"
+
+#, php-format
+#~ msgid ""
+#~ "I certify that this review is based on my own experience and is my "
+#~ "genuine opinion of this accommodation, and that I have no personal or "
+#~ "business relationship with this establishment, and have not been offered "
+#~ "any incentive or payment originating from the establishment to write this "
+#~ "review. I understand that %s has a zero-tolerance policy on fake reviews."
+#~ msgstr ""
+#~ "我证明，此评论基于我的个人经验，是我对这家住宿的真实看法，并且我与此酒店没"
+#~ "有任何个人或商业关系，并且该酒店未提供任何奖励或付款来撰写此评论。 我了解 "
+#~ "%s 对虚假评论采取零容忍政策。"
+
+#~ msgid "Attention!"
+#~ msgstr "注意！"
+
+#~ msgid "It 's not possible to insert your own review"
+#~ msgstr "无法插入您自己的评论"
+
+#~ msgid "nonexistent order"
+#~ msgstr "不存在排序"
+
+#~ msgid "Order with already a Review"
+#~ msgstr "通过一个评论排序"
+
+#~ msgid ""
+#~ "nonexistent order or to which it is not possible to associate a review"
+#~ msgstr "不存在排序或无法关联评论的排序"
+
+#~ msgid "Order not related at this resource"
+#~ msgstr "此资源中不相关的订单"
+
+#~ msgid "Order make before the date to make a review"
+#~ msgstr "根据评论日期排序"
+
+#~ msgid "Most popular facilities for longer stays"
+#~ msgstr "客户最受欢迎的设施"
+
+#~ msgid "Booking"
+#~ msgstr "预订"
+
+#~ msgid "No Results Found"
+#~ msgstr "未找到结果"
+
+#, php-format
+#~ msgid "%s available offers"
+#~ msgstr "目前有 %s 个优惠"
+
+#~ msgid "please wait..."
+#~ msgstr "请稍候..."
+
+#~ msgid "I consent to the publication of the review"
+#~ msgstr "我同意发表评论"
+
+#~ msgid "A-Z"
+#~ msgstr "A-Z"
+
+#~ msgid "Z-A"
+#~ msgstr "Z-A"
+
+#~ msgid "To rent"
+#~ msgstr "出租"
+
+#~ msgid "On sale"
+#~ msgstr "销售"
+
+#~ msgid "Min paxes"
+#~ msgstr "最少人数"
+
+#~ msgid "Max paxes"
+#~ msgstr "最多人数"
+
+#~ msgid "Area"
+#~ msgstr "区域"
+
+#~ msgid "Last update"
+#~ msgstr "最后更新"
+
+#~ msgid "Floor"
+#~ msgstr "楼层"
+
+#~ msgid "Ground floor"
+#~ msgstr "地表层"
+
+#~ msgid "Top floor"
+#~ msgstr "最高层"
+
+#~ msgid "Attic"
+#~ msgstr "顶层"
+
+#~ msgid "Multiple levels"
+#~ msgstr "多层"
+
+#~ msgid "ND"
+#~ msgstr "不可用"
+
+#~ msgid "Condition"
+#~ msgstr "条件"
+
+#~ msgid "New"
+#~ msgstr "新"
+
+#~ msgid "To be refurbished"
+#~ msgstr "待装修"
+
+#~ msgid "Excellent"
+#~ msgstr "超级好"
+
+#~ msgid "Refurbished"
+#~ msgstr "已装修"
+
+#~ msgid "Habitable"
+#~ msgstr "可居住"
+
+#~ msgid "Bathrooms"
+#~ msgstr "浴室"
+
+#~ msgid "Heating"
+#~ msgstr "暖气"
+
+#~ msgid "Autonomous"
+#~ msgstr "自动"
+
+#~ msgid "Communal"
+#~ msgstr "中央"
+
+#~ msgid "Pay per use"
+#~ msgstr "按使用量付费"
+
+#~ msgid "Box Auto"
+#~ msgstr "车库位"
+
+#~ msgid "Parking space"
+#~ msgstr "停车位"
+
+#~ msgid "Energy efficiency class"
+#~ msgstr "能源等级"
+
+#~ msgid "not set"
+#~ msgstr "未设置"
+
+#~ msgid "Nondescript"
+#~ msgstr "未标注"
+
+#~ msgid "Free property"
+#~ msgstr "免费房产"
+
+#~ msgid "Under evaluation"
+#~ msgstr "正在评估中"
+
+#~ msgid "IPE"
+#~ msgstr "断续器"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "Real estate agency collaboration"
+#~ msgstr "有和公司合作的可能"
+
+#, php-format
+#~ msgid "Found %s results on %s"
+#~ msgstr "在 %s 找到 %s 个结果"
+
+#, php-format
+#~ msgid "Found %s results"
+#~ msgstr "找到 %s 个结果"
+
+#~ msgid ""
+#~ "Certainly it is our Preferred Merchant! They provide a great value and an "
+#~ "excellent service."
+#~ msgstr ""
+#~ "因为这个商家提供极好的服务、高的性价比和客户评价，所以该商家在我们的优先选"
+#~ "择里。"
+
+#~ msgid "from center"
+#~ msgstr "从市中心"
+
+#~ msgid "from point of interest"
+#~ msgstr "从兴趣点"
+
+#~ msgid "This structure is suitable for children"
+#~ msgstr "这商家适合儿童"
+
+#~ msgid "Living room"
+#~ msgstr "客厅"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show more results"
+#~ msgstr "显示 %s 个结果"
+
+#~ msgid "FREE Cancellation"
+#~ msgstr "免费取消"
+
+#, php-format
+#~ msgid ""
+#~ "Unfortunately we have no availability at this merchant for your dates: %s "
+#~ "- %s"
+#~ msgstr "我们在您的日期没有空房：%s - %s"
+
+#~ msgid "Limited availability, but may sell out:"
+#~ msgstr "数量有限，但可能会售罄："
+
+#~ msgid ""
+#~ "For a short time you missed it. Our last resource sold out a few days ago"
+#~ msgstr "您错过了它。我们最后的资源几天前售罄"
+
+#~ msgid "We're sorry! we do not have any availability for this resource."
+#~ msgstr "很抱歉！我们对此资源没有任何可用性。"
+
+#~ msgid "Supplier rating"
+#~ msgstr "供应商评级"
+
+#~ msgid "minutes"
+#~ msgstr "分钟"
+
+#~ msgid "We're sorry! we do not have any availability."
+#~ msgstr "很抱歉！我们没有任何空房。"
+
+#~ msgid "Program"
+#~ msgstr "计划"
+
+#~ msgid "Next events near "
+#~ msgstr "接下来的附近的活动 "
+
+#~ msgid "IDENTIFICATION CODE - TOURIST LEASE"
+#~ msgstr "识别码 - 旅游地点"
+
+#~ msgctxt "Page slug"
+#~ msgid "rapidview"
+#~ msgstr "快速视图"
+
+#~ msgid "Energy Class"
+#~ msgstr "能源等级"
+
+#~ msgid "nondescript"
+#~ msgstr "未标注"
+
+#~ msgid "free property"
+#~ msgstr "免费房产"
+
+#~ msgid "A+"
+#~ msgstr "A+"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "C"
+#~ msgstr "碳"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "EPI Value"
+#~ msgstr "EPI 值"
+
+#~ msgid "Request info"
+#~ msgstr "申请信息"
+
+#, php-format
+#~ msgid "From %s to %s"
+#~ msgstr "从 %s 到 %s"
+
+#, php-format
+#~ msgid "%s people are watching right now"
+#~ msgstr "%s 人正在观看"
+
+#~ msgid "Recommended for"
+#~ msgstr "推荐用于"
+
+#~ msgid "Adult"
+#~ msgstr "成人"
+
+#~ msgid "and"
+#~ msgstr "和"
+
+#~ msgid "Child"
+#~ msgstr "孩子"
+
+#~ msgid "Pay at the property – NO PREPAYMENT NEEDED"
+#~ msgstr "在酒店付款 - 无需预付款"
+
+#, php-format
+#~ msgid "View other %d solutions"
+#~ msgstr "查看其他%d解决方案"
+
+#~ msgid "Hurry up"
+#~ msgstr "快点"
+
+#~ msgid "This resource is in great demand"
+#~ msgstr "该资源需求量很大"
+
+#, php-format
+#~ msgid "%s request in the last 24 hours"
+#~ msgstr "最后24小时%s 申请"
+
+#, php-format
+#~ msgid ""
+#~ "This structure has met or exceeded the expectations of more than 90% of "
+#~ "guests"
+#~ msgstr "该商家已达到或超过90% 客人的期望"
+
+#~ msgid "Choose place"
+#~ msgstr "选择地点"
+
+#~ msgid "Price for"
+#~ msgstr "价格"
+
+#~ msgid "Rental terms"
+#~ msgstr "租用条款"
+
+#~ msgid "Latest ads"
+#~ msgstr "最新广告"
+
+#~ msgid "added to cart"
+#~ msgstr "添加到购物车"
+
+#, php-format
+#~ msgid "Subtotal of the cart (%s items)"
+#~ msgstr "购物车小计（%s  项）"
+
+#~ msgid "For an optimal experience"
+#~ msgstr "为了获得最佳体验"
+
+#~ msgid "log in to your account"
+#~ msgstr "登录到您的帐户"
+
+#~ msgid "We have other proposals in case of unavailability."
+#~ msgstr "如果不可用，我们还有其他建议。"
+
+#~ msgid "Contact us and we will find the best solution for you!"
+#~ msgstr "联系我们，我们将为您找到最佳解决方案！"
+
+#~ msgid "Contact us"
+#~ msgstr "联系我们"
+
+#~ msgid "Call us"
+#~ msgstr "联系我们"
+
+#~ msgid "Talk to us"
+#~ msgstr "联系我们"
+
+#~ msgid "Also consider other proposals:"
+#~ msgstr "还要考虑其他建议："
+
+#~ msgid "Add to favorites"
+#~ msgstr "添加到收藏夹"
+
+#~ msgid "Free cancellation"
+#~ msgstr "免费取消"
+
+#~ msgid "No prepayment"
+#~ msgstr "无预付款"
+
+#~ msgid "Book without credit card"
+#~ msgstr "无需信用卡预订"
+
+#~ msgid "All inclusive"
+#~ msgstr "全包"
+
+#~ msgid "Unrated"
+#~ msgstr "无评分"
+
+#~ msgid "1 star"
+#~ msgstr "1星"
+
+#~ msgid "2 stars"
+#~ msgstr "2 星"
+
+#~ msgid "3 stars"
+#~ msgstr "3 星"
+
+#~ msgid "4 stars"
+#~ msgstr "4 星"
+
+#~ msgid "5 stars"
+#~ msgstr "5 星"
+
+#~ msgid "6 stars"
+#~ msgstr "6 星"
+
+#~ msgid "7 stars"
+#~ msgstr "7 星"
+
+#~ msgid "8 stars"
+#~ msgstr "8 星"
+
+#~ msgid "9 stars"
+#~ msgstr "9 星"
+
+#~ msgid "10 stars"
+#~ msgstr "10 星"
+
+#~ msgid "Filter by"
+#~ msgstr "过滤"
+
+#~ msgid "Star rating"
+#~ msgstr "星级"
+
+#~ msgid "Budget"
+#~ msgstr "预算"
+
+#~ msgid "Tipology"
+#~ msgstr "类型"
+
+#~ msgid "Property type"
+#~ msgstr "不动产类型"
+
+#~ msgid "Book with ease "
+#~ msgstr "轻松预订 "
+
+#~ msgid "Offer"
+#~ msgstr "优惠"
+
+#~ msgid "Availability"
+#~ msgstr "可用性"
+
+#~ msgid "Booking type"
+#~ msgstr "预订"
+
+#~ msgid "Nearby points of interest"
+#~ msgstr "附近的景点"
+
+#~ msgid "Unspecified"
+#~ msgstr "未指定"
+
+#~ msgid "Smart offer"
+#~ msgstr "特殊优惠"
+
+#~ msgid "Show only available resources"
+#~ msgstr "仅显示可用资源"
+
+#~ msgid "Show only online booking"
+#~ msgstr "仅显示即时预订"
+
+#~ msgid "Up to"
+#~ msgstr "不超过"
+
+#~ msgid "Show All"
+#~ msgstr "显示所有"
+
+#, php-format
+#~ msgid "+ %s photos"
+#~ msgstr "+ %s 张照片"
+
+#~ msgid "Got a question?"
+#~ msgstr "有问题吗？"
+
+#~ msgid ""
+#~ "Send your own question to the property. The property usually replies "
+#~ "within a few days"
+#~ msgstr "请将您自己的问题发送给商家。商家通常会在几天内回复"
+
+#~ msgid "Send us your request, you will be contacted as soon as possible"
+#~ msgstr "将您的请求发送给我们，我们会尽快与您联系"
+
+#~ msgid "Fields marked with * (asterisk) are required"
+#~ msgstr "标有 *（星号）的项为必填项"
+
+#~ msgid "Cap"
+#~ msgstr "邮编"
+
+#~ msgid "I consent to the management of the request"
+#~ msgstr "我同意管理该申请"
+
+#~ msgid "Send your request"
+#~ msgstr "发送您的请求"
+
+#~ msgid "Ask a question"
+#~ msgstr "问一个问题"
+
+#~ msgid "Sign in"
+#~ msgstr "登录"
+
+#~ msgid "Welcome to"
+#~ msgstr "欢迎来到"
+
+#~ msgid ""
+#~ "The holiday of your dreams will start as soon as you start thinking about "
+#~ "it! Log in and put together the ideal blend of accommodation, events and "
+#~ "experiences for your holiday."
+#~ msgstr ""
+#~ "您梦想的假期开始于您的想象！登录、选择你的住宿、活动和体验您的假期。"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "请输入有效的电子邮件地址"
+
+#~ msgid ""
+#~ "An email was sent to {0}. Please check your email box and type the "
+#~ "authentication code you have received."
+#~ msgstr ""
+#~ "已向{0}发送了一封电子邮件。请检查您的电子邮箱并输入您收到的身份验证码。"
+
+#~ msgid "Two-factor secure authentication"
+#~ msgstr "双因素安全身份验证"
+
+#~ msgid "Lost password"
+#~ msgstr "忘记密码"
+
+#~ msgid "Login"
+#~ msgstr "登录"
+
+#~ msgid "Confirm"
+#~ msgstr "确认"
+
+#~ msgid "Register"
+#~ msgstr "注册"
+
+#~ msgid "Forgot Password"
+#~ msgstr "忘记密码"
+
+#~ msgid ""
+#~ "If you are having difficulty logging in, you can reset your password by "
+#~ "typing the Email Address that you used while registration. You will "
+#~ "receive an email with a new password."
+#~ msgstr ""
+#~ "如果您在登录时遇到困难，可以通过键入注册时使用的电子邮件地址来重置密码。您"
+#~ "将收到一封包含新密码的电子邮件。"
+
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgid "Your account"
+#~ msgstr "您的账户"
+
+#~ msgid "Welcome"
+#~ msgstr "欢迎"
+
+#~ msgid "Your home page"
+#~ msgstr "您的主页"
+
+#~ msgid "Your details"
+#~ msgstr "您的详细情况"
+
+#~ msgid "Your lists"
+#~ msgstr "我的清单"
+
+#~ msgid "Your bookings"
+#~ msgstr "您的预订"
+
+#~ msgid "Your payments"
+#~ msgstr "您的付款"
+
+#~ msgid "Your reviews"
+#~ msgstr "您的评语"
+
+#~ msgid "Logout"
+#~ msgstr "注销"
+
+#~ msgid "Open"
+#~ msgstr "打开"
+
+#~ msgid "Other Details"
+#~ msgstr "其他详情"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to the dates and the "
+#~ "number of people."
+#~ msgstr "取消和预付款政策根据日期和人数而有所不同。"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">conditions</a> may apply to each option when making your selection."
+#~ msgstr ""
+#~ "取消和预付款政策因住宿类型而异。在做出选择时，请检查每个选项可能适用的 <a "
+#~ "rel=\"#divcalculator\" class=\"bfi-btn-calc\">条件</a> 。"
+
+#~ msgid "Show phone"
+#~ msgstr "显示电话"
+
+#~ msgid "Web site"
+#~ msgstr "网址"
+
+#~ msgid "Proposals"
+#~ msgstr "所有方案"
+
+#~ msgid "Offers"
+#~ msgstr "优惠"
+
+#~ msgid "Bed room"
+#~ msgstr "浴室"
+
+#~ msgid "Change the search details"
+#~ msgstr "更改搜索详细信息"
+
+#~ msgid "Check-out "
+#~ msgstr "退房 "
+
+#~ msgid "Age of children"
+#~ msgstr "孩子的年龄"
+
+#~ msgid "on"
+#~ msgstr "开"
+
+#~ msgid "Check availability"
+#~ msgstr "查看可用性"
+
+#, php-format
+#~ msgid "Group price for %s nights:"
+#~ msgstr "%s 晚的团体价格："
+
+#~ msgid "No results available for the submitted data"
+#~ msgstr "所提交搜索没有可行性"
+
+#~ msgid "City tax per person per night."
+#~ msgstr "每人每晚城市税."
+
+#~ msgid "Fits"
+#~ msgstr "容纳"
+
+#, php-format
+#~ msgid "Max %s person"
+#~ msgstr "最多%s人"
+
+#, php-format
+#~ msgid " %d week/s"
+#~ msgstr "%d 周"
+
+#~ msgid "No prepayment is needed."
+#~ msgstr "无需预付款。"
+
+#~ msgid "You will be charged a prepayment of the total price at any time."
+#~ msgstr "您将随时被收取总价的预付款。"
+
+#, php-format
+#~ msgid ""
+#~ "You will be charged a prepayment of %1$s of the total price at any time."
+#~ msgstr "在任何时候，您都将被收取 %1$s  的全额押金。"
+
+#, php-format
+#~ msgid "You will be charged a prepayment of %1$s at any time."
+#~ msgstr "将随时收取 %1$s的押金。"
+
+#~ msgid "Confirm your reservation"
+#~ msgstr "确认您的预订"
+
+#~ msgid "selected items"
+#~ msgstr "所选产品"
+
+#~ msgid "Request Now"
+#~ msgstr "立即申请"
+
+#~ msgid "Choose your bed (if available)"
+#~ msgstr "选择您的床（如果有）"
+
+#~ msgid "View other proposals"
+#~ msgstr "查看其他提案"
+
+#~ msgid "Do you want add more?"
+#~ msgstr "是否要添加更多内容？"
+
+#~ msgid "selected services"
+#~ msgstr "已选服务"
+
+#~ msgid "Please, select a day"
+#~ msgstr "请选择一天"
+
+#~ msgid "Add to cart"
+#~ msgstr "添加到购物车"
+
+#~ msgid "Continue shopping"
+#~ msgstr "继续购物"
+
+#~ msgid "Checkout"
+#~ msgstr "退房"
+
+#~ msgid "Change search"
+#~ msgstr "更改搜索"
+
+#~ msgid "Adults "
+#~ msgstr "成人 "
+
+#~ msgid "Seniors "
+#~ msgstr "老年人 "
+
+#~ msgid "Ages of children"
+#~ msgstr "儿童年龄"
+
+#, php-format
+#~ msgid ""
+#~ "We preset your children's ages to %s years old - but if you enter their "
+#~ "actual ages, you might be able to find a better price."
+#~ msgstr ""
+#~ "我们为儿童预设的年龄是 %s 岁，但如果您输入正确的年龄，您可能还会找到更优惠"
+#~ "的价格。"
+
+#~ msgid "Check availability at other merchants"
+#~ msgstr "查看其他商家的空房情况"
+
+#~ msgid "We found availability at other merchants"
+#~ msgstr "我们发现其他商家有空房"
+
+#, php-format
+#~ msgid "Persons min:%1$d max:%2$d"
+#~ msgstr "床位 - 最少：%1$d 最多：%2$d"
+
+#, php-format
+#~ msgid "Other %1$d choice"
+#~ msgstr "其他 %1$d 选择"
+
+#~ msgid "Find other great offers!"
+#~ msgstr "查找其他超值优惠！"
+
+#~ msgid "In case of no-show, you will be charged all."
+#~ msgstr "如果客人未入住，酒店将收取所有费用。"
+
+#~ msgid "person"
+#~ msgstr "人"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "next step"
+#~ msgstr "下一步"
+
+#~ msgid "Pick-up"
+#~ msgstr "接客"
+
+#~ msgid "Drop-off"
+#~ msgstr "再交付"
+
+#~ msgid ""
+#~ "To see availablility and prices please enter your check-in and check-out "
+#~ "dates."
+#~ msgstr "要查看空房情况和价格，请输入您的入住和退房日期。"
+
+#~ msgid "Show prices"
+#~ msgstr "显示价格"
+
+#, php-format
+#~ msgid "You may also be interested in the following proposals of \"%s\""
+#~ msgstr "您可能还对以下提案感兴趣\"%s\""
+
+#~ msgid "We found availability for other dates"
+#~ msgstr "我们发现其他日期有空位"
+
+#~ msgid "The price varies according to the dates and the number of people"
+#~ msgstr "价格根据日期和人数而有所不同"
+
+#~ msgid "Person"
+#~ msgstr "人"
+
+#~ msgid "Select a period"
+#~ msgstr "选择时间段"
+
+#~ msgid "One day"
+#~ msgstr "一天"
+
+#~ msgid "More day"
+#~ msgstr "更多天"
+
+#~ msgid "Pay at the property  NO PREPAYMENT NEEDED"
+#~ msgstr "在酒店付款 - 无需预付款"
+
+#~ msgid "night"
+#~ msgstr "晚"
+
+#~ msgid "Change"
+#~ msgstr "更改"
+
+#~ msgid "Vacation summary"
+#~ msgstr "假期总结"
+
+#~ msgid "Confirm choice"
+#~ msgstr "确认选择"
+
+#~ msgid "Base Price"
+#~ msgstr "基本价格"
+
+#, fuzzy
+#~| msgid "Change search"
+#~ msgid "Update search"
+#~ msgstr "更改搜索"
+
+#~ msgid "{0} nights"
+#~ msgstr "{0} 晚"
+
+#~ msgid "{0} night"
+#~ msgstr "{0} 晚"
+
+#~ msgid "Seniors"
+#~ msgstr "老年人"
+
+#~ msgid "Extra"
+#~ msgstr "额外"
+
+#~ msgid "resources"
+#~ msgstr "资源"
+
+#~ msgid "Distance umbrellas"
+#~ msgstr "柱间距离"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "remove"
+#~ msgstr "删除"
+
+#~ msgid "All"
+#~ msgstr "所有"
+
+#~ msgid "Search experiences and areas..."
+#~ msgstr "搜索体验和领域..."
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "You have a coupon/discount code"
+#~ msgstr "你有优惠券/折扣码吗"
+
+#~ msgid "Coupon/discount code"
+#~ msgstr "优惠券/折扣码"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Search packagess and areas..."
+#~ msgstr "搜索包裹和区域..."
+
+#~ msgid "Return to the same location"
+#~ msgstr "返回同一位置"
+
+#~ msgid "Drop off in another location"
+#~ msgstr "返回另一个位置"
+
+#~ msgid "Pick-up location"
+#~ msgstr "接收地点"
+
+#~ msgid "Drop-off location"
+#~ msgstr "归还地点"
+
+#~ msgid "Draw area"
+#~ msgstr "绘制区域"
+
+#~ msgid "Circle"
+#~ msgstr "圆圈"
+
+#~ msgid "Reset"
+#~ msgstr "取消"
+
+#~ msgid "Click on map and choose your area."
+#~ msgstr "在地图上定位并单击选择搜索区域的第一个点：一旦确定，单击确认。"
+
+#~ msgid "Find availability"
+#~ msgstr "可用性"
+
+#~ msgid "Search for accommodation or area"
+#~ msgstr "搜索设施或住宿"
+
+#~ msgid "Check-in - Check-out"
+#~ msgstr "入住 - 退房"
+
+#~ msgid "To"
+#~ msgstr "到"
+
+#~ msgid "Activities"
+#~ msgstr "活动"
+
+#~ msgid "Others"
+#~ msgstr "其他"
+
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ">3"
+#~ msgstr ">3"
+
+#~ msgid "More days"
+#~ msgstr "更多天数"
+
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgid "This Week"
+#~ msgstr "本星期"
+
+#~ msgid "This Month"
+#~ msgstr "这个月"
+
+#~ msgid "Next Week"
+#~ msgstr "下周"
+
+#~ msgid "Next Month"
+#~ msgstr "下个月"
+
+#~ msgid "Search events"
+#~ msgstr "事件搜索"
+
+#~ msgid "Please enter a integer number"
+#~ msgstr "请输入一个数字"
+
+#~ msgid "Floor area m&sup2;"
+#~ msgstr "面积平方米"
+
+#~ msgid "Bedrooms"
+#~ msgstr "卧室"
+
+#~ msgid "Only new building"
+#~ msgstr "仅新建筑"
+
+#~ msgid "Pound sterling"
+#~ msgstr "英镑"
+
+#~ msgid "Your private area"
+#~ msgstr "你的私人区域"
+
+#~ msgctxt "Page slug"
+#~ msgid "packages"
+#~ msgstr "安装包"
+
+#~ msgid "all review"
+#~ msgstr "全部评论"
+
+#~ msgid "Zones"
+#~ msgstr "区域"
+
+#~ msgid "Category"
+#~ msgstr "类别"
+
+#~ msgid "Points of interest"
+#~ msgstr "兴趣点"
+
+#~ msgid "Space between seats"
+#~ msgstr "柱间距离"

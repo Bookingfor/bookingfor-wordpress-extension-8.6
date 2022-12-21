@@ -1,0 +1,4167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 16:21+0200\n"
+"PO-Revision-Date: 2022-10-13 16:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+"Ovo je demonstracija za potrebe testiranja &mdash; narudžba ne mora biti "
+"ispunjena."
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr "dostupnost-pretrazivanja"
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr "Dostupnost pretraživanja"
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr "mape-pretrazivanja"
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr "karta-pretrazivanja-prodaje"
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr "pretrazivanje-dogadaji"
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr "dogadaji-pretrazivanja"
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr "nekretnine-za-prodaju"
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr "Svojstva pretraživanja za prodaju"
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr "detalji-dogadaja"
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr "Detalji događaja"
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr "detalji-zanimljivosti"
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr "Pojedinosti zanimljivih mjesta"
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr "pojedinosti-o-trgovcu"
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr "Podaci o trgovcu"
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr "pojedinosti-o-grupi-resursa"
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr "Pojedinosti o grupi resursa"
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr "detalji-smjestaja"
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr "Detalji smještaja"
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr "detalji-dogadaja"
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr "Detalji događaja"
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr "o-detaljima-prodaje"
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr "Pojedinosti o prodaji"
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr "placanje"
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr "Detalji o uplati"
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr "detalji-kolica"
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr "Detalji košarice"
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr "paketi-za-pretrazivanje"
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr "Pretraži paketi"
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr "detaljipaketa"
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr "Detalji o paketima"
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr "zahtjevzakontakt"
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr "Zahtjev za kontakt"
+
+#: includes/class-bfi-query.php:86
+#, fuzzy
+msgid "Event details"
+msgstr "Detalji događaja"
+
+#: includes/class-bfi-query.php:89
+#, fuzzy
+msgid "PointsOfInterest details"
+msgstr "Pojedinosti zanimljivih mjesta"
+
+#: includes/class-bfi-query.php:92
+msgid "Merchant details"
+msgstr "Pojedinosti trgovca"
+
+#: includes/class-bfi-query.php:95
+msgid "Resourcegroup Details"
+msgstr "Pojedinosti o grupi resursa"
+
+#: includes/class-bfi-query.php:98
+msgid "Accomodation details"
+msgstr "Pojedinosti smještaja"
+
+#: includes/class-bfi-query.php:101
+#, fuzzy
+msgid "Experience details"
+msgstr "detalji-dogadaja"
+
+#: includes/class-bfi-query.php:104
+msgid "Order payment"
+msgstr "Plaćanje narudžbom"
+
+#: includes/class-bfi-query.php:107
+msgid "On Sell details"
+msgstr "Na pojedinostima o prodaji"
+
+#: includes/class-bfi-query.php:110
+msgid "Cart details"
+msgstr "Pojedinosti košarice"
+
+#: includes/class-bfi-query.php:113
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "cartdetails"
+msgid "Packages details"
+msgstr "detalji-kolica"
+
+#: includes/class-bfi-query.php:116
+#, fuzzy
+#| msgid "Special Requests"
+msgid "Generic Request"
+msgstr "Posebne usluge"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+msgid "BookingFor Permalinks"
+msgstr "BookingFor Permalinks"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+msgid "BookingFor search result page"
+msgstr "BookingFor stranica rezultata pretraživanja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+msgid "BookingFor Merchant details page"
+msgstr "BookingFor stranica s pojedinostima trgovca"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+msgid "BookingFor Accommodation details page"
+msgstr "BookingFor stranica s pojedinostima smještaja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+msgid "BookingFor On Sell details page"
+msgstr "BookingFor na stranici s pojedinostima prodaje"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+#, fuzzy
+msgid "BookingFor Cart Details page"
+msgstr "Stranica Detalji rezervacije za košaricu"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+#, fuzzy
+#| msgid "BookingFor search result page"
+msgid "BookingFor Generic Request page"
+msgstr "BookingFor stranica rezultata pretraživanja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+#, fuzzy
+msgid "BookingFor Event Details page"
+msgstr "Stranica s detaljima događaja BookingFor"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+#, fuzzy
+msgid "BookingFor PointsOfInterest Details page"
+msgstr "BookingFor PointsOfInterest Detalji stranice"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr "dostupnost-pretrazivanja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr "pretrazivati-dogadaje"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr "ojedinostiotrgovcu"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr "detalji-kolica"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr "zahtjevzakontakt"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr "detalji-smjestaja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr "o-detaljima-prodaje"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr "detalji-o-dogadajima"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr "detalji-zanimljivosti"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr ""
+"Te postavke kontroliraju permalinks koji se koriste posebno za BookingFor."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr "dostupnost-pretrazivanja"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr "Zadano"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr "Traži dostupnost baze"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr "Prilagođena baza"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"Unesite prilagođenu bazu za upotrebu. Baza  <strong> mora biti postavljena </"
+"strong> ili će WordPress koristiti umjesto zadane."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr "dostupnostpretrazivanja"
+
+#: includes/admin/class-bfi-admin.php:303
+#, fuzzy
+msgid "Cache are cleaned"
+msgstr "Predmemorija se čisti"
+
+#: includes/admin/class-bfi-admin.php:664
+#, fuzzy
+msgid "8h"
+msgstr "8h (8h)"
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+#, fuzzy
+msgid "24h"
+msgstr "24h (24h)"
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+#, fuzzy
+msgid "2gg"
+msgstr "2gg (2gg)"
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+#, fuzzy
+msgid "7gg"
+msgstr "7gg"
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+#, fuzzy
+msgid "20gg"
+msgstr "20gg"
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+#, fuzzy
+msgid "30gg"
+msgstr "30gg"
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr "Euro"
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+msgid "Kune"
+msgstr "Kune"
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+msgid "U.S. dollar"
+msgstr "Američki dolar"
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr "Japanski jen"
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr "Kanadski dolar"
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr "Australski dolar"
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr "Ruska rublja"
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr "Češka kruna"
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr "Singapurski dolar"
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+msgid "Pound sterling "
+msgstr "Funta"
+
+#: includes/admin/class-bfi-admin.php:1167
+#, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+"Ako vam se sviđa <strong> BookingFor </strong> ostavite nam %s &#9733; "
+"&#9733; &#9733; &#9733; &#9733; %s ocjenu. Unaprijed veliko hvala od "
+"Bookingfor!"
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr "Hvala"
+
+#: includes/admin/class-bfi-admin.php:1175
+msgid "Thank you for selling with BookingFor."
+msgstr "Hvala vam što prodajete s BookingFor."
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+#, fuzzy
+msgid "There are untranslated pages in "
+msgstr "Postoje neprevedene stranice u "
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+msgid "Create missing pages"
+msgstr "Napravite nedostajuće stranice"
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+#, fuzzy
+msgid "All fine!"
+msgstr "Sve u redu!"
+
+#: includes/admin/views/html-admin-settings.php:260
+#, fuzzy
+msgid "Delete Cached Data"
+msgstr "Brisanje predmemorijih podataka"
+
+#: includes/admin/views/html-admin-settings.php:261
+#, fuzzy
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr ""
+"Predmemorski podaci pohranjuju se na vašem poslužitelju u datotekama. Ako ih "
+"trebate izbrisati, upotrijebite gumb u nastavku."
+
+#: includes/admin/views/html-admin-settings.php:266
+#, fuzzy
+msgid "Delete Cache"
+msgstr "Brisanje predmemorije"
+
+#: includes/admin/views/html-admin-settings.php:274
+#, fuzzy
+msgid "Delete Cache for Bot"
+msgstr "Izbriši predmemoriju za Bot"
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr "Spremi promjene"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:24
+msgid "Display the user's Cart link in the sidebar."
+msgstr "Prikaži u bočnoj traci poveznicu na košaricu korisnika."
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:26
+msgid "BookingFor Cart"
+msgstr "BookingFor košarica"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:31
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-login.php:31
+#: includes/widgets/class-bfi-widget-booking-login.php:70
+#: includes/widgets/class-bfi-widget-booking-reviews.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-filters.php:31
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-rental.php:32
+#: includes/widgets/class-bfi-widget-search-rental.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+#: includes/widgets/class-bfi-widget-smallmap.php:31
+msgid "Title"
+msgstr "Titula"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:24
+msgid "Display the user's currency switcher in the sidebar."
+msgstr "Prikaži u bočnoj traci izmjenjivač korisničke valute."
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:26
+msgid "BookingFor currency switcher"
+msgstr "BookingFor izmjenjivač valuta "
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#, fuzzy
+msgid "Display the link for  login, cart and change currency."
+msgstr "Prikagoda za prijavu, košaricu i promjenu valute."
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+#, fuzzy
+msgid "BookingFor Header Link"
+msgstr "Veza za zaglavlje BookingFor-a"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+#, fuzzy
+msgid "Show currency selector"
+msgstr "Pokažite valutni selektor"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+#, fuzzy
+msgid "Show link to cart"
+msgstr "Pokaži vezu na košaricu"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+#, fuzzy
+msgid "Show login as popup"
+msgstr "Pokažite prijavu kao popup"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+#, fuzzy
+msgid "Show link to Travel planner"
+msgstr "Pokažite vezu na Planer putovanja"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:24
+#, fuzzy
+msgid "Display the Login form in the sidebar."
+msgstr "Prikagodajte obrazac Prijava u bočnoj traci."
+
+#: includes/widgets/class-bfi-widget-booking-login.php:26
+#, fuzzy
+msgid "BookingFor Login"
+msgstr "BookingFor prijava"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:74
+#, fuzzy
+msgid "Show like a popup"
+msgstr "Pokažite kao popup"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:24
+#, fuzzy
+msgid "Display the user's Review in the sidebar."
+msgstr "Prikaz korisnikove recenzije u bočnoj traci."
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:26
+#, fuzzy
+msgid "BookingFor Reviews"
+msgstr "BookingFor recenzije"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr "Traganje okvir za multimerchant, monomerchant i prodavati dalje."
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Tab"
+msgstr "BookingFor pretraživanje"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+#, fuzzy
+msgid "Search 1 (default:Booking)"
+msgstr "Pretraživanje 1 (zadano:Rezervacija)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+#, fuzzy
+msgid "Search 2 (default:Services)"
+msgstr "Pretraživanje 2 (zadano:Usluge)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+#, fuzzy
+msgid "Search 3 (default:Activities)"
+msgstr "Pretraživanje 3 (zadano:Aktivnosti)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+#, fuzzy
+msgid "Search 4 (default:Others)"
+msgstr "Pretraživanje 4 (zadano:Drugi)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+msgid "Real Estate"
+msgstr "Nekretnina"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr "Događaji"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+#, fuzzy
+#| msgid "Search events"
+msgid "Search MapSells"
+msgstr "mape-pretrazivanja"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+msgid "Nights"
+msgstr "Noći"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+msgid "Days"
+msgstr "Dana"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-rental.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+msgid "Unit of times"
+msgstr "Jedinica vremena"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+msgid "Time slot"
+msgstr "Termin"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-rental.php:72
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr "Resurs"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-rental.php:73
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+msgid "Merchant"
+msgstr "Trgovac"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-rental.php:74
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+#, fuzzy
+#| msgid "Resource"
+msgid "Resource group"
+msgstr "Resurs"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr "Servis"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr "Iskustvo"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+msgid "Rental"
+msgstr "Smještaj"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+msgid "Time slots"
+msgstr "Vremenski period"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "Search Map Sells"
+msgid "Maps Sell"
+msgstr "karta-pretrazivanja-prodaje"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:61
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-rental.php:179
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+msgid "Displays horizontally"
+msgstr "Prikazuje vodoravno"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-rental.php:182
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+#, fuzzy
+msgid "Fixed on top"
+msgstr "Fiksirano na vrhu"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-rental.php:185
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+#, fuzzy
+msgid "Top correction"
+msgstr "Vrhunska korekcija"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-rental.php:189
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+#, fuzzy
+msgid "Fixed on bottom for small device"
+msgstr "Fiksirano na dnu za mali uređaj"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr "Kartica"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+#, fuzzy
+msgid "Use more tab"
+msgstr "Koristite više kartica"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-rental.php:192
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+#, fuzzy
+msgid "Show advance settings"
+msgstr "Pokažite postavke unaprijed"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+#, fuzzy
+msgid "Intro text"
+msgstr "Uvod u tekst"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+#, fuzzy
+msgid "Icon (for expert users)"
+msgstr "Ikona (za stručne korisnike)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-rental.php:199
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+msgid "Merchant category"
+msgstr "Kategorija trgovica"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-rental.php:219
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr "Kategorija proizvoda"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-rental.php:238
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+msgid "Search availability for"
+msgstr "Traži raspoloživost za"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-rental.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+msgid "Items type"
+msgstr "Vrsta stavke"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:274
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+msgid "Default group by "
+msgstr "Zadanu skupinu po"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+#, fuzzy
+msgid "result Views "
+msgstr "prikazi rezultata "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-rental.php:294
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+msgid "Fields Visibility"
+msgstr "Vidljivost polja"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+msgid "Search text"
+msgstr "Tekst pretrage"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+#, fuzzy
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr ""
+"(Trgovci, proizvodi, oznake, trgovci i kategorije proizvoda, regije, države, "
+"gradovi, zone)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-rental.php:296
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+#, fuzzy
+msgid "Research fields"
+msgstr "Područja istraživanja"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-rental.php:316
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr "ili"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-rental.php:317
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr "Odredište"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-rental.php:318
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+msgid "Type"
+msgstr "Tip"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+msgid "Map Button"
+msgstr "Gumb karta"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+#, fuzzy
+msgid "Select 1 day o more"
+msgstr "Odaberite 1 dan o više"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr "Raspon datuma"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+#, fuzzy
+msgid "Date Time Range"
+msgstr "Vremenski raspon datuma"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-rental.php:320
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+msgid "Block Months"
+msgstr "Blok mjeseci"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-rental.php:339
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+msgid "Disable Days"
+msgstr "Onemogući dane"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-rental.php:364
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+#, fuzzy
+msgid "Show resource number"
+msgstr "Pokaži broj resursa"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-rental.php:365
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+#, fuzzy
+msgid "Limit resource number"
+msgstr "Ograničite broj resursa"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-rental.php:367
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr "min"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-rental.php:385
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr "Max"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+#, fuzzy
+msgid "Show rooms number"
+msgstr "Broj soba za predstavu"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+#, fuzzy
+msgid "Limit rooms number"
+msgstr "Ograničite broj soba"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-rental.php:405
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr "Osobe"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:407
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr "Odrasli"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-rental.php:408
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr "Dječji"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-rental.php:409
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr "Stariji"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+msgid "Services"
+msgstr "Usluge"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-rental.php:411
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr "Samo online rezervacija"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr "Kupon"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#, fuzzy
+msgid "(Regions, States, Cities, Zones)"
+msgstr "(regije, države, gradovi, zone)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+msgid "Contract"
+msgstr "Ugovor"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+msgid "Price"
+msgstr "Cijena"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr "Površina"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr "Spavaće sobe"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr "Kupaonice"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr "Samo novo"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr "Popis usluga"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+#, fuzzy
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr "Risultato nella stessa pagina (solo se usato con shortcode)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+#, fuzzy
+msgid "Or Select Result Page"
+msgstr "Ili odaberite stranicu rezultata"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+#, fuzzy
+msgid "A Carousel list of Events."
+msgstr "Vrtuljak popis događaja."
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+#, fuzzy
+msgid "BookingFor Carousel Events"
+msgstr "BookingFor vrtuljak događanja"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr "Oznake"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr "Stavki po stranici"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr "Maksimalni broj stavki"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+msgid "Max description characters"
+msgstr "Maksimalni broj znakova u opisu"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Poi."
+msgstr "Popis trgovaca u obliku vrtuljka."
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Poi"
+msgstr "BookingFor košarica"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+#, fuzzy
+msgid "A Carousel list of Resource groups."
+msgstr "Popis resursa vrtuljka."
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resource groups"
+msgstr "BookingFor vrtuljak Resursi"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+#, fuzzy
+msgid "A Carousel list of Resources."
+msgstr "Popis resursa vrtuljka."
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resources"
+msgstr "BookingFor vrtuljak Resursi"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:24
+msgid "A details merchant box."
+msgstr "Okvir pojedinosti trgovca."
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:26
+msgid "BookingFor details merchant box"
+msgstr "BookingFor pojedinosti - trgovački okvir"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:36
+#, fuzzy
+msgid "what to show"
+msgstr "što pokazati"
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr "Popis trgovaca u obliku vrtuljka."
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr "BookingFor trgovci"
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-filters.php:24
+msgid "A Filter box."
+msgstr "Filterskog okvir."
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+#, fuzzy
+msgid "BookingFor Search Events"
+msgstr "BookingFor događaji pretraživanja"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for Experience."
+msgstr "Traganje okvir za multimerchant, monomerchant i prodavati dalje."
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+#, fuzzy
+msgid "BookingFor Search Experience"
+msgstr "BookingFor događaji pretraživanja"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr "1 dan"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+msgid "7 days"
+msgstr "7 dana"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+#, fuzzy
+msgid "Search days interval "
+msgstr "Interval dana pretraživanja "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-mapsells.php:71
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-rental.php:424
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+#, fuzzy
+msgid "Pagina dei risultati: "
+msgstr "Pagina dei risultati: "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-mapsells.php:73
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-rental.php:426
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr "Izaberite"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-mapsells.php:117
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-rental.php:483
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-filters.php:26
+msgid "BookingFor Search Filters"
+msgstr "BookingFor uvjeti pretraživanja"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#, fuzzy
+msgid "A box for search on Maps."
+msgstr "Kutija za serach."
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+#, fuzzy
+msgid "BookingFor Search MapSells"
+msgstr "BookingFor pretraživanje MapSells"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#, fuzzy
+msgid "A Search box for Packages."
+msgstr "Kutija za pretraživanje iznajmljenih automobila, bicikala."
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Packages"
+msgstr "BookingFor pretraživanje"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+#, fuzzy
+#| msgid " %d year/s"
+msgid "1 year"
+msgstr " %d sat(i)"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:24
+#, fuzzy
+msgid "A Search box for Rental cars, bikes."
+msgstr "Kutija za pretraživanje iznajmljenih automobila, bicikala."
+
+#: includes/widgets/class-bfi-widget-search-rental.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Rental"
+msgstr "BookingFor pretraživanje"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:79
+msgid "Package"
+msgstr "Paket"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box ."
+msgstr "Traganje okvir za multimerchant, monomerchant i prodavati dalje."
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+msgid "BookingFor Search"
+msgstr "BookingFor pretraživanje"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for time slots."
+msgstr "Traganje okvir za multimerchant, monomerchant i prodavati dalje."
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search slot"
+msgstr "BookingFor pretraživanje"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:24
+#, fuzzy
+msgid "A small map box."
+msgstr "Mala kutija s kartama."
+
+#: includes/widgets/class-bfi-widget-smallmap.php:26
+#, fuzzy
+msgid "BookingFor small map box"
+msgstr "BookingZa mali okvir karte"
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr "Pojavila se pogreška! Pokušajte ponovo kasnije."
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr "U ovom trenutku ne možete vršiti plaćanja."
+
+#: templates/merchantdetailswidgets.php:60
+#: templates/merchantdetailswidgets.php:61
+#: templates/merchantdetailswidgets.php:62
+#: templates/merchantdetailswidgets.php:63
+msgctxt "Page slug"
+msgid "resources"
+msgstr "resursi"
+
+#: templates/merchantdetailswidgets.php:66
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "events"
+msgstr "dogadaja"
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:73
+#: templates/merchantdetailswidgets.php:74
+#: templates/merchantdetailswidgets.php:75
+msgctxt "Page slug"
+msgid "offers"
+msgstr "ponude"
+
+#: templates/merchantdetailswidgets.php:78
+#: templates/merchantdetailswidgets.php:79
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:81
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr "na-prodajne-jedinice"
+
+#: templates/merchantdetailswidgets.php:84
+msgctxt "Page slug"
+msgid "offer"
+msgstr "ponuda"
+
+#: templates/merchantdetailswidgets.php:86
+msgctxt "Page slug"
+msgid "thanks"
+msgstr "hvala"
+
+#: templates/merchantdetailswidgets.php:89
+msgctxt "Page slug"
+msgid "errors"
+msgstr "pogreske"
+
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+#: templates/merchantdetailswidgets.php:94
+#: templates/merchantdetailswidgets.php:95
+msgctxt "Page slug"
+msgid "reviews"
+msgstr "recenzije"
+
+#: templates/merchantdetailswidgets.php:97
+msgctxt "Page slug"
+msgid "review"
+msgstr "recenzija"
+
+#: templates/merchantdetailswidgets.php:99
+msgctxt "Page slug"
+msgid "redirect"
+msgstr "preusmjeriti"
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr "Hvala vam što ste nas izabrali."
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr "Otkrij"
+
+#~ msgid "From"
+#~ msgstr "Od"
+
+#~ msgid "Children"
+#~ msgstr "Djeca"
+
+#~ msgid "Guest"
+#~ msgstr "Gost"
+
+#~ msgid "hours"
+#~ msgstr "sati"
+
+#~ msgid "Duration"
+#~ msgstr "Trajanje"
+
+#~ msgid "the"
+#~ msgstr "u"
+
+#~ msgid "No result available"
+#~ msgstr "Nema dostupnih rezultata"
+
+#~ msgid "Login success"
+#~ msgstr "Uspjeh prijave"
+
+#~ msgid "Login failed"
+#~ msgstr "Prijava nije uspjela"
+
+#~ msgid "Code not valid"
+#~ msgstr "Kod nije valjan"
+
+#~ msgid "Select a check-out date"
+#~ msgstr "Odaberite datum odjave"
+
+#~ msgid "Done"
+#~ msgstr "Gotovo"
+
+#~ msgid "Sun"
+#~ msgstr "Ned"
+
+#~ msgid "Mon"
+#~ msgstr "Pon"
+
+#~ msgid "Tue"
+#~ msgstr "Uto"
+
+#~ msgid "Wed"
+#~ msgstr "Sri"
+
+#~ msgid "Thu"
+#~ msgstr "Čet"
+
+#~ msgid "Fri"
+#~ msgstr "Pet"
+
+#~ msgid "Sat"
+#~ msgstr "Sub"
+
+#~ msgid "January"
+#~ msgstr "Siječanj"
+
+#~ msgid "February"
+#~ msgstr "Veljača"
+
+#~ msgid "March"
+#~ msgstr "Ožujak"
+
+#~ msgid "April"
+#~ msgstr "Travanj"
+
+#~ msgid "May"
+#~ msgstr "Svibanj"
+
+#~ msgid "June"
+#~ msgstr "Lipanj"
+
+#~ msgid "July"
+#~ msgstr "Srpanj"
+
+#~ msgid "August"
+#~ msgstr "Kolovoz"
+
+#~ msgid "September"
+#~ msgstr "Rujan"
+
+#~ msgid "October"
+#~ msgstr "Listopad"
+
+#~ msgid "November"
+#~ msgstr "Studeni"
+
+#~ msgid "December"
+#~ msgstr "Prosinac"
+
+#~ msgid "Access not valid. Access will be denied until {0}."
+#~ msgstr "Pristup nije valjan. Pristup će biti uskraćen do {0}."
+
+#~ msgid "Link has been sent to registered email"
+#~ msgstr "Veza je poslana na registriranu e-poštu"
+
+#~ msgid "Please enter valid registered email"
+#~ msgstr "Unesite valjanu registriranu e-poštu"
+
+#~ msgid "Look nearby"
+#~ msgstr "Pogledajte u blizini"
+
+#~ msgid "Read more"
+#~ msgstr "Pročitaj više"
+
+#~ msgid "Read less"
+#~ msgstr "Pročitaj manje"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "Dodaj na listu želja"
+
+#~ msgid "My next trip"
+#~ msgstr "Moje sljedeće putovanje"
+
+#~ msgid "Create a new list"
+#~ msgstr "Napravi novi popis"
+
+#~ msgid "Search area or point of interest"
+#~ msgstr "Područje pretraživanja ili točka interesa"
+
+#~ msgid "Please select one or more option you want to request"
+#~ msgstr "Odaberite jednu ili više opcija koje želite zatražiti"
+
+#~ msgid "Change your details"
+#~ msgstr "Promijenite svoje podatke"
+
+#~ msgid "Select dates"
+#~ msgstr "odabrane stavke"
+
+#, php-format
+#~ msgid " %d second/s"
+#~ msgstr " %d drugi/s"
+
+#~ msgid "(Approx.)"
+#~ msgstr "(Cca.)"
+
+#, php-format
+#~ msgid " %d minutes"
+#~ msgstr " %d minuta"
+
+#, php-format
+#~ msgid " %d minute"
+#~ msgstr " %d minuta"
+
+#, php-format
+#~ msgid " %d hours"
+#~ msgstr " %d sati"
+
+#, php-format
+#~ msgid " %d hour"
+#~ msgstr " %d sat"
+
+#, php-format
+#~ msgid " %d days"
+#~ msgstr " %d dana"
+
+#, php-format
+#~ msgid " %d day"
+#~ msgid_plural " %d days"
+#~ msgstr[0] " %d dan"
+#~ msgstr[1] " %d dan(a)"
+#~ msgstr[2] ""
+
+#, php-format
+#~ msgid " %d month/s"
+#~ msgstr " %d mjesec/s"
+
+#, php-format
+#~ msgid " %d year/s"
+#~ msgstr " %d sat(i)"
+
+#~ msgid "Mandatory"
+#~ msgstr "Obavezno"
+
+#, php-format
+#~ msgid "Search Results: &ldquo;%s&rdquo;"
+#~ msgstr "Rezultati pretraživanja: &ldquo;%s&rdquo;"
+
+#, php-format
+#~ msgid "&nbsp;&ndash; Page %s"
+#~ msgstr "&nbsp;&ndash; Stranica %s"
+
+#~ msgid "bfisidebar"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Rental"
+#~ msgstr "bfisidebar Rental"
+
+#~ msgid "bfisidebar MapSell"
+#~ msgstr "bfisidebar MapSell"
+
+#~ msgid "bfisidebar Time Slots"
+#~ msgstr "bfisidebar Time Slots"
+
+#~ msgid "bfisidebarExperience"
+#~ msgstr "bfisidebarExperience"
+
+#, fuzzy
+#~| msgid "bfisidebar"
+#~ msgid "bfisidebarPackages"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Hidden"
+#~ msgstr "bfisidebar Hidden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add widgets here to appear in Bookingfor pages. (<b><u>NOT delete or "
+#~ "rename</u></b>)"
+#~ msgstr ""
+#~ "Dodajte widgete ovdje da biste se pojavili na stranicama Bookingfora. "
+#~ "(NE<b><u>briši ili preimenuj)</u></b>"
+
+#~ msgctxt "Page slug"
+#~ msgid "contact"
+#~ msgstr "kontakt"
+
+#~ msgid "Recently seen"
+#~ msgstr "Nedavno viđeno"
+
+#~ msgctxt "Page slug"
+#~ msgid "inforequestpopup"
+#~ msgstr "inforequestpopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "mapspopup"
+#~ msgstr "mapspopup"
+
+#~ msgid "nights"
+#~ msgstr "noći"
+
+#~ msgid "Seniores"
+#~ msgstr "Stariji"
+
+#~ msgid "Order by"
+#~ msgstr "Sortiranje prema"
+
+#~ msgid "Lowest price first"
+#~ msgstr "Najprije najniža cijena "
+
+#~ msgid "Review score"
+#~ msgstr "Ocjena recenzije"
+
+#~ msgid "Best offers"
+#~ msgstr "Najbolja ponuda"
+
+#~ msgid "Distance from center"
+#~ msgstr "Udaljenost od centra"
+
+#~ msgid "Distance from point of interest"
+#~ msgstr "Udaljenost od točke interesa"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Map"
+#~ msgstr "Karta"
+
+#~ msgid "Filters"
+#~ msgstr "Filteri"
+
+#, php-format
+#~ msgid "Show %s results"
+#~ msgstr "Pokažite %s rezultate"
+
+#~ msgid "BookingFor Merchant List page"
+#~ msgstr "BookingFor stranica popisa trgovca"
+
+#~ msgctxt "slug"
+#~ msgid "eventlist"
+#~ msgstr "popis-dogadaja"
+
+#~ msgctxt "slug"
+#~ msgid "merchantlist"
+#~ msgstr "popis-trgovaca"
+
+#~ msgid "&resourceId="
+#~ msgstr "&resourceId="
+
+#~ msgid "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+#~ msgstr ""
+#~ "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+
+#~ msgid "Hours"
+#~ msgstr "Sati"
+
+#~ msgid "single bed"
+#~ msgstr "krevet za jednu osobu"
+
+#~ msgid "double bed"
+#~ msgstr "bračni krevet"
+
+#~ msgid "large double bed"
+#~ msgstr "veliki bračni krevet"
+
+#~ msgid "extra-large double bed"
+#~ msgstr "ekstra veliki bračni krevet"
+
+#~ msgid "bunk bed"
+#~ msgstr "krevet na kat"
+
+#~ msgid "sofa bed"
+#~ msgstr "kauč na razvlačenje"
+
+#~ msgid "futon"
+#~ msgstr "Futon"
+
+#~ msgid "single beds"
+#~ msgstr "kreveti za jednu osobu"
+
+#~ msgid "double beds"
+#~ msgstr "bračni kreveti"
+
+#~ msgid "large double beds"
+#~ msgstr "veliki bračni kreveti"
+
+#~ msgid "extra-large double beds"
+#~ msgstr "ekstra veliki bračni kreveti"
+
+#~ msgid "bunk beds"
+#~ msgstr "Kreveta"
+
+#~ msgid "sofa beds"
+#~ msgstr "kauči na razvlačenje"
+
+#~ msgid "futons"
+#~ msgstr "futoni"
+
+#~ msgid "Youth"
+#~ msgstr "Mladost"
+
+#~ msgid "Infant"
+#~ msgstr "Dojenče"
+
+#~ msgid "Your Cart is empty! "
+#~ msgstr "Vaša košarica je prazna!"
+
+#~ msgid "Secure booking. We protect your information"
+#~ msgstr "Sigurna rezervacija. Štitimo vaše podatke"
+
+#~ msgid "Your reservation includes"
+#~ msgstr "Vaša rezervacija uključuje"
+
+#~ msgid "Information"
+#~ msgstr "Informacija"
+
+#~ msgid "For"
+#~ msgstr "Za"
+
+#~ msgid "Options"
+#~ msgstr "Opcije"
+
+#~ msgid "Qt."
+#~ msgstr "Kol."
+
+#~ msgid "Total price"
+#~ msgstr "Ukupna cijena"
+
+#~ msgid "from"
+#~ msgstr "od"
+
+#~ msgid "to"
+#~ msgstr "do"
+
+#~ msgid "seat"
+#~ msgstr "Sjedalo"
+
+#~ msgid "People"
+#~ msgstr "Ljudi"
+
+#~ msgid "Years"
+#~ msgstr "Godina"
+
+#, php-format
+#~ msgid "Over %s"
+#~ msgstr "Više od %s"
+
+#, php-format
+#~ msgid " %d day/s"
+#~ msgstr " %d dan(a)"
+
+#~ msgid "Check-in"
+#~ msgstr "Prijava"
+
+#~ msgid "Check-out"
+#~ msgstr "Odjava"
+
+#~ msgid "until"
+#~ msgstr "do"
+
+#~ msgid "Total"
+#~ msgstr "Ukupno"
+
+#~ msgid "minuti"
+#~ msgstr "minute"
+
+#~ msgid "Time Table"
+#~ msgstr "Termin"
+
+#~ msgid "Room"
+#~ msgstr "Soba"
+
+#~ msgid "Included"
+#~ msgstr "Uključen"
+
+#~ msgid "VAT"
+#~ msgstr "PDV"
+
+#~ msgid "Not included"
+#~ msgstr "Nije uključeno"
+
+#~ msgid "City tax per person per night"
+#~ msgstr "Boravišna pristojba po osobi za noć."
+
+#~ msgid "Extra bed"
+#~ msgstr "Ekstra"
+
+#~ msgid "Cot"
+#~ msgstr "Udobnost"
+
+#~ msgid "Exempt"
+#~ msgstr "Izuzeti"
+
+#~ msgid "City tax"
+#~ msgstr "Grad"
+
+#~ msgid "days"
+#~ msgstr "dana"
+
+#~ msgid "weeks"
+#~ msgstr "tjedana"
+
+#~ msgid "months"
+#~ msgstr "mjeseci"
+
+#~ msgid "Cancellation FREE"
+#~ msgstr "Otkazivanje BESPLATNO"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel free of charge until %1$s before arrival. You will be "
+#~ "charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Možete otkazati bez naknade do %1$s prije dolaska. Naplatit će vam se "
+#~ "%2$s ako otkažete %1$s prije dolaska."
+
+#~ msgid "You may cancel free of charge until arrival."
+#~ msgstr "Besplatno možete otkazati do dolaska."
+
+#~ msgid "Special conditions"
+#~ msgstr "Posebni uvjeti"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel with a charge of %3$s  until %1$s before arrival. You will "
+#~ "be charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Možete otkazati s naplatom %3$s do %1$s prije dolaska. Naplatit će vam se "
+#~ "%2$s ako otkažete %1$s prije dolaska."
+
+#, php-format
+#~ msgid "You will be charged %1$s if you cancel before arrival."
+#~ msgstr "Naplatit će vam se %1$s ako otkažete prije dolaska."
+
+#~ msgid "Non refundable"
+#~ msgstr "Nepovratna"
+
+#~ msgid "You will be charged all if you cancel before arrival."
+#~ msgstr "Naplatit će vam se sve ako otkažete prije dolaska."
+
+#~ msgid "There is no meal option with this room."
+#~ msgstr "Ne postoji mogućnost obroka u ovoj sobi."
+
+#~ msgid "Breakfast"
+#~ msgstr "Doručak"
+
+#~ msgid "Lunch"
+#~ msgstr "Ručak"
+
+#~ msgid "Dinner"
+#~ msgstr "Večera"
+
+#~ msgid "All Inclusive"
+#~ msgstr "Sve uključeno"
+
+#~ msgid "included"
+#~ msgstr "uključen"
+
+#~ msgid "Meals"
+#~ msgstr "Obroci"
+
+#~ msgid "Cancellation"
+#~ msgstr "Otkazivanje"
+
+#~ msgid "Prepayment"
+#~ msgstr "plaćanje unaprijed"
+
+#~ msgid "Non-binding booking request"
+#~ msgstr "Neobvezujući zahtjev za rezervaciju"
+
+#~ msgid "Instant Book"
+#~ msgstr "Instant knjiga"
+
+#~ msgid "Payment in installments"
+#~ msgstr "Plaćanje na rate"
+
+#, php-format
+#~ msgid " %d night/s"
+#~ msgstr " %d noć(i)"
+
+#~ msgid "The code is not valid"
+#~ msgstr "Kôd nije valjan"
+
+#~ msgid "Apply"
+#~ msgstr "Primjeni"
+
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid "Gift cards or Promotional codes"
+#~ msgstr "Darovne kartice ili promotivni kodovi"
+
+#~ msgid "Enter code"
+#~ msgstr "Unesite kôd"
+
+#~ msgid "Discount"
+#~ msgstr "Popust"
+
+#~ msgid "Deposit"
+#~ msgstr "Depozit"
+
+#~ msgid "Customers who bought this product also viewed"
+#~ msgstr "Kupci koji su kupili ovaj proizvod također su pregledali"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s."
+#~ msgstr ""
+#~ "Odabir <b>slanja</b> znači da <a href=\"%3$s\" target=\"_blank"
+#~ "\">pristajete na Uvjete korištenja</a> %1$s ."
+
+#~ msgid "Log in to book faster"
+#~ msgstr "Prijavite se za bržu rezervaciju"
+
+#~ msgid "Enter your details"
+#~ msgstr "Unesite svoje podatke"
+
+#~ msgid "Name"
+#~ msgstr "Ime"
+
+#~ msgid "This field is required."
+#~ msgstr "Ovo polje je obavezno."
+
+#~ msgid "Surname"
+#~ msgstr "Prezime"
+
+#~ msgid "Man"
+#~ msgstr "Pon"
+
+#~ msgid "Woman"
+#~ msgstr "Žena"
+
+#~ msgid "Email"
+#~ msgstr "E-pošta"
+
+#~ msgid "Reenter email"
+#~ msgstr "Ponovno unesite e-poštu"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Fiscal code"
+#~ msgstr "Fiskalni kod"
+
+#~ msgid "Organization"
+#~ msgstr "Organizator"
+
+#~ msgid "Password"
+#~ msgstr "Lozinka"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "Postal Code"
+#~ msgstr "Poštanski broj"
+
+#~ msgid "City"
+#~ msgstr "Grad"
+
+#~ msgid "Province"
+#~ msgstr "Pokrajina"
+
+#~ msgid "Personal data"
+#~ msgstr "Obrada osobnih podataka"
+
+#~ msgid "Birth date"
+#~ msgstr "Datum rođenja"
+
+#~ msgid "Birth location"
+#~ msgstr "Lokacija za odabir"
+
+#~ msgid "Passport ID"
+#~ msgstr "Lozinka"
+
+#~ msgid "Passport expiration"
+#~ msgstr "Važne informacije"
+
+#~ msgid "Document ID"
+#~ msgstr "ID oznaka dokumenta"
+
+#~ msgid "Document release place"
+#~ msgstr "Mjesto izdavanja dokumenata"
+
+#~ msgid "Document release date"
+#~ msgstr "Datum izdavanja dokumenata"
+
+#~ msgid "Document expiration"
+#~ msgstr "Odredište"
+
+#~ msgid "Special Requests"
+#~ msgstr "Posebne usluge"
+
+#~ msgid "Notes"
+#~ msgstr "Napomene"
+
+#~ msgid "Note"
+#~ msgstr "Bilješka"
+
+#~ msgid "No URLs allowed!"
+#~ msgstr "URL-ovi nisu dozvoljeni!"
+
+#~ msgid "Your estimated time of arrival"
+#~ msgstr "Procijenjeno vrijeme vašeg dolaska"
+
+#~ msgid "I don't know"
+#~ msgstr "Ne znam"
+
+#~ msgid "no"
+#~ msgstr "Informacije"
+
+#~ msgid "yes"
+#~ msgstr "Da"
+
+#~ msgid "Other information"
+#~ msgstr "Više informacija"
+
+#~ msgid "We can pick up you at the desired address"
+#~ msgstr "Možemo vas pokupiti na željenoj adresi"
+
+#~ msgid "At experience end, we can take you at the desired address"
+#~ msgstr "Na kraju iskustva, možemo vas odvesti na željenu adresu"
+
+#~ msgid "Crew"
+#~ msgstr "Posada"
+
+#, php-format
+#~ msgid "Component %s of %s"
+#~ msgstr "Od %s do %s"
+
+#~ msgid "Payment method"
+#~ msgstr "Način plaćanja"
+
+#~ msgid "Please choose a payment method"
+#~ msgstr "Odaberite način plaćanja"
+
+#~ msgid "Credit card details"
+#~ msgstr "Podaci o kreditnoj kartici"
+
+#~ msgid "Warranty Request for"
+#~ msgstr "Zahtjev za jamstvo za"
+
+#~ msgid "Holder"
+#~ msgstr "Vlasnik"
+
+#~ msgid "Number"
+#~ msgstr "Broj"
+
+#~ msgid "Valid until"
+#~ msgstr "Vrijedi do"
+
+#~ msgid "Month (MM)"
+#~ msgstr "Mjesec (MM)"
+
+#~ msgid "Year (YY)"
+#~ msgstr "Godina (GG)"
+
+#~ msgid "I agree to the conditions"
+#~ msgstr "Slažem se s uvjetima"
+
+#~ msgid "I have read the information on the processing of personal data"
+#~ msgstr "Pročitao sam informacije o obradi osobnih podataka"
+
+#~ msgid "More information"
+#~ msgstr "Više informacija"
+
+#~ msgid "I give my consent to send the newsletter"
+#~ msgstr "Dajem svoj pristanak za slanje biltena"
+
+#~ msgid "I give my consent for marketing purposes"
+#~ msgstr "Dajem svoj pristanak u marketinške svrhe"
+
+#~ msgid "I give my consent for profiling purposes"
+#~ msgstr "Dajem svoj pristanak u svrhu profiliranja"
+
+#~ msgid "Send"
+#~ msgstr "Pošalji"
+
+#~ msgid "Code already used"
+#~ msgstr "Kod koji se već koristi"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Jeste li sigurni?"
+
+#~ msgid "Please enter a valid code"
+#~ msgstr "Unesite važeći kôd"
+
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Page"
+#~ msgstr "Stranica"
+
+#~ msgctxt "Page slug"
+#~ msgid "cartredirect"
+#~ msgstr "cartredirect"
+
+#~ msgctxt "Page slug"
+#~ msgid "thankspopup"
+#~ msgstr "thankspopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "errorspopup"
+#~ msgstr "pogreskepopup"
+
+#~ msgid "Your search"
+#~ msgstr "Vaše pretraživanje"
+
+#~ msgid "Extra services"
+#~ msgstr "Dodatne usluge"
+
+#~ msgid "Insert your data"
+#~ msgstr "Umetnite podatke"
+
+#~ msgid "Confirm booking"
+#~ msgstr "Potvrda rezervacije"
+
+#~ msgctxt "Page slug"
+#~ msgid "contactspopup"
+#~ msgstr "contactspopup"
+
+#~ msgid "List"
+#~ msgstr "Popis"
+
+#~ msgid "Grid"
+#~ msgstr "Rešetka"
+
+#~ msgid "View"
+#~ msgstr "Pregled"
+
+#~ msgid "Vetrina"
+#~ msgstr "Izlog"
+
+#~ msgid "Top"
+#~ msgstr "Vrh"
+
+#~ msgid "New!"
+#~ msgstr "Novo!"
+
+#~ msgid "Rooms"
+#~ msgstr "Sobe"
+
+#~ msgid "m&sup2;"
+#~ msgstr "m²"
+
+#~ msgid "Contact Agent"
+#~ msgstr "Agent za kontakt"
+
+#~ msgid "New ad"
+#~ msgstr "Novi oglas"
+
+#~ msgid "Would you like to leave your review?"
+#~ msgstr "Želite li ostaviti svoju recenziju?"
+
+#, php-format
+#~ msgid "Score from %s reviews"
+#~ msgstr "Ocjena od %s recenzija"
+
+#~ msgid "Guest Rating"
+#~ msgstr "Ocjene gostiju"
+
+#~ msgid "No results available"
+#~ msgstr "Nema raspoloživih rezultata"
+
+#~ msgid "Choice"
+#~ msgstr "Izbor"
+
+#~ msgid "Cart"
+#~ msgstr "Košarica"
+
+#~ msgid "Share"
+#~ msgstr "Podjeli"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show results"
+#~ msgstr "Pokažite %s rezultate"
+
+#~ msgid "Select the type of package to get started!"
+#~ msgstr "Odaberite vrstu paketa za početak!"
+
+#~ msgid "Payment"
+#~ msgstr "Plaćanje"
+
+#~ msgid ""
+#~ "If you are not redirected to the payment page within a few seconds, click "
+#~ "the following button"
+#~ msgstr ""
+#~ "Ako niste preusmjereni na stranicu za plaćanje u roku od nekoliko "
+#~ "sekundi, kliknite sljedeći gumb"
+
+#, php-format
+#~ msgid "%s available accommodations"
+#~ msgstr "%s dostupan smještaj"
+
+#~ msgid "Map view"
+#~ msgstr "Prikaz karte"
+
+#~ msgctxt "Page slug"
+#~ msgid "rating"
+#~ msgstr "ocjenjivanje"
+
+#~ msgid "Request"
+#~ msgstr "Zahtjev"
+
+#~ msgid "Book Now"
+#~ msgstr "Rezervirajte odmah"
+
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s mišljenja"
+
+#, php-format
+#~ msgid "Only %d available"
+#~ msgstr "Samo %d dostupno"
+
+#~ msgid "Breakfast included"
+#~ msgstr "Doručak uključen"
+
+#~ msgid "Half board"
+#~ msgstr "Polupansion"
+
+#~ msgid "Full board"
+#~ msgstr "Puni pansion"
+
+#, php-format
+#~ msgid "Price for %s person"
+#~ msgstr "Cijena za %s osobu"
+
+#~ msgid "Total for"
+#~ msgstr "Ukupno za"
+
+#, php-format
+#~ msgid " %d hour/s"
+#~ msgstr " %d sat(i)"
+
+#, php-format
+#~ msgid " %d minute/s"
+#~ msgstr " %d minuta(a)"
+
+#, php-format
+#~ msgid "Offer %d%%"
+#~ msgstr "Ponuda %d%%"
+
+#~ msgid "from hours"
+#~ msgstr "od sati"
+
+#~ msgid "to hours"
+#~ msgstr "satima"
+
+#~ msgid ""
+#~ "This is the straight-line distance on the map. Actual travel distance may "
+#~ "vary."
+#~ msgstr ""
+#~ "Ovo je ravna udaljenost na karti. Stvarna udaljenost putovanja može "
+#~ "varirati."
+
+#~ msgid "from centre"
+#~ msgstr "od centra"
+
+#~ msgid "Dates"
+#~ msgstr "Datumi"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "All dates and places"
+#~ msgstr "Svi datumi i mjesta"
+
+#~ msgid "Show dates and places"
+#~ msgstr "Prikazate datume i mjesta"
+
+#~ msgid "Book Resource"
+#~ msgstr "Resurs knjige"
+
+#, fuzzy
+#~| msgctxt "Page slug"
+#~| msgid "packages"
+#~ msgid "Show package"
+#~ msgstr "paketi"
+
+#~ msgid "Tickets"
+#~ msgstr "Ulaznice"
+
+#~ msgid "Buy tickets"
+#~ msgstr "Kupite ulaznice"
+
+#, fuzzy
+#~| msgid "Show prices"
+#~ msgid "Show experiences"
+#~ msgstr "Prikaži broj telefona"
+
+#~ msgid "in evidence"
+#~ msgstr "u dokazima"
+
+#~ msgid "excluding"
+#~ msgstr "Isključujući"
+
+#~ msgid "Free!"
+#~ msgstr "Besplatno!"
+
+#~ msgid "additional charge"
+#~ msgstr "dodatna naknada"
+
+#~ msgid "Download"
+#~ msgstr "Preuzimanja"
+
+#~ msgid "In short"
+#~ msgstr "Ukratko"
+
+#~ msgid "Travel planner"
+#~ msgstr "Planer putovanja"
+
+#~ msgid "Buy resource"
+#~ msgstr "Kupite resurs"
+
+#~ msgid "Organizer"
+#~ msgstr "Organizator"
+
+#~ msgid "All reviewers"
+#~ msgstr "Svi recenzenti"
+
+#~ msgid "Solo travellers"
+#~ msgstr "Solo putnici"
+
+#~ msgid "Groups"
+#~ msgstr "Grupe"
+
+#~ msgid "Young couplet"
+#~ msgstr "Mladi parovi"
+
+#~ msgid "Mature couples"
+#~ msgstr "Zreli parovi"
+
+#~ msgid "Families with young children"
+#~ msgstr "Obitelji s malom djecom"
+
+#~ msgid "Family with older children"
+#~ msgstr "Obitelj sa starijom djecom"
+
+#, php-format
+#~ msgid "Based on %1$s Reviews."
+#~ msgstr "Temeljem %1$s recenzija."
+
+#~ msgid "Staff"
+#~ msgstr "Osoblje"
+
+#~ msgid "Clean"
+#~ msgstr "Čisto"
+
+#~ msgid "Comfort"
+#~ msgstr "Udobnost"
+
+#~ msgid "Value for Money"
+#~ msgstr "Vrijednost za novac"
+
+#~ msgid "Show reviews from"
+#~ msgstr "Prikaži recenzije od"
+
+#~ msgid "Write a Review"
+#~ msgstr "Napišite svoje mišljenje"
+
+#~ msgid "Reviewed"
+#~ msgstr "Recenzirano"
+
+#~ msgid "Stayed"
+#~ msgstr "Ostao"
+
+#, php-format
+#~ msgid "Replied on %1s"
+#~ msgstr "Odgovorio/la %1s"
+
+#~ msgid "Reference"
+#~ msgstr "Upućivanje"
+
+#, php-format
+#~ msgid "Review certified by %1$s"
+#~ msgstr "Recenzija potvrđena od %1$s"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#, php-format
+#~ msgid "%s has responded to this review"
+#~ msgstr "%s je reagiralo na ovu recenziju"
+
+#~ msgid "No Reviews Found."
+#~ msgstr "Nema recenzija."
+
+#~ msgid "Would you like to be the first to write a review?"
+#~ msgstr "Želite li biti prvi koji će napisati recenziju?"
+
+#~ msgid "Very poor"
+#~ msgstr "Vrlo slaba"
+
+#~ msgid "Poor"
+#~ msgstr "Slab"
+
+#~ msgid "Disappointing"
+#~ msgstr "Razočaravajući"
+
+#~ msgid "Fair"
+#~ msgstr "Prilično dobro"
+
+#~ msgid "Okay"
+#~ msgstr "U redu"
+
+#~ msgid "Pleasant"
+#~ msgstr "Ugodan"
+
+#~ msgid "Good"
+#~ msgstr "Dobar"
+
+#~ msgid "Very good"
+#~ msgstr "Vrlo dobro"
+
+#~ msgid "Fabulous"
+#~ msgstr "Nevjerojatano"
+
+#~ msgid "Exceptional"
+#~ msgstr "Izvrsno"
+
+#~ msgid "Very easy"
+#~ msgstr "Vrlo jednostavno"
+
+#~ msgid "Easy"
+#~ msgstr "Lako"
+
+#~ msgid "Moderate"
+#~ msgstr "umjeren"
+
+#~ msgid "Stimulating"
+#~ msgstr "Ocjenjivanje zvjezdicama"
+
+#~ msgid "Demanding"
+#~ msgstr "Slanje ..."
+
+#~ msgid "Extreme"
+#~ msgstr "Ekstra"
+
+#~ msgid "Info & prices"
+#~ msgstr "Info i cijene"
+
+#~ msgid "Facilities"
+#~ msgstr "postrojenja"
+
+#~ msgid "House rules"
+#~ msgstr "Pravila kuće"
+
+#~ msgid "Reviews"
+#~ msgstr "Recenzije"
+
+#~ msgid "Book now"
+#~ msgstr "Rezervirajte odmah"
+
+#~ msgid "or similar"
+#~ msgstr "ili slično"
+
+#~ msgid "show map"
+#~ msgstr "Prikaži kartu"
+
+#~ msgid "Pick Up & Drop Off"
+#~ msgstr "Pokupiti i iskrcati"
+
+#~ msgid "Media"
+#~ msgstr "Mediji"
+
+#~ msgid "Host"
+#~ msgstr "Domaćin"
+
+#~ msgid "Floor area"
+#~ msgstr "Površina kata"
+
+#~ msgid "Participants"
+#~ msgstr "Sudionici"
+
+#~ msgid "Minimum age"
+#~ msgstr "min paxes"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Razina poteškoća"
+
+#~ msgid "Languages"
+#~ msgstr "Jezik"
+
+#, php-format
+#~ msgid " and %s more "
+#~ msgstr "Pročitaj više"
+
+#~ msgid "Offered in"
+#~ msgstr "Ponuda"
+
+#~ msgid "Important information"
+#~ msgstr "Važne informacije"
+
+#~ msgid "What is Included"
+#~ msgstr "Nije uključeno"
+
+#~ msgid "Live Guide "
+#~ msgstr "Vodič uživo "
+
+#~ msgid "Audio Guide "
+#~ msgstr "Audio vodič "
+
+#~ msgid "Paper Guide "
+#~ msgstr "Platiti po upotrebi"
+
+#~ msgid "What is not Included"
+#~ msgstr "Nije uključeno"
+
+#~ msgid "Departure & Return"
+#~ msgstr "Polazak i povratak"
+
+#~ msgid "Departure Point"
+#~ msgstr "Polazna točka"
+
+#~ msgid "Meeting Time"
+#~ msgstr "Vrijeme sastanka"
+
+#, php-format
+#~ msgid "show up %s minutes before the start time "
+#~ msgstr "pojaviti %s minuta prije početka "
+
+#~ msgid "Pick-up Point"
+#~ msgstr "Pokupiti i iskrcati"
+
+#~ msgid "Pick-up Time"
+#~ msgstr "Vrijeme preuzimanja"
+
+#~ msgid "Return Details"
+#~ msgstr "Detalji događaja"
+
+#~ msgid "Returns to original departure pickup"
+#~ msgstr "Vraća se izvornom preuzimanju polaska"
+
+#~ msgid "Returns to original pick-up point"
+#~ msgstr "Vraća se na prvobitno pick-up točku"
+
+#~ msgid "Returns to original departure point"
+#~ msgstr "Vraća se na izvornu polaznu točku"
+
+#~ msgid "What To Expect"
+#~ msgstr "Što očekivati"
+
+#~ msgid "Itinerary"
+#~ msgstr "Itinerar"
+
+#~ msgid "Day"
+#~ msgstr "Dana"
+
+#~ msgid "Stops"
+#~ msgstr "Zaustavljanja"
+
+#~ msgid "Stop"
+#~ msgstr "Zaustavi"
+
+#~ msgid "Additional Info"
+#~ msgstr "Dodatne svrhe"
+
+#~ msgid "What to bring"
+#~ msgstr "Što donijeti"
+
+#~ msgid "Cancellation Policy"
+#~ msgstr "Otkazivanje"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Često postavljana pitanja"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s and <a href=\"%2$s\" target=\"_blank"
+#~ "\">privacy and cookies statement.</a>."
+#~ msgstr ""
+#~ "Odabir <b>senda</b> znači da pristajete <a href=\"%3$s\" target=\"_blank"
+#~ "\">na Uvjet korištenja</a> i %1$s <a href=\"%2$s\" target=\"_blank"
+#~ "\">izjavu o privatnosti i kolačićima.</a>"
+
+#~ msgid "Type of traveller"
+#~ msgstr "Vrsta putnika"
+
+#~ msgid "Country"
+#~ msgstr "Zemlja"
+
+#~ msgid "E-mail"
+#~ msgstr "E-pošta"
+
+#~ msgid "Confirm E-mail"
+#~ msgstr "Potvrdite e-poštu"
+
+#~ msgid "When did you travel?"
+#~ msgstr "Kada ste putovali?"
+
+#~ msgid "Value for money"
+#~ msgstr "Vrijednost za novac"
+
+#~ msgid "Valuation"
+#~ msgstr "Vrijednost"
+
+#~ msgid "List of the facility's positive points"
+#~ msgstr "Popis pozitivnih bodova objekta"
+
+#~ msgid "List of the facility's negative points"
+#~ msgstr "Popis negativnih bodova objekta"
+
+#, php-format
+#~ msgid "Send me promotional emails from %1$s"
+#~ msgstr "Pošaljite mi promotivne e-mailove %1$s"
+
+#, php-format
+#~ msgid ""
+#~ "I certify that this review is based on my own experience and is my "
+#~ "genuine opinion of this accommodation, and that I have no personal or "
+#~ "business relationship with this establishment, and have not been offered "
+#~ "any incentive or payment originating from the establishment to write this "
+#~ "review. I understand that %s has a zero-tolerance policy on fake reviews."
+#~ msgstr ""
+#~ "Potvrđujem da se ova recenzija temelji se na mom vlastitom iskustvu i "
+#~ "prestavlja moje mišljenje o ovom smještaju te da nemam osobni ili "
+#~ "poslovni odnos s ovom ustanovom, kako mi nisu ponudili nikakav poticaj "
+#~ "ili plaćanje kako bih napisao/la ovu recenziju. Shvaćam kako %s ima "
+#~ "politiku nulte tolerancije na lažne recenzije."
+
+#~ msgid "Attention!"
+#~ msgstr "Pažnja!"
+
+#~ msgid "It 's not possible to insert your own review"
+#~ msgstr "Nije moguće umetnuti recenziju"
+
+#~ msgid "nonexistent order"
+#~ msgstr "nepostojeći redoslijed"
+
+#~ msgid "Order with already a Review"
+#~ msgstr "Redoslijed prema postojećim recenzijama"
+
+#~ msgid ""
+#~ "nonexistent order or to which it is not possible to associate a review"
+#~ msgstr "nepostojeći redoslijed ili nije moguće pridružiti recenziju"
+
+#~ msgid "Order not related at this resource"
+#~ msgstr "Redoslijed se ne odnosi na ovaj resurs"
+
+#~ msgid "Order make before the date to make a review"
+#~ msgstr "Redoslijed načinjen prije datuma za recenziranje"
+
+#~ msgid "Most popular facilities for longer stays"
+#~ msgstr "Najpopularniji sadržaji za duži boravak"
+
+#~ msgid "Booking"
+#~ msgstr "Rezerviranje"
+
+#~ msgid "No Results Found"
+#~ msgstr "Nema rezultata"
+
+#, php-format
+#~ msgid "%s available offers"
+#~ msgstr "%s dostupne ponude"
+
+#~ msgid "please wait..."
+#~ msgstr "pričekajte..."
+
+#~ msgid "I consent to the publication of the review"
+#~ msgstr "Pristanak sam na objavu recenzije"
+
+#~ msgid "A-Z"
+#~ msgstr "A-Z"
+
+#~ msgid "Z-A"
+#~ msgstr "Z-A"
+
+#~ msgid "To rent"
+#~ msgstr "Iznajmiti"
+
+#~ msgid "On sale"
+#~ msgstr "Na prodaju"
+
+#~ msgid "Min paxes"
+#~ msgstr "min paxes"
+
+#~ msgid "Max paxes"
+#~ msgstr "Maks. paxes"
+
+#~ msgid "Area"
+#~ msgstr "Područje"
+
+#~ msgid "Last update"
+#~ msgstr "Zadnje ažuriranje"
+
+#~ msgid "Floor"
+#~ msgstr "Kat"
+
+#~ msgid "Ground floor"
+#~ msgstr "Prizemlje"
+
+#~ msgid "Top floor"
+#~ msgstr "Najgornji kat"
+
+#~ msgid "Attic"
+#~ msgstr "Potkrovlje"
+
+#~ msgid "Multiple levels"
+#~ msgstr "Višestruki razinama"
+
+#~ msgid "ND"
+#~ msgstr "ND"
+
+#~ msgid "Condition"
+#~ msgstr "Stanje"
+
+#~ msgid "New"
+#~ msgstr "Novi"
+
+#~ msgid "To be refurbished"
+#~ msgstr "Za obnovu"
+
+#~ msgid "Excellent"
+#~ msgstr "Odlično"
+
+#~ msgid "Refurbished"
+#~ msgstr "Obnovljene"
+
+#~ msgid "Habitable"
+#~ msgstr "Useljiva"
+
+#~ msgid "Bathrooms"
+#~ msgstr "Kupaonice"
+
+#~ msgid "Heating"
+#~ msgstr "Grijanje"
+
+#~ msgid "Autonomous"
+#~ msgstr "Autonoman"
+
+#~ msgid "Communal"
+#~ msgstr "Komunalni"
+
+#~ msgid "Pay per use"
+#~ msgstr "Platiti po upotrebi"
+
+#~ msgid "Box Auto"
+#~ msgstr "Odjeljak za automobil"
+
+#~ msgid "Parking space"
+#~ msgstr "Parkirno mjesto"
+
+#~ msgid "Energy efficiency class"
+#~ msgstr "Razred energetske učinkovitosti"
+
+#~ msgid "not set"
+#~ msgstr "nespreman"
+
+#~ msgid "Nondescript"
+#~ msgstr "neopisiv"
+
+#~ msgid "Free property"
+#~ msgstr "besplatno"
+
+#~ msgid "Under evaluation"
+#~ msgstr "pod vrednovanja"
+
+#~ msgid "IPE"
+#~ msgstr "IPE"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid "Real estate agency collaboration"
+#~ msgstr "Agencija za nekretnine "
+
+#, php-format
+#~ msgid "Found %s results on %s"
+#~ msgstr "Pronađeni %s rezultati na %s"
+
+#, php-format
+#~ msgid "Found %s results"
+#~ msgstr "Nađeno %s rezultata"
+
+#~ msgid ""
+#~ "Certainly it is our Preferred Merchant! They provide a great value and an "
+#~ "excellent service."
+#~ msgstr ""
+#~ "Svakako je to naš omiljeni trgovac! Oni pružaju veliku vrijednost i "
+#~ "izvrsnu uslugu."
+
+#~ msgid "from center"
+#~ msgstr "od centra"
+
+#~ msgid "from point of interest"
+#~ msgstr "od točke interesa"
+
+#~ msgid "This structure is suitable for children"
+#~ msgstr "Ova struktura je pogodna za djecu"
+
+#~ msgid "Living room"
+#~ msgstr "Dnevni boravak"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show more results"
+#~ msgstr "Pokažite %s rezultate"
+
+#~ msgid "FREE Cancellation"
+#~ msgstr "Besplatno otkazivanje"
+
+#, php-format
+#~ msgid ""
+#~ "Unfortunately we have no availability at this merchant for your dates: %s "
+#~ "- %s"
+#~ msgstr ""
+#~ "Nažalost, nemamo raspoloživosti kod ovog trgovca za vaše datume: %s - %s"
+
+#~ msgid "Limited availability, but may sell out:"
+#~ msgstr "Ograničena dostupnost, ali se može rasprodati:"
+
+#~ msgid ""
+#~ "For a short time you missed it. Our last resource sold out a few days ago"
+#~ msgstr ""
+#~ "Nakratko si to propustio. Naš zadnji resurs je rasprodan prije nekoliko "
+#~ "dana."
+
+#~ msgid "We're sorry! we do not have any availability for this resource."
+#~ msgstr "Žao nam je! nemamo nikakvu dostupnost za ovaj resurs."
+
+#~ msgid "Supplier rating"
+#~ msgstr "Ocjenjivanje zvjezdicama"
+
+#~ msgid "minutes"
+#~ msgstr "minute"
+
+#~ msgid "We're sorry! we do not have any availability."
+#~ msgstr "Žao nam je! nemamo nikakvu dostupnost."
+
+#~ msgid "Program"
+#~ msgstr "Program"
+
+#~ msgid "Next events near "
+#~ msgstr "Sljedeći događaji u blizini "
+
+#~ msgid "IDENTIFICATION CODE - TOURIST LEASE"
+#~ msgstr "IDENTIFIKACIJSKI KOD - TURISTIČKI NAJAM"
+
+#~ msgctxt "Page slug"
+#~ msgid "rapidview"
+#~ msgstr "rapidview"
+
+#~ msgid "Energy Class"
+#~ msgstr "Energetski razred"
+
+#~ msgid "nondescript"
+#~ msgstr "Neopisiv"
+
+#~ msgid "free property"
+#~ msgstr "Besplatno"
+
+#~ msgid "A+"
+#~ msgstr "A +"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "C"
+#~ msgstr "C"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "EPI Value"
+#~ msgstr "EPI vrijednost"
+
+#~ msgid "Request info"
+#~ msgstr "Zahtjev za info"
+
+#, php-format
+#~ msgid "From %s to %s"
+#~ msgstr "Od %s do %s"
+
+#, php-format
+#~ msgid "%s people are watching right now"
+#~ msgstr "%s ljudi upravo gledaju."
+
+#~ msgid "Recommended for"
+#~ msgstr "Preporučeno za"
+
+#~ msgid "Adult"
+#~ msgstr "Odrasli"
+
+#~ msgid "and"
+#~ msgstr "i"
+
+#~ msgid "Child"
+#~ msgstr "Dijete"
+
+#~ msgid "Pay at the property – NO PREPAYMENT NEEDED"
+#~ msgstr "Platite u objektu - nije potreban avans"
+
+#, php-format
+#~ msgid "View other %d solutions"
+#~ msgstr "Prikaz drugih %d rješenja"
+
+#~ msgid "Hurry up"
+#~ msgstr "Požuri"
+
+#~ msgid "This resource is in great demand"
+#~ msgstr "Ovaj resurs je u velikoj potražnji"
+
+#, php-format
+#~ msgid "%s request in the last 24 hours"
+#~ msgstr "%s zahtjev u posljednja 24 sata"
+
+#, php-format
+#~ msgid ""
+#~ "This structure has met or exceeded the expectations of more than 90% of "
+#~ "guests"
+#~ msgstr ""
+#~ "Ova struktura je ispunila ili premašila očekivanja više od 90% of gostiju"
+
+#~ msgid "Choose place"
+#~ msgstr "Odaberite mjesto"
+
+#~ msgid "Price for"
+#~ msgstr "Cijena za"
+
+#~ msgid "Rental terms"
+#~ msgstr "Uvjeti najma"
+
+#~ msgid "Latest ads"
+#~ msgstr "Najnoviji oglasi"
+
+#~ msgid "added to cart"
+#~ msgstr "dodano u košaricu"
+
+#, php-format
+#~ msgid "Subtotal of the cart (%s items)"
+#~ msgstr "Podzbroj košarice (%s artikala)"
+
+#~ msgid "For an optimal experience"
+#~ msgstr "Za optimalno iskustvo"
+
+#~ msgid "log in to your account"
+#~ msgstr "prijavite se na svoj račun"
+
+#~ msgid "We have other proposals in case of unavailability."
+#~ msgstr "Imamo i druge prijedloge u slučaju nedostupnosti."
+
+#~ msgid "Contact us and we will find the best solution for you!"
+#~ msgstr "Kontaktirajte nas i pronaći ćemo najbolje rješenje za vas!"
+
+#~ msgid "Contact us"
+#~ msgstr "Javite nam se"
+
+#~ msgid "Call us"
+#~ msgstr "Nazovi nas."
+
+#~ msgid "Talk to us"
+#~ msgstr "Razgovarajte s nama"
+
+#~ msgid "Also consider other proposals:"
+#~ msgstr "Pogledajte druge prijedloge:"
+
+#~ msgid "Add to favorites"
+#~ msgstr "Dodaj u favorite"
+
+#~ msgid "Free cancellation"
+#~ msgstr "Besplatno otkazivanje"
+
+#~ msgid "No prepayment"
+#~ msgstr "Nema plaćanja unaprijed"
+
+#~ msgid "Book without credit card"
+#~ msgstr "Rezervirajte bez kreditne kartice"
+
+#~ msgid "All inclusive"
+#~ msgstr "Sve uključeno"
+
+#~ msgid "Unrated"
+#~ msgstr "Neocijenjen"
+
+#~ msgid "1 star"
+#~ msgstr "1 zvjezdica"
+
+#~ msgid "2 stars"
+#~ msgstr "2 zvjezdice"
+
+#~ msgid "3 stars"
+#~ msgstr "3 zvjezdice"
+
+#~ msgid "4 stars"
+#~ msgstr "4 zvjezdice"
+
+#~ msgid "5 stars"
+#~ msgstr "5 zvjezdica"
+
+#~ msgid "6 stars"
+#~ msgstr "6 zvjezdica"
+
+#~ msgid "7 stars"
+#~ msgstr "7 zvjezdica"
+
+#~ msgid "8 stars"
+#~ msgstr "8 zvijezde"
+
+#~ msgid "9 stars"
+#~ msgstr "9 zvijezde"
+
+#~ msgid "10 stars"
+#~ msgstr "10 zvijezde"
+
+#~ msgid "Filter by"
+#~ msgstr "Filtrirati prema"
+
+#~ msgid "Star rating"
+#~ msgstr "Ocjenjivanje zvjezdicama"
+
+#~ msgid "Budget"
+#~ msgstr "Proračun"
+
+#~ msgid "Tipology"
+#~ msgstr "Tipologija"
+
+#~ msgid "Property type"
+#~ msgstr "Vrsta nekretnine"
+
+#~ msgid "Book with ease "
+#~ msgstr "Rezervirajte s lakoćom"
+
+#~ msgid "Offer"
+#~ msgstr "Ponuda"
+
+#~ msgid "Availability"
+#~ msgstr "Dostupnost"
+
+#~ msgid "Booking type"
+#~ msgstr "Vrsta rezervacije"
+
+#~ msgid "Nearby points of interest"
+#~ msgstr "Obližnje točke interesa"
+
+#~ msgid "Unspecified"
+#~ msgstr "Neodređen"
+
+#~ msgid "Smart offer"
+#~ msgstr "Smart ponuda"
+
+#~ msgid "Show only available resources"
+#~ msgstr "Pokažite samo dostupne resurse"
+
+#~ msgid "Show only online booking"
+#~ msgstr "Prikaži samo online rezervaciju"
+
+#~ msgid "Up to"
+#~ msgstr "Do"
+
+#~ msgid "Show All"
+#~ msgstr "Prikaži sve"
+
+#, php-format
+#~ msgid "+ %s photos"
+#~ msgstr "+ %s fotografije"
+
+#~ msgid "Got a question?"
+#~ msgstr "Postavi pitanje"
+
+#~ msgid ""
+#~ "Send your own question to the property. The property usually replies "
+#~ "within a few days"
+#~ msgstr ""
+#~ "Pošaljite vlastito pitanje na imanje. Nekretnina obično odgovara u roku "
+#~ "od nekoliko dana"
+
+#~ msgid "Send us your request, you will be contacted as soon as possible"
+#~ msgstr ""
+#~ "Pošaljite nam svoj zahtjev, bit ćete kontaktirani što je prije moguće"
+
+#~ msgid "Fields marked with * (asterisk) are required"
+#~ msgstr "Potrebna su polja označena * (zvjezdica)"
+
+#~ msgid "Cap"
+#~ msgstr "Kapa"
+
+#~ msgid "I consent to the management of the request"
+#~ msgstr "Pristanak na upravljanje zahtjevom"
+
+#~ msgid "Send your request"
+#~ msgstr "Obrađujemo vaš zahtjev"
+
+#~ msgid "Ask a question"
+#~ msgstr "Postavi pitanje"
+
+#~ msgid "Sign in"
+#~ msgstr "Prijavi se"
+
+#~ msgid "Welcome to"
+#~ msgstr "Dobrodošli na"
+
+#~ msgid ""
+#~ "The holiday of your dreams will start as soon as you start thinking about "
+#~ "it! Log in and put together the ideal blend of accommodation, events and "
+#~ "experiences for your holiday."
+#~ msgstr ""
+#~ "Praznik iz snova započet će čim počnete razmišljati o tome! Prijavite se "
+#~ "i sastavite idealan spoj smještaja, događanja i iskustava za svoj odmor."
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Molimo unesite validnu e-mail adresu"
+
+#~ msgid ""
+#~ "An email was sent to {0}. Please check your email box and type the "
+#~ "authentication code you have received."
+#~ msgstr ""
+#~ "E-mail je poslan {0}. Provjerite okvir za e-poštu i upišite kôd za "
+#~ "provjeru autentičnosti koji ste primili."
+
+#~ msgid "Two-factor secure authentication"
+#~ msgstr "Dvoamjeseka sigurna provjera autentičnosti"
+
+#~ msgid "Lost password"
+#~ msgstr "Izgubljena lozinka"
+
+#~ msgid "Login"
+#~ msgstr "Prijava"
+
+#~ msgid "Confirm"
+#~ msgstr "Potvrdi"
+
+#~ msgid "Register"
+#~ msgstr "Registracija"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Zaboravljena lozinka"
+
+#~ msgid ""
+#~ "If you are having difficulty logging in, you can reset your password by "
+#~ "typing the Email Address that you used while registration. You will "
+#~ "receive an email with a new password."
+#~ msgstr ""
+#~ "Ako imate poteškoća s prijavom, lozinku možete ponovno postaviti "
+#~ "upisivanjem adrese e-pošte koju ste koristili prilikom registracije. "
+#~ "Primit ćete poruku e-pošte s novom lozinkom."
+
+#~ msgid "Back"
+#~ msgstr "Natrag"
+
+#~ msgid "Your account"
+#~ msgstr "Vaš korisnički račun"
+
+#~ msgid "Welcome"
+#~ msgstr "Dobro došli"
+
+#~ msgid "Your home page"
+#~ msgstr "Vaša početna stranica"
+
+#~ msgid "Your details"
+#~ msgstr "Vaši podaci"
+
+#~ msgid "Your lists"
+#~ msgstr "Vaše liste"
+
+#~ msgid "Your bookings"
+#~ msgstr "Vaše rezervacije"
+
+#~ msgid "Your payments"
+#~ msgstr "Vaša plaćanja"
+
+#~ msgid "Your reviews"
+#~ msgstr "Vaše recenzije"
+
+#~ msgid "Logout"
+#~ msgstr "Odjava"
+
+#~ msgid "Open"
+#~ msgstr "Otvori"
+
+#~ msgid "Other Details"
+#~ msgstr "Detalji narudžbe"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to the dates and the "
+#~ "number of people."
+#~ msgstr ""
+#~ "Pravila otkazivanja i predujma razlikuju se ovisno o datumima i broju "
+#~ "osoba."
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">conditions</a> may apply to each option when making your selection."
+#~ msgstr ""
+#~ "Pravila otkazivanja i predujma razlikuju se ovisno o vrsti smještaja. "
+#~ "Prilikom odabira <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">provjerite koji</a> se uvjeti mogu primjenjivati na svaku opciju."
+
+#~ msgid "Show phone"
+#~ msgstr "Prikaži broj telefona"
+
+#~ msgid "Web site"
+#~ msgstr "Web stranica"
+
+#~ msgid "Proposals"
+#~ msgstr "prijedlozi"
+
+#~ msgid "Offers"
+#~ msgstr "Ponude"
+
+#~ msgid "Bed room"
+#~ msgstr "Soba za krevet"
+
+#~ msgid "Change the search details"
+#~ msgstr "Promjena pojedinosti o pretraživanju"
+
+#~ msgid "Check-out "
+#~ msgstr "Odjava"
+
+#~ msgid "Age of children"
+#~ msgstr "Dob djece"
+
+#~ msgid "on"
+#~ msgstr "na"
+
+#~ msgid "Check availability"
+#~ msgstr "Provjera dostupnosti"
+
+#, php-format
+#~ msgid "Group price for %s nights:"
+#~ msgstr "Grupna cijena za %s noćenja:"
+
+#~ msgid "No results available for the submitted data"
+#~ msgstr "Nema dostupnih podataka za dostavljene podatke"
+
+#~ msgid "City tax per person per night."
+#~ msgstr "Boravišna pristojba po osobi za noć."
+
+#~ msgid "Fits"
+#~ msgstr "Odgovara"
+
+#, php-format
+#~ msgid "Max %s person"
+#~ msgstr "Max %s osoba"
+
+#, php-format
+#~ msgid " %d week/s"
+#~ msgstr " %d tjedan/s"
+
+#~ msgid "No prepayment is needed."
+#~ msgstr "Nije potreban avans."
+
+#~ msgid "You will be charged a prepayment of the total price at any time."
+#~ msgstr "Bit će vam naplaćen avans od ukupne cijene u bilo kojem trenutku."
+
+#, php-format
+#~ msgid ""
+#~ "You will be charged a prepayment of %1$s of the total price at any time."
+#~ msgstr ""
+#~ "Bit će vam naplaćen avans %1$s od ukupne cijene u bilo kojem trenutku."
+
+#, php-format
+#~ msgid "You will be charged a prepayment of %1$s at any time."
+#~ msgstr "Bit će vam naplaćen avans %1$s u bilo kojem trenutku."
+
+#~ msgid "Confirm your reservation"
+#~ msgstr "Potvrda rezervacije"
+
+#~ msgid "selected items"
+#~ msgstr "odabrane stavke"
+
+#~ msgid "Request Now"
+#~ msgstr "Zatražite odmah"
+
+#~ msgid "Choose your bed (if available)"
+#~ msgstr "Odaberite svoj krevet (ako je dostupan)"
+
+#~ msgid "View other proposals"
+#~ msgstr "Pogledajte druge prijedloge"
+
+#~ msgid "Do you want add more?"
+#~ msgstr "Želite li dodati još?"
+
+#~ msgid "selected services"
+#~ msgstr "odabrane usluge"
+
+#~ msgid "Please, select a day"
+#~ msgstr "Molimo, odaberite jedan dan"
+
+#~ msgid "Add to cart"
+#~ msgstr "Dodaj u košaricu"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Nastaviti s kupovinom"
+
+#~ msgid "Checkout"
+#~ msgstr "Plaćanje"
+
+#~ msgid "Change search"
+#~ msgstr "Promijenite pretraživanje"
+
+#~ msgid "Adults "
+#~ msgstr "Odrasli "
+
+#~ msgid "Seniors "
+#~ msgstr "Stariji "
+
+#~ msgid "Ages of children"
+#~ msgstr "Dob djece"
+
+#, php-format
+#~ msgid ""
+#~ "We preset your children's ages to %s years old - but if you enter their "
+#~ "actual ages, you might be able to find a better price."
+#~ msgstr ""
+#~ "Unaprijed je postavljena dob djece do %s  godina - ali ako unesete "
+#~ "stvarnu dob svoje djece možda će vam biti ponuđena  bolja cijena."
+
+#~ msgid "Check availability at other merchants"
+#~ msgstr "Provjerite dostupnost kod drugih trgovaca"
+
+#~ msgid "We found availability at other merchants"
+#~ msgstr "Pronašli smo dostupnost kod drugih trgovaca"
+
+#, php-format
+#~ msgid "Persons min:%1$d max:%2$d"
+#~ msgstr "Osoba min: %1$d max: %2$d"
+
+#, php-format
+#~ msgid "Other %1$d choice"
+#~ msgstr "Drugi %1$d izbor"
+
+#~ msgid "Find other great offers!"
+#~ msgstr "Nađi druge velike ponude!"
+
+#~ msgid "In case of no-show, you will be charged all."
+#~ msgstr "U slučaju nedosada, naplatit će vam se sve."
+
+#~ msgid "person"
+#~ msgstr "osoba"
+
+#~ msgid "Remove"
+#~ msgstr "Ukloni"
+
+#~ msgid "next step"
+#~ msgstr "sljedeći korak"
+
+#~ msgid "Pick-up"
+#~ msgstr "Ukrcavanje"
+
+#~ msgid "Drop-off"
+#~ msgstr "Drop-off"
+
+#~ msgid ""
+#~ "To see availablility and prices please enter your check-in and check-out "
+#~ "dates."
+#~ msgstr ""
+#~ "Da biste vidjeli availablility i cijene, unesite datume prijave i odjave."
+
+#~ msgid "Show prices"
+#~ msgstr "Prikaži broj telefona"
+
+#, php-format
+#~ msgid "You may also be interested in the following proposals of \"%s\""
+#~ msgstr "Možda će vas zanimati i sljedeći prijedlozi \"%s\""
+
+#~ msgid "We found availability for other dates"
+#~ msgstr "Pronašli smo raspoloživost za druge datume"
+
+#~ msgid "The price varies according to the dates and the number of people"
+#~ msgstr "Cijena varira ovisno o datumima i broju ljudi"
+
+#~ msgid "Person"
+#~ msgstr "Osoba"
+
+#~ msgid "Select a period"
+#~ msgstr "Odaberite razdoblje"
+
+#~ msgid "One day"
+#~ msgstr "Jednog dana"
+
+#~ msgid "More day"
+#~ msgstr "Više dana"
+
+#~ msgid "Pay at the property  NO PREPAYMENT NEEDED"
+#~ msgstr "Platite u objektu - nije potreban avans"
+
+#~ msgid "night"
+#~ msgstr "noć"
+
+#~ msgid "Change"
+#~ msgstr "Promjena"
+
+#~ msgid "Vacation summary"
+#~ msgstr "Sažetak godišnjeg odmora"
+
+#~ msgid "Confirm choice"
+#~ msgstr "Potvrda izbora"
+
+#~ msgid "Base Price"
+#~ msgstr "Osnovna cijena"
+
+#, fuzzy
+#~| msgid "Change search"
+#~ msgid "Update search"
+#~ msgstr "Promijenite pretraživanje"
+
+#~ msgid "{0} nights"
+#~ msgstr "{0} noći"
+
+#~ msgid "{0} night"
+#~ msgstr "{0} noć"
+
+#~ msgid "Seniors"
+#~ msgstr "Stariji"
+
+#~ msgid "Extra"
+#~ msgstr "Ekstra"
+
+#~ msgid "resources"
+#~ msgstr "resursi"
+
+#~ msgid "Distance umbrellas"
+#~ msgstr "Kišobrani na daljinu"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "remove"
+#~ msgstr "Ukloni"
+
+#~ msgid "All"
+#~ msgstr "Svi"
+
+#~ msgid "Search experiences and areas..."
+#~ msgstr "Iskustva pretraživanja i područja..."
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "You have a coupon/discount code"
+#~ msgstr "Imate kod kupona/popusta"
+
+#~ msgid "Coupon/discount code"
+#~ msgstr "Kupon/kod za popust"
+
+#~ msgid "Search"
+#~ msgstr "Traži"
+
+#~ msgid "Search packagess and areas..."
+#~ msgstr "Pretražujte pakete i područja..."
+
+#~ msgid "Return to the same location"
+#~ msgstr "Povratak na istu lokaciju"
+
+#~ msgid "Drop off in another location"
+#~ msgstr "Mjesto iskrcaja"
+
+#~ msgid "Pick-up location"
+#~ msgstr "Lokacija za odabir"
+
+#~ msgid "Drop-off location"
+#~ msgstr "Mjesto iskrcaja"
+
+#~ msgid "Draw area"
+#~ msgstr "Nacrtajte područje"
+
+#~ msgid "Circle"
+#~ msgstr "Krug"
+
+#~ msgid "Reset"
+#~ msgstr "Poništi"
+
+#~ msgid "Click on map and choose your area."
+#~ msgstr "Kliknite na kartu i odaberite vaše područje."
+
+#~ msgid "Find availability"
+#~ msgstr "Dostupnost"
+
+#~ msgid "Search for accommodation or area"
+#~ msgstr "Traženje smještaja ili područja"
+
+#~ msgid "Check-in - Check-out"
+#~ msgstr "Prijava mora biti veća od odjave"
+
+#~ msgid "To"
+#~ msgstr "Do"
+
+#~ msgid "Activities"
+#~ msgstr "Aktivnosti"
+
+#~ msgid "Others"
+#~ msgstr "Drugi"
+
+#~ msgid "Any"
+#~ msgstr "bilo koji"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ">3"
+#~ msgstr "> 3"
+
+#~ msgid "More days"
+#~ msgstr "Više dana"
+
+#~ msgid "Today"
+#~ msgstr "Danas"
+
+#~ msgid "This Week"
+#~ msgstr "Ovaj tjedan"
+
+#~ msgid "This Month"
+#~ msgstr "Ovaj mjesec"
+
+#~ msgid "Next Week"
+#~ msgstr "Sljedeći tjedan"
+
+#~ msgid "Next Month"
+#~ msgstr "Sljedeći mjesec"
+
+#~ msgid "Search events"
+#~ msgstr "Pretražite događaje"
+
+#~ msgid "Please enter a integer number"
+#~ msgstr "Unesite cijeli broj broj"
+
+#~ msgid "Floor area m&sup2;"
+#~ msgstr "Površina m&sup2;"
+
+#~ msgid "Bedrooms"
+#~ msgstr "Spavaće sobe"
+
+#~ msgid "Only new building"
+#~ msgstr "Samo nova zgrada"
+
+#~ msgid "Pound sterling"
+#~ msgstr "Funta sterlinga"
+
+#~ msgid "Your private area"
+#~ msgstr "Vaše privatno područje"
+
+#~ msgctxt "Page slug"
+#~ msgid "packages"
+#~ msgstr "paketi"
+
+#~ msgid "all review"
+#~ msgstr "sve recenzije"
+
+#~ msgid "Zones"
+#~ msgstr "Zone"
+
+#~ msgid "Category"
+#~ msgstr "Kategorija"
+
+#~ msgid "Points of interest"
+#~ msgstr "Točke interesa"
+
+#~ msgid "Haven't found what you were looking for yet?"
+#~ msgstr "Još nisi našao ono što si tražio?"
+
+#~ msgid "Travelers"
+#~ msgstr "Putnici"
+
+#~ msgid "Departure Time"
+#~ msgstr "Vremenski raspon datuma"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">conditions</a> may apply to each option when making your "
+#~ "selection."
+#~ msgstr ""
+#~ "Pravila otkazivanja i predujma razlikuju se ovisno o vrsti smještaja. "
+#~ "Prilikom odabira <a rel=\".bficontainerexperiencebox\" class=\"bfi-btn-"
+#~ "calc\">provjerite koji</a> se uvjeti mogu primjenjivati na svaku opciju."
+
+#~ msgid "Min age"
+#~ msgstr "min paxes"
+
+#~ msgid "Request for Information"
+#~ msgstr "Zahtjev za informiranje"
+
+#, fuzzy
+#~| msgid "comment"
+#~ msgid "We recommend"
+#~ msgstr "komentar"
+
+#~ msgid "Good to know"
+#~ msgstr "Dobro je znati"
+
+#, fuzzy
+#~ msgid "Riconsegna nella stessa località"
+#~ msgstr "Riconsegna nella stessa località"
+
+#, fuzzy
+#~ msgid "Riconsegna in un'altra località"
+#~ msgstr "Riconsegna u un'altra lokalità"
+
+#, fuzzy
+#~ msgid "Un giorno"
+#~ msgstr "Un giorno (1998.)"
+
+#, fuzzy
+#~ msgid "Più giorni"
+#~ msgstr "Più giorni"
+
+#~ msgid "Merchant list pages"
+#~ msgstr "Stranice popisa trgovca"
+
+#~ msgid "Merchant list page"
+#~ msgstr "Stranica popisa trgovca"
+
+#~ msgctxt "Admin menu name"
+#~ msgid "Merchant list"
+#~ msgstr "Popis trgovaca"
+
+#~ msgid "Add Merchant list page"
+#~ msgstr "Dodaj stranicu popisa trgovca"
+
+#~ msgid "Add New Merchant list page"
+#~ msgstr "Dodaj novu stranicu popisa trgovca"
+
+#~ msgid "Edit Merchant list page"
+#~ msgstr "Uredi stranicu popisa trgovca"
+
+#~ msgid "New Merchant list page"
+#~ msgstr "Nova stranica popisa trgovca"
+
+#~ msgid "View Merchant list page"
+#~ msgstr "Prikaz stranice popisa trgovca"
+
+#~ msgid "Search Merchant list page"
+#~ msgstr "Pretraži stranicu popisa trgovca"
+
+#~ msgid "No Merchant list page found"
+#~ msgstr "Nije pronađena nijedna stranica popisa trgovca"
+
+#~ msgid "No Merchant list page found in trash"
+#~ msgstr "Nijedna stranica popisa trgovca nije pronađena u smeću"
+
+#~ msgid "Parent Merchant list page"
+#~ msgstr "Nadređena stranica popisa trgovca"
+
+#~ msgid "Insert into Merchant list page"
+#~ msgstr "Umetanje na stranicu popisa trgovca"
+
+#~ msgid "Uploaded to this Merchant list page"
+#~ msgstr "Preneseno na ovu stranicu popisa trgovca"
+
+#~ msgid "Filter Merchant list pages"
+#~ msgstr "Filtrirajte stranice popisa trgovca"
+
+#~ msgid "Merchant list pages navigation"
+#~ msgstr "Navigacija stranicama popisa trgovca"
+
+#~ msgid "This is where you can add new Merchant list page."
+#~ msgstr "Tu možete dodati novu stranicu popisa trgovca."
+
+#~ msgid "Categories"
+#~ msgstr "Kategorije"
+
+#~ msgid "Autentication Mode"
+#~ msgstr "Način provjere autentičnosti"
+
+#~ msgid "Cities"
+#~ msgstr "Gradovi"
+
+#~ msgid "Merchant category filter"
+#~ msgstr "Filtar kategorije trgovca"
+
+#~ msgid "Merchant Rating filter"
+#~ msgstr "Filtar za ocjenjivanje trgovca"
+
+#~ msgid "Condominium"
+#~ msgstr "Stan koji je svojina stanara"
+
+#~ msgid "Order"
+#~ msgstr "Narudžba"
+
+#~ msgid "External order ID"
+#~ msgstr "ID vanjske narudžbe"
+
+#~ msgid "Correct format: dd/mm/yyyy"
+#~ msgstr "Ispravan oblik: dd/mm/gggg"
+
+#~ msgid "Booking reference"
+#~ msgstr "Referenca za rezervacije"
+
+#~ msgid "Client code"
+#~ msgstr "Kôd klijenta"
+
+#~ msgctxt "Page slug"
+#~ msgid "orders"
+#~ msgstr "Narudžbe"
+
+#~ msgctxt "Page slug"
+#~ msgid "my-account"
+#~ msgstr "moj račun"
+
+#~ msgctxt "Page title"
+#~ msgid "My Account"
+#~ msgstr "Moj račun"
+
+#~ msgid "I accept personal data treatment"
+#~ msgstr "Prihvaćam obradu osobnih podataka"
+
+#~ msgid "I accept additional purposes"
+#~ msgstr "Prihvaćam dodatne svrhe"
+
+#~ msgid "Cart Not enabled! "
+#~ msgstr "Košarica nije omogućena!"
+
+#~ msgid "You need to be loggedin in order to access this page."
+#~ msgstr "Morate biti prijavljeni kako biste pristupili ovoj stranici."
+
+#~ msgid "Personal Informations"
+#~ msgstr "Osobni podaci"
+
+#~ msgid "Reservations"
+#~ msgstr "Rezervacije"
+
+#~ msgid "Settings"
+#~ msgstr "Postavke"
+
+#~ msgid "Social Network"
+#~ msgstr "Društvena mreža"
+
+#~ msgid "Give your social profiles"
+#~ msgstr "Dajte svoje društvene profile"
+
+#~ msgid ""
+#~ "Connect with your account via your social networks , one less password to "
+#~ "remember!"
+#~ msgstr ""
+#~ "Povezivanje s računom putem društvenih mreža, jedna lozinka  manje za "
+#~ "pamćenje!"
+
+#~ msgid "Your profile"
+#~ msgstr "Vaš profil"
+
+#~ msgid ""
+#~ "This information is used to automatically fill in your details and book "
+#~ "more quickly. We do not share it publicly."
+#~ msgstr ""
+#~ "Ti podaci se koriste za automatsko popunjavanje vaših podataka i bržu "
+#~ "rezervaciju. Nikad ih  javno ne dijelimo."
+
+#~ msgid "Date of birth"
+#~ msgstr "Datum rođenja"
+
+#~ msgid "Gender"
+#~ msgstr "Spol"
+
+#~ msgid "Male"
+#~ msgstr "Muški"
+
+#~ msgid "Female"
+#~ msgstr "Ženski"
+
+#~ msgid "State/Province"
+#~ msgstr "Država / provincija"
+
+#~ msgid "Zip Code"
+#~ msgstr "Poštanski broj"
+
+#~ msgid "Submit"
+#~ msgstr "Pošalji"
+
+#~ msgid "Reservation number"
+#~ msgstr "Broj rezervacije"
+
+#~ msgid "Booking Detail"
+#~ msgstr "Detalj rezervacije"
+
+#~ msgid "Cancel Booking"
+#~ msgstr "Odustani od rezervacije"
+
+#~ msgid ""
+#~ "You want to change your password? Click on the button below and we'll "
+#~ "send you an email with a link to reset it."
+#~ msgstr ""
+#~ "Želite li promijeniti svoju lozinku? Kliknite na gumb dolje i poslat ćemo "
+#~ "vam e-poštu s vezom za ponovno postavljanje lozinke."
+
+#~ msgid "Change your password"
+#~ msgstr "Promjenite lozinku"
+
+#~ msgid ""
+#~ "Choose how often you want to receive offers and suggestions, do not miss "
+#~ "the best offers!"
+#~ msgstr ""
+#~ "Odaberite koliko često želite primati ponude i prijedloge, ne propustite "
+#~ "najbolje ponude!"
+
+#~ msgid "Receive newsletter"
+#~ msgstr "Primajte obavijesti"
+
+#~ msgid "I do not care"
+#~ msgstr "Ne zanima me"
+
+#~ msgid "Fetching Reservation Details"
+#~ msgstr "Dohvat pojedinosti o rezervaciji"
+
+#~ msgid "Please be patient"
+#~ msgstr "Molimo budite strpljivi"
+
+#~ msgid "Error, please try again"
+#~ msgstr "Pogreška, pokušajte ponovno"
+
+#~ msgid " Years"
+#~ msgstr "Godina"
+
+#~ msgid "adults"
+#~ msgstr "odrasli"
+
+#~ msgid "children"
+#~ msgstr "djeca"
+
+#~ msgctxt "Page slug"
+#~ msgid "form"
+#~ msgstr "obrazac"
+
+#, php-format
+#~ msgid "%s Results  found from %s for %s nigth(s)"
+#~ msgstr "Pronađeno %s rezultata od %s za %s noći"
+
+#~ msgid "Available"
+#~ msgstr "Dostupno"
+
+#, php-format
+#~ msgid "Total for %d night/s"
+#~ msgstr "Ukupno za %d noć(i)"
+
+#~ msgid "Facility contacts data"
+#~ msgstr "Podaci kontakta za objekt"
+
+#~ msgid "My Cart"
+#~ msgstr "Moja košarica"
+
+#~ msgid "You can't acquire resources from another merchant."
+#~ msgstr "Ne možete stjecati sredstva od drugog trgovca."
+
+#~ msgid "Booking Enquiry"
+#~ msgstr "Upit za rezervaciju"
+
+#~ msgid "Read More"
+#~ msgstr "Pročitajte više"
+
+#~ msgid "Read Less"
+#~ msgstr "Pročitajte manje"
+
+#~ msgid "send"
+#~ msgstr "pošalji"
+
+#~ msgid "Please insert a valid email address!"
+#~ msgstr "Molimo unesite ispravnu adresu e-pošte!"
+
+#~ msgid "Rejected order"
+#~ msgstr "Odbijen red"
+
+#~ msgid "Deposit total"
+#~ msgstr "Ukupan depozit"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Order sent to bank"
+#~ msgstr "Nalog poslan banci"
+
+#~ msgid "Pay"
+#~ msgstr "Plati"
+
+#~ msgid "Waiting to confirm"
+#~ msgstr "Čekanje potvrde"
+
+#~ msgid "Payment attempt was not successful. Try again"
+#~ msgstr "Pokušaj plaćanja nije bio uspješan. Pokušajte ponovo"
+
+#~ msgid "Payed order"
+#~ msgstr "Platni nalog"
+
+#~ msgid "Order by credit card guarantee"
+#~ msgstr "Razvrstaj prema jamstvu kreditne kartice"
+
+#~ msgid "Accommodation"
+#~ msgstr "Smještaj"
+
+#~ msgid "Period"
+#~ msgstr "Razdoblje"
+
+#, php-format
+#~ msgid ""
+#~ "%1s will not charge anything to your credit card. Your credit card "
+#~ "details are only requested in order to guarantee your booking."
+#~ msgstr ""
+#~ "%1s neće naplatiti ništa s vaše kreditne kartice. Podatke o kreditnoj "
+#~ "kartici zatražili smo samo kako bismo zajamčili rezervaciju."
+
+#~ msgid "Other payments"
+#~ msgstr "Ostala plaćanja"
+
+#~ msgid "Amount"
+#~ msgstr "Iznos"
+
+#~ msgid "Payment refused"
+#~ msgstr "Plaćanje odbijeno"
+
+#~ msgid "New payment"
+#~ msgstr "Novo plaćanje"
+
+#~ msgid "It 'requires a further amount for payments"
+#~ msgstr "To zahtijeva daljnji iznos za plaćanje"
+
+#~ msgid ""
+#~ "Please insert a correct amount, it should be this format: xxx.xx (please "
+#~ "use dot for deciaml prices)"
+#~ msgstr ""
+#~ "Molim ubacite točan iznos, to bi trebao biti ovaj format: xxx.xx "
+#~ "( koristite točku za cijene sa decimalama)"
+
+#~ msgid "Thank you: payment process successfully completed"
+#~ msgstr "Hvala ti: proces plaćanja je uspješno završen"
+
+#~ msgid "Print"
+#~ msgstr "Ispis"
+
+#~ msgid "Payment process not successfully completed"
+#~ msgstr "Proces plaćanja nije uspješno završen"
+
+#~ msgid "Payment process not successfully completed and has been deleted"
+#~ msgstr "Proces plaćanje nije uspješno dovršen i stga je izbrisan"
+
+#~ msgid ""
+#~ "Some problems occured durint payment process, please contact merchant if "
+#~ "you are sure that your payment process completed"
+#~ msgstr ""
+#~ "Neki problemi se dogodila proces durint plaćanje, obratite se trgovcu ako "
+#~ "ste sigurni da je vaš postupak plaćanja završena"
+
+#~ msgid "Error inserting data"
+#~ msgstr "Pogreška pri umetanju podataka"
+
+#~ msgid "Order doesn't exist"
+#~ msgstr "Narudžba ne postoji"
+
+#~ msgid "Deposit does not exist"
+#~ msgstr "Depozit ne postoji"
+
+#~ msgid "index.php?view=payment&actionmode=error&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=error&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=activaServer&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=activaServer&payedOrderId="
+
+#~ msgid "index.php?view=orders"
+#~ msgstr "index.php?view=orders"
+
+#~ msgid "index.php?view=payment&actionmode=bnlpositivity&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=bnlpositivity&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=keyclient&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=keyclient&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=keyclient2014&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=keyclient2014&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=pagoonline&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=pagoonline&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=pagoonline&payedOrderId=donation"
+#~ msgstr "index.php?view=payment&actionmode=pagoonline&payedOrderId=donation"
+
+#~ msgid "index.php?view=payment&actionmode=errordonation"
+#~ msgstr "index.php?view=payment&actionmode=errordonation"
+
+#~ msgid "index.php?view=payment&actionmode=virtualpay&payedOrderId="
+#~ msgstr "index.php?view=payment&actionmode=virtualpay&payedOrderId="
+
+#~ msgid "index.php?view=payment&actionmode=virtualpay&payedOrderId=donation"
+#~ msgstr "index.php?view=payment&actionmode=virtualpay&payedOrderId=donation"
+
+#~ msgid "Total deposit : €"
+#~ msgstr "Ukupan depozit: €"
+
+#~ msgid "Almost done"
+#~ msgstr "Uskoro gotovo"
+
+#~ msgid "Leatest ads"
+#~ msgstr "Najnoviji oglasi"
+
+#~ msgid "All province"
+#~ msgstr "Sve pokrajine"
+
+#~ msgid "Please select"
+#~ msgstr "Molimo izaberite"
+
+#~ msgid "Holiday Packages"
+#~ msgstr "Paketi za odmor"
+
+#~ msgid "Property facility"
+#~ msgstr "Objekt u vlasništvu"
+
+#~ msgid "Your holiday"
+#~ msgstr "Vaš odmor"

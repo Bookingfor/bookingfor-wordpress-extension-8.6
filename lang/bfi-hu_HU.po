@@ -1,0 +1,3858 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 16:21+0200\n"
+"PO-Revision-Date: 2022-10-13 16:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: includes/bfi-template-functions.php:134
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr "Ez egy demó bolt tesztelési célokra – nem teljesíthető megrendelés."
+
+#: includes/class-bfi-install.php:47
+msgctxt "Page slug"
+msgid "search-availability"
+msgstr "kereses-elerhetoseg"
+
+#: includes/class-bfi-install.php:48
+msgctxt "Page slug"
+msgid "Search Availability"
+msgstr "Kereses elerhetoseg"
+
+#: includes/class-bfi-install.php:53
+msgctxt "Page slug"
+msgid "search-mapsells"
+msgstr "keresesi-terkep-eladja"
+
+#: includes/class-bfi-install.php:54
+msgctxt "Page slug"
+msgid "Search Map Sells"
+msgstr "Keresés térkép sells"
+
+#: includes/class-bfi-install.php:59
+msgctxt "Page slug"
+msgid "search-events"
+msgstr "esemenyek-keresese"
+
+#: includes/class-bfi-install.php:60
+msgctxt "Page slug"
+msgid "Search Events"
+msgstr "Események keresése"
+
+#: includes/class-bfi-install.php:65
+msgctxt "Page slug"
+msgid "properties-for-sale"
+msgstr "elado-ingatlanok"
+
+#: includes/class-bfi-install.php:66
+msgctxt "Page slug"
+msgid "Search Properties for sale"
+msgstr "Keresés Eladó ingatlanok"
+
+#: includes/class-bfi-install.php:71
+msgctxt "Page slug"
+msgid "eventdetails"
+msgstr "esemeny-reszletei"
+
+#: includes/class-bfi-install.php:72
+msgctxt "Page slug"
+msgid "Event Details"
+msgstr "Esemény részletei"
+
+#: includes/class-bfi-install.php:77
+msgctxt "Page slug"
+msgid "pointsofinterestdetails"
+msgstr "erdekes-pontok-reszletei"
+
+#: includes/class-bfi-install.php:78
+msgctxt "Page slug"
+msgid "Pointsofinterest Details"
+msgstr "Látnivalók részletei"
+
+#: includes/class-bfi-install.php:83
+msgctxt "Page slug"
+msgid "merchantdetails"
+msgstr "kereskedo-adatai"
+
+#: includes/class-bfi-install.php:84
+msgctxt "Page slug"
+msgid "Merchant Details"
+msgstr "Kereskedő adatai"
+
+#: includes/class-bfi-install.php:89
+msgctxt "Page slug"
+msgid "resourcegroupdetails"
+msgstr "eroforrascsoport-reszletei"
+
+#: includes/class-bfi-install.php:90
+msgctxt "Page slug"
+msgid "Resourcegroup Details"
+msgstr "Erőforráscsoport részletei"
+
+#: includes/class-bfi-install.php:95
+msgctxt "Page slug"
+msgid "accommodation-details"
+msgstr "szallas-reszletei"
+
+#: includes/class-bfi-install.php:96
+msgctxt "Page slug"
+msgid "Accommodation Details"
+msgstr "Szállás részletei"
+
+#: includes/class-bfi-install.php:101
+msgctxt "Page slug"
+msgid "experience-details"
+msgstr "tapasztalati-reszletek"
+
+#: includes/class-bfi-install.php:102
+msgctxt "Page slug"
+msgid "Experience Details"
+msgstr "Tapasztalati részletek"
+
+#: includes/class-bfi-install.php:107
+msgctxt "Page slug"
+msgid "onsell-details"
+msgstr "az-eladasi-reszletekrol"
+
+#: includes/class-bfi-install.php:108
+msgctxt "Page slug"
+msgid "On Sell Details"
+msgstr "Az eladás részletei"
+
+#: includes/class-bfi-install.php:113
+msgctxt "Page slug"
+msgid "payment"
+msgstr "fizetesi"
+
+#: includes/class-bfi-install.php:114
+msgctxt "Page slug"
+msgid "Payment Details"
+msgstr "Fizetési adatok"
+
+#: includes/class-bfi-install.php:118
+msgctxt "Page slug"
+msgid "cartdetails"
+msgstr "kosar-reszletei"
+
+#: includes/class-bfi-install.php:119
+msgctxt "Page slug"
+msgid "Cart Details"
+msgstr "Kosár részletei"
+
+#: includes/class-bfi-install.php:123
+msgctxt "Page slug"
+msgid "search-packages"
+msgstr "csomagok-keresese"
+
+#: includes/class-bfi-install.php:124
+msgctxt "Page slug"
+msgid "Search Packages"
+msgstr "Csomagok keresése"
+
+#: includes/class-bfi-install.php:128
+msgctxt "Page slug"
+msgid "packages-details"
+msgstr "csomag-reszletei"
+
+#: includes/class-bfi-install.php:129
+msgctxt "Page slug"
+msgid "Packages Details"
+msgstr "Csomag részletei"
+
+#: includes/class-bfi-install.php:133
+msgctxt "Page slug"
+msgid "genericrequest"
+msgstr "kapcsolatfelkeres"
+
+#: includes/class-bfi-install.php:134
+msgctxt "Page slug"
+msgid "Generic Request"
+msgstr "Kapcsolatfelkérés"
+
+#: includes/class-bfi-query.php:86
+msgid "Event details"
+msgstr "Esemény részletei"
+
+#: includes/class-bfi-query.php:89
+#, fuzzy
+msgid "PointsOfInterest details"
+msgstr "Látnivalók részletei"
+
+#: includes/class-bfi-query.php:92
+msgid "Merchant details"
+msgstr "Kereskedő részletek"
+
+#: includes/class-bfi-query.php:95
+msgid "Resourcegroup Details"
+msgstr "Erőforráscsoport részletei"
+
+#: includes/class-bfi-query.php:98
+msgid "Accomodation details"
+msgstr "Szállás-részletek"
+
+#: includes/class-bfi-query.php:101
+#, fuzzy
+msgid "Experience details"
+msgstr "Esemény részletei"
+
+#: includes/class-bfi-query.php:104
+msgid "Order payment"
+msgstr "Megrendelő kifizetése"
+
+#: includes/class-bfi-query.php:107
+msgid "On Sell details"
+msgstr "A részletek eladás"
+
+#: includes/class-bfi-query.php:110
+msgid "Cart details"
+msgstr "Kosárba részletek"
+
+#: includes/class-bfi-query.php:113
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "cartdetails"
+msgid "Packages details"
+msgstr "kosar-reszletei"
+
+#: includes/class-bfi-query.php:116
+#, fuzzy
+#| msgid "Special Requests"
+msgid "Generic Request"
+msgstr "Különleges kérések"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:36
+msgid "BookingFor Permalinks"
+msgstr "BookingFor Permalinks"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:41
+msgid "BookingFor search result page"
+msgstr "BookingFor kutatás eredmény oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:48
+msgid "BookingFor Merchant details page"
+msgstr "BookingFor kereskedő részletek oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:55
+msgid "BookingFor Accommodation details page"
+msgstr "Szállás BookingFor részletek oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:62
+msgid "BookingFor On Sell details page"
+msgstr "BookingFor a eladni részletek oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:69
+#, fuzzy
+msgid "BookingFor Cart Details page"
+msgstr "BookingFor Kosár részletei oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:76
+#, fuzzy
+#| msgid "BookingFor search result page"
+msgid "BookingFor Generic Request page"
+msgstr "BookingFor kutatás eredmény oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:83
+#, fuzzy
+msgid "BookingFor Event Details page"
+msgstr "BookingFor esemény részletei oldal"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:90
+#, fuzzy
+msgid "BookingFor PointsOfInterest Details page"
+msgstr "BookingFor PointsOfInterest Részletek lap"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:104
+msgctxt "slug"
+msgid "search-availability"
+msgstr "kereses-elerhetoseg"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:113
+msgctxt "slug"
+msgid "search-events"
+msgstr "esemenyek-keresese"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:123
+msgctxt "slug"
+msgid "merchantdetails"
+msgstr "kereskedo-adatai"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:133
+msgctxt "slug"
+msgid "cartdetails"
+msgstr "kosar-reszletei"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:142
+msgctxt "slug"
+msgid "genericrequest"
+msgstr "kapcsolatfelkeres"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:152
+msgctxt "slug"
+msgid "accommodation-details"
+msgstr "szallas-reszletei"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:161
+msgctxt "slug"
+msgid "onsell-details"
+msgstr "az-eladasi-reszletekrol"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:170
+msgctxt "slug"
+msgid "eventdetails"
+msgstr "esemeny-reszletei"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:177
+msgctxt "slug"
+msgid "pointsofinterestdetails"
+msgstr "erdekes-pontok-reszletei"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:185
+msgid "These settings control the permalinks used specifically for BookingFor."
+msgstr ""
+"Ezek a beállítások vezérlik a permalinks, különösen BookingFor használatos."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:192
+#: includes/admin/class-bfi-admin-permalink-settings.php:193
+msgctxt "default-slug"
+msgid "search-availability"
+msgstr "kereses-elerhetoseg"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:204
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:209
+msgid "Search Availability base"
+msgstr "Elérhetőség keresésekhez"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:215
+msgid "Custom Base"
+msgstr "Egyéni Base"
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:217
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"Írjon be egy egyedi előtagot, amit használni szeretnél. Előtagot "
+"<strong>kötelező</strong> beállítani vagy a WordPress az alapértelmezettet "
+"fogja használni."
+
+#: includes/admin/class-bfi-admin-permalink-settings.php:294
+msgctxt "default-slug"
+msgid "searchavailability"
+msgstr "kereseselerhetoseg"
+
+#: includes/admin/class-bfi-admin.php:303
+#, fuzzy
+msgid "Cache are cleaned"
+msgstr "A gyorsítótár megtisztul"
+
+#: includes/admin/class-bfi-admin.php:664
+msgid "8h"
+msgstr "9 óra"
+
+#: includes/admin/class-bfi-admin.php:665
+#: includes/admin/class-bfi-admin.php:692
+#, fuzzy
+msgid "24h"
+msgstr "24h között"
+
+#: includes/admin/class-bfi-admin.php:666
+#: includes/admin/class-bfi-admin.php:693
+#, fuzzy
+msgid "2gg"
+msgstr "2gg"
+
+#: includes/admin/class-bfi-admin.php:667
+#: includes/admin/class-bfi-admin.php:694
+#, fuzzy
+msgid "7gg"
+msgstr "7gg"
+
+#: includes/admin/class-bfi-admin.php:668
+#: includes/admin/class-bfi-admin.php:695
+#, fuzzy
+msgid "20gg"
+msgstr "20gg között"
+
+#: includes/admin/class-bfi-admin.php:669
+#: includes/admin/class-bfi-admin.php:696
+#, fuzzy
+msgid "30gg"
+msgstr "30gg"
+
+#: includes/admin/class-bfi-admin.php:763
+#: includes/admin/class-bfi-admin.php:791
+msgid "Euro"
+msgstr "Euró"
+
+#: includes/admin/class-bfi-admin.php:764
+#: includes/admin/class-bfi-admin.php:792
+msgid "Kune"
+msgstr "Kune"
+
+#: includes/admin/class-bfi-admin.php:765
+#: includes/admin/class-bfi-admin.php:793
+msgid "U.S. dollar"
+msgstr "U.S. dollar"
+
+#: includes/admin/class-bfi-admin.php:766
+#: includes/admin/class-bfi-admin.php:794
+msgid "Japanese yen"
+msgstr "Japanese yen"
+
+#: includes/admin/class-bfi-admin.php:767
+#: includes/admin/class-bfi-admin.php:795
+msgid "Canadian dollar"
+msgstr "Kanadai dollár"
+
+#: includes/admin/class-bfi-admin.php:768
+#: includes/admin/class-bfi-admin.php:796
+msgid "Australian dollar"
+msgstr "Australian dollar"
+
+#: includes/admin/class-bfi-admin.php:769
+#: includes/admin/class-bfi-admin.php:797
+msgid "Russian Ruble"
+msgstr "Orosz rubel"
+
+#: includes/admin/class-bfi-admin.php:770
+#: includes/admin/class-bfi-admin.php:798
+msgid "Czech koruna"
+msgstr "Cseh korona"
+
+#: includes/admin/class-bfi-admin.php:771
+#: includes/admin/class-bfi-admin.php:799
+msgid "Singapore dollar"
+msgstr "Singapore dollar"
+
+#: includes/admin/class-bfi-admin.php:772
+#: includes/admin/class-bfi-admin.php:800
+msgid "Pound sterling "
+msgstr "Pound sterling "
+
+#: includes/admin/class-bfi-admin.php:1167
+#, fuzzy, php-format
+msgid ""
+"If you like <strong>BookingFor</strong> please leave us a %s&#9733;&#9733;"
+"&#9733;&#9733;&#9733;%s rating. A huge thank you from Bookingfor in advance!"
+msgstr ""
+"Ha úgy tetszik <strong> BookingFor </strong> kérjük hagyja el nekünk egy %s "
+"&#9733; &#9733; &#9733; &#9733; &#9733; %s Értékelés. Egy hatalmas előre is "
+"köszönöm a Bookingfor!"
+
+#: includes/admin/class-bfi-admin.php:1167
+msgid "Thanks"
+msgstr "kösz"
+
+#: includes/admin/class-bfi-admin.php:1175
+msgid "Thank you for selling with BookingFor."
+msgstr "Köszönjük, hogy eladja a BookingFor."
+
+#: includes/admin/views/html-admin-settings.php:211
+#: includes/admin/views/html-admin-settings.php:239
+#, fuzzy
+msgid "There are untranslated pages in "
+msgstr "Vannak le nem fordított oldalak a "
+
+#: includes/admin/views/html-admin-settings.php:213
+#: includes/admin/views/html-admin-settings.php:241
+#, fuzzy
+msgid "Create missing pages"
+msgstr "Hiányzó lapok létrehozása"
+
+#: includes/admin/views/html-admin-settings.php:217
+#: includes/admin/views/html-admin-settings.php:245
+#, fuzzy
+msgid "All fine!"
+msgstr "Minden rendben!"
+
+#: includes/admin/views/html-admin-settings.php:260
+#, fuzzy
+msgid "Delete Cached Data"
+msgstr "Gyorsítótárazott adatok törlése"
+
+#: includes/admin/views/html-admin-settings.php:261
+#, fuzzy
+msgid ""
+"Cached data are stored on your server in files. If you need to delete them, "
+"use the button below."
+msgstr ""
+"A gyorsítótárazott adatok a kiszolgálón fájlokban tárolódnak. Ha törölnie "
+"kell őket, használja az alábbi gombot."
+
+#: includes/admin/views/html-admin-settings.php:266
+#, fuzzy
+msgid "Delete Cache"
+msgstr "Gyorsítótár törlése"
+
+#: includes/admin/views/html-admin-settings.php:274
+#, fuzzy
+msgid "Delete Cache for Bot"
+msgstr "Gyorsítótár törlése robothoz"
+
+#: includes/admin/views/html-admin-settings.php:319
+msgid "Save changes"
+msgstr "Módosítások mentése"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:24
+msgid "Display the user's Cart link in the sidebar."
+msgstr "Megjeleníteni a felhasználó kosár link az oldalsávon."
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:26
+msgid "BookingFor Cart"
+msgstr "BookingFor kosár"
+
+#: includes/widgets/class-bfi-widget-booking-cart.php:31
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:31
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:74
+#: includes/widgets/class-bfi-widget-booking-login.php:31
+#: includes/widgets/class-bfi-widget-booking-login.php:70
+#: includes/widgets/class-bfi-widget-booking-reviews.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:31
+#: includes/widgets/class-bfi-widget-booking-search.php:277
+#: includes/widgets/class-bfi-widget-carouselevents.php:31
+#: includes/widgets/class-bfi-widget-carouselevents.php:100
+#: includes/widgets/class-bfi-widget-carouselpoi.php:31
+#: includes/widgets/class-bfi-widget-carouselpoi.php:102
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:31
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:100
+#: includes/widgets/class-bfi-widget-carouselresources.php:31
+#: includes/widgets/class-bfi-widget-carouselresources.php:100
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:31
+#: includes/widgets/class-bfi-widget-merchant.php:109
+#: includes/widgets/class-bfi-widget-search-events.php:31
+#: includes/widgets/class-bfi-widget-search-experience.php:32
+#: includes/widgets/class-bfi-widget-search-experience.php:178
+#: includes/widgets/class-bfi-widget-search-filters.php:31
+#: includes/widgets/class-bfi-widget-search-mapsells.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:32
+#: includes/widgets/class-bfi-widget-search-packages.php:131
+#: includes/widgets/class-bfi-widget-search-rental.php:32
+#: includes/widgets/class-bfi-widget-search-rental.php:175
+#: includes/widgets/class-bfi-widget-search-resources.php:32
+#: includes/widgets/class-bfi-widget-search-resources.php:196
+#: includes/widgets/class-bfi-widget-search-slot.php:32
+#: includes/widgets/class-bfi-widget-search-slot.php:180
+#: includes/widgets/class-bfi-widget-smallmap.php:31
+msgid "Title"
+msgstr "Cím"
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:24
+#, fuzzy
+msgid "Display the user's currency switcher in the sidebar."
+msgstr "A felhasználó pénznemváltójának megjelenítése az oldalsávon."
+
+#: includes/widgets/class-bfi-widget-booking-currency-switcher.php:26
+#, fuzzy
+msgid "BookingFor currency switcher"
+msgstr "FoglalásA valutaváltóhoz"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:24
+#, fuzzy
+msgid "Display the link for  login, cart and change currency."
+msgstr "A bejelentkezési, kosár- és pénznemváltási hivatkozás megjelenítése."
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:26
+#, fuzzy
+msgid "BookingFor Header Link"
+msgstr "BookingFor fejléc hivatkozás"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:78
+#, fuzzy
+msgid "Show currency selector"
+msgstr "Pénznemválasztó megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:81
+#, fuzzy
+msgid "Show link to cart"
+msgstr "Kosárra mutató hivatkozás megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:84
+#, fuzzy
+msgid "Show login as popup"
+msgstr "Bejelentkezés megjelenítése előugró ablakként"
+
+#: includes/widgets/class-bfi-widget-booking-headerlink.php:87
+#, fuzzy
+msgid "Show link to Travel planner"
+msgstr "Az Utazástervezőhivatkozás megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:24
+#, fuzzy
+msgid "Display the Login form in the sidebar."
+msgstr "A Bejelentkezés űrlap megjelenítése az oldalsávon."
+
+#: includes/widgets/class-bfi-widget-booking-login.php:26
+#, fuzzy
+msgid "BookingFor Login"
+msgstr "Foglalásbejelentkezéshez"
+
+#: includes/widgets/class-bfi-widget-booking-login.php:74
+#, fuzzy
+msgid "Show like a popup"
+msgstr "Előugró ablakként jelenik meg"
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:24
+#, fuzzy
+msgid "Display the user's Review in the sidebar."
+msgstr "A felhasználói ellenőrzés megjelenítése az oldalsávon."
+
+#: includes/widgets/class-bfi-widget-booking-reviews.php:26
+#, fuzzy
+msgid "BookingFor Reviews"
+msgstr "FoglalásAz értékelésekhez"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:24
+msgid "A Search box for multimerchant, monomerchant and sell on."
+msgstr "Multimerchant, monomerchant és eladni a keresőmezőbe."
+
+#: includes/widgets/class-bfi-widget-booking-search.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Tab"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:66
+#, fuzzy
+msgid "Search 1 (default:Booking)"
+msgstr "Keresés 1 (alapértelmezett:Foglalás)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:67
+#, fuzzy
+msgid "Search 2 (default:Services)"
+msgstr "Keresés 2 (alapértelmezett:Szolgáltatások)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:68
+#, fuzzy
+msgid "Search 3 (default:Activities)"
+msgstr "3. keresés (alapértelmezett:Tevékenységek)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:69
+#, fuzzy
+msgid "Search 4 (default:Others)"
+msgstr "4. keresés (alapértelmezett:Egyéb)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:70
+msgid "Real Estate"
+msgstr "Real Estate"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:71
+msgid "Events"
+msgstr "Események"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:72
+#, fuzzy
+msgid "Search MapSells"
+msgstr "keresesi-terkep-eladja"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:85
+#: includes/widgets/class-bfi-widget-search-experience.php:69
+#: includes/widgets/class-bfi-widget-search-resources.php:61
+msgid "Nights"
+msgstr "Éjszaka"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:86
+#: includes/widgets/class-bfi-widget-search-experience.php:70
+#: includes/widgets/class-bfi-widget-search-resources.php:62
+msgid "Days"
+msgstr "Nap"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:87
+#: includes/widgets/class-bfi-widget-search-experience.php:71
+#: includes/widgets/class-bfi-widget-search-rental.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:69
+#, fuzzy
+msgid "Unit of times"
+msgstr "Időegység"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:88
+#: includes/widgets/class-bfi-widget-search-experience.php:72
+#, fuzzy
+msgid "Time slot"
+msgstr "Időrés"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:91
+#: includes/widgets/class-bfi-widget-booking-search.php:96
+#: includes/widgets/class-bfi-widget-booking-search.php:101
+#: includes/widgets/class-bfi-widget-search-experience.php:75
+#: includes/widgets/class-bfi-widget-search-rental.php:72
+#: includes/widgets/class-bfi-widget-search-resources.php:67
+#: includes/widgets/class-bfi-widget-search-resources.php:72
+#: includes/widgets/class-bfi-widget-search-slot.php:72
+msgid "Resource"
+msgstr "Erőforrás"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:92
+#: includes/widgets/class-bfi-widget-search-rental.php:73
+#: includes/widgets/class-bfi-widget-search-resources.php:68
+#: includes/widgets/class-bfi-widget-search-slot.php:73
+#, fuzzy
+msgid "Merchant"
+msgstr "BookingFor kereskedő részletek oldal"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:93
+#: includes/widgets/class-bfi-widget-search-rental.php:74
+#: includes/widgets/class-bfi-widget-search-resources.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:74
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "resources"
+msgid "Resource group"
+msgstr "forrasok"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:97
+#: includes/widgets/class-bfi-widget-search-slot.php:78
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:98
+#: includes/widgets/class-bfi-widget-booking-search.php:102
+msgid "Experience"
+msgstr "Tapasztalat"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:103
+#, fuzzy
+msgid "Rental"
+msgstr "Bérleti feltételek"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:104
+#, fuzzy
+msgid "Time slots"
+msgstr "Időrés"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:105
+#, fuzzy
+#| msgctxt "Page slug"
+#| msgid "Search Map Sells"
+msgid "Maps Sell"
+msgstr "Keresés térkép sells"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:281
+#: includes/widgets/class-bfi-widget-search-experience.php:182
+#: includes/widgets/class-bfi-widget-search-mapsells.php:61
+#: includes/widgets/class-bfi-widget-search-packages.php:135
+#: includes/widgets/class-bfi-widget-search-rental.php:179
+#: includes/widgets/class-bfi-widget-search-resources.php:200
+#: includes/widgets/class-bfi-widget-search-slot.php:184
+msgid "Displays horizontally"
+msgstr "Vízszintesen jeleníti meg"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:284
+#: includes/widgets/class-bfi-widget-search-experience.php:185
+#: includes/widgets/class-bfi-widget-search-packages.php:138
+#: includes/widgets/class-bfi-widget-search-rental.php:182
+#: includes/widgets/class-bfi-widget-search-resources.php:203
+#: includes/widgets/class-bfi-widget-search-slot.php:187
+#, fuzzy
+msgid "Fixed on top"
+msgstr "Felül rögzítve"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:287
+#: includes/widgets/class-bfi-widget-search-experience.php:188
+#: includes/widgets/class-bfi-widget-search-packages.php:141
+#: includes/widgets/class-bfi-widget-search-rental.php:185
+#: includes/widgets/class-bfi-widget-search-resources.php:206
+#: includes/widgets/class-bfi-widget-search-slot.php:190
+#, fuzzy
+msgid "Top correction"
+msgstr "Felső korrekció"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:291
+#: includes/widgets/class-bfi-widget-search-experience.php:192
+#: includes/widgets/class-bfi-widget-search-packages.php:145
+#: includes/widgets/class-bfi-widget-search-rental.php:189
+#: includes/widgets/class-bfi-widget-search-resources.php:210
+#: includes/widgets/class-bfi-widget-search-slot.php:194
+#, fuzzy
+msgid "Fixed on bottom for small device"
+msgstr "Rögzített alján a kis eszköz"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:294
+msgid "Tab"
+msgstr "Lap"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:295
+#, fuzzy
+msgid "Use more tab"
+msgstr "További lap használata"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:302
+#: includes/widgets/class-bfi-widget-search-experience.php:195
+#: includes/widgets/class-bfi-widget-search-packages.php:148
+#: includes/widgets/class-bfi-widget-search-rental.php:192
+#: includes/widgets/class-bfi-widget-search-resources.php:216
+#: includes/widgets/class-bfi-widget-search-slot.php:197
+#, fuzzy
+msgid "Show advance settings"
+msgstr "Előlegbeállítások megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:310
+#: includes/widgets/class-bfi-widget-booking-search.php:432
+#: includes/widgets/class-bfi-widget-booking-search.php:552
+#: includes/widgets/class-bfi-widget-booking-search.php:673
+#, fuzzy
+msgid "Intro text"
+msgstr "Bevezető szöveg"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:312
+#: includes/widgets/class-bfi-widget-booking-search.php:434
+#: includes/widgets/class-bfi-widget-booking-search.php:554
+#: includes/widgets/class-bfi-widget-booking-search.php:675
+#: includes/widgets/class-bfi-widget-booking-search.php:1019
+#: includes/widgets/class-bfi-widget-booking-search.php:1045
+#, fuzzy
+msgid "Icon (for expert users)"
+msgstr "Ikon (szakértő felhasználóknak)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:316
+#: includes/widgets/class-bfi-widget-booking-search.php:437
+#: includes/widgets/class-bfi-widget-booking-search.php:557
+#: includes/widgets/class-bfi-widget-booking-search.php:678
+#: includes/widgets/class-bfi-widget-booking-search.php:963
+#: includes/widgets/class-bfi-widget-search-experience.php:201
+#: includes/widgets/class-bfi-widget-search-rental.php:199
+#: includes/widgets/class-bfi-widget-search-resources.php:223
+#: includes/widgets/class-bfi-widget-search-slot.php:204
+msgid "Merchant category"
+msgstr "Kereskedelmi kategória"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:336
+#: includes/widgets/class-bfi-widget-booking-search.php:457
+#: includes/widgets/class-bfi-widget-booking-search.php:577
+#: includes/widgets/class-bfi-widget-booking-search.php:698
+#: includes/widgets/class-bfi-widget-booking-search.php:983
+#: includes/widgets/class-bfi-widget-search-experience.php:221
+#: includes/widgets/class-bfi-widget-search-rental.php:219
+#: includes/widgets/class-bfi-widget-search-resources.php:243
+#: includes/widgets/class-bfi-widget-search-slot.php:224
+msgid "Product category"
+msgstr "Termék kategória"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:355
+#: includes/widgets/class-bfi-widget-booking-search.php:476
+#: includes/widgets/class-bfi-widget-booking-search.php:596
+#: includes/widgets/class-bfi-widget-booking-search.php:717
+#: includes/widgets/class-bfi-widget-search-experience.php:240
+#: includes/widgets/class-bfi-widget-search-rental.php:238
+#: includes/widgets/class-bfi-widget-search-resources.php:262
+#: includes/widgets/class-bfi-widget-search-slot.php:243
+#, fuzzy
+msgid "Search availability for"
+msgstr "Kereses elerhetoseg"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:373
+#: includes/widgets/class-bfi-widget-booking-search.php:494
+#: includes/widgets/class-bfi-widget-booking-search.php:614
+#: includes/widgets/class-bfi-widget-booking-search.php:735
+#: includes/widgets/class-bfi-widget-search-rental.php:256
+#: includes/widgets/class-bfi-widget-search-resources.php:280
+#: includes/widgets/class-bfi-widget-search-slot.php:261
+#, fuzzy
+msgid "Items type"
+msgstr "Cikkek típusa"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:391
+#: includes/widgets/class-bfi-widget-booking-search.php:512
+#: includes/widgets/class-bfi-widget-booking-search.php:632
+#: includes/widgets/class-bfi-widget-booking-search.php:753
+#: includes/widgets/class-bfi-widget-search-experience.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:274
+#: includes/widgets/class-bfi-widget-search-resources.php:298
+#: includes/widgets/class-bfi-widget-search-slot.php:279
+#, fuzzy
+msgid "Default group by "
+msgstr "Alapértelmezett csoport "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:409
+#: includes/widgets/class-bfi-widget-booking-search.php:530
+#: includes/widgets/class-bfi-widget-booking-search.php:650
+#: includes/widgets/class-bfi-widget-booking-search.php:771
+#, fuzzy
+msgid "result Views "
+msgstr "eredmény nézetek "
+
+#: includes/widgets/class-bfi-widget-booking-search.php:791
+#: includes/widgets/class-bfi-widget-search-experience.php:278
+#: includes/widgets/class-bfi-widget-search-packages.php:152
+#: includes/widgets/class-bfi-widget-search-rental.php:294
+#: includes/widgets/class-bfi-widget-search-resources.php:318
+#: includes/widgets/class-bfi-widget-search-slot.php:299
+msgid "Fields Visibility"
+msgstr "Látható mezők"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+#, fuzzy
+msgid "Search text"
+msgstr "Szöveg keresése"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:792
+#: includes/widgets/class-bfi-widget-search-experience.php:279
+#: includes/widgets/class-bfi-widget-search-packages.php:153
+#: includes/widgets/class-bfi-widget-search-rental.php:295
+#: includes/widgets/class-bfi-widget-search-resources.php:319
+#: includes/widgets/class-bfi-widget-search-slot.php:300
+#, fuzzy
+msgid ""
+"(Merchants, Products, Tags, Merchants and Products Categories, Regions, "
+"States, Cities, Zones)"
+msgstr ""
+"(Kereskedők, termékek, címkék, kereskedők és termékek kategóriák, régiók, "
+"államok, városok, zónák)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:793
+#: includes/widgets/class-bfi-widget-booking-search.php:1022
+#: includes/widgets/class-bfi-widget-booking-search.php:1048
+#: includes/widgets/class-bfi-widget-search-experience.php:280
+#: includes/widgets/class-bfi-widget-search-packages.php:154
+#: includes/widgets/class-bfi-widget-search-rental.php:296
+#: includes/widgets/class-bfi-widget-search-resources.php:320
+#: includes/widgets/class-bfi-widget-search-slot.php:301
+#, fuzzy
+msgid "Research fields"
+msgstr "Kutatási területek"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:813
+#: includes/widgets/class-bfi-widget-search-experience.php:300
+#: includes/widgets/class-bfi-widget-search-rental.php:316
+#: includes/widgets/class-bfi-widget-search-resources.php:340
+#: includes/widgets/class-bfi-widget-search-slot.php:321
+msgid "or"
+msgstr "vagy"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:814
+#: includes/widgets/class-bfi-widget-search-experience.php:301
+#: includes/widgets/class-bfi-widget-search-rental.php:317
+#: includes/widgets/class-bfi-widget-search-resources.php:341
+#: includes/widgets/class-bfi-widget-search-slot.php:322
+msgid "Destination"
+msgstr "Rendeltetési hely"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:815
+#: includes/widgets/class-bfi-widget-booking-search.php:1005
+#: includes/widgets/class-bfi-widget-search-experience.php:302
+#: includes/widgets/class-bfi-widget-search-rental.php:318
+#: includes/widgets/class-bfi-widget-search-resources.php:342
+#: includes/widgets/class-bfi-widget-search-slot.php:323
+msgid "Type"
+msgstr "Típus"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:816
+#: includes/widgets/class-bfi-widget-booking-search.php:1003
+#: includes/widgets/class-bfi-widget-search-resources.php:343
+msgid "Map Button"
+msgstr "Gomb megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:819
+#: includes/widgets/class-bfi-widget-booking-search.php:1069
+#: includes/widgets/class-bfi-widget-search-resources.php:346
+#, fuzzy
+msgid "Select 1 day o more"
+msgstr "Select 1 nap o more"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:820
+#: includes/widgets/class-bfi-widget-search-resources.php:347
+msgid "Date Range"
+msgstr "Dátumtartomány"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:821
+#: includes/widgets/class-bfi-widget-search-resources.php:348
+#, fuzzy
+msgid "Date Time Range"
+msgstr "Dátum időtartománya"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:822
+#: includes/widgets/class-bfi-widget-search-experience.php:304
+#: includes/widgets/class-bfi-widget-search-packages.php:175
+#: includes/widgets/class-bfi-widget-search-rental.php:320
+#: includes/widgets/class-bfi-widget-search-resources.php:349
+#: includes/widgets/class-bfi-widget-search-slot.php:325
+msgid "Block Months"
+msgstr "Blokk hónappal"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:841
+#: includes/widgets/class-bfi-widget-search-experience.php:323
+#: includes/widgets/class-bfi-widget-search-packages.php:194
+#: includes/widgets/class-bfi-widget-search-rental.php:339
+#: includes/widgets/class-bfi-widget-search-resources.php:368
+#: includes/widgets/class-bfi-widget-search-slot.php:344
+msgid "Disable Days"
+msgstr "Kikapcsolni a napok"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:866
+#: includes/widgets/class-bfi-widget-search-experience.php:342
+#: includes/widgets/class-bfi-widget-search-packages.php:213
+#: includes/widgets/class-bfi-widget-search-rental.php:364
+#: includes/widgets/class-bfi-widget-search-resources.php:393
+#: includes/widgets/class-bfi-widget-search-slot.php:363
+#, fuzzy
+msgid "Show resource number"
+msgstr "Erőforrásszám megjelenítése"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:867
+#: includes/widgets/class-bfi-widget-search-experience.php:343
+#: includes/widgets/class-bfi-widget-search-packages.php:214
+#: includes/widgets/class-bfi-widget-search-rental.php:365
+#: includes/widgets/class-bfi-widget-search-resources.php:394
+#: includes/widgets/class-bfi-widget-search-slot.php:364
+#, fuzzy
+msgid "Limit resource number"
+msgstr "Erőforrásszám korlátozása"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:869
+#: includes/widgets/class-bfi-widget-booking-search.php:910
+#: includes/widgets/class-bfi-widget-search-experience.php:345
+#: includes/widgets/class-bfi-widget-search-packages.php:216
+#: includes/widgets/class-bfi-widget-search-rental.php:367
+#: includes/widgets/class-bfi-widget-search-resources.php:396
+#: includes/widgets/class-bfi-widget-search-resources.php:437
+#: includes/widgets/class-bfi-widget-search-slot.php:366
+msgid "min"
+msgstr "perc"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:887
+#: includes/widgets/class-bfi-widget-booking-search.php:928
+#: includes/widgets/class-bfi-widget-search-experience.php:363
+#: includes/widgets/class-bfi-widget-search-packages.php:234
+#: includes/widgets/class-bfi-widget-search-rental.php:385
+#: includes/widgets/class-bfi-widget-search-resources.php:414
+#: includes/widgets/class-bfi-widget-search-resources.php:455
+#: includes/widgets/class-bfi-widget-search-slot.php:384
+msgid "max"
+msgstr "max"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:907
+#: includes/widgets/class-bfi-widget-search-resources.php:434
+#, fuzzy
+msgid "Show rooms number"
+msgstr "Szobák száma"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:908
+#: includes/widgets/class-bfi-widget-search-resources.php:435
+#, fuzzy
+msgid "Limit rooms number"
+msgstr "Szobák száma limit"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:948
+#: includes/widgets/class-bfi-widget-search-experience.php:385
+#: includes/widgets/class-bfi-widget-search-packages.php:256
+#: includes/widgets/class-bfi-widget-search-rental.php:405
+#: includes/widgets/class-bfi-widget-search-resources.php:475
+#: includes/widgets/class-bfi-widget-search-slot.php:406
+msgid "Persons"
+msgstr "Személyek"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:950
+#: includes/widgets/class-bfi-widget-search-experience.php:387
+#: includes/widgets/class-bfi-widget-search-packages.php:258
+#: includes/widgets/class-bfi-widget-search-rental.php:407
+#: includes/widgets/class-bfi-widget-search-resources.php:477
+#: includes/widgets/class-bfi-widget-search-slot.php:408
+msgid "Adults"
+msgstr "Felnőttek"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:951
+#: includes/widgets/class-bfi-widget-search-experience.php:388
+#: includes/widgets/class-bfi-widget-search-packages.php:259
+#: includes/widgets/class-bfi-widget-search-rental.php:408
+#: includes/widgets/class-bfi-widget-search-resources.php:478
+#: includes/widgets/class-bfi-widget-search-slot.php:409
+msgid "Childrens"
+msgstr "Gyereknap"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:952
+#: includes/widgets/class-bfi-widget-search-experience.php:389
+#: includes/widgets/class-bfi-widget-search-packages.php:260
+#: includes/widgets/class-bfi-widget-search-rental.php:409
+#: includes/widgets/class-bfi-widget-search-resources.php:479
+#: includes/widgets/class-bfi-widget-search-slot.php:410
+msgid "Senior"
+msgstr "Senior"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:954
+#: includes/widgets/class-bfi-widget-search-resources.php:481
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:955
+#: includes/widgets/class-bfi-widget-search-experience.php:391
+#: includes/widgets/class-bfi-widget-search-rental.php:411
+#: includes/widgets/class-bfi-widget-search-resources.php:482
+#: includes/widgets/class-bfi-widget-search-slot.php:412
+msgid "Only Online Booking"
+msgstr "Csak Online foglalás"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:957
+#: includes/widgets/class-bfi-widget-search-experience.php:393
+#: includes/widgets/class-bfi-widget-search-resources.php:484
+msgid "Coupon"
+msgstr "Kupon"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1002
+#, fuzzy
+msgid "(Regions, States, Cities, Zones)"
+msgstr "(Régiók, államok, városok, zónák)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1004
+msgid "Contract"
+msgstr "Szerződés"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1006
+msgid "Price"
+msgstr "Ár"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1007
+msgid "Floor Area"
+msgstr "Alapterület:"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1008
+msgid "BedRooms"
+msgstr "Hálószoba"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1009
+msgid "Baths"
+msgstr "Fürdő"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1010
+msgid "Only New"
+msgstr "Csak az új"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1011
+msgid "Services list"
+msgstr "Szolgáltatások listája"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1088
+#: includes/widgets/class-bfi-widget-search-resources.php:496
+#, fuzzy
+msgid "Risultato nella stessa pagina (solo se usato con shortcode)"
+msgstr "Risultato nella stessa pagina (solo se usato con shortcode)"
+
+#: includes/widgets/class-bfi-widget-booking-search.php:1090
+#: includes/widgets/class-bfi-widget-search-resources.php:498
+#, fuzzy
+msgid "Or Select Result Page"
+msgstr "Vagy válassza ki az eredményoldalt"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:24
+#, fuzzy
+msgid "A Carousel list of Events."
+msgstr "Az események körhintalistája."
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:26
+#, fuzzy
+msgid "BookingFor Carousel Events"
+msgstr "FoglalásKörhinta eseményekhez"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:36
+#: includes/widgets/class-bfi-widget-carouselevents.php:104
+#: includes/widgets/class-bfi-widget-carouselpoi.php:36
+#: includes/widgets/class-bfi-widget-carouselpoi.php:106
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:36
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:104
+#: includes/widgets/class-bfi-widget-carouselresources.php:36
+#: includes/widgets/class-bfi-widget-carouselresources.php:104
+#: includes/widgets/class-bfi-widget-merchant.php:36
+#: includes/widgets/class-bfi-widget-merchant.php:113
+msgid "Tags"
+msgstr "Címkék"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:41
+#: includes/widgets/class-bfi-widget-carouselevents.php:132
+#: includes/widgets/class-bfi-widget-carouselpoi.php:41
+#: includes/widgets/class-bfi-widget-carouselpoi.php:134
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:41
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:132
+#: includes/widgets/class-bfi-widget-carouselresources.php:41
+#: includes/widgets/class-bfi-widget-carouselresources.php:132
+#: includes/widgets/class-bfi-widget-merchant.php:41
+#: includes/widgets/class-bfi-widget-merchant.php:141
+msgid "Items per page"
+msgstr "Elemek oldalanként"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:46
+#: includes/widgets/class-bfi-widget-carouselevents.php:125
+#: includes/widgets/class-bfi-widget-carouselpoi.php:46
+#: includes/widgets/class-bfi-widget-carouselpoi.php:127
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:46
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:125
+#: includes/widgets/class-bfi-widget-carouselresources.php:46
+#: includes/widgets/class-bfi-widget-carouselresources.php:125
+#: includes/widgets/class-bfi-widget-merchant.php:46
+#: includes/widgets/class-bfi-widget-merchant.php:134
+msgid "Theme"
+msgstr "Sablon"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:51
+#: includes/widgets/class-bfi-widget-carouselevents.php:141
+#: includes/widgets/class-bfi-widget-carouselpoi.php:51
+#: includes/widgets/class-bfi-widget-carouselpoi.php:143
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:51
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:142
+#: includes/widgets/class-bfi-widget-carouselresources.php:51
+#: includes/widgets/class-bfi-widget-carouselresources.php:142
+#: includes/widgets/class-bfi-widget-merchant.php:51
+#: includes/widgets/class-bfi-widget-merchant.php:151
+msgid "Max items"
+msgstr "Max elemek"
+
+#: includes/widgets/class-bfi-widget-carouselevents.php:56
+#: includes/widgets/class-bfi-widget-carouselevents.php:145
+#: includes/widgets/class-bfi-widget-carouselpoi.php:56
+#: includes/widgets/class-bfi-widget-carouselpoi.php:147
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:56
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:146
+#: includes/widgets/class-bfi-widget-carouselresources.php:56
+#: includes/widgets/class-bfi-widget-carouselresources.php:146
+#: includes/widgets/class-bfi-widget-merchant.php:56
+#: includes/widgets/class-bfi-widget-merchant.php:155
+msgid "Max description characters"
+msgstr "Max leíró karakterek"
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:24
+#, fuzzy
+#| msgid "A Carousel list of Merchants."
+msgid "A Carousel list of Poi."
+msgstr "Kereskedők körhinta listája."
+
+#: includes/widgets/class-bfi-widget-carouselpoi.php:26
+#, fuzzy
+#| msgid "BookingFor Cart"
+msgid "BookingFor Carousel Poi"
+msgstr "BookingFor kosár"
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:24
+#, fuzzy
+msgid "A Carousel list of Resource groups."
+msgstr "A Körhinta listáját források."
+
+#: includes/widgets/class-bfi-widget-carouselresourcegroups.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resource groups"
+msgstr "FoglalásKörhinta-források"
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:24
+#, fuzzy
+msgid "A Carousel list of Resources."
+msgstr "A Körhinta listáját források."
+
+#: includes/widgets/class-bfi-widget-carouselresources.php:26
+#, fuzzy
+msgid "BookingFor Carousel Resources"
+msgstr "FoglalásKörhinta-források"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:24
+msgid "A details merchant box."
+msgstr "Egy kereskedő mezőben."
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:26
+msgid "BookingFor details merchant box"
+msgstr "BookingFor részletek kereskedő doboz"
+
+#: includes/widgets/class-bfi-widget-merchant-vcard.php:36
+#, fuzzy
+msgid "what to show"
+msgstr "mit kell mutatni"
+
+#: includes/widgets/class-bfi-widget-merchant.php:24
+msgid "A Carousel list of Merchants."
+msgstr "Kereskedők körhinta listája."
+
+#: includes/widgets/class-bfi-widget-merchant.php:26
+msgid "BookingFor Merchants"
+msgstr "BookingFor kereskedők"
+
+#: includes/widgets/class-bfi-widget-search-events.php:24
+#: includes/widgets/class-bfi-widget-search-filters.php:24
+msgid "A Filter box."
+msgstr "A szűrő mezőbe."
+
+#: includes/widgets/class-bfi-widget-search-events.php:26
+#, fuzzy
+msgid "BookingFor Search Events"
+msgstr "FoglalásKeresési eseményekhez"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for Experience."
+msgstr "Multimerchant, monomerchant és eladni a keresőmezőbe."
+
+#: includes/widgets/class-bfi-widget-search-experience.php:26
+#, fuzzy
+msgid "BookingFor Search Experience"
+msgstr "FoglalásKeresési eseményekhez"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:80
+#: includes/widgets/class-bfi-widget-search-slot.php:83
+msgid "1 day"
+msgstr "1 nap"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:81
+#: includes/widgets/class-bfi-widget-search-packages.php:69
+#: includes/widgets/class-bfi-widget-search-slot.php:84
+msgid "7 days"
+msgstr "7 nap"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:394
+#: includes/widgets/class-bfi-widget-search-packages.php:263
+#: includes/widgets/class-bfi-widget-search-slot.php:413
+#, fuzzy
+msgid "Search days interval "
+msgstr "Keresési napok időköze "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:424
+#: includes/widgets/class-bfi-widget-search-mapsells.php:71
+#: includes/widgets/class-bfi-widget-search-packages.php:290
+#: includes/widgets/class-bfi-widget-search-rental.php:424
+#: includes/widgets/class-bfi-widget-search-slot.php:443
+#, fuzzy
+msgid "Pagina dei risultati: "
+msgstr "Pagina dei risultati: "
+
+#: includes/widgets/class-bfi-widget-search-experience.php:426
+#: includes/widgets/class-bfi-widget-search-mapsells.php:73
+#: includes/widgets/class-bfi-widget-search-packages.php:292
+#: includes/widgets/class-bfi-widget-search-rental.php:426
+#: includes/widgets/class-bfi-widget-search-slot.php:445
+msgid "Select"
+msgstr "Válassza ki"
+
+#: includes/widgets/class-bfi-widget-search-experience.php:484
+#: includes/widgets/class-bfi-widget-search-mapsells.php:117
+#: includes/widgets/class-bfi-widget-search-packages.php:350
+#: includes/widgets/class-bfi-widget-search-rental.php:483
+#: includes/widgets/class-bfi-widget-search-resources.php:556
+#: includes/widgets/class-bfi-widget-search-slot.php:502
+msgid "Visualizza il seguente widget nella sidebar "
+msgstr ""
+
+#: includes/widgets/class-bfi-widget-search-filters.php:26
+msgid "BookingFor Search Filters"
+msgstr "BookingFor keresési szűrők"
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:24
+#, fuzzy
+msgid "A box for search on Maps."
+msgstr "Egy doboz a serach-nak."
+
+#: includes/widgets/class-bfi-widget-search-mapsells.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search MapSells"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:24
+#, fuzzy
+msgid "A Search box for Packages."
+msgstr "A keresőmező bérelt autók, kerékpárok."
+
+#: includes/widgets/class-bfi-widget-search-packages.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Packages"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-search-packages.php:68
+#, fuzzy
+#| msgid " %d year/s"
+msgid "1 year"
+msgstr " %d év"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:24
+#, fuzzy
+msgid "A Search box for Rental cars, bikes."
+msgstr "A keresőmező bérelt autók, kerékpárok."
+
+#: includes/widgets/class-bfi-widget-search-rental.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search Rental"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-search-rental.php:79
+msgid "Package"
+msgstr "Csomag"
+
+#: includes/widgets/class-bfi-widget-search-resources.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box ."
+msgstr "Multimerchant, monomerchant és eladni a keresőmezőbe."
+
+#: includes/widgets/class-bfi-widget-search-resources.php:26
+msgid "BookingFor Search"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-search-slot.php:24
+#, fuzzy
+#| msgid "A Search box for multimerchant, monomerchant and sell on."
+msgid "A Search box for time slots."
+msgstr "Multimerchant, monomerchant és eladni a keresőmezőbe."
+
+#: includes/widgets/class-bfi-widget-search-slot.php:26
+#, fuzzy
+#| msgid "BookingFor Search"
+msgid "BookingFor Search slot"
+msgstr "BookingFor keresés"
+
+#: includes/widgets/class-bfi-widget-smallmap.php:24
+#, fuzzy
+msgid "A small map box."
+msgstr "Egy kis térképdoboz."
+
+#: includes/widgets/class-bfi-widget-smallmap.php:26
+#, fuzzy
+msgid "BookingFor small map box"
+msgstr "FoglalásKis térképdobozhoz"
+
+#: templates/errors.php:9
+msgid "OPS, some errors occurred! Please try again later."
+msgstr "OPS, néhány hiba történt! Kérjük, próbálkozzon később."
+
+#: templates/errors.php:11 templates/errors.php:14
+msgid "At this moment you cannot do payments."
+msgstr "Ebben a pillanatban nem kifizetések."
+
+#: templates/merchantdetailswidgets.php:60
+#: templates/merchantdetailswidgets.php:61
+#: templates/merchantdetailswidgets.php:62
+#: templates/merchantdetailswidgets.php:63
+msgctxt "Page slug"
+msgid "resources"
+msgstr "eroforrasok"
+
+#: templates/merchantdetailswidgets.php:66
+#: templates/merchantdetailswidgets.php:67
+#: templates/merchantdetailswidgets.php:68
+#: templates/merchantdetailswidgets.php:69
+msgctxt "Page slug"
+msgid "events"
+msgstr "esemenyek"
+
+#: templates/merchantdetailswidgets.php:72
+#: templates/merchantdetailswidgets.php:73
+#: templates/merchantdetailswidgets.php:74
+#: templates/merchantdetailswidgets.php:75
+msgctxt "Page slug"
+msgid "offers"
+msgstr "ajanlatok"
+
+#: templates/merchantdetailswidgets.php:78
+#: templates/merchantdetailswidgets.php:79
+#: templates/merchantdetailswidgets.php:80
+#: templates/merchantdetailswidgets.php:81
+msgctxt "Page slug"
+msgid "onsellunits"
+msgstr "az-eladasi-egysegeken"
+
+#: templates/merchantdetailswidgets.php:84
+msgctxt "Page slug"
+msgid "offer"
+msgstr "ajanlat"
+
+#: templates/merchantdetailswidgets.php:86
+msgctxt "Page slug"
+msgid "thanks"
+msgstr "kosz"
+
+#: templates/merchantdetailswidgets.php:89
+msgctxt "Page slug"
+msgid "errors"
+msgstr "hibak"
+
+#: templates/merchantdetailswidgets.php:92
+#: templates/merchantdetailswidgets.php:93
+#: templates/merchantdetailswidgets.php:94
+#: templates/merchantdetailswidgets.php:95
+msgctxt "Page slug"
+msgid "reviews"
+msgstr "velemenyek"
+
+#: templates/merchantdetailswidgets.php:97
+msgctxt "Page slug"
+msgid "review"
+msgstr "felulvizsgalat"
+
+#: templates/merchantdetailswidgets.php:99
+msgctxt "Page slug"
+msgid "redirect"
+msgstr "atiranyitas"
+
+#: templates/thanks.php:9
+msgid "Thank you for having chosen us."
+msgstr "Köszönjük, hogy választott minket."
+
+#: templates/widgets/carouseleventswidgets.php:45
+#: templates/widgets/carouselpoiwidgets.php:45
+msgid "Details"
+msgstr "Részletek"
+
+#: templates/widgets/carouselresourcegroupswidgets.php:43
+#: templates/widgets/carouselresourceswidgets.php:43
+#: templates/widgets/merchantscarouselwidgets.php:37
+msgid "Discover"
+msgstr "Felfedez"
+
+#~ msgid "From"
+#~ msgstr "Ettől"
+
+#~ msgid "Children"
+#~ msgstr "Gyermek"
+
+#~ msgid "Guest"
+#~ msgstr "Vendég"
+
+#~ msgid "hours"
+#~ msgstr "óra"
+
+#~ msgid "Duration"
+#~ msgstr "Időtartam"
+
+#~ msgid "the"
+#~ msgstr "a"
+
+#~ msgid "No result available"
+#~ msgstr "Nincs elérhető eredmény"
+
+#~ msgid "Login success"
+#~ msgstr "Bejelentkezési siker"
+
+#~ msgid "Login failed"
+#~ msgstr "Sikertelen bejelentkezés"
+
+#~ msgid "Code not valid"
+#~ msgstr "A kód érvénytelen"
+
+#~ msgid "Select a check-out date"
+#~ msgstr "Kijelentkezési dátum kiválasztása"
+
+#~ msgid "Done"
+#~ msgstr "Kész"
+
+#~ msgid "Sun"
+#~ msgstr "Vas"
+
+#~ msgid "Mon"
+#~ msgstr "Hé"
+
+#~ msgid "Tue"
+#~ msgstr "Kedd"
+
+#~ msgid "Wed"
+#~ msgstr "Sze"
+
+#~ msgid "Thu"
+#~ msgstr "Csü"
+
+#~ msgid "Fri"
+#~ msgstr "Pén"
+
+#~ msgid "Sat"
+#~ msgstr "Szo"
+
+#~ msgid "January"
+#~ msgstr "Január"
+
+#~ msgid "February"
+#~ msgstr "Február"
+
+#~ msgid "March"
+#~ msgstr "Március"
+
+#~ msgid "April"
+#~ msgstr "Április"
+
+#~ msgid "May"
+#~ msgstr "Máj"
+
+#~ msgid "June"
+#~ msgstr "Június"
+
+#~ msgid "July"
+#~ msgstr "Július"
+
+#~ msgid "August"
+#~ msgstr "Augusztus"
+
+#~ msgid "September"
+#~ msgstr "Szeptember"
+
+#~ msgid "October"
+#~ msgstr "Október"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Access not valid. Access will be denied until {0}."
+#~ msgstr "A hozzáférés érvénytelen. A hozzáférés a {0}-ig meg lesz tagadva."
+
+#~ msgid "Link has been sent to registered email"
+#~ msgstr "A hivatkozás elküldve a regisztrált e-mailhez"
+
+#~ msgid "Please enter valid registered email"
+#~ msgstr "Adjon meg érvényes regisztrált e-mailt"
+
+#~ msgid "Look nearby"
+#~ msgstr "Nézd meg a közelben"
+
+#~ msgid "Read more"
+#~ msgstr "Tudjon meg többet"
+
+#~ msgid "Read less"
+#~ msgstr "Olvassa el, kevesebb"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "Kívánságlistára"
+
+#~ msgid "My next trip"
+#~ msgstr "A következő utam"
+
+#~ msgid "Create a new list"
+#~ msgstr "Új lista létrehozása"
+
+#~ msgid "Search area or point of interest"
+#~ msgstr "Keresési terület vagy érdekes pont"
+
+#~ msgid "Please select one or more option you want to request"
+#~ msgstr "Válasszon ki egy vagy több kívánt lehetőséget"
+
+#~ msgid "Change your details"
+#~ msgstr "A részletek módosítása"
+
+#~ msgid "Select dates"
+#~ msgstr "kijelölt elemek"
+
+#, php-format
+#~ msgid " %d second/s"
+#~ msgstr " %d másodperc/s"
+
+#~ msgid "(Approx.)"
+#~ msgstr "(Kb.)"
+
+#, php-format
+#~ msgid " %d minutes"
+#~ msgstr " %d perc"
+
+#, php-format
+#~ msgid " %d minute"
+#~ msgstr " %d perc"
+
+#, php-format
+#~ msgid " %d hours"
+#~ msgstr " %d óra"
+
+#, php-format
+#~ msgid " %d hour"
+#~ msgstr " %d óra"
+
+#, php-format
+#~ msgid " %d days"
+#~ msgstr " %d nap"
+
+#, php-format
+#~ msgid " %d day"
+#~ msgid_plural " %d days"
+#~ msgstr[0] " %d nap"
+#~ msgstr[1] " %d nap"
+
+#, php-format
+#~ msgid " %d month/s"
+#~ msgstr " %d hónap/ek"
+
+#, php-format
+#~ msgid " %d year/s"
+#~ msgstr " %d év"
+
+#~ msgid "Mandatory"
+#~ msgstr "Kötelező"
+
+#, php-format
+#~ msgid "Search Results: &ldquo;%s&rdquo;"
+#~ msgstr "Keresési eredmények: \"%s\""
+
+#, php-format
+#~ msgid "&nbsp;&ndash; Page %s"
+#~ msgstr "– Oldal %s"
+
+#~ msgid "bfisidebar"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Rental"
+#~ msgstr "bfisidebar Rental"
+
+#~ msgid "bfisidebar MapSell"
+#~ msgstr "bfisidebar MapSell"
+
+#~ msgid "bfisidebar Time Slots"
+#~ msgstr "bfisidebar Time Slots"
+
+#~ msgid "bfisidebarExperience"
+#~ msgstr "bfisidebarExperience"
+
+#, fuzzy
+#~| msgid "bfisidebar"
+#~ msgid "bfisidebarPackages"
+#~ msgstr "bfisidebar"
+
+#~ msgid "bfisidebar Hidden"
+#~ msgstr "bfisidebar Hidden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add widgets here to appear in Bookingfor pages. (<b><u>NOT delete or "
+#~ "rename</u></b>)"
+#~ msgstr ""
+#~ "Add kütyü itt jelenik meg Bookingfor oldalakon. (<b><u>NEM törölni vagy "
+#~ "átnevezni</u></b>)"
+
+#~ msgctxt "Page slug"
+#~ msgid "contact"
+#~ msgstr "kapcsolat"
+
+#~ msgid "Recently seen"
+#~ msgstr "A közelmúltban"
+
+#~ msgctxt "Page slug"
+#~ msgid "inforequestpopup"
+#~ msgstr "inforequestpopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "mapspopup"
+#~ msgstr "mapspopup"
+
+#~ msgid "nights"
+#~ msgstr "éjszakák"
+
+#~ msgid "Seniores"
+#~ msgstr "Seniores"
+
+#~ msgid "Order by"
+#~ msgstr "Rendezés"
+
+#~ msgid "Lowest price first"
+#~ msgstr "Először a legalacsonyabb ár"
+
+#~ msgid "Review score"
+#~ msgstr "Felülvizsgálat pontszám"
+
+#~ msgid "Best offers"
+#~ msgstr "Legjobb ajánlatok"
+
+#~ msgid "Distance from center"
+#~ msgstr "Távolság a középponttól"
+
+#~ msgid "Distance from point of interest"
+#~ msgstr "Távolság az érdeklődési ponttól"
+
+#~ msgid "Filter"
+#~ msgstr "Szűrő"
+
+#~ msgid "Map"
+#~ msgstr "Megjelenítése"
+
+#~ msgid "Filters"
+#~ msgstr "Szűrők"
+
+#, php-format
+#~ msgid "Show %s results"
+#~ msgstr "%s eredmények megjelenítése"
+
+#~ msgid "BookingFor Merchant List page"
+#~ msgstr "BookingFor kereskedő-lista oldal"
+
+#~ msgctxt "slug"
+#~ msgid "eventlist"
+#~ msgstr "esemenylista"
+
+#~ msgctxt "slug"
+#~ msgid "merchantlist"
+#~ msgstr "kereskedoi-lista"
+
+#~ msgid "&resourceId="
+#~ msgstr "& resourceId ="
+
+#~ msgid "index.php?option=com_bookingforconnector&view=onsellunit&resourceId="
+#~ msgstr ""
+#~ "index.php?option=com_bookingforconnector&View=onsellunit&resourceId="
+
+#~ msgid "Hours"
+#~ msgstr "Óra"
+
+#~ msgid "single bed"
+#~ msgstr "egyszemélyes ágy"
+
+#~ msgid "double bed"
+#~ msgstr "kétszemélyes ágy"
+
+#~ msgid "large double bed"
+#~ msgstr "nagy franciaágy"
+
+#~ msgid "extra-large double bed"
+#~ msgstr "extra nagy franciaágy"
+
+#~ msgid "bunk bed"
+#~ msgstr "emeletes ágy"
+
+#~ msgid "sofa bed"
+#~ msgstr "kanapé"
+
+#~ msgid "futon"
+#~ msgstr "Futon"
+
+#~ msgid "single beds"
+#~ msgstr "egyszemélyes ágyak"
+
+#~ msgid "double beds"
+#~ msgstr "kétszemélyes ágyak"
+
+#~ msgid "large double beds"
+#~ msgstr "nagy kétszemélyes ágyak"
+
+#~ msgid "extra-large double beds"
+#~ msgstr "extra nagy kétszemélyes ágyak"
+
+#~ msgid "bunk beds"
+#~ msgstr "emeletes ágyak"
+
+#~ msgid "sofa beds"
+#~ msgstr "kanapé ágyak"
+
+#~ msgid "futons"
+#~ msgstr "futonok"
+
+#~ msgid "Youth"
+#~ msgstr "Ifjúság"
+
+#~ msgid "Infant"
+#~ msgstr "Csecsemő"
+
+#~ msgid "Your Cart is empty! "
+#~ msgstr "Jelenleg üres a kosara! "
+
+#~ msgid "Secure booking. We protect your information"
+#~ msgstr "Biztonságos foglalás. Megvédjük adatait"
+
+#~ msgid "Your reservation includes"
+#~ msgstr "A foglalás magában foglalja"
+
+#~ msgid "Information"
+#~ msgstr "Információ"
+
+#~ msgid "For"
+#~ msgstr " "
+
+#~ msgid "Options"
+#~ msgstr "Opciók"
+
+#~ msgid "Qt."
+#~ msgstr "QT."
+
+#~ msgid "Total price"
+#~ msgstr "Teljes ár"
+
+#~ msgid "from"
+#~ msgstr "tól"
+
+#~ msgid "to"
+#~ msgstr "a"
+
+#~ msgid "seat"
+#~ msgstr "Ülés"
+
+#~ msgid "People"
+#~ msgstr "Az emberek"
+
+#~ msgid "Years"
+#~ msgstr "Év"
+
+#, php-format
+#~ msgid "Over %s"
+#~ msgstr "Több %s"
+
+#, php-format
+#~ msgid " %d day/s"
+#~ msgstr " %d nap/ek"
+
+#~ msgid "Check-in"
+#~ msgstr "Check-in"
+
+#~ msgid "Check-out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "until"
+#~ msgstr "eddig"
+
+#~ msgid "Total"
+#~ msgstr "Összesen"
+
+#~ msgid "minuti"
+#~ msgstr "perc"
+
+#~ msgid "Time Table"
+#~ msgstr "Időtáblázat"
+
+#~ msgid "Room"
+#~ msgstr "Szoba"
+
+#~ msgid "Included"
+#~ msgstr "Meglévő"
+
+#~ msgid "VAT"
+#~ msgstr "Áfa"
+
+#~ msgid "Not included"
+#~ msgstr "Nem tartozék"
+
+#~ msgid "City tax per person per night"
+#~ msgstr "Városi adó személyenként és éjszakánként."
+
+#~ msgid "Extra bed"
+#~ msgstr "Extra"
+
+#~ msgid "Cot"
+#~ msgstr "Comfort"
+
+#~ msgid "Exempt"
+#~ msgstr "Mentesített"
+
+#~ msgid "City tax"
+#~ msgstr "Város"
+
+#~ msgid "days"
+#~ msgstr "nap"
+
+#~ msgid "weeks"
+#~ msgstr "hét"
+
+#~ msgid "months"
+#~ msgstr "hónap"
+
+#~ msgid "Cancellation FREE"
+#~ msgstr "Lemondás INGYENES"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel free of charge until %1$s before arrival. You will be "
+#~ "charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "Érkezés előtt %1$s-ig ingyenesen lemondhat. Amennyiben érkezés előtt "
+#~ "mondja le a %1$s, %2$s kell fizetnie."
+
+#~ msgid "You may cancel free of charge until arrival."
+#~ msgstr "A lemondás ingyenesen lehetséges az érkezésig."
+
+#~ msgid "Special conditions"
+#~ msgstr "Különleges feltételek"
+
+#, php-format
+#~ msgid ""
+#~ "You may cancel with a charge of %3$s  until %1$s before arrival. You will "
+#~ "be charged %2$s if you cancel in the %1$s before arrival."
+#~ msgstr ""
+#~ "A %3$s díjat érkezés előtt %1$s-ig törölheti. Amennyiben érkezés előtt "
+#~ "mondja le a %1$s, %2$s kell fizetnie."
+
+#, php-format
+#~ msgid "You will be charged %1$s if you cancel before arrival."
+#~ msgstr "Amennyiben érkezés előtt mondja le a foglalást, %1$s kell fizetnie."
+
+#~ msgid "Non refundable"
+#~ msgstr "Nem visszatéríthető"
+
+#~ msgid "You will be charged all if you cancel before arrival."
+#~ msgstr ""
+#~ "Ha érkezés előtt mondja le a foglalást, az összefoglalás díja "
+#~ "felszámolásra kerül."
+
+#~ msgid "There is no meal option with this room."
+#~ msgstr "Ebben a szobában nincs étkezési lehetőség."
+
+#~ msgid "Breakfast"
+#~ msgstr "Reggeli"
+
+#~ msgid "Lunch"
+#~ msgstr "Ebéd"
+
+#~ msgid "Dinner"
+#~ msgstr "Vacsora"
+
+#~ msgid "All Inclusive"
+#~ msgstr "All Inclusive"
+
+#~ msgid "included"
+#~ msgstr "Tartalmazza"
+
+#~ msgid "Meals"
+#~ msgstr "Étkezés"
+
+#~ msgid "Cancellation"
+#~ msgstr "Lemondás"
+
+#~ msgid "Prepayment"
+#~ msgstr "Előleg"
+
+#~ msgid "Non-binding booking request"
+#~ msgstr "Nem kötelező érvényű foglalási kérelem"
+
+#~ msgid "Instant Book"
+#~ msgstr "Azonnali foglalás"
+
+#~ msgid "Payment in installments"
+#~ msgstr "Fizetés részletekben"
+
+#, php-format
+#~ msgid " %d night/s"
+#~ msgstr " %d éjszaka/ek"
+
+#~ msgid "The code is not valid"
+#~ msgstr "A kód érvénytelen."
+
+#~ msgid "Apply"
+#~ msgstr "Alkalmaz"
+
+#~ msgid "Add"
+#~ msgstr "Hozzáadás"
+
+#~ msgid "Gift cards or Promotional codes"
+#~ msgstr "Ajándékkártyák vagy promóciós kódok"
+
+#~ msgid "Enter code"
+#~ msgstr "Írd be a kódot"
+
+#~ msgid "Discount"
+#~ msgstr "Kedvezmény"
+
+#~ msgid "Deposit"
+#~ msgstr "Betét"
+
+#~ msgid "Customers who bought this product also viewed"
+#~ msgstr "Azok az ügyfelek, akik megvették ezt a terméket, szintén"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s."
+#~ msgstr ""
+#~ "A <b>Küldés</b> választása azt jelenti, hogy elfogadja <a href=\"%3$s\" "
+#~ "target=\"_blank\">a használati feltételeket.</a> %1$s"
+
+#~ msgid "Log in to book faster"
+#~ msgstr "Jelentkezzen be a gyorsabb foglaláshoz"
+
+#~ msgid "Enter your details"
+#~ msgstr "Adja meg adatait"
+
+#~ msgid "Name"
+#~ msgstr "név"
+
+#~ msgid "This field is required."
+#~ msgstr "Ez a mező szükség."
+
+#~ msgid "Surname"
+#~ msgstr "Vezetéknév"
+
+#~ msgid "Man"
+#~ msgstr "Man"
+
+#~ msgid "Woman"
+#~ msgstr "Nő"
+
+#~ msgid "Email"
+#~ msgstr "E-mailben"
+
+#~ msgid "Reenter email"
+#~ msgstr "Írja be újra e-mail"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Fiscal code"
+#~ msgstr "Pénzügyi kód"
+
+#~ msgid "Organization"
+#~ msgstr "Szervezet"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Address"
+#~ msgstr "Cím"
+
+#~ msgid "Postal Code"
+#~ msgstr "Irányítószám"
+
+#~ msgid "City"
+#~ msgstr "Város"
+
+#~ msgid "Province"
+#~ msgstr "Tartomány"
+
+#~ msgid "Personal data"
+#~ msgstr "A személyes adatok kezelése"
+
+#~ msgid "Birth date"
+#~ msgstr "Születési dátum"
+
+#~ msgid "Birth location"
+#~ msgstr "Felvételi hely"
+
+#~ msgid "Passport ID"
+#~ msgstr "Jelszó"
+
+#~ msgid "Passport expiration"
+#~ msgstr "Fontos információ"
+
+#~ msgid "Document ID"
+#~ msgstr "Dokumentum azonosítója/ID"
+
+#~ msgid "Document release place"
+#~ msgstr "Dokumentum kiadási helye"
+
+#~ msgid "Document release date"
+#~ msgstr "Dokumentum kiadásának dátuma"
+
+#~ msgid "Document expiration"
+#~ msgstr "Rendeltetési hely"
+
+#~ msgid "Special Requests"
+#~ msgstr "Különleges kérések"
+
+#~ msgid "Notes"
+#~ msgstr "Megjegyzések"
+
+#~ msgid "Note"
+#~ msgstr "Megjegyzés:"
+
+#~ msgid "No URLs allowed!"
+#~ msgstr "Url-ek nem engedélyezettek!"
+
+#~ msgid "Your estimated time of arrival"
+#~ msgstr "Becsült érkezési idejét"
+
+#~ msgid "I don't know"
+#~ msgstr "nem tudom"
+
+#~ msgid "no"
+#~ msgstr "nem"
+
+#~ msgid "yes"
+#~ msgstr "igen"
+
+#~ msgid "Other information"
+#~ msgstr "Egyéb információk"
+
+#~ msgid "We can pick up you at the desired address"
+#~ msgstr "A kívánt címen tudjuk felvenni."
+
+#~ msgid "At experience end, we can take you at the desired address"
+#~ msgstr "A tapasztalat végén, tudjuk, hogy a kívánt címre"
+
+#~ msgid "Crew"
+#~ msgstr "Személyzet"
+
+#, php-format
+#~ msgid "Component %s of %s"
+#~ msgstr "%s-%s"
+
+#~ msgid "Payment method"
+#~ msgstr "Fizetési mód"
+
+#~ msgid "Please choose a payment method"
+#~ msgstr "Válasszon fizetési módot"
+
+#~ msgid "Credit card details"
+#~ msgstr "Hitelkártya-adatok"
+
+#~ msgid "Warranty Request for"
+#~ msgstr "Garanciális kérelem"
+
+#~ msgid "Holder"
+#~ msgstr "Tartó"
+
+#~ msgid "Number"
+#~ msgstr "Szám"
+
+#~ msgid "Valid until"
+#~ msgstr "Érvényes-ig"
+
+#~ msgid "Month (MM)"
+#~ msgstr "Hónap (MM)"
+
+#~ msgid "Year (YY)"
+#~ msgstr "Év (ÉÉ)"
+
+#~ msgid "I agree to the conditions"
+#~ msgstr "Egyetértek azzal, hogy a feltételek"
+
+#~ msgid "I have read the information on the processing of personal data"
+#~ msgstr ""
+#~ "Elolvastam a személyes adatok feldolgozására vonatkozó információkat"
+
+#~ msgid "More information"
+#~ msgstr "Egyéb információk"
+
+#~ msgid "I give my consent to send the newsletter"
+#~ msgstr "Hozzájárulok a hírlevél küldéséhez"
+
+#~ msgid "I give my consent for marketing purposes"
+#~ msgstr "Marketing célokra beleegyezésemet adom"
+
+#~ msgid "I give my consent for profiling purposes"
+#~ msgstr "Profilalkotási célokhoz hozzájárulok"
+
+#~ msgid "Send"
+#~ msgstr "Küldés"
+
+#~ msgid "Code already used"
+#~ msgstr "Már használt kód"
+
+#~ msgid "Are you sure?"
+#~ msgstr "biztos vagy benne?"
+
+#~ msgid "Please enter a valid code"
+#~ msgstr "Adjon meg érvényes kódot"
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztése"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Page"
+#~ msgstr "Oldal"
+
+#~ msgctxt "Page slug"
+#~ msgid "cartredirect"
+#~ msgstr "cartredirect"
+
+#~ msgctxt "Page slug"
+#~ msgid "thankspopup"
+#~ msgstr "thankspopup"
+
+#~ msgctxt "Page slug"
+#~ msgid "errorspopup"
+#~ msgstr "hiba-felugro-ablak"
+
+#~ msgid "Your search"
+#~ msgstr "Keresés"
+
+#~ msgid "Extra services"
+#~ msgstr "Extra szolgáltatások"
+
+#~ msgid "Insert your data"
+#~ msgstr "Az adatok beszúrása"
+
+#~ msgid "Confirm booking"
+#~ msgstr "Foglalás megerősítése"
+
+#~ msgctxt "Page slug"
+#~ msgid "contactspopup"
+#~ msgstr "contactspopup"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "Grid"
+#~ msgstr "Rács"
+
+#~ msgid "View"
+#~ msgstr "Megtekintés"
+
+#~ msgid "Vetrina"
+#~ msgstr "Vetrina"
+
+#~ msgid "Top"
+#~ msgstr "Top"
+
+#~ msgid "New!"
+#~ msgstr "Új!"
+
+#~ msgid "Rooms"
+#~ msgstr "Szobák"
+
+#~ msgid "m&sup2;"
+#~ msgstr "m²"
+
+#~ msgid "Contact Agent"
+#~ msgstr "Kapcsolattartó-ügynök"
+
+#~ msgid "New ad"
+#~ msgstr "Új hirdetés"
+
+#~ msgid "Would you like to leave your review?"
+#~ msgstr "Szeretné, hogy hagyja el a felülvizsgálatot?"
+
+#, php-format
+#~ msgid "Score from %s reviews"
+#~ msgstr "Pontozás-%s-értékelések"
+
+#~ msgid "Guest Rating"
+#~ msgstr "Vendég értékelése"
+
+#~ msgid "No results available"
+#~ msgstr "Nincs elérhető eredmények"
+
+#~ msgid "Choice"
+#~ msgstr "Választás"
+
+#~ msgid "Cart"
+#~ msgstr "Kosár"
+
+#~ msgid "Share"
+#~ msgstr "Megosztás"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show results"
+#~ msgstr "%s eredmények megjelenítése"
+
+#~ msgid "Select the type of package to get started!"
+#~ msgstr "Válassza ki az induláshoz szükséges csomag típusát!"
+
+#~ msgid "Payment"
+#~ msgstr "Fizetési"
+
+#~ msgid ""
+#~ "If you are not redirected to the payment page within a few seconds, click "
+#~ "the following button"
+#~ msgstr ""
+#~ "Ha néhány másodpercen belül nem irányítja át a fizetési oldalra, "
+#~ "kattintson a következő gombra"
+
+#, php-format
+#~ msgid "%s available accommodations"
+#~ msgstr "%s elérhető szállást"
+
+#~ msgid "Map view"
+#~ msgstr "Térképnézet"
+
+#~ msgctxt "Page slug"
+#~ msgid "rating"
+#~ msgstr "ertekeles"
+
+#~ msgid "Request"
+#~ msgstr "Kérés"
+
+#~ msgid "Book Now"
+#~ msgstr "Foglaljon most"
+
+#, php-format
+#~ msgid "%s reviews"
+#~ msgstr "%s vélemény"
+
+#, php-format
+#~ msgid "Only %d available"
+#~ msgstr "Csak %d elérhető"
+
+#~ msgid "Breakfast included"
+#~ msgstr "A reggelit is tartalmazza"
+
+#~ msgid "Half board"
+#~ msgstr "Félpanzió"
+
+#~ msgid "Full board"
+#~ msgstr "Teljes ellátás"
+
+#, php-format
+#~ msgid "Price for %s person"
+#~ msgstr "A %s személy ára"
+
+#~ msgid "Total for"
+#~ msgstr "Összesen"
+
+#, php-format
+#~ msgid " %d hour/s"
+#~ msgstr " %d óra/óra"
+
+#, php-format
+#~ msgid " %d minute/s"
+#~ msgstr " %d perc/perc"
+
+#, php-format
+#~ msgid "Offer %d%%"
+#~ msgstr "Ajánlat %d%%"
+
+#~ msgid "from hours"
+#~ msgstr "óráktól"
+
+#~ msgid "to hours"
+#~ msgstr "az órákra"
+
+#~ msgid ""
+#~ "This is the straight-line distance on the map. Actual travel distance may "
+#~ "vary."
+#~ msgstr ""
+#~ "Ez az egyenes vonaltávolság a térképen. A tényleges utazási távolság "
+#~ "változhat."
+
+#~ msgid "from centre"
+#~ msgstr "központtól"
+
+#~ msgid "Dates"
+#~ msgstr "Dátumok"
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid "All dates and places"
+#~ msgstr "Minden dátum és hely"
+
+#~ msgid "Show dates and places"
+#~ msgstr "Dátumok és helyek megjelenítése"
+
+#~ msgid "Book Resource"
+#~ msgstr "Könyv erőforrás"
+
+#, fuzzy
+#~| msgctxt "Page slug"
+#~| msgid "packages"
+#~ msgid "Show package"
+#~ msgstr "csomagok"
+
+#~ msgid "Tickets"
+#~ msgstr "Jegyek"
+
+#~ msgid "Buy tickets"
+#~ msgstr "Jegyvásárlás"
+
+#, fuzzy
+#~| msgid "Show prices"
+#~ msgid "Show experiences"
+#~ msgstr "Térkép telefon"
+
+#~ msgid "in evidence"
+#~ msgstr "bizonyítékként"
+
+#~ msgid "excluding"
+#~ msgstr "kivéve"
+
+#~ msgid "Free!"
+#~ msgstr "Ingyenes!"
+
+#~ msgid "additional charge"
+#~ msgstr "kiegészítő díj"
+
+#~ msgid "Download"
+#~ msgstr "Letöltés"
+
+#~ msgid "In short"
+#~ msgstr "Röviden:"
+
+#~ msgid "Travel planner"
+#~ msgstr "Utazástervező"
+
+#~ msgid "Buy resource"
+#~ msgstr "Erőforrás vásárlása"
+
+#~ msgid "Organizer"
+#~ msgstr "Szervező"
+
+#~ msgid "All reviewers"
+#~ msgstr "Összes látogató"
+
+#~ msgid "Solo travellers"
+#~ msgstr "Egyéni utazók"
+
+#~ msgid "Groups"
+#~ msgstr "Csoportok"
+
+#~ msgid "Young couplet"
+#~ msgstr "Fiatal és azzal"
+
+#~ msgid "Mature couples"
+#~ msgstr "Középkorú/idős párok"
+
+#~ msgid "Families with young children"
+#~ msgstr "Családok kiskorú gyermekekkel"
+
+#~ msgid "Family with older children"
+#~ msgstr "Család nagykorú gyermekekkel"
+
+#, php-format
+#~ msgid "Based on %1$s Reviews."
+#~ msgstr "Alapul %1$s Értékelés."
+
+#~ msgid "Staff"
+#~ msgstr "A személyzet"
+
+#~ msgid "Clean"
+#~ msgstr "Tiszta"
+
+#~ msgid "Comfort"
+#~ msgstr "Comfort"
+
+#~ msgid "Value for Money"
+#~ msgstr "Ár-érték arány"
+
+#~ msgid "Show reviews from"
+#~ msgstr "A Térkép-értékelések"
+
+#~ msgid "Write a Review"
+#~ msgstr "Írjon egy ismertetőt"
+
+#~ msgid "Reviewed"
+#~ msgstr "Felül"
+
+#~ msgid "Stayed"
+#~ msgstr "Maradt"
+
+#, php-format
+#~ msgid "Replied on %1s"
+#~ msgstr "Válaszolt a %1s"
+
+#~ msgid "Reference"
+#~ msgstr "Referencia"
+
+#, php-format
+#~ msgid "Review certified by %1$s"
+#~ msgstr "Által hitelesített felülvizsgálat %1$s"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#, php-format
+#~ msgid "%s has responded to this review"
+#~ msgstr "%s birtokol alperes-hoz ez áttekintés"
+
+#~ msgid "No Reviews Found."
+#~ msgstr "Nem található vendégértékelés."
+
+#~ msgid "Would you like to be the first to write a review?"
+#~ msgstr "Szeretne az első, írja meg a véleményét?"
+
+#~ msgid "Very poor"
+#~ msgstr "Nagyon rossz"
+
+#~ msgid "Poor"
+#~ msgstr "Szegény"
+
+#~ msgid "Disappointing"
+#~ msgstr "Kiábrándító"
+
+#~ msgid "Fair"
+#~ msgstr "Tisztességes"
+
+#~ msgid "Okay"
+#~ msgstr "oké"
+
+#~ msgid "Pleasant"
+#~ msgstr "Kellemes"
+
+#~ msgid "Good"
+#~ msgstr "jó"
+
+#~ msgid "Very good"
+#~ msgstr "nagyon jó"
+
+#~ msgid "Fabulous"
+#~ msgstr "Mesés"
+
+#~ msgid "Exceptional"
+#~ msgstr "Kivételes"
+
+#~ msgid "Very easy"
+#~ msgstr "Nagyon egyszerű"
+
+#~ msgid "Easy"
+#~ msgstr "Könnyű"
+
+#~ msgid "Moderate"
+#~ msgstr "Mérsékelt"
+
+#~ msgid "Stimulating"
+#~ msgstr "Csillagos értékelés"
+
+#~ msgid "Demanding"
+#~ msgstr "Elküldés..."
+
+#~ msgid "Extreme"
+#~ msgstr "Extra"
+
+#~ msgid "Info & prices"
+#~ msgstr "Info & árak"
+
+#~ msgid "Facilities"
+#~ msgstr "Szolgáltatások"
+
+#~ msgid "House rules"
+#~ msgstr "Házszabályok"
+
+#~ msgid "Reviews"
+#~ msgstr "Vélemények"
+
+#~ msgid "Book now"
+#~ msgstr "Foglaljon most"
+
+#~ msgid "or similar"
+#~ msgstr "vagy hasonló"
+
+#~ msgid "show map"
+#~ msgstr "térkép megjelenítése"
+
+#~ msgid "Pick Up & Drop Off"
+#~ msgstr "Pick Up & Drop Off"
+
+#~ msgid "Media"
+#~ msgstr "Média"
+
+#~ msgid "Host"
+#~ msgstr "Kiszolgáló"
+
+#~ msgid "Floor area"
+#~ msgstr "Alapterület:"
+
+#~ msgid "Participants"
+#~ msgstr "Résztvevők"
+
+#~ msgid "Minimum age"
+#~ msgstr "Alsó korhatár"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Nehézségi szint"
+
+#~ msgid "Languages"
+#~ msgstr "Nyelvek"
+
+#, php-format
+#~ msgid " and %s more "
+#~ msgstr "Tudjon meg többet"
+
+#~ msgid "Offered in"
+#~ msgstr "Ajánlat"
+
+#~ msgid "Important information"
+#~ msgstr "Fontos információ"
+
+#~ msgid "What is Included"
+#~ msgstr "Nem tartozék"
+
+#~ msgid "Live Guide "
+#~ msgstr "Élő útmutató "
+
+#~ msgid "Audio Guide "
+#~ msgstr "Audio útmutató "
+
+#~ msgid "Paper Guide "
+#~ msgstr "Pay-per-use"
+
+#~ msgid "What is not Included"
+#~ msgstr "Nem tartozék"
+
+#~ msgid "Departure & Return"
+#~ msgstr "Indulás & Visszaút"
+
+#~ msgid "Departure Point"
+#~ msgstr "Indulási pont"
+
+#~ msgid "Meeting Time"
+#~ msgstr "Értekezlet ideje"
+
+#, php-format
+#~ msgid "show up %s minutes before the start time "
+#~ msgstr "a kezdési %s percekkel a kezdési időpont előtt "
+
+#~ msgid "Pick-up Point"
+#~ msgstr "Átvételi pont"
+
+#~ msgid "Pick-up Time"
+#~ msgstr "Átvételi idő"
+
+#~ msgid "Return Details"
+#~ msgstr "Esemény részletei"
+
+#~ msgid "Returns to original departure pickup"
+#~ msgstr "Visszatérés az eredeti indulási felvételhez"
+
+#~ msgid "Returns to original pick-up point"
+#~ msgstr "Visszatérés az eredeti átvételi pontra"
+
+#~ msgid "Returns to original departure point"
+#~ msgstr "Visszatérés az eredeti indulási ponthoz"
+
+#~ msgid "What To Expect"
+#~ msgstr "Mire számíthatunk?"
+
+#~ msgid "Itinerary"
+#~ msgstr "Útvonal"
+
+#~ msgid "Day"
+#~ msgstr "Nap"
+
+#~ msgid "Stops"
+#~ msgstr "Megáll"
+
+#~ msgid "Stop"
+#~ msgstr "Megállítás"
+
+#~ msgid "Additional Info"
+#~ msgstr "További információ"
+
+#~ msgid "What to bring"
+#~ msgstr "Mit kell hozni"
+
+#~ msgid "Cancellation Policy"
+#~ msgstr "Elállási szabályzat"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Gyakori kérdések"
+
+#, php-format
+#~ msgid ""
+#~ "Choosing <b>Send</b> means that you agree to <a href=\"%3$s\" target="
+#~ "\"_blank\">Terms of use</a> of %1$s and <a href=\"%2$s\" target=\"_blank"
+#~ "\">privacy and cookies statement.</a>."
+#~ msgstr ""
+#~ "A <b>Küldés</b> választása azt jelenti, hogy ön elfogadja <a href=\"%3$s"
+#~ "\" target=\"_blank\">az</a> %1$s adatvédelmi és <a href=\"%2$s\" target="
+#~ "\"_blank\">cookie-kra vonatkozó használati feltételeket.</a>. ."
+
+#~ msgid "Type of traveller"
+#~ msgstr "Típusú utazó"
+
+#~ msgid "Country"
+#~ msgstr "Ország"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mailben"
+
+#~ msgid "Confirm E-mail"
+#~ msgstr "Erősítse meg E-mail"
+
+#~ msgid "When did you travel?"
+#~ msgstr "Mikor utazik?"
+
+#~ msgid "Value for money"
+#~ msgstr "Ár-érték arány"
+
+#~ msgid "Valuation"
+#~ msgstr "Értékelési"
+
+#~ msgid "List of the facility's positive points"
+#~ msgstr "A létesítmény pozitív pontok listája"
+
+#~ msgid "List of the facility's negative points"
+#~ msgstr "A létesítmény negatív pontok listája"
+
+#, php-format
+#~ msgid "Send me promotional emails from %1$s"
+#~ msgstr "Promóciós e-mailek küldése %1$s"
+
+#, php-format
+#~ msgid ""
+#~ "I certify that this review is based on my own experience and is my "
+#~ "genuine opinion of this accommodation, and that I have no personal or "
+#~ "business relationship with this establishment, and have not been offered "
+#~ "any incentive or payment originating from the establishment to write this "
+#~ "review. I understand that %s has a zero-tolerance policy on fake reviews."
+#~ msgstr ""
+#~ "Igazolom, hogy e felülvizsgálat saját tapasztalataim alapján, és a valódi "
+#~ "véleményem ez a szállás, és hogy nem személyes vagy üzleti kapcsolat "
+#~ "ebben az intézményben, és semmilyen ösztönző vagy fizetési létesítményből "
+#~ "származó írni ezt a felülvizsgálatot nem ajánlottak. Tudomásul veszem, "
+#~ "hogy Bibione.com van egy zéró tolerancia hamis Értékelés."
+
+#~ msgid "Attention!"
+#~ msgstr "Figyelem!"
+
+#~ msgid "It 's not possible to insert your own review"
+#~ msgstr "A ' nem lehetséges-hoz behelyez a saját véleményed"
+
+#~ msgid "nonexistent order"
+#~ msgstr "nem létező rendelés"
+
+#~ msgid "Order with already a Review"
+#~ msgstr "Hogy a már a felülvizsgálatot"
+
+#~ msgid ""
+#~ "nonexistent order or to which it is not possible to associate a review"
+#~ msgstr ""
+#~ "nem létező rendelés, vagy amelyek esetében nem lehetséges-hoz egy "
+#~ "áttekintés társ"
+
+#~ msgid "Order not related at this resource"
+#~ msgstr "Ez az erőforrás nem kapcsolódó rendelés"
+
+#~ msgid "Order make before the date to make a review"
+#~ msgstr "Érdekében, hogy a felülvizsgálat időpontja előtt, hogy"
+
+#~ msgid "Most popular facilities for longer stays"
+#~ msgstr "A legnépszerűbb létesítmények hosszabb tartózkodásra"
+
+#~ msgid "Booking"
+#~ msgstr "Foglalás"
+
+#~ msgid "No Results Found"
+#~ msgstr "Nincs találat"
+
+#, php-format
+#~ msgid "%s available offers"
+#~ msgstr "%s kedvezményeink"
+
+#~ msgid "please wait..."
+#~ msgstr "várj, kérlek..."
+
+#~ msgid "I consent to the publication of the review"
+#~ msgstr "Hozzájárulok a felülvizsgálat közzétételéhez"
+
+#~ msgid "A-Z"
+#~ msgstr "A-Z-IG"
+
+#~ msgid "Z-A"
+#~ msgstr "Z-A"
+
+#~ msgid "To rent"
+#~ msgstr "A kiadó"
+
+#~ msgid "On sale"
+#~ msgstr "Eladó"
+
+#~ msgid "Min paxes"
+#~ msgstr "Min paxes"
+
+#~ msgid "Max paxes"
+#~ msgstr "Maximális paxes"
+
+#~ msgid "Area"
+#~ msgstr "Terület"
+
+#~ msgid "Last update"
+#~ msgstr "Utolsó frissítés"
+
+#~ msgid "Floor"
+#~ msgstr "Emelet"
+
+#~ msgid "Ground floor"
+#~ msgstr "Földszint"
+
+#~ msgid "Top floor"
+#~ msgstr "Legfelső emeleti"
+
+#~ msgid "Attic"
+#~ msgstr "Tetőtérben"
+
+#~ msgid "Multiple levels"
+#~ msgstr "Több szinten"
+
+#~ msgid "ND"
+#~ msgstr "ND"
+
+#~ msgid "Condition"
+#~ msgstr "Feltétel"
+
+#~ msgid "New"
+#~ msgstr "Új"
+
+#~ msgid "To be refurbished"
+#~ msgstr "Felújításra kerül"
+
+#~ msgid "Excellent"
+#~ msgstr "Kiváló"
+
+#~ msgid "Refurbished"
+#~ msgstr "Felújított"
+
+#~ msgid "Habitable"
+#~ msgstr "Lakható"
+
+#~ msgid "Bathrooms"
+#~ msgstr "Fürdőszoba"
+
+#~ msgid "Heating"
+#~ msgstr "Fűtés"
+
+#~ msgid "Autonomous"
+#~ msgstr "Autonóm"
+
+#~ msgid "Communal"
+#~ msgstr "Kommunális"
+
+#~ msgid "Pay per use"
+#~ msgstr "Pay-per-use"
+
+#~ msgid "Box Auto"
+#~ msgstr "Box Auto"
+
+#~ msgid "Parking space"
+#~ msgstr "Parkolóhely"
+
+#~ msgid "Energy efficiency class"
+#~ msgstr "Energiahatékonysági osztály"
+
+#~ msgid "not set"
+#~ msgstr "nincs beállítva"
+
+#~ msgid "Nondescript"
+#~ msgstr "meghatározhatatlan"
+
+#~ msgid "Free property"
+#~ msgstr "Ingyenes ingatlan"
+
+#~ msgid "Under evaluation"
+#~ msgstr "Értékelés alapján"
+
+#~ msgid "IPE"
+#~ msgstr "IPE"
+
+#~ msgid "Yes"
+#~ msgstr "igen"
+
+#~ msgid "Real estate agency collaboration"
+#~ msgstr "Ingatlan Ügynökség együttműködés"
+
+#, php-format
+#~ msgid "Found %s results on %s"
+#~ msgstr "%s találat a %s"
+
+#, php-format
+#~ msgid "Found %s results"
+#~ msgstr "Talált %s eredmények"
+
+#~ msgid ""
+#~ "Certainly it is our Preferred Merchant! They provide a great value and an "
+#~ "excellent service."
+#~ msgstr ""
+#~ "Természetesen ez a mi preferált kereskedő! Nagy értéket és kiváló "
+#~ "szolgáltatást nyújtanak."
+
+#~ msgid "from center"
+#~ msgstr "középről"
+
+#~ msgid "from point of interest"
+#~ msgstr "a kamatponttól"
+
+#~ msgid "This structure is suitable for children"
+#~ msgstr "Ez a szerkezet alkalmas gyermekek számára"
+
+#~ msgid "Living room"
+#~ msgstr "Nappali"
+
+#, fuzzy
+#~| msgid "Show %s results"
+#~ msgid "Show more results"
+#~ msgstr "%s eredmények megjelenítése"
+
+#~ msgid "FREE Cancellation"
+#~ msgstr "INGYENES lemondás"
+
+#, php-format
+#~ msgid ""
+#~ "Unfortunately we have no availability at this merchant for your dates: %s "
+#~ "- %s"
+#~ msgstr "Sajnos nem áll rendelkezésre a kereskedő a dátumok: %s - %s"
+
+#~ msgid "Limited availability, but may sell out:"
+#~ msgstr "Korlátozott rendelkezésre állás, de eladható:"
+
+#~ msgid ""
+#~ "For a short time you missed it. Our last resource sold out a few days ago"
+#~ msgstr ""
+#~ "Egy rövid ideig lemaradtál róla. Az utolsó forrásunk néhány napja "
+#~ "elfogyott."
+
+#~ msgid "We're sorry! we do not have any availability for this resource."
+#~ msgstr ""
+#~ "Részvétnyilvánítás, nem, nem, nem, nem, nem, nem, nem, nem áll "
+#~ "rendelkezésre az erőforrás."
+
+#~ msgid "Supplier rating"
+#~ msgstr "A beszállító minősítése"
+
+#~ msgid "minutes"
+#~ msgstr "perc"
+
+#~ msgid "We're sorry! we do not have any availability."
+#~ msgstr ""
+#~ "Részvétnyilvánítás, nem, nem, nem, nem, nem, nem, nem, nincs szabad "
+#~ "helyünk."
+
+#~ msgid "Program"
+#~ msgstr "Program"
+
+#~ msgid "Next events near "
+#~ msgstr "Következő események a közelben "
+
+#~ msgid "IDENTIFICATION CODE - TOURIST LEASE"
+#~ msgstr "AZONOSÍTÓ KÓD - TURISZTIKAI LÍZING"
+
+#~ msgctxt "Page slug"
+#~ msgid "rapidview"
+#~ msgstr "rapidview"
+
+#~ msgid "Energy Class"
+#~ msgstr "Energia osztály"
+
+#~ msgid "nondescript"
+#~ msgstr "Meghatározhatatlan"
+
+#~ msgid "free property"
+#~ msgstr "Ingyenes ingatlan"
+
+#~ msgid "A+"
+#~ msgstr "A +"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "C"
+#~ msgstr "C"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "EPI Value"
+#~ msgstr "EPI érték"
+
+#~ msgid "Request info"
+#~ msgstr "Kérés info"
+
+#, php-format
+#~ msgid "From %s to %s"
+#~ msgstr "%s-%s"
+
+#, php-format
+#~ msgid "%s people are watching right now"
+#~ msgstr "%s emberek figyelnek most."
+
+#~ msgid "Recommended for"
+#~ msgstr "Ajánlott"
+
+#~ msgid "Adult"
+#~ msgstr "Felnőtt"
+
+#~ msgid "and"
+#~ msgstr "és"
+
+#~ msgid "Child"
+#~ msgstr "Gyermek"
+
+#~ msgid "Pay at the property – NO PREPAYMENT NEEDED"
+#~ msgstr "Fizessen az ingatlanban – NINCS SZÜKSÉG ELŐZETES FIZETÉSRE"
+
+#, php-format
+#~ msgid "View other %d solutions"
+#~ msgstr "Egyéb %d megoldások megtekintése"
+
+#~ msgid "Hurry up"
+#~ msgstr "Siess"
+
+#~ msgid "This resource is in great demand"
+#~ msgstr "Ez az erőforrás nagy a kereslet"
+
+#, php-format
+#~ msgid "%s request in the last 24 hours"
+#~ msgstr "%s kérés az elmúlt 24 órában"
+
+#, php-format
+#~ msgid ""
+#~ "This structure has met or exceeded the expectations of more than 90% of "
+#~ "guests"
+#~ msgstr ""
+#~ "Ez a szerkezet több mint 90 % o vendég elvárásainak felelt meg vagy "
+#~ "haladta meg"
+
+#~ msgid "Choose place"
+#~ msgstr "Hely kiválasztása"
+
+#~ msgid "Price for"
+#~ msgstr "Ár"
+
+#~ msgid "Rental terms"
+#~ msgstr "Bérleti feltételek"
+
+#~ msgid "Latest ads"
+#~ msgstr "Legújabb hirdetések"
+
+#~ msgid "added to cart"
+#~ msgstr "kosárba helyezve"
+
+#, php-format
+#~ msgid "Subtotal of the cart (%s items)"
+#~ msgstr "A kosár részösszege (%s tételek)"
+
+#~ msgid "For an optimal experience"
+#~ msgstr "Az optimális élményért"
+
+#~ msgid "log in to your account"
+#~ msgstr "bejelentkezés a fiókjába"
+
+#~ msgid "We have other proposals in case of unavailability."
+#~ msgstr "Más javaslataink is vannak a rendelkezésre állás esetén."
+
+#~ msgid "Contact us and we will find the best solution for you!"
+#~ msgstr ""
+#~ "Vegye fel velünk a kapcsolatot, és megtaláljuk az Ön számára "
+#~ "legmegfelelőbb megoldást!"
+
+#~ msgid "Contact us"
+#~ msgstr "Kapcsolat"
+
+#~ msgid "Call us"
+#~ msgstr "Hívj minket"
+
+#~ msgid "Talk to us"
+#~ msgstr "Beszéljen velünk!"
+
+#~ msgid "Also consider other proposals:"
+#~ msgstr "Más javaslatokat is figyelembe kell venni:"
+
+#~ msgid "Add to favorites"
+#~ msgstr "Kedvencekhez"
+
+#~ msgid "Free cancellation"
+#~ msgstr "Ingyenes lemondás"
+
+#~ msgid "No prepayment"
+#~ msgstr "Nincs előleg"
+
+#~ msgid "Book without credit card"
+#~ msgstr "Foglaljon hitelkártya nélkül"
+
+#~ msgid "All inclusive"
+#~ msgstr "All inclusive"
+
+#~ msgid "Unrated"
+#~ msgstr "Minősített"
+
+#~ msgid "1 star"
+#~ msgstr "1 星"
+
+#~ msgid "2 stars"
+#~ msgstr "2 星"
+
+#~ msgid "3 stars"
+#~ msgstr "3 星"
+
+#~ msgid "4 stars"
+#~ msgstr "4 星"
+
+#~ msgid "5 stars"
+#~ msgstr "5 星"
+
+#~ msgid "6 stars"
+#~ msgstr "6 csillagos"
+
+#~ msgid "7 stars"
+#~ msgstr "7 csillagos"
+
+#~ msgid "8 stars"
+#~ msgstr "8 csillagos"
+
+#~ msgid "9 stars"
+#~ msgstr "9 csillagos"
+
+#~ msgid "10 stars"
+#~ msgstr "10 csillag"
+
+#~ msgid "Filter by"
+#~ msgstr "Szűrés"
+
+#~ msgid "Star rating"
+#~ msgstr "Csillagos értékelés"
+
+#~ msgid "Budget"
+#~ msgstr "Költségkeret"
+
+#~ msgid "Tipology"
+#~ msgstr "Tipus"
+
+#~ msgid "Property type"
+#~ msgstr "Ingatlan típusa"
+
+#~ msgid "Book with ease "
+#~ msgstr "Foglaljon könnyedén "
+
+#~ msgid "Offer"
+#~ msgstr "Ajánlat"
+
+#~ msgid "Availability"
+#~ msgstr "Elérhetőség"
+
+#~ msgid "Booking type"
+#~ msgstr "Foglalás típusa"
+
+#~ msgid "Nearby points of interest"
+#~ msgstr "Közeli látnivalók"
+
+#~ msgid "Unspecified"
+#~ msgstr "Nem részletezett"
+
+#~ msgid "Smart offer"
+#~ msgstr "Intelligens ajánlat"
+
+#~ msgid "Show only available resources"
+#~ msgstr "Csak a rendelkezésre álló erőforrások megjelenítése"
+
+#~ msgid "Show only online booking"
+#~ msgstr "A következő szálláshely csak online foglalás"
+
+#~ msgid "Up to"
+#~ msgstr "Eddig"
+
+#~ msgid "Show All"
+#~ msgstr "Összes mutatása"
+
+#, php-format
+#~ msgid "+ %s photos"
+#~ msgstr "+ %s fotók"
+
+#~ msgid "Got a question?"
+#~ msgstr "Kérdezzen"
+
+#~ msgid ""
+#~ "Send your own question to the property. The property usually replies "
+#~ "within a few days"
+#~ msgstr ""
+#~ "Küldje el saját kérdését a szálláshelyre. Az ingatlan általában néhány "
+#~ "napon belül válaszol"
+
+#~ msgid "Send us your request, you will be contacted as soon as possible"
+#~ msgstr ""
+#~ "Küldje el kérését, a lehető leghamarabb fel kell lépnie Önnel a "
+#~ "kapcsolatot."
+
+#~ msgid "Fields marked with * (asterisk) are required"
+#~ msgstr "A * (csillag) jelöléssel jelölt mezők szükségesek"
+
+#~ msgid "Cap"
+#~ msgstr "Sapka"
+
+#~ msgid "I consent to the management of the request"
+#~ msgstr "Hozzájárulok a kérelem kezeléséhez"
+
+#~ msgid "Send your request"
+#~ msgstr "Küldje el kérését"
+
+#~ msgid "Ask a question"
+#~ msgstr "Kérdezzen"
+
+#~ msgid "Sign in"
+#~ msgstr "Bejelentkezés"
+
+#~ msgid "Welcome to"
+#~ msgstr "Üdvözölünk"
+
+#~ msgid ""
+#~ "The holiday of your dreams will start as soon as you start thinking about "
+#~ "it! Log in and put together the ideal blend of accommodation, events and "
+#~ "experiences for your holiday."
+#~ msgstr ""
+#~ "Álmaid nyaralása azzal kezdődik, hogy a szemed előtt látod! Lépje be, "
+#~ "állítsd össze a szállást, az eseményeket és az élményeket és kezdd el "
+#~ "felépíteni a nyaralásodat!Álmaid nyaralása azzal kezdődik, hogy a szemed "
+#~ "előtt látod! Lépje be, állítsd össze a szállást, az eseményeket és az "
+#~ "élményeket és kezdd el felépíteni a nyaralásodat!"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Kérjük, adjon meg egy érvényes e-mail címet"
+
+#~ msgid ""
+#~ "An email was sent to {0}. Please check your email box and type the "
+#~ "authentication code you have received."
+#~ msgstr ""
+#~ "A rendszer e-mailt küldött {0}. Kérjük, ellenőrizze az e-mail mezőt, és "
+#~ "írja be a kapott hitelesítési kódot."
+
+#~ msgid "Two-factor secure authentication"
+#~ msgstr "Kétfaktoros biztonságos hitelesítés"
+
+#~ msgid "Lost password"
+#~ msgstr "Elfelejtett jelszó"
+
+#~ msgid "Login"
+#~ msgstr "Belépés"
+
+#~ msgid "Confirm"
+#~ msgstr "Megerősítés"
+
+#~ msgid "Register"
+#~ msgstr "Regisztráció"
+
+#~ msgid "Forgot Password"
+#~ msgstr "Elfelejtett jelszó"
+
+#~ msgid ""
+#~ "If you are having difficulty logging in, you can reset your password by "
+#~ "typing the Email Address that you used while registration. You will "
+#~ "receive an email with a new password."
+#~ msgstr ""
+#~ "Ha nehezen tud bejelentkezni, a regisztráció során használt e-mail-cím "
+#~ "beírásával új jelszót állíthat be. Kapni fog egy e-mailt egy új jelszóval."
+
+#~ msgid "Back"
+#~ msgstr "Vissza"
+
+#~ msgid "Your account"
+#~ msgstr "A fiókod"
+
+#~ msgid "Welcome"
+#~ msgstr "Üdvözöljük"
+
+#~ msgid "Your home page"
+#~ msgstr "Kezdőlap"
+
+#~ msgid "Your details"
+#~ msgstr "Adatok"
+
+#~ msgid "Your lists"
+#~ msgstr "Listák"
+
+#~ msgid "Your bookings"
+#~ msgstr "Foglalások"
+
+#~ msgid "Your payments"
+#~ msgstr "Fizetések"
+
+#~ msgid "Your reviews"
+#~ msgstr "Értékelések"
+
+#~ msgid "Logout"
+#~ msgstr "Kilépés"
+
+#~ msgid "Open"
+#~ msgstr "Megnyitás"
+
+#~ msgid "Other Details"
+#~ msgstr "Kosár részletei"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to the dates and the "
+#~ "number of people."
+#~ msgstr ""
+#~ "A lemondási és előtörlesztési feltételek a dátumtól és a számoktól "
+#~ "függően változnak."
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">conditions</a> may apply to each option when making your selection."
+#~ msgstr ""
+#~ "A lemondási és előtörlesztési feltételek a szállás típusától függően "
+#~ "változnak. Kérjük, a <a rel=\"#divcalculator\" class=\"bfi-btn-calc"
+#~ "\">kiválasztás során</a> ellenőrizze, hogy milyen feltételek "
+#~ "vonatkozhatnak az egyes opciókra."
+
+#~ msgid "Show phone"
+#~ msgstr "Térkép telefon"
+
+#~ msgid "Web site"
+#~ msgstr "Web site"
+
+#~ msgid "Proposals"
+#~ msgstr "Javaslatok"
+
+#~ msgid "Offers"
+#~ msgstr "Ajánlatok"
+
+#~ msgid "Bed room"
+#~ msgstr "Ágyszoba"
+
+#~ msgid "Change the search details"
+#~ msgstr "A keresési adatok módosítása"
+
+#~ msgid "Check-out "
+#~ msgstr "Kijelentkezés "
+
+#~ msgid "Age of children"
+#~ msgstr "Gyerek(ek) kora"
+
+#~ msgid "on"
+#~ msgstr "be"
+
+#~ msgid "Check availability"
+#~ msgstr "Elérhetőség ellenőrzése"
+
+#, php-format
+#~ msgid "Group price for %s nights:"
+#~ msgstr "Csoport ár %s éjszakára:"
+
+#~ msgid "No results available for the submitted data"
+#~ msgstr "Nincs eredmény a benyújtott adatok rendelkezésre"
+
+#~ msgid "City tax per person per night."
+#~ msgstr "Városi adó személyenként és éjszakánként."
+
+#~ msgid "Fits"
+#~ msgstr "Illik"
+
+#, php-format
+#~ msgid "Max %s person"
+#~ msgstr "Max %s személy"
+
+#, php-format
+#~ msgid " %d week/s"
+#~ msgstr " %d hét/ek"
+
+#~ msgid "No prepayment is needed."
+#~ msgstr "Nincs szükség előlegre."
+
+#~ msgid "You will be charged a prepayment of the total price at any time."
+#~ msgstr "A teljes ár előleget kell fizetnie bármikor."
+
+#, php-format
+#~ msgid ""
+#~ "You will be charged a prepayment of %1$s of the total price at any time."
+#~ msgstr "A teljes árból bármikor %1$s előleget számítunk fel."
+
+#, php-format
+#~ msgid "You will be charged a prepayment of %1$s at any time."
+#~ msgstr "A %1$s előleget bármikor megkell fizetnie."
+
+#~ msgid "Confirm your reservation"
+#~ msgstr "A foglalás megerősítése"
+
+#~ msgid "selected items"
+#~ msgstr "kijelölt elemek"
+
+#~ msgid "Request Now"
+#~ msgstr "Kérelem most"
+
+#~ msgid "Choose your bed (if available)"
+#~ msgstr "Válassza ki az ágyat (ha rendelkezésre áll)"
+
+#~ msgid "View other proposals"
+#~ msgstr "Egyéb javaslatok megtekintése"
+
+#~ msgid "Do you want add more?"
+#~ msgstr "Szeretne még többet hozzáadni?"
+
+#~ msgid "selected services"
+#~ msgstr "kiválasztott szolgáltatások"
+
+#~ msgid "Please, select a day"
+#~ msgstr "Kérem válasszon egy nap"
+
+#~ msgid "Add to cart"
+#~ msgstr "Kosárba"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Folytatom a vásárlást"
+
+#~ msgid "Checkout"
+#~ msgstr "Pénztár"
+
+#~ msgid "Change search"
+#~ msgstr "Keresés módosítása"
+
+#~ msgid "Adults "
+#~ msgstr "Felnőttek "
+
+#~ msgid "Seniors "
+#~ msgstr "Idősek "
+
+#~ msgid "Ages of children"
+#~ msgstr "Korosztály, a gyermekek"
+
+#, php-format
+#~ msgid ""
+#~ "We preset your children's ages to %s years old - but if you enter their "
+#~ "actual ages, you might be able to find a better price."
+#~ msgstr ""
+#~ "A gyermekek életkorát %s éveskorra állítottuk be - de ha megadja a "
+#~ "tényleges életkorukat, akkor talán jobb árat találhat."
+
+#~ msgid "Check availability at other merchants"
+#~ msgstr "A rendelkezésre állás ellenőrzése más kereskedőknél"
+
+#~ msgid "We found availability at other merchants"
+#~ msgstr "Találtunk rendelkezésre állást más kereskedőknél"
+
+#, php-format
+#~ msgid "Persons min:%1$d max:%2$d"
+#~ msgstr "Személyek min: %1$d max: %2$d"
+
+#, php-format
+#~ msgid "Other %1$d choice"
+#~ msgstr "Egyéb %1$d választás"
+
+#~ msgid "Find other great offers!"
+#~ msgstr "Keressen más nagyszerű ajánlatokat!"
+
+#~ msgid "In case of no-show, you will be charged all."
+#~ msgstr "Meg nem jelenés esetén minden díjat meg kell fizetnie."
+
+#~ msgid "person"
+#~ msgstr "személy"
+
+#~ msgid "Remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "next step"
+#~ msgstr "következő lépés"
+
+#~ msgid "Pick-up"
+#~ msgstr "Felvétel"
+
+#~ msgid "Drop-off"
+#~ msgstr "Drop-off"
+
+#~ msgid ""
+#~ "To see availablility and prices please enter your check-in and check-out "
+#~ "dates."
+#~ msgstr ""
+#~ "A rendelkezésre nem látható elérhetőségekért és az árakért kérjük, adja "
+#~ "meg bejelentkezési és kijelentkezési dátumát."
+
+#~ msgid "Show prices"
+#~ msgstr "Térkép telefon"
+
+#, php-format
+#~ msgid "You may also be interested in the following proposals of \"%s\""
+#~ msgstr "Az alábbi \"%s\" javaslatok is érdekelhetik"
+
+#~ msgid "We found availability for other dates"
+#~ msgstr "Találtunk elérhetőséget más dátumokhoz"
+
+#~ msgid "The price varies according to the dates and the number of people"
+#~ msgstr "Az ár a dátumtól és az emberek számtól függően változik"
+
+#~ msgid "Person"
+#~ msgstr "Személy"
+
+#~ msgid "Select a period"
+#~ msgstr "Pont kiválasztása"
+
+#~ msgid "One day"
+#~ msgstr "Egy nap"
+
+#~ msgid "More day"
+#~ msgstr "Több nap"
+
+#~ msgid "Pay at the property  NO PREPAYMENT NEEDED"
+#~ msgstr "Fizessen az ingatlan nem előzetes fizetés szükséges"
+
+#~ msgid "night"
+#~ msgstr "éjszaka"
+
+#~ msgid "Change"
+#~ msgstr "Változás"
+
+#~ msgid "Vacation summary"
+#~ msgstr "Nyaralás összegzése"
+
+#~ msgid "Confirm choice"
+#~ msgstr "Választási lehetőség megerősítése"
+
+#~ msgid "Base Price"
+#~ msgstr "Alapár"
+
+#, fuzzy
+#~| msgid "Change search"
+#~ msgid "Update search"
+#~ msgstr "Keresés módosítása"
+
+#~ msgid "{0} nights"
+#~ msgstr "{0} éjszakák"
+
+#~ msgid "{0} night"
+#~ msgstr "{0} éjszaka"
+
+#~ msgid "Seniors"
+#~ msgstr "Idősek "
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "resources"
+#~ msgstr "eroforrasok"
+
+#~ msgid "Distance umbrellas"
+#~ msgstr "Távolsági esernyők"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "All"
+#~ msgstr "Minden"
+
+#~ msgid "Search experiences and areas..."
+#~ msgstr "Keresési élmények és területek..."
+
+#~ msgid "Date"
+#~ msgstr "Dátum"
+
+#~ msgid "You have a coupon/discount code"
+#~ msgstr "Van kupon/ kedvezmény kódja"
+
+#~ msgid "Coupon/discount code"
+#~ msgstr "Kupon/engedmény kód"
+
+#~ msgid "Search"
+#~ msgstr "Szálláshelyek keresése"
+
+#~ msgid "Search packagess and areas..."
+#~ msgstr "Csomagok és területek keresése..."
+
+#~ msgid "Return to the same location"
+#~ msgstr "Visszatérés ugyanerre a helyre"
+
+#~ msgid "Drop off in another location"
+#~ msgstr "Leadáshelye"
+
+#~ msgid "Pick-up location"
+#~ msgstr "Felvételi hely"
+
+#~ msgid "Drop-off location"
+#~ msgstr "Leadáshelye"
+
+#~ msgid "Draw area"
+#~ msgstr "Dolgozzon területet"
+
+#~ msgid "Circle"
+#~ msgstr "Kör"
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
+
+#~ msgid "Click on map and choose your area."
+#~ msgstr "Kattintson a térképen, és válassza ki a területen."
+
+#~ msgid "Find availability"
+#~ msgstr "Elérhetőség"
+
+#~ msgid "Search for accommodation or area"
+#~ msgstr "Szálláshely vagy terület keresése"
+
+#~ msgid "Check-in - Check-out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "To"
+#~ msgstr "Címzett"
+
+#~ msgid "Activities"
+#~ msgstr "Tevékenységek"
+
+#~ msgid "Others"
+#~ msgstr "Egyéb"
+
+#~ msgid "Any"
+#~ msgstr "Bármely"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ">3"
+#~ msgstr "> 3"
+
+#~ msgid "More days"
+#~ msgstr "Több nap"
+
+#~ msgid "Today"
+#~ msgstr "Ma"
+
+#~ msgid "This Week"
+#~ msgstr "Ezen a héten"
+
+#~ msgid "This Month"
+#~ msgstr "Ebben a hónapban"
+
+#~ msgid "Next Week"
+#~ msgstr "Következő hét"
+
+#~ msgid "Next Month"
+#~ msgstr "Következő hónap"
+
+#~ msgid "Search events"
+#~ msgstr "Események keresése"
+
+#~ msgid "Please enter a integer number"
+#~ msgstr "Adjon meg egy egész számot"
+
+#~ msgid "Floor area m&sup2;"
+#~ msgstr "Padló területe m²"
+
+#~ msgid "Bedrooms"
+#~ msgstr "Hálószoba"
+
+#~ msgid "Only new building"
+#~ msgstr "Csak új épület"
+
+#~ msgid "Pound sterling"
+#~ msgstr "Font sterling"
+
+#~ msgid "Your private area"
+#~ msgstr "Az Ön privát területe"
+
+#~ msgctxt "Page slug"
+#~ msgid "packages"
+#~ msgstr "csomagok"
+
+#~ msgid "all review"
+#~ msgstr "minden felülvizsgálat"
+
+#~ msgid "Zones"
+#~ msgstr "Területek"
+
+#~ msgid "Category"
+#~ msgstr "Kategória"
+
+#~ msgid "Points of interest"
+#~ msgstr "Érdekes helyek"
+
+#~ msgid "Haven't found what you were looking for yet?"
+#~ msgstr "Még nem találtad meg, amit kerestál?"
+
+#~ msgid "Travelers"
+#~ msgstr "Utazók"
+
+#~ msgid "Departure Time"
+#~ msgstr "Dátum időtartománya"
+
+#~ msgid ""
+#~ "Cancellation and prepayment policies vary according to accommodation "
+#~ "type. Please check what <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">conditions</a> may apply to each option when making your "
+#~ "selection."
+#~ msgstr ""
+#~ "A lemondási és előtörlesztési feltételek a szállás típusától függően "
+#~ "változnak. Kérjük, a <a rel=\".bficontainerexperiencebox\" class=\"bfi-"
+#~ "btn-calc\">kiválasztás során</a> ellenőrizze, hogy milyen feltételek "
+#~ "vonatkozhatnak az egyes opciókra."
+
+#~ msgid "Min age"
+#~ msgstr "Min kor"
+
+#, fuzzy
+#~ msgid "We recommend"
+#~ msgstr "Javasoljuk"
+
+#~ msgid "Request for Information"
+#~ msgstr "Információkérés"
+
+#~ msgid "Good to know"
+#~ msgstr "Jó tudni"
+
+#, fuzzy
+#~ msgid "Riconsegna nella stessa località"
+#~ msgstr "Riconsegna nella stessa località"
+
+#, fuzzy
+#~ msgid "Riconsegna in un'altra località"
+#~ msgstr "Riconsegna az un'altra località"
+
+#, fuzzy
+#~ msgid "Un giorno"
+#~ msgstr "Un giorno között"
+
+#, fuzzy
+#~ msgid "Più giorni"
+#~ msgstr "Più giorni"
+
+#~ msgid "Categories"
+#~ msgstr "Kategóriák"
+
+#~ msgid "Autentication Mode"
+#~ msgstr "Autentication mód"
+
+#~ msgid "Cities"
+#~ msgstr "Városok"
+
+#~ msgid "Merchant category filter"
+#~ msgstr "Kereskedelmi kategória szűrő"
+
+#~ msgid "Merchant Rating filter"
+#~ msgstr "Kereskedelmi minősítés szűrő"
+
+#~ msgid "Merchant list pages"
+#~ msgstr "Kereskedői lista lapok"
+
+#~ msgid "Merchant list page"
+#~ msgstr "Bankkártya-elfogadói listáján"
+
+#~ msgctxt "Admin menu name"
+#~ msgid "Merchant list"
+#~ msgstr "Kereskedői lista"
+
+#~ msgid "Add Merchant list page"
+#~ msgstr "Add hozzá a kereskedő listája oldalon"
+
+#~ msgid "Add New Merchant list page"
+#~ msgstr "Add hozzá új kereskedő-lista oldal"
+
+#~ msgid "Edit Merchant list page"
+#~ msgstr "Kereskedő-lista oldal szerkesztése"
+
+#~ msgid "New Merchant list page"
+#~ msgstr "Új kereskedő-lista oldal"
+
+#~ msgid "View Merchant list page"
+#~ msgstr "Nézd kereskedő listája oldalon"
+
+#~ msgid "Search Merchant list page"
+#~ msgstr "Kereskedő lista keresőlap"
+
+#~ msgid "No Merchant list page found"
+#~ msgstr "Nem kereskedő listája oldalon található"
+
+#~ msgid "No Merchant list page found in trash"
+#~ msgstr "Nem található szemetet kereskedő-lista oldal"
+
+#~ msgid "Parent Merchant list page"
+#~ msgstr "Szülőoldal kereskedő listája"
+
+#~ msgid "Insert into Merchant list page"
+#~ msgstr "Helyezze be a kereskedő listája oldalon"
+
+#~ msgid "Uploaded to this Merchant list page"
+#~ msgstr "Feltöltött kereskedő lista oldal"
+
+#~ msgid "Filter Merchant list pages"
+#~ msgstr "Szűrő kereskedő oldalak listáját"
+
+#~ msgid "Merchant list pages navigation"
+#~ msgstr "Kereskedői lista oldalak navigáció"
+
+#~ msgid "This is where you can add new Merchant list page."
+#~ msgstr "Ez az, ahol felveheti új kereskedő-lista oldal."
