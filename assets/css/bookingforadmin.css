@@ -1,0 +1,117 @@
+﻿/*!
+ * Bookingfor v7 (http://www.bookingfor.com)
+ * Copyright Ipertrade Srl.
+ */
+ /*
+ * Tabs
+ */
+#bfiadminsetting {
+	border-bottom: 1px solid #aaa;
+	padding: 9px 15px 0 10px;
+	margin: 0;
+}
+#bfiadminsetting.ui-widget-content {
+	border: none;
+	background:none ;
+}
+#bfiadminsetting .bfi-tabs.ui-widget-header{
+	border: none;
+	background:none ;
+}
+#bfiadminsetting.ui-tabs .ui-tabs-panel{
+	border: 1px solid #aaa;
+}
+#bfiadminsetting li {
+	display: inline-block;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
+	padding: 0;
+	margin: 0 4px -1px;
+	background:none;
+	background-color: #e4e4e4;
+}
+
+#bfiadminsetting li:hover {
+	background-color: #f1f1f1 ;
+}
+
+#bfiadminsetting li.ui-tabs-active,
+#bfiadminsetting li.ui-tabs-active:hover {
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #f5f5f5;
+	background-color: #f1f1f1;
+}
+#bfiadminsetting li.ui-state-default,
+#bfiadminsetting li.ui-state-default:hover,
+#bfiadminsetting li.ui-state-default:focus,
+#bfiadminsetting li a,
+#bfiadminsetting li a:hover,
+#bfiadminsetting li a:focus
+{
+	outline:none;
+	box-shadow:none;
+}
+
+#bfiadminsetting li a {
+	padding: 6px 10px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #333;
+	text-decoration: none;
+}
+
+#bfiadminsetting li.ui-tabs-active a {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#bfiadminsetting li a:hover {
+	color: #000;
+}
+
+.bfi-badgeadmin {
+  display: inline-block;
+  padding: 2px 9px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #616161;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.bfi-table {
+	width: auto;
+	max-width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+.bfi-table > thead > tr > th, .bfi-table > tbody > tr > th, .bfi-table > tfoot > tr > th, .bfi-table > thead > tr > td, .bfi-table > tbody > tr > td, .bfi-table > tfoot > tr > td {
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.bfi-table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F9F9F9;
+}
+.bfi-table-bordered > thead > tr > th, .bfi-table-bordered > tbody > tr > th, .bfi-table-bordered > tfoot > tr > th, .bfi-table-bordered > thead > tr > td, .bfi-table-bordered > tbody > tr > td, .bfi-table-bordered > tfoot > tr > td {
+  border: 1px solid #E0E0E0;
+}
+
+.bfi-deprecated{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+}
