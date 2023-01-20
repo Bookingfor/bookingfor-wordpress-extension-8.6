@@ -21,7 +21,6 @@ $language = $GLOBALS['bfi_lang'];
 $languageForm ='';
 $base_url = get_site_url();
 $cultureCode = strtolower(substr($language, 0, 2));
-$portalinfo =  BFCHelper::getSubscriptionInfos();
 $layout = get_query_var( 'bfi_layout', '' );
 
 get_header();
@@ -33,7 +32,7 @@ do_action( 'bookingfor_before_main_content' );
 <?php 
 	switch ( $layout) {
 		case 'thanks' :
-			$orderid = 	BFCHelper::getVar('orderid');
+			$orderid = 	get_query_var( 'orderid', '' );
 ?>
 				<!-- widget -->
 				<div class="bookingforwidget" path="thanks" 
