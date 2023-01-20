@@ -340,77 +340,19 @@ final class BookingFor {
 
 	private function init_hooks() {
 		register_activation_hook(__FILE__,array( 'BFI_Install', 'install' ));
-//		add_action('init', function() {
-//				$regex = '^bfi-api/v1/(/[^/]*)?$';
-//				$location = 'index.php?_api_controller=$matches[1]';
-//				$priority = 'top';
-//				add_rewrite_rule( $regex, $location, $priority );
-//		});
 		add_action( 'admin_notices', array( $this, 'bfi_plugin_admin_notices' ) );
-//		//	REST API
-//			add_action( 'rest_api_init', function () {
-//			  register_rest_route( 'bookingfor/v1', 'searchbytext', array(
-//				'methods' => 'GET',
-//				'callback' => 'BFI_Controller::SearchByText',
-////				'args' => array(
-////				  'term' => array(
-////					'validate_callback' => function($param, $request, $key) {
-////					  return is_numeric( $param );
-////					}
-////				  ),
-////				),
-//			  ) );
-//			} );
 		add_action('parse_request', array($this, 'sniff_requests'), 0);
-//		add_action('parse_request', array($this, 'bfi_change_currency'), 0);
 		add_action( 'after_setup_theme', array( $this, 'include_template_functions' ), 11 );
-//		add_action( 'init', array( $this, 'bfi_StartSession' ), 0 );
 		add_action( 'init', array( $this, 'init' ), 0 );
 		add_action( 'init', array( 'bfi_Shortcodes', 'init' ) );
-//		add_action( 'wp_logout', array( $this, 'bfi_EndSession' ) );
 		if ( $this->is_request( 'frontend' ) ) {
 
 			/* nuova sezione */
 			wp_enqueue_script("jquery");
-//			wp_enqueue_style('wp-jquery-ui-dialog');
-//			wp_enqueue_script('jquery-ui-accordion');
-//			wp_enqueue_style('jquery-ui-style', plugins_url( 'assets/jquery-ui/themes/smoothness/jquery-ui.min.css', __FILE__ ),array(),$this->version,'all');
-			// script 
-			
-//			wp_enqueue_script('validate', plugins_url( 'assets/js/jquery-validation/jquery.validate.min.js', __FILE__ ),array(),$this->version);
-//			wp_enqueue_script('validateadditional', plugins_url( 'assets/js/jquery-validation/additional-methods.min.js', __FILE__ ),array(),$this->version);
-//			wp_enqueue_script('validateadditionalcustom', plugins_url( 'assets/js/jquery.validate.additional-custom-methods.js', __FILE__ ),array(),$this->version,true);
 			add_action ( 'wp_head', array( $this , 'bfi_js_variables_overrides' ) );
 			/* end nuova sezione */
 
 
-//			add_action( 'wp_enqueue_scripts', array( $this , 'bfi_load_scripts' ) ,1 ); // spostata priorità altrimenti sovrascrive template
-//			add_action( 'wp_enqueue_scripts', array( $this , 'bfi_load_scripts_locale' ) );
-//			add_action ( 'wp_head', array( $this , 'bfi_js_variables' ) );
-			//remove canonical 
-
-//			add_filter( 'wpseo_canonical', '__return_false' );
-
-		
-//			add_filter( 'wpseo_canonical', '__return_false' );
-//			$pages = array();                                             
-//			$pages[] = 'merchantdetails';
-//			$pages[] = 'resourcedetails';
-//			$pages[] = 'experiencedetails';
-//			$pages[] = 'resourcegroupdetails';
-//			$pages[] = 'cartdetails';
-//			$pages[] = 'eventdetails';
-//			$pages[] = 'pointsofinterestdetails';       
-//			$pages[] = 'onselldetails';
-//			$pages[] = 'payment';
-//			$page_id = get_the_ID();
-//			foreach ($pages as $page) {
-//				if (bfi_get_page_id( $page ) == $page_id) {
-//					add_filter( 'wpseo_canonical', '__return_false' );
-//					break;
-//				}
-//			}
-//		
 		
 		}
 		if ( $this->is_request( 'admin' ) ) {
@@ -421,14 +363,6 @@ final class BookingFor {
 			}
 		}
 
-//		register_activation_hook( __FILE__, array( 'BFI_Install', 'install' ) );
-//		add_action( 'after_setup_theme', array( $this, 'setup_environment' ) );
-//		add_action( 'after_setup_theme', array( $this, 'include_template_functions' ), 11 );
-//		add_action( 'init', array( $this, 'init' ), 0 );
-//		add_action( 'init', array( 'bfi_Shortcodes', 'init' ) );
-//		add_action( 'init', array( 'BFI_Emails', 'init_transactional_emails' ) );
-//		add_action( 'init', array( $this, 'wpdb_table_fix' ), 0 );
-//		add_action( 'switch_blog', array( $this, 'wpdb_table_fix' ), 0 );
 	}
 
 
@@ -446,11 +380,6 @@ final class BookingFor {
 	public function sniff_requests(){ 
 		
 		global $wp; 
-//		echo "<pre>sniff_requests --";
-//		echo $wp->query_vars['_api_controller'];
-//		echo $_REQUEST['prova'] ;
-
-//		echo "</pre>";
 		if(isset($wp->query_vars['_api_controller'])){ 
 			include_once( 'includes/BFCHelper.php' );
 			include_once( 'includes/wsQueryHelper.php' );
@@ -462,23 +391,6 @@ final class BookingFor {
 		} 
 	} 
 
-//	public function bfi_change_currency(){ 
-//		
-//		global $wp; 
-//		if(isset($_REQUEST['bfiselectedcurrency'])){ 
-//			bfi_set_currentCurrency($_REQUEST['bfiselectedcurrency']);
-//		} 
-//	} 
-
-//	public static function bfi_StartSession() {
-//		if(!session_id()) {
-////			  ini_set('session.save_handler', 'files'); 
-//			session_start();
-//		}
-//	}
-//	public static function bfi_EndSession() {
-//		session_destroy();
-//	}
 
 	public static function define( $name, $value ) {
 		if ( ! defined( $name ) ) {
@@ -505,20 +417,13 @@ final class BookingFor {
 		include_once( 'includes/class-bfi-cache.php' );
 		if ( $this->is_request( 'frontend' ) ) {
 			$this->frontend_includes();
-//			$this->bfi_load_scripts();			
 		}
 		if ( $this->is_request( 'admin' ) ) {
 			$this->bfi_load_admin_scripts();			
 			include_once( 'includes/admin/class-bfi-admin.php' );
-//			include_once('includes/model/merchants.php' );
-//			include_once('includes/model/resources.php' );
 			include_once('includes/model/experience.php' );
 			include_once('includes/model/portal.php' );
 			include_once('includes/model/tag.php');
-//			include_once('includes/model/events.php');
-//			include_once('includes/model/pointsofinterests.php');
-//			include_once('includes/model/onsellunits.php' );
-//			include_once('includes/model/offers.php' );
 		}
 		include_once( 'includes/class-bfi-query.php' ); // The main query class
 		include_once( 'includes/class-bfi-shortcodes.php' );                     // Shortcodes class
@@ -533,33 +438,16 @@ final class BookingFor {
 		include_once( 'includes/bfi-template-hooks.php' );
 		include_once( 'includes/class-bfi-template-loader.php' );                // Template Loader
 		include_once( 'includes/SimpleDOM.php' );
-//		include_once( 'includes/model/criteo.php' );
-//		include_once('includes/model/services.php' );
-//		include_once('includes/model/search.php' );
 		include_once('includes/model/experience.php' );
 		include_once('includes/model/resource.php' );
-//		include_once('includes/model/resources.php' );
 		include_once('includes/model/resourcegroup.php' );
-//		include_once('includes/model/ratings.php' );
 		include_once('includes/model/portal.php' );
-//		include_once('includes/model/payment.php' );
-//		include_once('includes/model/orders.php' );
-//		include_once('includes/model/merchants.php' );
 		include_once('includes/model/merchantdetails.php' );
-//		include_once('includes/model/inforequest.php' );
 		include_once('includes/model/onsellunit.php' );
-//		include_once('includes/model/onsellunits.php' );
-//		include_once('includes/model/searchonsell.php' );
 		include_once('includes/model/tag.php');
 		include_once('includes/model/event.php');
-//		include_once('includes/model/events.php');
-//		include_once('includes/model/searchevents.php' );
-//		include_once('includes/model/searchpackages.php' );
 		include_once('includes/model/package.php' );
-//		include_once('includes/model/searchmapsells.php' );
-//		include_once('includes/model/pointsofinterests.php');
 		include_once('includes/model/pointsofinterest.php');
-//		include_once('includes/model/offers.php' );
 	}
 
 
@@ -568,29 +456,24 @@ final class BookingFor {
 		wp_enqueue_script("jquery-effects-core");
 		wp_enqueue_script('jquery-ui-core');
 		wp_enqueue_script('jquery-ui-tabs');
-//		wp_enqueue_style( 'bf_admin_css', plugins_url( 'assets/css/basic.css', __FILE__ ));
 		wp_enqueue_style('jquery-ui-style', plugins_url( 'assets/jquery-ui/themes/smoothness/jquery-ui.min.css', __FILE__ ),array(),$this->version,'all');
-//		wp_enqueue_style('bookingfor_styles', plugins_url( 'assets/css/bookingfor.css', __FILE__ ),array(),$this->version,'all');
 		wp_enqueue_style('bookingfor_admin_styles', plugins_url( 'assets/css/bookingforadmin.css', __FILE__ ),array(),$this->version,'all');
 		
 		wp_enqueue_script('admin_select2_js', plugins_url( 'assets/js/select2/js/select2.min.js', __FILE__ ), array('jquery'));
 		wp_enqueue_style('admin_select2_css', plugins_url( 'assets/js/select2/css/select2.min.css', __FILE__ ),array(),$this->version,'all');
 		wp_enqueue_script('bf_admin', plugins_url( 'assets/js/bf_admin.js', __FILE__ ),array(),$this->version);
-//		wp_enqueue_style('timepicker_theme_css', BFI()->plugin_url() . '/assets/js/jquery-timepicker/jquery.timepicker.css' );
-//		wp_enqueue_script('timepicker_js', BFI()->plugin_url() . '/assets/js/jquery-timepicker/jquery.timepicker.js', array('jquery'));
 	}
 	
 		public function bfi_js_variables_overrides(){
 		$url_cart_page = BFCHelper::GetPageUrl('cartdetails');
+		$subscriptionkey = COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY;
+		if (COM_BOOKINGFORCONNECTOR_ENABLE_SUBSCRIPTION_TEST) {
+			$subscriptionkey = COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY_DEMO;
+		}
 
 		if(COM_BOOKINGFORCONNECTOR_USESSL){
 			$url_cart_page = str_replace( 'http:', 'https:', $url_cart_page );
 		}
-//		$currUser = BFCHelper::getSession('bfiUser',null, 'bfi-User');
-//		$userLogged = false;
-//		if ($currUser!=null && !empty($currUser->Email)) {
-//			$userLogged = true;
-//		}
 		
 		?>
 	  <script type="text/javascript">
@@ -615,29 +498,20 @@ final class BookingFor {
 		<!-- Bookingfor Implementation -->
 			<script>if (!window.bookingfor) { var s = document.createElement('script');
 				s.src = '<?php echo COM_BOOKINGFORCONNECTOR_IMGURL_CDN ?><?php echo COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY ?>/scripts/<?php echo COM_BOOKINGFORCONNECTOR_SETTING_KEY ?>_settings.js';
-//				s.src = 'http://localhost:8080/testspiaggia2/scriptsshadow/test_settings.js';
-//				s.src = 'http://localhost:8080/testspiaggia2/scripts/test_settings.js';
-				s.type = 'text/javascript'; document.getElementsByTagName('head')[0].appendChild(s); } </script>
+				s.type = 'text/javascript'; document.getElementsByTagName('head')[0].appendChild(s); 
+				s.onload = function() {
+					bfi_variables.bfi_baseurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com';
+					bfi_variables.bfi_paymenturl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}/payment/{2}/{3}';
+					bfi_variables.bfi_loginurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}';
+					bfi_variables.bfi_service = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/modules/bookingfor/services/bookingservice.svc/';
+				};
+				} 
+			</script>
 		<!-- End Bookingfor Implementation -->
 		<?php
 		$_SESSION['bfi_started'] = "0";
 	}
 
-//	public function bfi_load_scripts_locale(){
-//		$bfi_variable = array( 
-//			'bfi_urlCheck' =>  get_site_url() .'/bfi-api/v1/task',
-//			'bfi_cultureCode' => $this->language,
-//			'bfi_defaultcultureCode' => 'en-gb',
-//			'defaultCurrency' => bfi_get_defaultCurrency(),
-//			'currentCurrency' => bfi_get_currentCurrency(),
-//			'CurrencyExchanges' => BFCHelper::getCurrencyExchanges(),
-//			'bfi_defaultdisplay'=>COM_BOOKINGFORCONNECTOR_DEFAULTDISPLAYLIST,
-//			);
-//		wp_localize_script( 'bfi', 'bfi_variable', $bfi_variable );
-//		if(substr($this->language,0,2)!='en'){
-////			wp_enqueue_script('jquery-ui-datepicker_locale',plugins_url( 'assets/jquery-ui/i18n/datepicker-' . substr($this->language,0,2) . '.js', __FILE__ ));
-//		}
-//	}
 
 	public function seoUrl($string) {
 		// remove last space..
@@ -663,46 +537,6 @@ final class BookingFor {
 		return false;
 	}
 
-//	public function isMerchantPage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'merchantdetails' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
-//	public function isResourcegroupPage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'resourcegroupdetails' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
-//	public function isResourcePage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'accommodationdetails' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
-//	public function isExperiencePage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'experiencedetails' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
-//	public function isResourceOnSellPage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'onselldetails' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
 	public function isSearchPage(){
 		global $post;
 		$currdetails_page_id = bfi_get_template_page_id( 'searchavailability' );
@@ -711,14 +545,6 @@ final class BookingFor {
 		}
 		return false;
 	}
-//	public function isSearchPackagesPage(){
-//		global $post;
-//		$currdetails_page_id = bfi_get_template_page_id( 'searchpackages' );
-//		if (!empty($post) &&  $post->ID == $currdetails_page_id ){
-//			return true;
-//		}
-//		return false;
-//	}
 	public function isSearchEventsPage(){
 		global $post;
 		$currdetails_page_id = bfi_get_template_page_id( 'searchevents' );
