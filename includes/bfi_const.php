@@ -1,6 +1,6 @@
 <?php
-$key='bibionedemo';
-$apikey='MGI2MjViMmUtZWEzOS00YmY2LThjZjMtZWVjNThhYjA1YjUzOkFKR3ZoNjltSDVhdFgwZjh6bDRrZVBvcnV0TnZ2aHUzWEhtQWpRWmN5YkZiRnM1aDVYZFhQSWVpNFhDNDEra0tuZz09';
-$label='bibione.com';
+$key='marscache';
+$apikey='MTdhZDNhM2YtMGY5Ny00YmZmLWFkYjYtY2VmMTNiMTA2YmY4OkFDbnQ0SW5kK1VpMDhTVkxsUUxhY3ZpU3cvOHVsaTF4L3ZmRUswV1g3emUyQ0pTRE1WZ0pBcUdZOUxuVWtISzQ5UT09';
+$label='wordpress.bookingfor.com';
 
 ?>

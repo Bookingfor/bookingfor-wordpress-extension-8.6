@@ -362,7 +362,6 @@ final class BookingFor {
 
 			}
 		}
-
 	}
 
 
@@ -386,11 +385,9 @@ final class BookingFor {
 			include_once( 'includes/api/class-bfi-controller.php' );
 			$bfi_api = new BFI_Controller;
 			$bfi_api->handle_request();
-//			die();
 			exit; 
 		} 
 	} 
-
 
 	public static function define( $name, $value ) {
 		if ( ! defined( $name ) ) {
@@ -504,6 +501,7 @@ final class BookingFor {
 					bfi_variables.bfi_paymenturl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}/payment/{2}/{3}';
 					bfi_variables.bfi_loginurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}';
 					bfi_variables.bfi_service = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/modules/bookingfor/services/bookingservice.svc/';
+					bfi_variables_overrides.urltarget = "_blank";
 				};
 				} 
 			</script>
@@ -511,7 +509,6 @@ final class BookingFor {
 		<?php
 		$_SESSION['bfi_started'] = "0";
 	}
-
 
 	public function seoUrl($string) {
 		// remove last space..
@@ -614,11 +611,8 @@ final class BookingFor {
 
 	public function init() {
 		do_action( 'before_bookingfor_init' );
-
-
 		// Set up localisation.
 		$this->load_plugin_textdomain();
-		
 		// Init action.
 		do_action( 'bookingfor_init' );
 	}
@@ -626,7 +620,6 @@ final class BookingFor {
 
 	function load_plugin_textdomain() {
 		$locale = apply_filters( 'plugin_locale', get_locale(), 'bookingfor' );
-//		$l = get_locale();
 		if(defined('ICL_LANGUAGE_CODE')){
 			$locale =ICL_LANGUAGE_CODE;
 		}

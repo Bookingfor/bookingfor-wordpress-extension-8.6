@@ -117,6 +117,12 @@ BFI()->define( "DONOTCACHEPAGE", true ); // Do not cache this page
 					}
 					/* microformat */
 					add_action( 'wpseo_head', function() use ($payloadresource) { bfi_add_json_ld( $payloadresource ); } , 30);
+					add_filter( 'wpseo_schema_webpage', function( $data) use ($titleHead,$canonicalUrl) {
+										 $data["name"] = $titleHead;
+										 $data["url"] = $canonicalUrl;
+										 $data["@id"] = $canonicalUrl;
+										return	$data;
+								} );
 		}else{
 			add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
 			add_action( 'wp_head', function() use ($keywordsHead) {return bfi_add_meta_keywords($keywordsHead); }, 10, 1);
@@ -137,6 +143,12 @@ BFI()->define( "DONOTCACHEPAGE", true ); // Do not cache this page
 	/*--------------- END IMPOSTAZIONI SEO----------------------*/
 	get_header( 'packagesdetails' );
 	do_action( 'bookingfor_before_main_content' );
+if (COM_BOOKINGFORCONNECTOR_ISBOT) {
+?>
+<h1><?php echo $resourceName ?></h1>
+<p><?php echo $seoDescr ?></p>
+<?php 
+}
 ?>
 <bfi-page class="bfi-page-container bfi-packagesdetails-page ">
 	<div class="bfi_page_container">

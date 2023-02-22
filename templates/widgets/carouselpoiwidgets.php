@@ -35,8 +35,7 @@ if (!empty( $before_widget )) {
 	}
 }
 ?>
-<div id="<?php echo $carouselid; ?>" class="bookingfor_carousel bficarouselpoi
-"
+<div id="<?php echo $carouselid; ?>" class="bookingfor_carousel bficarouselpoi"
     data-tags="<?php echo implode(',', $tags) ?>"
     data-descmaxchars="<?php echo$descmaxchars ?>"
     data-cols="<?php echo $cols ?>"

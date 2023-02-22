@@ -97,7 +97,34 @@ function form($instance) {
 			$options[$tag->TagId] = $tag->Name;
 		}
 	}
+	$newcodeid = uniqid("newcode");
 	?>
+		<p class="bfi-deprecated">
+			<?php _e('These features have been deprecated. This means they are no longer supported and will be removed in the next version', 'bfi') ?>
+		</p>
+		<p>
+			aggiungere widget HTML con il seguente codice:
+			<textarea id="<?php echo $newcodeid ?>" style="width:100%; min-height: 150px;" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'>
+<div class="bookingfor_carousel bficarouselpoi"
+    data-tags="<?php echo implode(',', $tags) ?>"
+    data-descmaxchars="<?php echo$descmaxchars ?>"
+    data-cols="<?php echo $cols ?>"
+    data-theme="<?php echo $theme ?>"
+    data-maxitems="<?php echo $maxitems ?>"
+    data-details="<?php _e('Details', 'bfi') ?>"></div>
+			</textarea>
+			<script type="text/javascript">
+window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+}, 1);	
+jQuery("#<?php echo $newcodeid ?>").on( 'visibility', function() {
+	window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+	}, 100);
+});
+	</script>
+
+		</p>
 	<p>
 		<label class="bfi-select2" for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'wp_widget_plugin'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
@@ -178,7 +205,7 @@ function form($instance) {
 		$title = apply_filters('widget_title', $instance['title']);
 		$args["title"] =  $title;
 		$args["instance"] =  $instance;
-		bfi_get_template("widgets/carouselpoi.php",$args);	
+		bfi_get_template("widgets/carouselpoiwidgets.php",$args);	
 	}
 				
 

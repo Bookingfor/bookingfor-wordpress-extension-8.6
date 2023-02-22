@@ -1000,6 +1000,13 @@ if ( ! class_exists( 'BFCHelper' ) ) {
 				return utf8_encode($d);
 			return $d;
 		}
+
+		public static function getResourcesbyIdMerchant($start, $limit, $merchantId = NULL, $parentId = NULL) {
+		  $model = new BookingForConnectorModelMerchantDetails;
+			return $model->getMerchantResourcesFromSearch($start, $limit, $merchantId, $parentId);
+		}
+
+
 //----------------------------------
 //	country functions
 //----------------------------------

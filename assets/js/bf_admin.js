@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 	});
 
 	jQuery(".bfi-select2").each(function() {
-		console.log(".bfi-select2 each");
+//		console.log(".bfi-select2 each");
 		currForm = jQuery(jQuery(this)).closest("form");
 		bfi_adminselect2Init(currForm);
 	});

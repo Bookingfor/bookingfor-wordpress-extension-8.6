@@ -168,10 +168,39 @@ if ( ! class_exists( 'BFI_Widget_Booking_Search_Slot' ) ) {
 			$instance[ 'title' ] = $this->number ;
 		}
 
+		$newcodeid = uniqid("newcode");
 		?>
 		<p class="bfi-deprecated">
 			<?php _e('These features have been deprecated. This means they are no longer supported and will be removed in the next version', 'bfi') ?>
 		</p>
+		<p>
+			aggiungere widget HTML con il seguente codice:
+			<textarea id="<?php echo $newcodeid ?>" style="width:100%; min-height: 150px;" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'>
+<div class="bookingforwidget bfisearchgenericservices"
+	data-direction="<?php echo $showdirection?"1":"0"; ?>"
+	data-languages="<?php echo substr($language,0,2) ?>"
+	data-showperson="<?php echo $showPerson ?>"
+	data-groupresulttype="<?php echo implode("",$groupBySelected) ?>"
+	data-merchantcategories="<?php echo (!empty($merchantCategoriesSelected)?implode(",",$merchantCategoriesSelected):"") ?>"
+	data-resourcescategories="<?php echo (!empty($unitCategoriesSelected)?implode(",",$unitCategoriesSelected):"") ?>"
+	data-producttagids="<?php echo $productTagIds ?>"
+	data-showaccomodations="<?php echo $showAccomodations ?>"
+	data-showvariationcodes="<?php echo $showVariationCodes ?>"
+></div>	
+			</textarea>
+			<script type="text/javascript">
+window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+}, 1);	
+jQuery("#<?php echo $newcodeid ?>").on( 'visibility', function() {
+	window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+	}, 100);
+});
+	</script>
+
+		</p>
+
 		<?php 
 		if ($this->number=="__i__"){
 			//echo "<p><strong>Widget ID is</strong>: Please save the widget</p>"   ;
@@ -180,7 +209,7 @@ if ( ! class_exists( 'BFI_Widget_Booking_Search_Slot' ) ) {
 		ID: <b><?php echo $this->widget_id ?>-<?php echo $this->number ?></b>
 		<?php }  ?>
 		<p>
-		<label class="bfitabmoretab" for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'wp_widget_plugin'); ?></label>
+		<label class="bfi-select2" for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'wp_widget_plugin'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo ($instance)?esc_attr($instance['title']):''; ?>" />
 		</p>
 		<p class="">

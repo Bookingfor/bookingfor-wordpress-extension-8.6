@@ -882,7 +882,6 @@ class bfi_Shortcodes {
 				$category = bfi_TagsScope::Poi;
 				break;
 		}
-		if(($item->SelectionCategory & $category) ) {
 			ob_start();
 
 			$showGrouped = 0;
@@ -901,7 +900,7 @@ class bfi_Shortcodes {
 			data-cityids=""
 			data-zoneIds=""
 			data-tags="<?php echo $tags ?>"
-			data-onlylist = "0"
+			data-onlylist = "true"
 			data-languages = "<?php echo substr($language,0,2) ?>"
 			>
 			<div id="bficontainer" class="bfi-loader"></div>
@@ -982,7 +981,6 @@ class bfi_Shortcodes {
 
 					break;
 			}
-		}
 
 		$output =  ob_get_clean();
 		if (COM_BOOKINGFORCONNECTOR_ISBOT) {

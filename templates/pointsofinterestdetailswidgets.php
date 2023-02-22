@@ -24,6 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$resourceName = BFCHelper::getLanguage($resource->Name, $language, null, array('nobr'=>'nobr', 'striptags'=>'striptags')); 
 		$seoDescr = !empty($resource->SEODescription)?$resource->SEODescription:$resource->Description;
 		$resourceDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
+		$resourceDescriptionBot = BFCHelper::getLanguage($resource->Description, $language, null, array( 'striptags'=>'striptags', 'bbcode'=>'bbcode','ln2br'=>'ln2br')) ;
 		if (!empty($resourceDescriptionSeo) && strlen($resourceDescriptionSeo) > 160) {
 			$resourceDescriptionSeo = substr($resourceDescriptionSeo,0,160);
 		}
@@ -115,7 +116,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						function add_images( $object ) {
 						  $object->add_image( COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE );
 						}
-						add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	"https:".BFCHelper::getImageUrlResized('poi',$resource->DefaultImg, 'medium');} );
+						add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	BFCHelper::getImageUrlResized('poi',$resource->DefaultImg, 'big');} );
 					}
 					/* microformat */
 					add_action( 'wpseo_head', function() use ($payloadresource) { bfi_add_json_ld( $payloadresource ); } , 30);
@@ -133,12 +134,33 @@ if ( ! defined( 'ABSPATH' ) ) {
 			add_action( 'wp_head', function() use ($resourceDescriptionSeo) {return bfi_add_opengraph_desc($resourceDescriptionSeo); } , 10, 1 );
 			add_action( 'wp_head', function() use ($canonicalUrl) {return bfi_add_opengraph_url($canonicalUrl); }, 10, 1);
 			if (!empty($resource->DefaultImg)){
-				add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image("https:".BFCHelper::getImageUrlResized('poi',$resource->DefaultImg, 'medium')); }, 10, 1);
+				add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image(BFCHelper::getImageUrlResized('poi',$resource->DefaultImg, 'big')); }, 10, 1);
 			}
 		}
 	/*--------------- END IMPOSTAZIONI SEO----------------------*/
 	get_header( 'pointsofinterestdetails' );
 	do_action( 'bookingfor_before_main_content' );
+
+if (COM_BOOKINGFORCONNECTOR_ISBOT) {
+?>
+<h1><?php echo $resourceName ?></h1> 
+<span class="street-address"><?php echo $indirizzo ?></span>, <span class="postal-code "><?php echo  $cap ?></span> <span class="locality"><?php echo $comune ?></span>, <span class="region"><?php echo  $stato ?></span>
+<p><?php echo $resourceDescriptionBot ?></p>
+<?php  
+			$bfiSourceData = 'poi';
+			$bfiImageData = null;
+			$bfiVideoData = null;
+			if(!empty($resource->ImageData)) {
+				$bfiImageData = $resource->ImageData;
+			}
+			if(!empty($resource->VideoData)) {
+				$bfiVideoData = $resource->VideoData;
+			}
+		bfi_get_template("shared/gallery_type2.php",array("merchant"=>null,"bfiSourceData"=>$bfiSourceData,"bfiImageData"=>$bfiImageData,"bfiVideoData"=>$bfiVideoData));	
+?>
+
+<?php 
+}
 ?>
 <bfi-page class="bfi-page-container bfi-pointsofinterestdetails-page ">
 	<div class="bfi-page-container">

@@ -42,8 +42,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 /*---------------IMPOSTAZIONI SEO----------------------*/
 	$seoDescr = !empty($resource->SEODescription)?$resource->SEODescription:$resource->Description;
 	$seoMerchantDescr = !empty($merchant->SEODescription)?$merchant->SEODescription:$merchant->Description;
-	$merchantDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
-	$resourceDescriptionSeo = BFCHelper::getLanguage($seoMerchantDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
+	$resourceDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
+	$resourceDescriptionBot = BFCHelper::getLanguage($resource->Description, $language, null, array( 'striptags'=>'striptags', 'bbcode'=>'bbcode','ln2br'=>'ln2br')) ;
+	$merchantDescriptionSeo = BFCHelper::getLanguage($seoMerchantDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
 	if (!empty($merchantDescriptionSeo) && strlen($merchantDescriptionSeo) > 160) {
 	    $merchantDescriptionSeo = substr($merchantDescriptionSeo,0,160);
 	}
@@ -106,7 +107,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					function add_images( $object ) {
 					  $object->add_image( COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE );
 					}
-					add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	"https:".BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logobig');});
+					add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big');});
 				}
 	}else{
 		add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
@@ -123,23 +124,42 @@ if ( ! defined( 'ABSPATH' ) ) {
 		add_action( 'wp_head', function() use ($resourceDescriptionSeo) {return bfi_add_opengraph_desc($resourceDescriptionSeo); } , 10, 1 );
 		add_action( 'wp_head', function() use ($canonicalUrl) {return bfi_add_opengraph_url($canonicalUrl); }, 10, 1);
 		if (!empty($resource->ImageUrl)){
-			add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image("https:".BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logobig')); }, 10, 1);
+			add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image(BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big')); }, 10, 1);
 		}
 	}
 
 
 	get_header( 'experiencedetails' );
 	do_action( 'bookingfor_before_main_content' );
+if (COM_BOOKINGFORCONNECTOR_ISBOT) {
 ?>
-<bfi-page class="bfi-page-container bfi-experience-page ">
-	<div class="bfi_page_container">
+<h1><?php echo $resourceName ?></h1> 
+<h2><?php echo  $merchantName?></h2>
+<span class="street-address"><?php echo $indirizzo ?></span>, <span class="postal-code "><?php echo  $cap ?></span> <span class="locality"><?php echo $comune ?></span>, <span class="region"><?php echo  $stato ?></span>
+<p><?php echo $resourceDescriptionBot ?></p>
+<?php  
+		$bfiSourceData = 'resources';
+		$bfiImageData = null;
+		$bfiVideoData = null;
+		if(!empty($resource->ImageData)) {
+			$bfiImageData = $resource->ImageData;
+		}
+		if(!empty($resource->VideoData)) {
+			$bfiVideoData = $resource->VideoData;
+		}
+		bfi_get_template("shared/gallery_type2.php",array("merchant"=>$merchant,"bfiSourceData"=>$bfiSourceData,"bfiImageData"=>$bfiImageData,"bfiVideoData"=>$bfiVideoData));	
+?>
+
+<?php 
+}
+?>
+	<div class="bfi_page_container bfi-experience-page ">
 		<div class="bookingforwidget" path="experience" 
 			data-Id="<?php echo $resource_id ?>"
 			data-languages="<?php echo substr($language,0,2) ?>">
 			<div id="bficontainer" class="bfi-loader"></div>
 		</div>
 	</div>
-</bfi-page>
 <!-- widget END -->
 	<?php
 		do_action( 'bookingfor_after_main_content' );

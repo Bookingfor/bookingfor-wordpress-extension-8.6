@@ -131,7 +131,7 @@ if ( ! class_exists( 'BFI_Widget_Booking_Search_Packages' ) ) {
 		<?php }  ?>
 
 		<p>
-		<label class="bfitabmoretab" for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'wp_widget_plugin'); ?></label>
+		<label class="bfi-select2" for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'wp_widget_plugin'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo ($instance)?esc_attr($instance['title']):''; ?>" />
 		</p>
 		<p class="">

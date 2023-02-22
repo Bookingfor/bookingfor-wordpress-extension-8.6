@@ -24,6 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$resourceName = BFCHelper::getLanguage($resource->Name, $language, null, array('nobr'=>'nobr', 'striptags'=>'striptags')); 
 		$seoDescr = !empty($resource->SEODescription)?$resource->SEODescription:$resource->ShortDescription;
 		$resourceDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
+		$resourceDescriptionBot = BFCHelper::getLanguage($resource->Description, $language, null, array( 'striptags'=>'striptags', 'bbcode'=>'bbcode','ln2br'=>'ln2br')) ;
 		if(empty( $resourceDescriptionSeo )){
 			$resourceDescriptionSeo = BFCHelper::getLanguage($resource->Description, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
 		}
@@ -130,9 +131,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 						function add_images( $object ) {
 						  $object->add_image( COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE );
 						}
-						add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	"https:".BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big');} );
+						add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big');} );
 						add_action( 'wp_head', function() use ($resource) {
-							$image['secure_url'] = "https:".BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big');
+							$image['secure_url'] = BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big');
 							$image['mime-type'] = 'image/jpeg';
 							$image['width'] = 820;
 							$image['height'] = 460;
@@ -140,6 +141,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 						}, 1);
 
 					}
+				add_filter( 'wpseo_schema_webpage', function( $data) use ($titleHead,$canonicalUrl) {
+									 $data["name"] = $titleHead;
+									 $data["url"] = $canonicalUrl;
+									 $data["@id"] = $canonicalUrl;
+									return	$data;
+							} );
 
 		}else{
 			add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
@@ -155,7 +162,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			add_action( 'wp_head', function() use ($resourceDescriptionSeo) {return bfi_add_opengraph_desc($resourceDescriptionSeo); } , 10, 1 );
 			add_action( 'wp_head', function() use ($canonicalUrl) {return bfi_add_opengraph_url($canonicalUrl); }, 10, 1);
 			if (!empty($resource->DefaultImg)){
-				add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image("https:".BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big')); }, 10, 1);
+				add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image(BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big')); }, 10, 1);
 			}
 		}
 	/*--------------- END IMPOSTAZIONI SEO----------------------*/
@@ -166,12 +173,30 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	get_header( 'eventdetails' );
 	do_action( 'bookingfor_before_main_content' );
+if (COM_BOOKINGFORCONNECTOR_ISBOT) {
+?>
+<h1><?php echo $resourceName ?></h1> 
+<span class="street-address"><?php echo $indirizzo ?></span>, <span class="postal-code "><?php echo  $cap ?></span> <span class="locality"><?php echo $comune ?></span>, <span class="region"><?php echo  $stato ?></span>
+<p><?php echo $resourceDescriptionBot ?></p>
+<?php  
+			$bfiSourceData = 'events';
+			$bfiImageData = null;
+			$bfiVideoData = null;
+			if(!empty($resource->ImageData)) {
+				$bfiImageData = $resource->ImageData;
+			}
+			if(!empty($resource->VideoData)) {
+				$bfiVideoData = $resource->VideoData;
+			}
+			bfi_get_template("shared/gallery_type2.php",array("merchant"=>null,"bfiSourceData"=>$bfiSourceData,"bfiImageData"=>$bfiImageData,"bfiVideoData"=>$bfiVideoData));	
+?>
 
+<?php 
+}
 ?>
 <bfi-page class="bfi-page-container bfi-eventdetails-page ">
 	<div class="bfi-page-container ">
-		<div class="bookingforwidget" path="event" 
-		 data-layout="1"
+		<div class="bookingforwidget" path="eventdetails" 
 			data-Id="<?php echo $resource_id ?>"
 			data-languages="<?php echo substr($language,0,2) ?>">
 			<div id="bficontainer" class="bfi-loader"></div>

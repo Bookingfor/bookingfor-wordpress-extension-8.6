@@ -52,10 +52,37 @@ if ( ! class_exists( 'BFI_Widget_Search_MapSells' ) ) {
 					$instance[ 'title' ] = $this->number ;
 				}
 
+			$newcodeid = uniqid("newcode");
 			?>
 				<p class="bfi-deprecated">
 					<?php _e('These features have been deprecated. This means they are no longer supported and will be removed in the next version', 'bfi') ?>
 				</p>
+		<p>
+			aggiungere widget HTML con il seguente codice:
+			<textarea id="<?php echo $newcodeid ?>" style="width:100%; min-height: 150px;" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'>
+<div class="bookingforwidget bfisearchmapsells"
+	data-direction="<?php echo $showdirection?"1":"0"; ?>"
+	data-languages="<?php echo substr($language,0,2) ?>"
+	data-showperson="0"
+	data-groupresulttype="2"
+	data-merchantcategories=""
+	data-resourcescategories=""
+	data-showvariationcodes = "1"
+></div>			
+			</textarea>
+			<script type="text/javascript">
+window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+}, 1);	
+jQuery("#<?php echo $newcodeid ?>").on( 'visibility', function() {
+	window.setTimeout( function() {
+    jQuery("#<?php echo $newcodeid ?>").height( jQuery("#<?php echo $newcodeid ?>")[0].scrollHeight );
+	}, 100);
+});
+	</script>
+
+		</p>
+
 				<p class="">
 					<label class="checkbox"><input type="checkbox" name="<?php echo $this->get_field_name('showdirection'); ?>" value="1" <?php  echo ($showdirection=='1') ? 'checked="checked"' : ''; ?> /><?php _e('Displays horizontally', 'bfi'); ?></label>
 				</p>

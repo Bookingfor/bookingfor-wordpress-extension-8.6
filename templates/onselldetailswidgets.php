@@ -39,9 +39,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	/*---------------IMPOSTAZIONI SEO----------------------*/
 	$seoDescr = !empty($resource->SEODescription)?$resource->SEODescription:$resource->Description;
+	$resourceDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
 	$seoMerchantDescr = !empty($merchant->SEODescription)?$merchant->SEODescription:$merchant->Description;
-	$merchantDescriptionSeo = BFCHelper::getLanguage($seoDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
-	$resourceDescriptionSeo = BFCHelper::getLanguage($seoMerchantDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
+	$merchantDescriptionSeo = BFCHelper::getLanguage($seoMerchantDescr, $language, null, array( 'nobr'=>'nobr', 'bbcode'=>'bbcode', 'striptags'=>'striptags')) ;
 	if (!empty($merchantDescriptionSeo) && strlen($merchantDescriptionSeo) > 160) {
 	    $merchantDescriptionSeo = substr($merchantDescriptionSeo,0,160);
 	}
@@ -126,6 +126,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	get_header( 'onselldetails' );
 	do_action( 'bookingfor_before_main_content' );
+if (COM_BOOKINGFORCONNECTOR_ISBOT) {
+?>
+<h1><?php echo $resourceName ?></h1>
+<p><?php echo $seoDescr ?></p>
+<?php 
+}
 ?>
 <bfi-page  class="bfi-page-container bfi-onselldetails-page ">
 	<div class="bfi_page_container">

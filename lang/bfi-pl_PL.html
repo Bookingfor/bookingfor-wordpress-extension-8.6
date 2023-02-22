@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px -apple-system, "HelveticaNeue", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: rgb(90, 228, 140); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 167, 52); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: left;
+  max-width: 90%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+tr.comments td { padding-top: 0; }
+
+.fuzzy .tra {
+  color: rgb(218, 123, 0);
+}
+
+.msgctxt {
+  color: rgb(70, 109, 137);
+  font-size: smaller;
+  background-color: rgb(217, 232, 242);
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Lingua:</td><td>polacco (Polonia)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 93.4156%'>&nbsp;</div>
+    <div class='percent-fuzzy' style='width: 6.17284%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 0.411523%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Tradotti: 227 di 243 (93 %)  •  Rimanenti: 16  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Testo sorgente — inglese</th>
+      <th>Traduzione — polacco (Polonia)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+This is a demo store for testing purposes &amp;mdash; no orders shall be fulfilled.</td>
+<td class='tra'  lang='pl-PL'>
+To jest demo sklepu w celach testowych &amp;mdash; żadnych zamówień muszą być spełnione.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>search-availability</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-dostepnosc</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Search Availability</td>
+<td class='tra'  lang='pl-PL'>
+Sprawdź dostępność</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>search-mapsells</td>
+<td class='tra'  lang='pl-PL'>
+mapa-wyszukiwania-sprzedaje</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Search Map Sells</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj mapy sprzedaje</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>search-events</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-wydarzen</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Search Events</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj wydarzeń</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>properties-for-sale</td>
+<td class='tra'  lang='pl-PL'>
+obiekty-na-sprzedaz</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Search Properties for sale</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj nieruchomości na sprzedaż</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>eventdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Event Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>pointsofinterestdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-punktow-zainteresowania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Pointsofinterest Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły punktów zainteresowania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>merchantdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-sprzedawcy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Merchant Details</td>
+<td class='tra'  lang='pl-PL'>
+Dane sprzedawcy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>resourcegroupdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-grupy-zasobow</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Resourcegroup Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły grupy zasobów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>accommodation-details</td>
+<td class='tra'  lang='pl-PL'>
+zakwaterowanie-szczegoly</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Accommodation Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły dotyczące zakwaterowania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>experience-details</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-doswiadczenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Experience Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły doświadczenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>onsell-details</td>
+<td class='tra'  lang='pl-PL'>
+na-szczegoly-sprzedazy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>On Sell Details</td>
+<td class='tra'  lang='pl-PL'>
+Na szczegóły Sprzedają</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>payment</td>
+<td class='tra'  lang='pl-PL'>
+platnosc</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Payment Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły płatności</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>cartdetails</td>
+<td class='tra'  lang='pl-PL'>
+wyprzedaz</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Cart Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły koszyka</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>search-packages</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-pakietow</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Search Packages</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj pakietów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>packages-details</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-pakietu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Packages Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły pakietu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>genericrequest</td>
+<td class='tra'  lang='pl-PL'>
+prosbaokontakt</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>Generic Request</td>
+<td class='tra'  lang='pl-PL'>
+Prośba o kontakt</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Event details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły wydarzenia</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+PointsOfInterest details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły punktów zainteresowania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Merchant details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły handlowca</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Resourcegroup Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły grupy zasobów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Accomodation details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły dotyczące zakwaterowania</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Experience details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Order payment</td>
+<td class='tra'  lang='pl-PL'>
+Zapłać za zamówienie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+On Sell details</td>
+<td class='tra'  lang='pl-PL'>
+Na szczegóły Sprzedają</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Cart details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły koszyka</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Packages details</td>
+<td class='tra'  lang='pl-PL'>
+wyprzedaz</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Generic Request</td>
+<td class='tra'  lang='pl-PL'>
+Specjalne życzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Permalinks</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor Permalinks</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor search result page</td>
+<td class='tra'  lang='pl-PL'>
+Strona wyników wyszukiwania BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Merchant details page</td>
+<td class='tra'  lang='pl-PL'>
+Strona szczegółów kupiec BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Accommodation details page</td>
+<td class='tra'  lang='pl-PL'>
+Strona szczegółów BookingFor zakwaterowanie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor On Sell details page</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor na sprzedaż Strona szczegółów</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor Cart Details page</td>
+<td class='tra'  lang='pl-PL'>
+Strona BookingFor Cart</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor Generic Request page</td>
+<td class='tra'  lang='pl-PL'>
+Strona wyników wyszukiwania BookingFor</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor Event Details page</td>
+<td class='tra'  lang='pl-PL'>
+Strona BookingFor Event</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor PointsOfInterest Details page</td>
+<td class='tra'  lang='pl-PL'>
+Strona BookingFor PointsOfInterest</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>search-availability</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-dostepnosc</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>search-events</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-wydarzen</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>merchantdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-sprzedawcy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>cartdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-koszyka</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>genericrequest</td>
+<td class='tra'  lang='pl-PL'>
+prosbaokontakt</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>accommodation-details</td>
+<td class='tra'  lang='pl-PL'>
+zakwaterowanie-szczegoly</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>onsell-details</td>
+<td class='tra'  lang='pl-PL'>
+na-szczegoly-sprzedazy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>eventdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>slug</span>pointsofinterestdetails</td>
+<td class='tra'  lang='pl-PL'>
+szczegoly-punktow-zainteresowania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+These settings control the permalinks used specifically for BookingFor.</td>
+<td class='tra'  lang='pl-PL'>
+Te ustawienia sterują permalinks, wykorzystywany w szczególności do BookingFor.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>default-slug</span>search-availability</td>
+<td class='tra'  lang='pl-PL'>
+szukaj-dostepnosc</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Default</td>
+<td class='tra'  lang='pl-PL'>
+Domyślne</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search Availability base</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj dostępność bazy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Custom Base</td>
+<td class='tra'  lang='pl-PL'>
+Niestandardowa podstawa</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Enter a custom base to use. A base &lt;strong&gt;must&lt;/strong&gt; be set or WordPress will use default instead.</td>
+<td class='tra'  lang='pl-PL'>
+Wpisz bazę niestandardowej do wykorzystania. Podstawa &lt;strong&gt;musi&lt;/strong&gt; być ustawiona lub WordPress użyje zamiast niej domyślną.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>default-slug</span>searchavailability</td>
+<td class='tra'  lang='pl-PL'>
+searchavailability</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Cache are cleaned</td>
+<td class='tra'  lang='pl-PL'>
+Pamięć podręczna jest czyszczona</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+8h</td>
+<td class='tra'  lang='pl-PL'>
+8h</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+24h</td>
+<td class='tra'  lang='pl-PL'>
+24 godz</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+2gg</td>
+<td class='tra'  lang='pl-PL'>
+2gg</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+7gg</td>
+<td class='tra'  lang='pl-PL'>
+7gg</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+20gg</td>
+<td class='tra'  lang='pl-PL'>
+20gg</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+30gg</td>
+<td class='tra'  lang='pl-PL'>
+30gg</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Euro</td>
+<td class='tra'  lang='pl-PL'>
+Euro</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Kune</td>
+<td class='tra'  lang='pl-PL'>
+Kune</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+U.S. dollar</td>
+<td class='tra'  lang='pl-PL'>
+Dolar</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Japanese yen</td>
+<td class='tra'  lang='pl-PL'>
+Japoński jen</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Canadian dollar</td>
+<td class='tra'  lang='pl-PL'>
+Dolar kanadyjski</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Australian dollar</td>
+<td class='tra'  lang='pl-PL'>
+Dolar australijski</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Russian Ruble</td>
+<td class='tra'  lang='pl-PL'>
+Rosyjski Rubel</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Czech koruna</td>
+<td class='tra'  lang='pl-PL'>
+Korona czeska</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Singapore dollar</td>
+<td class='tra'  lang='pl-PL'>
+Singapurski Dolar</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Pound sterling </td>
+<td class='tra'  lang='pl-PL'>
+Funt szterling </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+If you like &lt;strong&gt;BookingFor&lt;/strong&gt; please leave us a %s&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;%s rating. A huge thank you from Bookingfor in advance!</td>
+<td class='tra'  lang='pl-PL'>
+Jeśli chcesz &lt;strong&gt; BookingFor &lt;/strong&gt; proszę zostawić nam %s &amp;#9733; &amp;#9733; &amp;#9733; &amp;#9733; &amp;#9733; %s została przyznana. Ogromny z Bookingfor z góry dziękuję!</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Thanks</td>
+<td class='tra'  lang='pl-PL'>
+Dzięki</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Thank you for selling with BookingFor.</td>
+<td class='tra'  lang='pl-PL'>
+Dziękuję za sprzedaż z BookingFor.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+There are untranslated pages in </td>
+<td class='tra'  lang='pl-PL'>
+Istnieją nieprzetłumaczone strony w </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Create missing pages</td>
+<td class='tra'  lang='pl-PL'>
+Tworzenie brakujących stron</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+All fine!</td>
+<td class='tra'  lang='pl-PL'>
+Wszystko w porządku!</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Delete Cached Data</td>
+<td class='tra'  lang='pl-PL'>
+Usuwanie danych w pamięci podręcznej</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Cached data are stored on your server in files. If you need to delete them, use the button below.</td>
+<td class='tra'  lang='pl-PL'>
+Buforowane dane są przechowywane na serwerze w plikach. Jeśli chcesz je usunąć, użyj przycisku poniżej.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Delete Cache</td>
+<td class='tra'  lang='pl-PL'>
+Usuń pamięć podręczną</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Delete Cache for Bot</td>
+<td class='tra'  lang='pl-PL'>
+Usuń pamięć podręczną dla bota</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Save changes</td>
+<td class='tra'  lang='pl-PL'>
+Zapisz zmiany</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display the user's Cart link in the sidebar.</td>
+<td class='tra'  lang='pl-PL'>
+Wyświetlić użytkownika koszyka link w pasku bocznym.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Cart</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor koszyk</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Title</td>
+<td class='tra'  lang='pl-PL'>
+Tytuł</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display the user's currency switcher in the sidebar.</td>
+<td class='tra'  lang='pl-PL'>
+Wyświetl przełącznik waluty użytkownika na pasku bocznym.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor currency switcher</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor przełącznik waluty</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display the link for  login, cart and change currency.</td>
+<td class='tra'  lang='pl-PL'>
+Wyświetl link do logowania, koszyka i zmiany waluty.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Header Link</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor Link nagłówka</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show currency selector</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż selektor waluty</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show link to cart</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż link do koszyka</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show login as popup</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż logowanie jako wyskakujące okienko</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show link to Travel planner</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż link do planowania podróży</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display the Login form in the sidebar.</td>
+<td class='tra'  lang='pl-PL'>
+Wyświetl formularz Logowania na pasku bocznym.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Login</td>
+<td class='tra'  lang='pl-PL'>
+RezerwacjaZaczymy się loginem</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show like a popup</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż jak wyskakujące okienko</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display the user's Review in the sidebar.</td>
+<td class='tra'  lang='pl-PL'>
+Wyświetl recenzję użytkownika na pasku bocznym.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Reviews</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacjewzdjęć</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Search box for multimerchant, monomerchant and sell on.</td>
+<td class='tra'  lang='pl-PL'>
+Pole wyszukiwania dla multimerchant, monomerchant i sprzedają na.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search Tab</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search 1 (default:Booking)</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj 1 (domyślnie:Rezerwacja)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search 2 (default:Services)</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj 2 (domyślnie:Usługi)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search 3 (default:Activities)</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj 3 (domyślnie:Działania)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search 4 (default:Others)</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj 4 (domyślnie:Inne)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Real Estate</td>
+<td class='tra'  lang='pl-PL'>
+Nieruchomości</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Events</td>
+<td class='tra'  lang='pl-PL'>
+Wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search MapSells</td>
+<td class='tra'  lang='pl-PL'>
+mapa-wyszukiwania-sprzedaje</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Nights</td>
+<td class='tra'  lang='pl-PL'>
+Noce</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Days</td>
+<td class='tra'  lang='pl-PL'>
+Dni</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Unit of times</td>
+<td class='tra'  lang='pl-PL'>
+Jednostka czasu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Time slot</td>
+<td class='tra'  lang='pl-PL'>
+Przedział czasu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Resource</td>
+<td class='tra'  lang='pl-PL'>
+Zasób</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Merchant</td>
+<td class='tra'  lang='pl-PL'>
+Strona szczegółów kupiec BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Resource group</td>
+<td class='tra'  lang='pl-PL'>
+Grupa zasobów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Service</td>
+<td class='tra'  lang='pl-PL'>
+Usługa</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Experience</td>
+<td class='tra'  lang='pl-PL'>
+Doświadczenie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Rental</td>
+<td class='tra'  lang='pl-PL'>
+Wynajem</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Time slots</td>
+<td class='tra'  lang='pl-PL'>
+Przedział czasu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Maps Sell</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj mapy sprzedaje</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Displays horizontally</td>
+<td class='tra'  lang='pl-PL'>
+Są wyświetlane w poziomie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Fixed on top</td>
+<td class='tra'  lang='pl-PL'>
+Naprawiono na górze</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Top correction</td>
+<td class='tra'  lang='pl-PL'>
+Górna korekta</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Fixed on bottom for small device</td>
+<td class='tra'  lang='pl-PL'>
+Przymocowany na dole dla małego urządzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Tab</td>
+<td class='tra'  lang='pl-PL'>
+Karta</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Use more tab</td>
+<td class='tra'  lang='pl-PL'>
+Użyj więcej karty</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show advance settings</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż ustawienia zaliczki</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Intro text</td>
+<td class='tra'  lang='pl-PL'>
+Opis strony</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Icon (for expert users)</td>
+<td class='tra'  lang='pl-PL'>
+Ikona (dla użytkowników ekspertów)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Merchant category</td>
+<td class='tra'  lang='pl-PL'>
+Kupiec kategorii</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Product category</td>
+<td class='tra'  lang='pl-PL'>
+Kategoria produktów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search availability for</td>
+<td class='tra'  lang='pl-PL'>
+Sprawdź dostępność</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Items type</td>
+<td class='tra'  lang='pl-PL'>
+Typ elementów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Default group by </td>
+<td class='tra'  lang='pl-PL'>
+Domyślna grupa według </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+result Views </td>
+<td class='tra'  lang='pl-PL'>
+wyświetlenia wyników </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Fields Visibility</td>
+<td class='tra'  lang='pl-PL'>
+Pola widoczności</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search text</td>
+<td class='tra'  lang='pl-PL'>
+Szukany tekst</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(Merchants, Products, Tags, Merchants and Products Categories, Regions, States, Cities, Zones)</td>
+<td class='tra'  lang='pl-PL'>
+(Sprzedawcy, produkty, tagi, sprzedawcy i kategorie produktów, regiony, stany, miasta, strefy)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Research fields</td>
+<td class='tra'  lang='pl-PL'>
+Filtry wyszukiwania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+or</td>
+<td class='tra'  lang='pl-PL'>
+lub</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Destination</td>
+<td class='tra'  lang='pl-PL'>
+Miejsca przeznaczenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Type</td>
+<td class='tra'  lang='pl-PL'>
+Typu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Map Button</td>
+<td class='tra'  lang='pl-PL'>
+Mapa przycisk</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Select 1 day o more</td>
+<td class='tra'  lang='pl-PL'>
+Wybierz 1 dzień o więcej</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Date Range</td>
+<td class='tra'  lang='pl-PL'>
+Zakres dat</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Date Time Range</td>
+<td class='tra'  lang='pl-PL'>
+Przedział dat i czasu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Block Months</td>
+<td class='tra'  lang='pl-PL'>
+Blok miesięcy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Disable Days</td>
+<td class='tra'  lang='pl-PL'>
+Wyłączyć dni</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show resource number</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż numer zasobu</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Limit resource number</td>
+<td class='tra'  lang='pl-PL'>
+Ogranicz liczbę zasobów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+min</td>
+<td class='tra'  lang='pl-PL'>
+min</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+max</td>
+<td class='tra'  lang='pl-PL'>
+max</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Show rooms number</td>
+<td class='tra'  lang='pl-PL'>
+Pokaż numer pokoi</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Limit rooms number</td>
+<td class='tra'  lang='pl-PL'>
+Limit liczby pokoi</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Persons</td>
+<td class='tra'  lang='pl-PL'>
+Osób</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Adults</td>
+<td class='tra'  lang='pl-PL'>
+Dorośli</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Childrens</td>
+<td class='tra'  lang='pl-PL'>
+Dla dzieci</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Senior</td>
+<td class='tra'  lang='pl-PL'>
+Senior</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Services</td>
+<td class='tra'  lang='pl-PL'>
+Usługi</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Only Online Booking</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacja tylko Online</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Coupon</td>
+<td class='tra'  lang='pl-PL'>
+Kupon</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+(Regions, States, Cities, Zones)</td>
+<td class='tra'  lang='pl-PL'>
+(Regiony, Stany, Miasta, Strefy)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Contract</td>
+<td class='tra'  lang='pl-PL'>
+Umowy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Price</td>
+<td class='tra'  lang='pl-PL'>
+Cena</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Floor Area</td>
+<td class='tra'  lang='pl-PL'>
+Powierzchnia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BedRooms</td>
+<td class='tra'  lang='pl-PL'>
+Sypialnie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Baths</td>
+<td class='tra'  lang='pl-PL'>
+Kąpiele</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Only New</td>
+<td class='tra'  lang='pl-PL'>
+Tylko nowe</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Services list</td>
+<td class='tra'  lang='pl-PL'>
+Lista usług</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Risultato nella stessa pagina (solo se usato con shortcode)</td>
+<td class='tra'  lang='pl-PL'>
+Risultato nella stessa pagina (solo se usato con shortcode)</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Or Select Result Page</td>
+<td class='tra'  lang='pl-PL'>
+Lub wybierz stronę wyników</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Carousel list of Events.</td>
+<td class='tra'  lang='pl-PL'>
+Karuzela lista zdarzeń.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Carousel Events</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacjedla wydarzeń karuzelowych</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Tags</td>
+<td class='tra'  lang='pl-PL'>
+Tagi</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Items per page</td>
+<td class='tra'  lang='pl-PL'>
+Liczba produktów na stronie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Theme</td>
+<td class='tra'  lang='pl-PL'>
+Motyw</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Max items</td>
+<td class='tra'  lang='pl-PL'>
+Max elementów</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Max description characters</td>
+<td class='tra'  lang='pl-PL'>
+Znaki opisu Max</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Carousel list of Poi.</td>
+<td class='tra'  lang='pl-PL'>
+Karuzela listy sprzedawców.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Carousel Poi</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor koszyk</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+A Carousel list of Resource groups.</td>
+<td class='tra'  lang='pl-PL'>
+Karuzela lista zasobów.</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor Carousel Resource groups</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacjedla zasobów karuzelowych</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Carousel list of Resources.</td>
+<td class='tra'  lang='pl-PL'>
+Karuzela lista zasobów.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Carousel Resources</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacjedla zasobów karuzelowych</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A details merchant box.</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły pole handlowca.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor details merchant box</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor szczegóły handlowca pole</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+what to show</td>
+<td class='tra'  lang='pl-PL'>
+co pokazać</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Carousel list of Merchants.</td>
+<td class='tra'  lang='pl-PL'>
+Karuzela listy sprzedawców.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Merchants</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor kupców</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Filter box.</td>
+<td class='tra'  lang='pl-PL'>
+Pole filtru.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search Events</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacje dla zdarzeń wyszukiwania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Search box for Experience.</td>
+<td class='tra'  lang='pl-PL'>
+Pole wyszukiwania.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search Experience</td>
+<td class='tra'  lang='pl-PL'>
+Rezerwacje dla zdarzeń wyszukiwania</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+1 day</td>
+<td class='tra'  lang='pl-PL'>
+1 dzień</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+7 days</td>
+<td class='tra'  lang='pl-PL'>
+7 dni</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Search days interval </td>
+<td class='tra'  lang='pl-PL'>
+Interwał dni wyszukiwania </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Pagina dei risultati: </td>
+<td class='tra'  lang='pl-PL'>
+Pagina dei risultati: </td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Select</td>
+<td class='tra'  lang='pl-PL'>
+Wybierz</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Visualizza il seguente widget nella sidebar </td>
+<td class='tra'  lang='pl-PL'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search Filters</td>
+<td class='tra'  lang='pl-PL'>
+Filtry wyszukiwania BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A box for search on Maps.</td>
+<td class='tra'  lang='pl-PL'>
+Pudełko na serach.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search MapSells</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor na sprzedaż</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+A Search box for Packages.</td>
+<td class='tra'  lang='pl-PL'>
+Pole wyszukiwania dla wynajem samochodów, rowerów.</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+BookingFor Search Packages</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+1 year</td>
+<td class='tra'  lang='pl-PL'>
+ %d rok/y</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Search box for Rental cars, bikes.</td>
+<td class='tra'  lang='pl-PL'>
+Pole wyszukiwania dla wynajem samochodów, rowerów.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search Rental</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Package</td>
+<td class='tra'  lang='pl-PL'>
+Pakiet</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Search box .</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj na polu sprzedaży.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A Search box for time slots.</td>
+<td class='tra'  lang='pl-PL'>
+Pole wyszukiwania.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor Search slot</td>
+<td class='tra'  lang='pl-PL'>
+Szukaj BookingFor</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A small map box.</td>
+<td class='tra'  lang='pl-PL'>
+Małe pole mapy.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+BookingFor small map box</td>
+<td class='tra'  lang='pl-PL'>
+BookingFor małe pole mapy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+OPS, some errors occurred! Please try again later.</td>
+<td class='tra'  lang='pl-PL'>
+OPS, wystąpiły błędy! Proszę spróbować ponownie później.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+At this moment you cannot do payments.</td>
+<td class='tra'  lang='pl-PL'>
+W tej chwili nie możesz robić płatności.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>resources</td>
+<td class='tra'  lang='pl-PL'>
+zasoby</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>events</td>
+<td class='tra'  lang='pl-PL'>
+wydarzenia</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>offers</td>
+<td class='tra'  lang='pl-PL'>
+oferuje</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>onsellunits</td>
+<td class='tra'  lang='pl-PL'>
+na-jednostki-sprzedazy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>offer</td>
+<td class='tra'  lang='pl-PL'>
+oferta</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>thanks</td>
+<td class='tra'  lang='pl-PL'>
+dzieki</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>errors</td>
+<td class='tra'  lang='pl-PL'>
+bledy</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>reviews</td>
+<td class='tra'  lang='pl-PL'>
+opinie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>review</td>
+<td class='tra'  lang='pl-PL'>
+przeglad</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ <span class='msgctxt'>Page slug</span>redirect</td>
+<td class='tra'  lang='pl-PL'>
+przekierowanie</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Thank you for having chosen us.</td>
+<td class='tra'  lang='pl-PL'>
+Dziękuję za docenienie nas.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Details</td>
+<td class='tra'  lang='pl-PL'>
+Szczegóły</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Discover</td>
+<td class='tra'  lang='pl-PL'>
+Odkrywaj</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
