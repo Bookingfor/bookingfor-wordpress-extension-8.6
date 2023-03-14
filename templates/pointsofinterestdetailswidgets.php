@@ -79,7 +79,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$payloadresource["description"] = $resourceDescriptionSeo;
 	$payloadresource["url"] = $resourceRoute; 
 	if (!empty($resource->ImageUrl)){
-		$payloadresource["image"] = "https:".BFCHelper::getImageUrlResized('poi',$resource->ImageUrl, 'logobig');
+		$payloadresource["image"] = BFCHelper::getImageUrlResized('poi',$resource->ImageUrl, 'big');
 	}
 	if (!empty($resourceLat) && !empty($resourceLon)) {
 		$payloadgeo["@type"] = "GeoCoordinates";
@@ -120,6 +120,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 					}
 					/* microformat */
 					add_action( 'wpseo_head', function() use ($payloadresource) { bfi_add_json_ld( $payloadresource ); } , 30);
+					add_filter( 'wpseo_schema_webpage', function( $data) use ($titleHead,$canonicalUrl) {
+										 $data["name"] = $titleHead;
+										 $data["url"] = $canonicalUrl;
+										 $data["@id"] = $canonicalUrl;
+										return	$data;
+								} );
+				add_filter( 'wpseo_schema_graph_pieces', 'remove_breadcrumbs_from_schema', 11, 2 );
+				add_filter( 'wpseo_schema_webpage', 'remove_breadcrumbs_property_from_webpage', 11, 1 );
+				add_filter( 'wpseo_schema_webpage', 'remove_potentialaction_property_from_webpage', 11, 1 );
 		}else{
 			add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
 			add_action( 'wp_head', function() use ($keywordsHead) {return bfi_add_meta_keywords($keywordsHead); }, 10, 1);

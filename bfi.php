@@ -28,7 +28,11 @@ final class BookingFor {
 		}
 		return self::$_instance;
 	}
-	
+
+	public function get_site_url() {
+		return get_site_url();
+	}
+
 	public function plugin_url() {
 		return untrailingslashit( plugins_url( '/', __FILE__ ) );
 	}
@@ -89,54 +93,13 @@ final class BookingFor {
 		$apikey= get_option('bfi_api_key', '');
 		$settingkey= get_option('bfi_setting_key', '');
 		$form_key= get_option('bfi_form_key', '');
-		$XGooglePosDef = get_option('bfi_posx_key', 0);
-		$YGooglePosDef = get_option('bfi_posy_key', 0);
-		$startzoom = get_option('bfi_startzoom_key',15);
-		$googlemapskey = get_option('bfi_googlemapskey_key','');
-		$enableGooglemapsApi = get_option('bfi_enablegooglemapsapi', 0);
-		if (empty($enableGooglemapsApi)) {
-				$XGooglePosDef = 0;
-				$YGooglePosDef = 0;
-				$startzoom = 15;
-				$googlemapskey = '';
-			
-		}
-		$itemperpage = get_option('bfi_itemperpage_key',10);
-		
-		$googlerecaptchaversion = get_option('bfi_googlerecaptcha_version','V2');
-		$googlerecaptchakey = get_option('bfi_googlerecaptcha_key','');
-		$googlerecaptchasecretkey = get_option('bfi_googlerecaptcha_secret_key','');
-		$googlerecaptchathemekey = get_option('bfi_googlerecaptcha_theme_key','light');
-		$googlerecaptchasizekey = get_option('bfi_googlerecaptcha_size_key','normal');
-
-		$openstreetmap = get_option('bfi_openstreetmap', 0);
-
 		$isportal = get_option('bfi_isportal_key', 1);
-		$enalbleOtherMerchantsResult = get_option('bfi_enalbleothermerchantsresult', 0);
-		$enalbleResourceFilter = get_option('bfi_enableresourcefilter', 0);		
-		$disalbleInfoForm = get_option('bfi_disableinfoform', 0);		
 
-		$showdata = get_option('bfi_showdata_key', 1);
-//		$sendtocart = get_option('bfi_sendtocart_key', 0);
-		$sendtocart = 0;
-		$showbadge = 1;// get_option('bfi_showbadge_key', 1);
-
-		$enablecoupon = get_option('bfi_enablecoupon_key', 0);
-		$showlogincart = get_option('bfi_showlogincart_key', 1);
 		$showadvancesetting = get_option('bfi_showadvancesetting_key', 0);
 		
-		$usessl = get_option('bfi_usessl_key',0);
-		$ssllogo = get_option('bfi_ssllogo_key','');
-
 		$useproxy = get_option('bfi_useproxy_key',0);
 		$urlproxy = get_option('bfi_urlproxy_key','127.0.0.1:8888');
 		
-		$gaenabled = get_option('bfi_gaenabled_key', 0);
-		$gaaccount = get_option('bfi_gaaccount_key', '');
-		$eecenabled = get_option('bfi_eecenabled_key', 0);
-		$criteoenabled = get_option('bfi_criteoenabled_key', 0);
-		$gtmenabled = get_option('bfi_googletagmanager', 0);
-
 		$fbapienabled = get_option('bfi_fbapienabled_key', 0);
 		$fbpixelid = get_option('bfi_fbpixelid_key', '');
 		$fbtoken = get_option('bfi_fbtoken_key', '');
@@ -145,20 +108,7 @@ final class BookingFor {
 		$enablecache = get_option('bfi_enablecache_key', 1);
 //		$enablecache = 1;
 
-		$bfi_adultsage_key = get_option('bfi_adultsage_key', 18);
-		$bfi_adultsqt_key = get_option('bfi_adultsqt_key', 2);
-		$bfi_childrensage_key = get_option('bfi_childrensage_key', 12);
-		$bfi_senioresage_key = get_option('bfi_senioresage_key', 65);
-		$bfi_maxqtSelectable_key = get_option('bfi_maxqtSelectable_key', 20);
-		$bfi_defaultdisplaylist_key = get_option('bfi_defaultdisplaylist_key', 0);
-		
-
-		$bfi_currentcurrency = get_option('bfi_currentcurrency_key', '');
-		$bfi_altcurrency = get_option('bfi_altcurrency_key', '');
-
 		$form_startdate= get_option('bfi_form_startdate', '');
-
-		$nMonthinCalendar = 2;
 
 		$useragent= isset($_SERVER['HTTP_USER_AGENT'])? $_SERVER['HTTP_USER_AGENT']: "";
 		$ismobile=false;
@@ -202,31 +152,9 @@ final class BookingFor {
 		$this->define( 'COM_BOOKINGFORCONNECTOR_CACHETIME', $cachetime );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_CACHEDIRBOT', $cachedirbot );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_CACHETIMEBOT', $cachetimebot );
+		$this->define( 'COM_BOOKINGFORCONNECTOR_ITEMPERPAGE', 10 );
 
 		// per Search Result 
-
-		$enablegenericsearchdetails = get_option('bfi_enablegenericsearchdetails_key', 1); // 1 
-		$showeventbanner = get_option('bfi_showeventbanner_key', 1); // 1 
-		$showeventbannerevery = get_option('bfi_showeventbannerevery_key', 5); // 1 
-		$showeventbannerrepeated = get_option('bfi_showeventbannerrepeated_key', 1); // 1 
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ENABLEGENERICSEARCHDETAILS', $enablegenericsearchdetails );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWEVENTBANNER', $showeventbanner );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWEVENTBANNEREVERY', $showeventbannerevery );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWEVENTBANNERREPEATED', $showeventbannerrepeated );
-
-		$showcontactbanner = get_option('bfi_showcontactbanner_key', 0); 
-		$showcontactbannerform = get_option('bfi_showcontactbannerform_key', 0);  
-		$contactbannerphone = get_option('bfi_contactbannerphone_key', '');
-		$contactbannerphonewhatsapp = get_option('bfi_contactbannerphonewhatsapp_key', '');
-		$contactbanneremail = get_option('bfi_contactbanneremail_key', '');
-		$contactbannerpage = get_option('bfi_contactbannerpage_key', '');
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWCONTACTBANNER', $showcontactbanner );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWCONTACTBANNERFORM', $showcontactbannerform );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CONTACTBANNERPHONE', $contactbannerphone );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CONTACTBANNEREMAIL', $contactbanneremail );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CONTACTBANNERPHONEWHATSAPP', $contactbannerphonewhatsapp );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CONTACTBANNERPAGE', $contactbannerpage );
-
 
 		$datacrawler = file_get_contents(untrailingslashit( plugin_dir_path( __FILE__ )) .  DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'crawler-user-agents.json');
 		$this->define( 'COM_BOOKINGFORCONNECTOR_CRAWLER', $datacrawler );
@@ -241,79 +169,19 @@ final class BookingFor {
 
 		$this->define( 'COM_BOOKINGFORCONNECTOR_FORM_KEY', $form_key );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_WSURL', $bfiBaseUrl .'/modules/bookingfor/services/bookingservice.svc' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ORDERURL', $bfiBaseUrl .'/Public/{language}/orderlogin' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_PAYMENTURL', $bfiBaseUrl .'/Public/{language}/payment/' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_PRIVACYURL', $bfiBaseUrl .'/Public/{language}/privacy' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_TERMSOFUSEURL', $bfiBaseUrl .'/Public/{language}/termsofuse' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_NEWSLETTERURL', $bfiBaseUrl .'/Public/{language}/newsletterinfos' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_MARKETINGURL', $bfiBaseUrl .'/Public/{language}/marketinginfos' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_DATAPROFILINGURL', $bfiBaseUrl .'/Public/{language}/dataprofilinginfos' );
-//		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTLOGIN', $bfiBaseUrl .'/Public/{language}/?openloginpopup=1' );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTREGISTRATION', $bfiBaseUrl .'/Public/{language}/Account/Register' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTFORGOTPASSWORD', $bfiBaseUrl .'/Public/{language}/Account/sendforgotpasswordlink' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTTRAVELPLANNER', $bfiBaseUrl .'/Public/{language}/my-wishlist' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTLOGIN', $bfiBaseUrl .'/Public/{language}/Account/UserProfileExternal' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ACCOUNTTRAVELPLANNERLOGGED', $bfiBaseUrl .'/Public/{language}/Account/UserProfileExternal?viewsection=travelplanner' );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SEARCHBYTEXT', $bfiBaseUrl .'/Public/{language}/Home/SearchByText' );
 
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CURRENTCURRENCY', $bfi_currentcurrency );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ALTCURRENCY', $bfi_altcurrency );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_MAXATTACHMENTFILES', 3 );
-		
 		$this->define( 'COM_BOOKINGFORCONNECTOR_IMGURL', $subscriptionkey . '/bookingfor/images' );
 //		$this->define( 'COM_BOOKINGFORCONNECTOR_IMGURL_CDN', 'https://az597654.vo.msecnd.net/' );
 //		$this->define( 'COM_BOOKINGFORCONNECTOR_BASEIMGURL', 'https://az597654.vo.msecnd.net/' . $subscriptionkey . '/bookingfor/images' );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_IMGURL_CDN', 'https://cdnbookingfor.blob.core.windows.net/' );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_BASEIMGURL', 'https://cdnbookingfor.blob.core.windows.net/' . $subscriptionkey . '/bookingfor/images' );
 
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ENABLEGOOGLEMAPSAPI', $enableGooglemapsApi );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_POSX', $XGooglePosDef );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_POSY', $YGooglePosDef );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_STARTZOOM', $startzoom );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLEMAPSKEY', $googlemapskey );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_USE_OPENSTREETMAP', $openstreetmap );
-
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLERECAPTCHAVERSION', $googlerecaptchaversion );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLERECAPTCHAKEY', $googlerecaptchakey );
-		
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLERECAPTCHASECRETKEY', $googlerecaptchasecretkey );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLERECAPTCHATHEMEKEY', $googlerecaptchathemekey );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GOOGLE_GOOGLERECAPTCHASIZEKEY', $googlerecaptchasizekey );
-		
-		$this->define( 'COM_BOOKINGFORCONNECTOR_USEEXTERNALUPDATEORDER', false);
-		$this->define( 'COM_BOOKINGFORCONNECTOR_USEEXTERNALUPDATEORDERSYSTEM', "");
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ANONYMOUS_TYPE', "3,4");
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ITEMPERPAGE', $itemperpage );
-		
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ENALBLEOTHERMERCHANTSRESULT', $enalbleOtherMerchantsResult );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ENALBLERESOURCEFILTER', $enalbleResourceFilter );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_DISALBLEINFOFORM', $disalbleInfoForm );
-
 		$this->define( 'COM_BOOKINGFORCONNECTOR_ISPORTAL', $isportal );
-
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWDATA', $showdata );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SENDTOCART', $sendtocart );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWBADGE', $showbadge );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ENABLECOUPON', $enablecoupon );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWLOGINCART', $showlogincart );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_SHOWADVANCESETTING', $showadvancesetting );
-		
-		$this->define( 'COM_BOOKINGFORCONNECTOR_USESSL', $usessl );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SSLLOGO', $ssllogo );
-
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ADULTSAGE', $bfi_adultsage_key );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_ADULTSQT', $bfi_adultsqt_key );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CHILDRENSAGE', $bfi_childrensage_key );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_SENIORESAGE', $bfi_senioresage_key );
 
 		$this->define( 'COM_BOOKINGFORCONNECTOR_USEPROXY', $useproxy );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_URLPROXY', $urlproxy );
-
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GAENABLED', $gaenabled );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GTMENABLED', $gtmenabled );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_GAACCOUNT', $gaaccount );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_EECENABLED', $eecenabled );
-		$this->define( 'COM_BOOKINGFORCONNECTOR_CRITEOENABLED', $criteoenabled );
 
 		$this->define( 'FB_CAPI', (!empty($fbapienabled) && !empty($fbpixelid) && !empty($fbtoken) ));
 		$this->define( 'FB_PIXELID', $fbpixelid );
@@ -322,9 +190,6 @@ final class BookingFor {
 
 		$this->define( 'COM_BOOKINGFORCONNECTOR_ENABLECACHE', $enablecache );
 
-		$this->define( 'COM_BOOKINGFORCONNECTOR_MAXQTSELECTABLE', $bfi_maxqtSelectable_key );
-		
-		$this->define( 'COM_BOOKINGFORCONNECTOR_DEFAULTDISPLAYLIST', $bfi_defaultdisplaylist_key );
 		
 		$this->define( 'COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE', $this->plugin_url() . "/assets/images/defaults/default.jpeg");// Juri::root() . "components/com_bookingforconnector/assets/images/defaults/default.jpeg" );
 		$this->define( 'COM_BOOKINGFORCONNECTOR_DEFAULTLOGO', $this->plugin_url() . "/assets/images/defaults/default-logo.jpeg"); //Juri::root() . "components/com_bookingforconnector/assets/images/defaults/default-logo.jpeg" );
@@ -377,14 +242,30 @@ final class BookingFor {
 	*	@return die if API request 
 	*/ 
 	public function sniff_requests(){ 
-		
 		global $wp; 
+		
 		if(isset($wp->query_vars['_api_controller'])){ 
 			include_once( 'includes/BFCHelper.php' );
 			include_once( 'includes/wsQueryHelper.php' );
 			include_once( 'includes/api/class-bfi-controller.php' );
 			$bfi_api = new BFI_Controller;
 			$bfi_api->handle_request();
+			exit; 
+		} 
+		if(isset($wp->query_vars['sitemapbfi'])){ 
+			include_once( 'includes/BFCHelper.php' );
+			include_once( 'includes/wsQueryHelper.php' );
+			include_once( 'includes/api/class-bfi-sitemap.php' );
+			$bfi_api = new BFI_Sitemap;
+			$bfi_api->render_sitemaps();
+			exit; 
+		} 
+		if(isset($wp->query_vars['sitemap-stylesheetbfi'])){ 
+			include_once( 'includes/BFCHelper.php' );
+			include_once( 'includes/wsQueryHelper.php' );
+			include_once( 'includes/api/class-bfi-sitemaps-stylesheet.php' );
+			$bfi_api = new BFI_Sitemaps_Stylesheet;
+			$bfi_api->render_stylesheet($wp->query_vars['sitemap-stylesheetbfi']);
 			exit; 
 		} 
 	} 
@@ -418,8 +299,8 @@ final class BookingFor {
 		if ( $this->is_request( 'admin' ) ) {
 			$this->bfi_load_admin_scripts();			
 			include_once( 'includes/admin/class-bfi-admin.php' );
-			include_once('includes/model/experience.php' );
 			include_once('includes/model/portal.php' );
+			include_once( 'includes/api/class-bfi-sitemap.php' );
 			include_once('includes/model/tag.php');
 		}
 		include_once( 'includes/class-bfi-query.php' ); // The main query class
@@ -466,10 +347,6 @@ final class BookingFor {
 		$subscriptionkey = COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY;
 		if (COM_BOOKINGFORCONNECTOR_ENABLE_SUBSCRIPTION_TEST) {
 			$subscriptionkey = COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY_DEMO;
-		}
-
-		if(COM_BOOKINGFORCONNECTOR_USESSL){
-			$url_cart_page = str_replace( 'http:', 'https:', $url_cart_page );
 		}
 		
 		?>

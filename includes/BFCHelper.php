@@ -37,6 +37,7 @@ if ( ! class_exists( 'bfi_InputType' ) ) {
 
 if ( ! class_exists( 'bfi_TagsScope' ) ) {
 	class bfi_TagsScope {
+		const Sitemap = 0;
 		const Merchant = 2**0;
 		const Onsellunit = 2**1;
 		const Resource = 2**2;
@@ -532,6 +533,35 @@ if ( ! class_exists( 'BFCHelper' ) ) {
 			return $item;
 		}
 
+		public static function getResourcesList($language='', $itemtype=null) {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getResourcesList($language, $itemtype);
+		}
+		public static function getProductGroupList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getProductGroupList($language);
+		}
+		public static function getResourcesOnSellList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getResourcesOnSellList($language);
+		}
+		public static function getEventsList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getEventsList($language);
+		}
+		public static function getPOIList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getPOIList($language);
+		}
+		public static function getPackagesList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getPackagesList($language);
+		}
+		public static function getMerchantsList($language='') {
+			$model = new BookingForConnectorModelPortal;
+			return $model->getMerchantsList($language);
+		}
+
 		public static function getSubscriptionInfos() {
 			$model = new BookingForConnectorModelPortal;
 			return $model->getSubscriptionInfos();
@@ -541,6 +571,7 @@ if ( ! class_exists( 'BFCHelper' ) ) {
 			$model = new BookingForConnectorModelMerchantDetails;
 			return $model->getMerchantFromServicebyId($merchantId);
 		}
+
 		public static function getMerchantbyId($merchantId) {
 			$model = new BookingForConnectorModelMerchantDetails;
 			return $model->getMerchantFromServicebyId($merchantId);
@@ -1053,6 +1084,34 @@ if ( ! class_exists( 'BFCHelper' ) ) {
 
 		public static function getPageUrl($refpage){
 			$currPageId = self::getPageId( $refpage );
+			return self::getPageUrlbyId($currPageId);
+		}
+
+		public static function get_active_languages(){
+			$languages = [];
+			if(defined( 'ICL_SITEPRESS_VERSION' ) && !ICL_PLUGIN_INACTIVE ){
+				global $sitepress;
+				$languages = $sitepress->get_active_languages();
+			}
+			if(defined( 'POLYLANG_VERSION' ) ){
+				global $polylang;
+				$languages = pll_languages_list();
+			}
+			return $languages;
+		}
+
+
+		public static function getPageUrlByLang($refpage, $language){
+
+			$currPageId = self::getPageId( $refpage );			
+			if( isset($currPageId) && defined( 'POLYLANG_VERSION' ) ) {
+				$currPageId = pll_get_post( $currPageId, $language);				
+			}
+			if( isset($pageid) && defined( 'ICL_SITEPRESS_VERSION' ) && !ICL_PLUGIN_INACTIVE ){
+				global $wp,$sitepress;
+				$currPageId = apply_filters( 'translate_object_id', $pageid, 'page', true, $current_lang );
+			}
+			$urlTranslated = self::getPageUrlbyId($currPageId);
 			return self::getPageUrlbyId($currPageId);
 		}
 

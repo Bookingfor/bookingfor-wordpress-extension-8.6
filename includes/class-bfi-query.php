@@ -127,6 +127,30 @@ class BFI_Query {
 	 * Add endpoints for query vars.
 	 */
 	public function add_endpoints() {
+
+		// rule for indexer file
+		add_rewrite_tag( '%sitemapbfi%', '([^?]+)' );
+		add_rewrite_tag( '%sitemap-subtype%', '([^?]+)' );
+		// Register index route.
+		add_rewrite_rule( '^sitemap_bfi_index\.xml$', 'index.php?sitemapbfi=1', 'top' );
+		
+		// Register rewrites for the XSL stylesheet.
+		add_rewrite_tag( '%sitemap-stylesheetbfi%', '([^?]+)' );
+		add_rewrite_rule( '^sitemap_bfi\.xsl$', 'index.php?sitemap-stylesheetbfi=sitemap', 'top' );
+		add_rewrite_rule( '^sitemap_bfi_index\.xsl$', 'index.php?sitemap-stylesheetbfi=index', 'top' );
+
+		// Register routes for providers.
+		add_rewrite_rule(
+			'^sitemap_bfi-([a-z]+?)-([a-z\d_-]+?)\.xml$',
+			'index.php?sitemapbfi=2&sitemap-subtype=$matches[1]&paged=$matches[2]',
+			'top'
+		);
+		add_rewrite_rule(
+			'^sitemap_bfi-([a-z]+?)\.xml$',
+			'index.php?sitemapbfi=2&sitemap-subtype=$matches[1]',
+			'top'
+		);
+
 		foreach ( $this->query_vars as $key => $var ) {
 			add_rewrite_endpoint( $var, EP_PERMALINK | EP_PAGES, false );
 	
@@ -358,7 +382,6 @@ class BFI_Query {
 //				);
 //
 //			}
-			
 			if ( '_api_controller' == $key ) {
 
 					$regex = '(?:[a-z]{2}/|)bfi-api/v1/([^/]*)?';

@@ -52,7 +52,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$payload["logo"] = "https:".BFCHelper::getImageUrlResized('merchant',$merchant->LogoUrl, 'logobig');
 	}
 	
-	if (!empty($merchant->Avg)){
+	if (!empty($merchant->Avg && $merchant->Avg->Average>0)){
 		$aggregateRating["@type"] = "AggregateRating";
 		$aggregateRating["ratingValue"] = number_format($merchant->Avg->Average, 1) ."";
 		$aggregateRating["reviewCount"] = $merchant->Avg->Count."";
@@ -153,6 +153,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 									 $data["@id"] = $canonicalUrl;
 									return	$data;
 							} );
+				add_filter( 'wpseo_schema_graph_pieces', 'remove_breadcrumbs_from_schema', 11, 2 );
+				add_filter( 'wpseo_schema_webpage', 'remove_breadcrumbs_property_from_webpage', 11, 1 );
+				add_filter( 'wpseo_schema_webpage', 'remove_potentialaction_property_from_webpage', 11, 1 );
 
 	}else{
 		add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );

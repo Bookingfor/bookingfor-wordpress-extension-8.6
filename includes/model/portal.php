@@ -25,6 +25,13 @@ if ( ! class_exists( 'BookingForConnectorModelPortal' ) ) {
 			$this->urlGetSubscriptionInfos = '/GetSubscriptionInfos';
 			$this->urlMerchantCategories = '/GetMerchantsCategory';
 			$this->urlGetProductCategoryForSearch = '/GetProductCategoryForSearch';
+			$this->urlGetResourcesList = '/GetResourcesList';
+			$this->urlGetEventsList = '/GetEventsList';
+			$this->urlGetMerchantsList = '/GetMerchantList';
+			$this->urlGetPackagesList = '/GetPackagesList';
+			$this->urlGetPOIList = '/GetPOIList';
+			$this->urlGeProductGroupList = '/GeProductGroupList';
+			$this->urlGeResourcesOnSellList = '/GetResourcesOnsellList';
 		}
 
 		public function getSubscriptionInfos($language='') {		
@@ -56,6 +63,188 @@ if ( ! class_exists( 'BookingForConnectorModelPortal' ) ) {
 			return $return;
 		}
 		
+		public function getResourcesList($language='', $itemtype=null) {
+
+			$options = array(
+					'path' => $this->urlGetResourcesList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			if (isset($itemtype)) {
+				$options['data']['itemTypeId'] = $itemtype;
+			}
+
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+		public function getProductGroupList($language='') {
+
+			$options = array(
+					'path' => $this->urlGeProductGroupList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+
+		public function getResourcesOnSellList($language='') {
+
+			$options = array(
+					'path' => $this->urlGeResourcesOnSellList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+
+		public function getEventsList($language='') {
+
+			$options = array(
+					'path' => $this->urlGetEventsList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+		public function getPOIList($language='') {
+
+			$options = array(
+					'path' => $this->urlGetPOIList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+		public function getPackagesList($language='') {
+
+			$options = array(
+					'path' => $this->urlGetPackagesList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+		public function getMerchantsList($language='') {
+
+			$options = array(
+					'path' => $this->urlGetMerchantsList,
+					'data' => array(
+							'$format' => 'json',
+							'cultureCodes' => BFCHelper::getQuotedString($language),
+					)
+			);
+			$url = $this->helper->getQuery($options);
+
+			$list = null;
+
+			$r = $this->helper->executeQuery($url,null,null,false,"","",bfi_TagsScope::Sitemap);
+			if (isset($r)) {
+				$res = json_decode($r);
+				if (!empty($res->d->results)){
+					$list = $res->d->results;
+				}elseif(!empty($res->d)){
+					$list = $res->d;
+				}
+			}
+
+			return $list;
+		}
+
 		public function getMerchantCategoriesFromService($language='') {
 
 			$options = array(

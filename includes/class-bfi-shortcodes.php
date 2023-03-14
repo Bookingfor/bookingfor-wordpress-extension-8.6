@@ -805,6 +805,9 @@ class bfi_Shortcodes {
 			    return $currContent;
 			}
 		}
+
+		$language = $GLOBALS['bfi_lang'];
+
 		ob_start();
 			?>		
 		<bfipage path="poi" 
@@ -854,7 +857,6 @@ class bfi_Shortcodes {
 			    return $currContent;
 			}
 		}
-		
 		$tags =  $instance['tagid']; 
 		$scope =  $instance['scope']; 
 
@@ -919,7 +921,7 @@ class bfi_Shortcodes {
 						if  ($currParam['show_grouped'] == true) {
 
 ?>
-		<bfipage path="resourcelist" 
+		<div class="bookingforwidget" path="resourcelist" 
 			data-resourcegroupId = ""
 			data-categoryIds = ""
 			data-itemTypeIds = ""
@@ -927,14 +929,12 @@ class bfi_Shortcodes {
 			data-tags = "<?php echo $tags ?>"
 			data-languages = "<?php echo substr($language,0,2) ?>"
 		>
-			<div id="bfiheader" class=""></div>
 			<div id="bficontainer" class="bfi-loader"></div>
-			<div id="bfifooter" class=""></div>
-		</bfipage>
+		</div>
 <?php 
 						}else{
 ?>
-		<bfipage path="resourcelist" 
+		<div class="bookingforwidget" path="resourcelist" 
 			data-resourcegroupId = ""
 			data-categoryIds = ""
 			data-itemTypeIds = ""
@@ -942,17 +942,15 @@ class bfi_Shortcodes {
 			data-tags = "<?php echo $tags ?>"
 			data-languages = "<?php echo substr($language,0,2) ?>"
 		>
-			<div id="bfiheader" class=""></div>
 			<div id="bficontainer" class="bfi-loader"></div>
-			<div id="bfifooter" class=""></div>
-		</bfipage>
+		</div>
 <?php 
 						}
 
 					break;
 				case bfi_TagsScope::ResourceGroup: // ResourceGroup
 ?>
-		<bfipage path="resourcelist" 
+		<div class="bookingforwidget" path="resourcelist" 
 			data-resourcegroupId = ""
 			data-categoryIds = ""
 			data-itemTypeIds = ""
@@ -960,10 +958,8 @@ class bfi_Shortcodes {
 			data-tags = "<?php echo $tags ?>"
 			data-languages = "<?php echo substr($language,0,2) ?>"
 		>
-			<div id="bfiheader" class=""></div>
 			<div id="bficontainer" class="bfi-loader"></div>
-			<div id="bfifooter" class=""></div>
-		</bfipage>
+		</div>
 <?php 
 					break;
 				case bfi_TagsScope::Offert: // Offert

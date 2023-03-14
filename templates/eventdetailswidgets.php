@@ -91,8 +91,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$payloadresource["startDate"] = $startDate->format("Y-m-d");
 	$payloadresource["endDate"] = $endDate->format("Y-m-d");
 	$payloadresource["url"] = $resourceRoute; 
-	if (!empty($resource->ImageUrl)){
-		$payloadresource["image"] = "https:".BFCHelper::getImageUrlResized('events',$resource->ImageUrl, 'logobig');
+	if (!empty($resource->DefaultImg)){
+		$payloadresource["image"] = BFCHelper::getImageUrlResized('events',$resource->DefaultImg, 'big');
 	}
 	if (!empty($resourceLat) && !empty($resourceLon)) {
 		$payloadgeo["@type"] = "GeoCoordinates";
@@ -100,6 +100,32 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$payloadgeo["longitude"] = $resourceLon;
 		$payloadresource["geo"] = $payloadgeo; 
 	}
+
+	$organizer = new stdClass;
+	if(!empty($resource->Organizer) && $resource->Organizer->InformationType != -1) { 
+		if(!empty($resource->Organizer->MerchantId)) {
+			$organizer = BFCHelper::getMerchantFromServicebyId($resource->Organizer->MerchantId);
+			$routeorganizer = $url_merchant_page . $organizer->MerchantId.'-'.BFI()->seoUrl($organizer->Name);
+
+		} else {
+		$merchant = new stdClass;
+		$organizer->LogoUrl = $resource->Organizer->LogoUrl;
+		$organizer->Name = $resource->Organizer->Name;
+		$organizer->Rating = $resource->Organizer->Rating;
+		$organizer->RatingSubValue = $resource->Organizer->RatingSubValue;
+		$organizer->Address = $resource->Organizer->Address;
+		$organizer->ZipCode = $resource->Organizer->ZipCode;
+		$organizer->CityName = $resource->Organizer->CityName;
+		$organizer->StateName = $resource->Organizer->StateName;
+		$organizer->SiteUrl = $resource->Organizer->SiteUrl;
+		$organizer->Phone = $resource->Organizer->Phone;
+		$routeorganizer = $organizer->SiteUrl;
+		} 
+			$payloadorganizer["@type"] = "Organization";
+			$payloadorganizer["name"] = $organizer->Name ;
+			$payloadorganizer["url"] = $routeorganizer;
+			$payloadresource["organizer"] = $payloadorganizer; 
+	} 
 
 	/* end microformat */
 
@@ -147,6 +173,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 									 $data["@id"] = $canonicalUrl;
 									return	$data;
 							} );
+				add_filter( 'wpseo_schema_graph_pieces', 'remove_breadcrumbs_from_schema', 11, 2 );
+				add_filter( 'wpseo_schema_webpage', 'remove_breadcrumbs_property_from_webpage', 11, 1 );
+				add_filter( 'wpseo_schema_webpage', 'remove_potentialaction_property_from_webpage', 11, 1 );
 
 		}else{
 			add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
@@ -194,8 +223,8 @@ if (COM_BOOKINGFORCONNECTOR_ISBOT) {
 <?php 
 }
 ?>
-<bfi-page class="bfi-page-container bfi-eventdetails-page ">
-	<div class="bfi-page-container ">
+
+	<div class="bfi-page-container bfi-eventdetails-page ">
 		<div class="bookingforwidget" path="eventdetails" 
 			data-Id="<?php echo $resource_id ?>"
 			data-languages="<?php echo substr($language,0,2) ?>">
@@ -203,7 +232,6 @@ if (COM_BOOKINGFORCONNECTOR_ISBOT) {
 			<div id="divlistresource"></div>
 		</div>
 	</div>
-</bfi-page>
 
 <?php
 	do_action( 'bookingfor_after_main_content' );

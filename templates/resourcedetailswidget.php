@@ -64,17 +64,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 	if (!empty($resource->ImageUrl)){
 		$payloadresource["image"] = BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big');
 	}
-	$imgPopup = COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE;
-	if (!empty($resource->ImageUrl)){
-		$imgPopup =  BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big');
+	if (empty($resource->Avg )){
+		$resource->Avg = new stdClass;
+		$resource->Avg->Average = 8;
+		$resource->Avg->Count = 1;
 	}
+	if (!empty($resource->Avg && $resource->Avg->Average>0)){
+		$aggregateRating["@type"] = "AggregateRating";
+		$aggregateRating["ratingValue"] = number_format($resource->Avg->Average, 1) ."";
+		$aggregateRating["reviewCount"] = $resource->Avg->Count."";
+		$aggregateRating["bestRating"] = "10";
+		$aggregateRating["worstRating"] = "1";
+		$payloadresource["aggregateRating"] = $aggregateRating;
+	}
+
 	$payload["@type"] = "LocalBusiness";
 	$payload["@context"] = "http://schema.org";
 	$payload["name"] = $merchantName;
 	$payload["description"] = $merchantDescriptionSeo;
 	$payload["url"] = ($isportal)? $routeMerchant: $base_url; 
 	if (!empty($merchant->LogoUrl)){
-		$payload["logo"] = "https:".BFCHelper::getImageUrlResized('merchant',$merchant->LogoUrl, 'logobig');
+		$payload["logo"] = BFCHelper::getImageUrlResized('merchant',$merchant->LogoUrl, 'logobig');
+	}
+	if (!empty($merchant->Avg && $merchant->Avg->Average>0)){
+		$aggregateRating["@type"] = "AggregateRating";
+		$aggregateRating["ratingValue"] = number_format($merchant->Avg->Average, 1) ."";
+		$aggregateRating["reviewCount"] = $merchant->Avg->Count."";
+		$aggregateRating["bestRating"] = "10";
+		$aggregateRating["worstRating"] = "1";
+		$payload["aggregateRating"] = $aggregateRating;
 	}
 
 /*--------------- FINE IMPOSTAZIONI SEO----------------------*/
@@ -115,6 +133,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 									 $data["@id"] = $canonicalUrl;
 									return	$data;
 							} );
+				add_filter( 'wpseo_schema_graph_pieces', 'remove_breadcrumbs_from_schema', 11, 2 );
+				add_filter( 'wpseo_schema_webpage', 'remove_breadcrumbs_property_from_webpage', 11, 1 );
+				add_filter( 'wpseo_schema_webpage', 'remove_potentialaction_property_from_webpage', 11, 1 );
 	}else{
 		add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
 		add_action( 'wp_head', function() use ($keywordsHead) {return bfi_add_meta_keywords($keywordsHead); }, 10, 1);

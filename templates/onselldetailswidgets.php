@@ -58,11 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$payloadresource["description"] = $resourceDescriptionSeo;
 	$payloadresource["url"] = $routeResource; 
 	if (!empty($resource->ImageUrl)){
-		$payloadresource["image"] = "https:".BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logomedium');
-	}
-	$imgPopup = COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE;
-	if (!empty($resource->ImageUrl)){
-		$imgPopup =  BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logomedium');
+		$payloadresource["image"] = BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big');
 	}
 	$payload["@type"] = "LocalBusiness";
 	$payload["@context"] = "http://schema.org";
@@ -70,7 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$payload["description"] = $merchantDescriptionSeo;
 	$payload["url"] = ($isportal)? $routeMerchant: $base_url; 
 	if (!empty($merchant->LogoUrl)){
-		$payload["logo"] = "https:".BFCHelper::getImageUrlResized('merchant',$merchant->LogoUrl, 'logobig');
+		$payload["logo"] = BFCHelper::getImageUrlResized('merchant',$merchant->LogoUrl, 'logobig');
 	}
 
 /*--------------- FINE IMPOSTAZIONI SEO----------------------*/
@@ -103,8 +99,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 					function add_images( $object ) {
 					  $object->add_image( COM_BOOKINGFORCONNECTOR_DEFAULTIMAGE );
 					}
-					add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	"https:".BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logobig');});
+					add_filter( 'wpseo_opengraph_image', function() use ($resource) {return	BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big');});
 				}
+				add_filter( 'wpseo_schema_webpage', function( $data) use ($titleHead,$canonicalUrl) {
+									 $data["name"] = $titleHead;
+									 $data["url"] = $canonicalUrl;
+									 $data["@id"] = $canonicalUrl;
+									return	$data;
+							} );
+				add_filter( 'wpseo_schema_graph_pieces', 'remove_breadcrumbs_from_schema', 11, 2 );
+				add_filter( 'wpseo_schema_webpage', 'remove_breadcrumbs_property_from_webpage', 11, 1 );
+				add_filter( 'wpseo_schema_webpage', 'remove_potentialaction_property_from_webpage', 11, 1 );
 	}else{
 		add_filter( 'wp_title', function() use ($titleHead) {return	$titleHead;} , 10, 1 );
 		add_action( 'wp_head', function() use ($keywordsHead) {return bfi_add_meta_keywords($keywordsHead); }, 10, 1);
@@ -120,7 +125,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		add_action( 'wp_head', function() use ($resourceDescriptionSeo) {return bfi_add_opengraph_desc($resourceDescriptionSeo); } , 10, 1 );
 		add_action( 'wp_head', function() use ($canonicalUrl) {return bfi_add_opengraph_url($canonicalUrl); }, 10, 1);
 		if (!empty($resource->ImageUrl)){
-			add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image("https:".BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'logobig')); }, 10, 1);
+			add_action( 'wp_head', function() use ($resource) {return bfi_add_opengraph_image(BFCHelper::getImageUrlResized('resources',$resource->ImageUrl, 'big')); }, 10, 1);
 		}
 	}
 

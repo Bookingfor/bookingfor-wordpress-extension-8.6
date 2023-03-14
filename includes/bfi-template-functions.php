@@ -85,6 +85,41 @@ if ( ! defined( 'ABSPATH' ) ) {
 	}
 
 
+// Ref: https://developer.yoast.com/features/schema/api/#to-add-or-remove-graph-pieces
+/**
+ * Removes the breadcrumb graph pieces from the schema collector.
+ *
+ * @param array  $pieces  The current graph pieces.
+ * @param string $context The current context.
+ *
+ * @return array The remaining graph pieces.
+ */
+function remove_breadcrumbs_from_schema( $pieces, $context ) {
+    return \array_filter( $pieces, function( $piece ) {
+        return ! $piece instanceof \Yoast\WP\SEO\Generators\Schema\Breadcrumb;
+    } );
+}
+
+/**
+ * Removes the breadcrumb property from the WebPage piece.
+ *
+ * @param array $data The WebPage's properties.
+ *
+ * @return array The modified WebPage properties.
+ */
+function remove_breadcrumbs_property_from_webpage( $data ) {
+    if (array_key_exists('breadcrumb', $data)) {
+        unset($data['breadcrumb']);
+    }
+    return $data;
+}
+
+function remove_potentialaction_property_from_webpage( $data ) {
+    if (array_key_exists('potentialAction', $data)) {
+        unset($data['potentialAction']);
+    }
+    return $data;
+}
 
 /**
  * Add body classes for BF pages.

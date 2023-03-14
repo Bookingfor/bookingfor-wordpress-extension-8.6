@@ -276,7 +276,15 @@ if($curlEnabled){
 			echo "</form>\n";
 			}
 		}
+if (BFI_Sitemap::sitemaps_enabled()) {
+   			echo "<h3>" . __( "Send Sitemap to Search Engine", 'bfi' ) . "</h3>";
+ 			echo '<form name="bfi_ping_search_engines" action="?page=bfi-settings" method="post">';
+			echo '<input type="hidden" name="ping_search_engines" />';
+			echo '<div class="submit"><input id="pingsearchenginesdata" class="button-secondary" type="submit" value="' . __( 'Regenerate Sitemap and send to search engine', 'bfi' ) . ' " /></div>';
+			wp_nonce_field('bfi-ping');
+			echo "</form>\n";
 
+}
 ?>
 
 	</p>
@@ -305,11 +313,82 @@ if($curlEnabled){
 			</div>
 			<div id="bfitab9">
 				<?php 
-				
+
 				echo "<pre>";
 				echo print_r(bfi_get_linked_pages());
 				echo "</pre>";
-				
+
+				$languages = BFCHelper::get_active_languages();
+				$url_merchant_page = [];
+				$url_resource_page = [];
+				$url_resource_page_experience = [];
+				$url_event_page = [];
+				$url_package_page = [];
+				foreach ($languages as $currKey=>$language){
+					$url_merchant_page[$language] = BFCHelper::getPageUrlByLang('merchantdetails',$language );
+					$url_resource_page[$language] = BFCHelper::getPageUrlByLang('accommodationdetails',$language );
+					$url_resource_page_experience[$language] = BFCHelper::getPageUrlByLang('experiencedetails',$language);
+					$url_event_page[$language] = BFCHelper::getPageUrlByLang('eventdetails',$language );
+					$url_package_page[$language] = BFCHelper::getPageUrlByLang('packagesdetails',$language );
+				}
+//				$listMerchants = BFCHelper::getMerchantsList();
+//				$listResources = BFCHelper::getResourcesList(implode($languages,","));
+//				$listEvents = BFCHelper::getEventsList(implode($languages,","));
+//				$listPackages = BFCHelper::getPackagesList(implode($languages,","));
+				if(!empty( $listMerchants )){
+					foreach ($listMerchants as $currKey=>$merchant){
+						$resourceNameTrack =  BFCHelper::string_sanitize($merchant->Name);
+						foreach ($languages as $currKey=>$language){
+								$currUriMerchant = $url_merchant_page[$language] . $merchant->MerchantId.'-'.BFI()->seoUrl($merchant->Name);
+								echo "<pre>";
+								echo $currUriMerchant;
+								echo "</pre>";
+						}						
+						
+					}
+				}
+				if(!empty( $listResources )){
+					foreach ($listResources as $currKey=>$resource){
+						$resourceNameTrack =  BFCHelper::string_sanitize($resource->Name);
+						switch ($resource->ItemTypeId ) {
+							case bfi_ItemType::Experience :
+								$currUriresource  = $url_resource_page_experience[$resource->CultureCode].$resource->ResourceId.'-'.BFI()->seoUrl($resource->Name);
+							break;
+							default:      
+								$currUriresource  = $url_resource_page[$resource->CultureCode].$resource->ResourceId.'-'.BFI()->seoUrl($resource->Name);
+							break;
+							}
+						
+						echo "<pre>";
+						echo $currUriresource;
+						echo "</pre>";
+						
+					}
+				}
+				if( !empty( $listEvents )){
+					foreach ($listEvents as $currKey=>$event){
+						$resourceNameTrack =  BFCHelper::string_sanitize($event->Name);
+						$currUriEvent  = $url_event_page[$event->CultureCode].$event->EventId.'-'.BFI()->seoUrl($event->Name);
+						
+						echo "<pre>";
+						echo $currUriEvent;
+						echo "</pre>";
+						
+					}
+				}
+
+				if(!empty( $listPackages )){
+					foreach ($listPackages as $currKey=>$package){
+						$resourceNameTrack =  BFCHelper::string_sanitize($event->Name);
+						$currUriPackage  = $url_package_page[$package->CultureCode].$package->PackageId.'-'.BFI()->seoUrl($package->Name);
+						
+						echo "<pre>";
+						echo $currUriPackage;
+						echo "</pre>";
+						
+					}
+				}
+
 				?>  
 			</div>
 

@@ -95,6 +95,15 @@ class BFI_Admin {
 			}
 		}
 
+		$valid_nonce = isset($_REQUEST['_wpnonce']) ? wp_verify_nonce($_REQUEST['_wpnonce'], 'bfi-ping') : false;
+		if ( $valid_nonce ) {
+			if(isset($_REQUEST['ping_search_engines'])) {
+				
+				BFI_Sitemap::DeleteCacheSitemap();
+				BFI_Sitemap::ping_search_engines();
+			}
+		}
+
 		include('views/html-admin-settings.php');
 	}
 	public function is_dir_empty($dir) {
@@ -411,6 +420,17 @@ class BFI_Admin {
 		<?php
 	}
 	
+	public function display_bfi_enable_xml_sitemap_key_element()
+	{
+		?>
+			<input type="checkbox" id="bfi_enable_xml_sitemap_key" name="bfi_enable_xml_sitemap_key" value="1" <?php checked(get_option('bfi_enable_xml_sitemap_key',0), 1, true ); ?> />
+		<?php
+		if (get_option('bfi_enable_xml_sitemap_key',0)==1) {
+		    ?>
+				<a href="<?php echo esc_url( BFI()->get_site_url(). '/sitemap_bfi_index.xml' )  ?> " target="_blank">See the XML sitemap.</a>
+				<?php				
+		}
+	}
 	public function display_bfi_showdata_key_element()
 	{
 		?>
@@ -980,6 +1000,7 @@ class BFI_Admin {
 //		add_settings_field("bfi_maxqtselectable_key", "Max selectable item",  array( $this, 'display_bfi_maxqtSelectable_key_element'), "bfi-options", "section");
 //		add_settings_field("bfi_defaultdisplaylist_key", "Default list view",  array( $this, 'display_bfi_defaultdisplaylist_key_element'), "bfi-options", "section");
 		add_settings_field("bfi_isportal_key", "Portal", array( $this, 'display_bfi_isportal_key_element'), "bfi-options", "section");
+		add_settings_field("bfi_enable_xml_sitemap", "Sitemap", array( $this, 'display_bfi_enable_xml_sitemap_key_element'), "bfi-options", "section");
 //		add_settings_field("bfi_enalbleothermerchantsresult", "Check availability at other facilities", array( $this, 'display_bfi_enalbleothermerchantsresult_element'), "bfi-options", "section");
 //		add_settings_field("bfi_disableinfoform", "Disable info form in detail page", array( $this, 'display_bfi_disableinfoform_element'), "bfi-options", "section");
 //		add_settings_field("bfi_enableresourcefilter", "Enable filter in details", array( $this, 'display_bfi_enableresourcefilter_element'), "bfi-options", "section");
@@ -1073,6 +1094,7 @@ class BFI_Admin {
 //		register_setting("section", "bfi_disableinfoform");
 		
 		register_setting("section", "bfi_isportal_key");
+		register_setting("section", "bfi_enable_xml_sitemap_key");
 //		register_setting("section", "bfi_showdata_key");
 //		register_setting("section", "bfi_sendtocart_key");
 //		register_setting("section", "bfi_showbadge_key");
