@@ -251,6 +251,7 @@ if (!empty( $before_widget) ){
 	data-producttagids="<?php echo $productTagIds ?>"
 	data-showaccomodations="<?php echo $showAccomodations ?>"
 	data-showvariationcodes="<?php echo $showVariationCodes ?>"
+	data-scope="<?php echo $searchTextFields ?>"
 ></div>	
 <?php
 if (!empty($after_widget)) {

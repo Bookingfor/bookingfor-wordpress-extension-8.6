@@ -204,7 +204,6 @@ if ( ! class_exists( 'BFI_Widget_Booking_Search_Resources' ) ) {
 	data-showvariationcodes="<?php echo $showVariationCodes ?>"
 	data-scope="<?php echo implode(",",$searchTextFields) ?>"
 ></div>	
-</div>
 			</textarea>
 			<script type="text/javascript">
 window.setTimeout( function() {

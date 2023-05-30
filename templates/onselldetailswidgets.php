@@ -138,15 +138,13 @@ if (COM_BOOKINGFORCONNECTOR_ISBOT) {
 <?php 
 }
 ?>
-<bfi-page  class="bfi-page-container bfi-onselldetails-page ">
-	<div class="bfi_page_container">
+<div class="bfi-page-container bfi-onselldetails-page ">
 		<div class="bookingforwidget" path="onselldetails" 
 			data-Id="<?php echo $resource_id ?>"
 			data-languages="<?php echo substr($language,0,2) ?>">
 			<div id="bficontainer" class="bfi-loader"></div>
 		</div>
-	</div>
-</bfi-page >
+</div>
 
 <?php
 	do_action( 'bookingfor_after_main_content' );

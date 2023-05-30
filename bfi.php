@@ -350,6 +350,9 @@ final class BookingFor {
 		}
 		
 		?>
+		<style>
+			.bfi-loader,.bfi-loader:after,.bfi-loader:before{border-radius:50%}.bfi-loader{width:48px;height:48px;display:block;margin:15px auto;position:relative;color:#1473cf;box-sizing:border-box;animation:1s linear infinite rotation}.bfi-loader::after,.bfi-loader::before{content:'';box-sizing:border-box;position:absolute;width:24px;height:24px;top:50%;left:50%;transform:scale(.5) translate(0,0);background-color:#1473cf;border-radius:50%;animation:1s ease-in-out infinite animloader}.bfi-loader::before{background-color:#ff9800;transform:scale(.5) translate(-48px,-48px)}@keyframes rotation{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes animloader{50%{transform:scale(1) translate(-50%,-50%)}}
+		</style>
 	  <script type="text/javascript">
 		var bfi_variables_overrides = {
 			"bfi_cultureCodeBase":"<?php echo substr($this->language,0,2); ?>",

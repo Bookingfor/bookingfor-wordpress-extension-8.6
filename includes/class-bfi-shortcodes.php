@@ -795,6 +795,9 @@ class bfi_Shortcodes {
 			$atts['onlylist'] = '1';
 		}
 		$onlylist =  !empty($atts['onlylist']) ? $atts['onlylist'] : '0';
+		$categoryIds =  !empty($atts['category']) ? $atts['category'] : '';
+		$cityids = !empty($atts['cityids'])?$atts['cityids']:'';
+		$tags = !empty($atts['tags'])?$atts['tags']:'';
 
 		$page = "" ;
 		$fileNameCached = 'bfi_shortcode_pointsofinterests' . '_' . $language . '_' . implode("_", array_values($atts)). '_' . $page. '_' . COM_BOOKINGFORCONNECTOR_ITEMPERPAGE ;
@@ -810,10 +813,15 @@ class bfi_Shortcodes {
 
 		ob_start();
 			?>		
-		<bfipage path="poi" 
-			data-languages="<?php echo substr($language,0,2) ?>"
+		<div class="bookingforwidget" path="poilist" 
+			data-categoryIds="<?php echo $categoryIds ?>"
+			data-cityids="<?php echo $cityids ?>"
+			data-tags="<?php echo $tags ?>"
+			data-onlylist = "<?php echo $onlylist ?>"
+			data-languages = "<?php echo substr($language,0,2) ?>"
 			>
-		</bfipage>
+			<div id="bficontainer" class="bfi-loader"></div>
+		</div>
 		<?php 
             $output =  ob_get_clean();
             if (COM_BOOKINGFORCONNECTOR_ISBOT) {
