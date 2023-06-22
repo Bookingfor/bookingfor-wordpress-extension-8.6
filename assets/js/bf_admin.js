@@ -71,11 +71,15 @@ function bfi_adminInit(currForm){
 	bfi_CheckAdvance(jQuery(currForm).find('.bfiadvance-cb').first());
 }
 
+function escapeQuotes(s) {
+  return s.replace(/'/g, "''");
+}
+
 function bfi_getParameterByName(name, url) {
     if (!url) {
       url = window.location.href;
     }
-    name = name.replace(/[\[\]]/g, "\\$&");
+    name = escapeQuotes(name.replace(/[\[\]]/g, "\\$&"));
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
     if (!results) return null;
