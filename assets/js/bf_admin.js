@@ -74,13 +74,16 @@ function bfi_adminInit(currForm){
 function escapeQuotes(s) {
   return s.replace(/'/g, "''");
 }
+function replaceName(s) {
+  return s.replace(/[\[\]]/g, "\\$&");
+}
 
 function bfi_getParameterByName(name, url) {
     if (!url) {
       url = window.location.href;
     }
     name = escapeQuotes(name);
-    name = name.replace(/[\[\]]/g, "\\$&");
+    name = replaceName(name);
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
     if (!results) return null;
