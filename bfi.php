@@ -377,7 +377,7 @@ final class BookingFor {
 				s.src = '<?php echo COM_BOOKINGFORCONNECTOR_IMGURL_CDN ?><?php echo COM_BOOKINGFORCONNECTOR_SUBSCRIPTION_KEY ?>/scripts/<?php echo COM_BOOKINGFORCONNECTOR_SETTING_KEY ?>_settings.js';
 				s.type = 'text/javascript'; document.getElementsByTagName('head')[0].appendChild(s); 
 				s.onload = function() {
-					bfi_variables.bfi_baseurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com';
+					bfi_variables.bfi_baseurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/';
 					bfi_variables.bfi_paymenturl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}/payment/{2}/{3}';
 					bfi_variables.bfi_loginurl = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/Public/{0}/{1}';
 					bfi_variables.bfi_service = 'https://<?php echo $subscriptionkey  ?>.bookingfor.com/modules/bookingfor/services/bookingservice.svc/';
